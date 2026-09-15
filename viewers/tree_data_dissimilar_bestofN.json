@@ -4,8 +4,8 @@
     "parentIds": [
       "64"
     ],
-    "name": "Distributional Autoencoders Know the Score. The Distributional Principal Autoencoder (DPA) combines distributionally correct reconstruction with principal-component-like interpretability of the encodings. In this work, we provide exact theoretical guarantees on both fronts. First, we derive a closed-form relation linking each optimal level-set geometry to the data-distribution score. This result explains DPA's empirical ability to disentangle factors of variation of the data, as well as allows the score to be recovered directly from samples. When the data follows the Boltzmann distribution, we demonstrate that this relation yields an approximation of the minimum free-energy path for the M\u00fcller\u2013Brown potential in a single fit. Second, we prove that if the data lies on a manifold that can be approximated by the encoder, latent components beyond the manifold dimension are conditionally independent of the data distribution - carrying no additional information - and thus reveal the intrinsic dimension. Together, these results show that a single model can learn the data distribution and its intrinsic dimension with exact guarantees simultaneously, unifying two longstanding goals of unsupervised learning.",
-    "full_text": "Distributional Autoencoders Know the Score. The Distributional Principal Autoencoder (DPA) combines distributionally correct reconstruction with principal-component-like interpretability of the encodings. In this work, we provide exact theoretical guarantees on both fronts. First, we derive a closed-form relation linking each optimal level-set geometry to the data-distribution score. This result explains DPA's empirical ability to disentangle factors of variation of the data, as well as allows the score to be recovered directly from samples. When the data follows the Boltzmann distribution, we demonstrate that this relation yields an approximation of the minimum free-energy path for the M\u00fcller\u2013Brown potential in a single fit. Second, we prove that if the data lies on a manifold that can be approximated by the encoder, latent components beyond the manifold dimension are conditionally independent of the data distribution - carrying no additional information - and thus reveal the intrinsic dimension. Together, these results show that a single model can learn the data distribution and its intrinsic dimension with exact guarantees simultaneously, unifying two longstanding goals of unsupervised learning.",
+    "name": "Distributional Autoencoders Know the Score. The Distributional Principal Autoencoder (DPA) combines distributionally correct reconstruction with principal-component-like interpretability of the encodings. In this work, we provide exact theoretical guarantees on both fronts. First, we derive a closed-form relation linking each optimal level-set geometry to the data-distribution score. This result explains DPA's empirical ability to disentangle factors of variation of the data, as well as allows the score to be recovered directly from samples. When the data follows the Boltzmann distribution, we demonstrate that this relation yields an approximation of the minimum free-energy path for the Müller–Brown potential in a single fit. Second, we prove that if the data lies on a manifold that can be approximated by the encoder, latent components beyond the manifold dimension are conditionally independent of the data distribution - carrying no additional information - and thus reveal the intrinsic dimension. Together, these results show that a single model can learn the data distribution and its intrinsic dimension with exact guarantees simultaneously, unifying two longstanding goals of unsupervised learning.",
+    "full_text": "Distributional Autoencoders Know the Score. The Distributional Principal Autoencoder (DPA) combines distributionally correct reconstruction with principal-component-like interpretability of the encodings. In this work, we provide exact theoretical guarantees on both fronts. First, we derive a closed-form relation linking each optimal level-set geometry to the data-distribution score. This result explains DPA's empirical ability to disentangle factors of variation of the data, as well as allows the score to be recovered directly from samples. When the data follows the Boltzmann distribution, we demonstrate that this relation yields an approximation of the minimum free-energy path for the Müller–Brown potential in a single fit. Second, we prove that if the data lies on a manifold that can be approximated by the encoder, latent components beyond the manifold dimension are conditionally independent of the data distribution - carrying no additional information - and thus reveal the intrinsic dimension. Together, these results show that a single model can learn the data distribution and its intrinsic dimension with exact guarantees simultaneously, unifying two longstanding goals of unsupervised learning.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.2,
@@ -24,7 +24,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "1",
@@ -51,7 +54,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "2",
@@ -78,7 +84,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "3",
@@ -105,7 +114,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "4",
@@ -132,7 +144,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "5",
@@ -159,7 +174,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "6",
@@ -186,15 +204,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "7",
     "parentIds": [
       "71"
     ],
-    "name": "Affine-Invariant Global Non-Asymptotic Convergence Analysis of BFGS under Self-Concordance. In this paper, we establish global non-asymptotic convergence guarantees for the BFGS quasi-Newton method without requiring strong convexity or the Lipschitz continuity of the gradient or Hessian. Instead, we consider the setting where the objective function is strictly convex and strongly self-concordant. For an arbitrary initial point and any arbitrary positive-definite initial Hessian approximation, we prove global linear and superlinear convergence guarantees for BFGS when the step size is determined using a line search scheme satisfying the weak Wolfe conditions.  Moreover, all our global guarantees are affine-invariant, with the convergence rates depending solely on the initial error and the strongly self-concordant constant. Our results extend the global non-asymptotic convergence theory of BFGS beyond traditional assumptions and, for the first time, establish affine-invariant convergence guarantees\u2014aligning with the inherent affine invariance of the BFGS method.",
-    "full_text": "Affine-Invariant Global Non-Asymptotic Convergence Analysis of BFGS under Self-Concordance. In this paper, we establish global non-asymptotic convergence guarantees for the BFGS quasi-Newton method without requiring strong convexity or the Lipschitz continuity of the gradient or Hessian. Instead, we consider the setting where the objective function is strictly convex and strongly self-concordant. For an arbitrary initial point and any arbitrary positive-definite initial Hessian approximation, we prove global linear and superlinear convergence guarantees for BFGS when the step size is determined using a line search scheme satisfying the weak Wolfe conditions.  Moreover, all our global guarantees are affine-invariant, with the convergence rates depending solely on the initial error and the strongly self-concordant constant. Our results extend the global non-asymptotic convergence theory of BFGS beyond traditional assumptions and, for the first time, establish affine-invariant convergence guarantees\u2014aligning with the inherent affine invariance of the BFGS method.",
+    "name": "Affine-Invariant Global Non-Asymptotic Convergence Analysis of BFGS under Self-Concordance. In this paper, we establish global non-asymptotic convergence guarantees for the BFGS quasi-Newton method without requiring strong convexity or the Lipschitz continuity of the gradient or Hessian. Instead, we consider the setting where the objective function is strictly convex and strongly self-concordant. For an arbitrary initial point and any arbitrary positive-definite initial Hessian approximation, we prove global linear and superlinear convergence guarantees for BFGS when the step size is determined using a line search scheme satisfying the weak Wolfe conditions.  Moreover, all our global guarantees are affine-invariant, with the convergence rates depending solely on the initial error and the strongly self-concordant constant. Our results extend the global non-asymptotic convergence theory of BFGS beyond traditional assumptions and, for the first time, establish affine-invariant convergence guarantees—aligning with the inherent affine invariance of the BFGS method.",
+    "full_text": "Affine-Invariant Global Non-Asymptotic Convergence Analysis of BFGS under Self-Concordance. In this paper, we establish global non-asymptotic convergence guarantees for the BFGS quasi-Newton method without requiring strong convexity or the Lipschitz continuity of the gradient or Hessian. Instead, we consider the setting where the objective function is strictly convex and strongly self-concordant. For an arbitrary initial point and any arbitrary positive-definite initial Hessian approximation, we prove global linear and superlinear convergence guarantees for BFGS when the step size is determined using a line search scheme satisfying the weak Wolfe conditions.  Moreover, all our global guarantees are affine-invariant, with the convergence rates depending solely on the initial error and the strongly self-concordant constant. Our results extend the global non-asymptotic convergence theory of BFGS beyond traditional assumptions and, for the first time, establish affine-invariant convergence guarantees—aligning with the inherent affine invariance of the BFGS method.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.4,
@@ -213,7 +234,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "8",
@@ -240,15 +264,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "9",
     "parentIds": [
       "73"
     ],
-    "name": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs. Weight-only quantization is widely used to mitigate the memory-bound nature of LLM inference. Codebook-based methods extend this trend by achieving strong accuracy in the extremely low-bit regime (e.g., 2-bit). However, current kernels rely on dequantization, which repeatedly fetches centroids and reconstructs weights, incurring substantial latency and cache pressure. We present CodeGEMM, a codebook-centric GEMM kernel that replaces dequantization with precomputed inner products between centroids and activations stored in a lightweight Psumbook. At inference, code indices directly gather these partial sums, eliminating per-element lookups and reducing the on-chip footprint. The kernel supports the systematic exploration of latency\u2013memory\u2013accuracy trade-offs under a unified implementation.\nOn Llama-3 models, CodeGEMM delivers 1.83x (8B) and 8.93x (70B) speedups in the 2-bit configuration compared to state-of-the-art codebook-based quantization at comparable accuracy and further improves computing efficiency and memory subsystem utilization.",
-    "full_text": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs. Weight-only quantization is widely used to mitigate the memory-bound nature of LLM inference. Codebook-based methods extend this trend by achieving strong accuracy in the extremely low-bit regime (e.g., 2-bit). However, current kernels rely on dequantization, which repeatedly fetches centroids and reconstructs weights, incurring substantial latency and cache pressure. We present CodeGEMM, a codebook-centric GEMM kernel that replaces dequantization with precomputed inner products between centroids and activations stored in a lightweight Psumbook. At inference, code indices directly gather these partial sums, eliminating per-element lookups and reducing the on-chip footprint. The kernel supports the systematic exploration of latency\u2013memory\u2013accuracy trade-offs under a unified implementation.\nOn Llama-3 models, CodeGEMM delivers 1.83x (8B) and 8.93x (70B) speedups in the 2-bit configuration compared to state-of-the-art codebook-based quantization at comparable accuracy and further improves computing efficiency and memory subsystem utilization.",
+    "name": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs. Weight-only quantization is widely used to mitigate the memory-bound nature of LLM inference. Codebook-based methods extend this trend by achieving strong accuracy in the extremely low-bit regime (e.g., 2-bit). However, current kernels rely on dequantization, which repeatedly fetches centroids and reconstructs weights, incurring substantial latency and cache pressure. We present CodeGEMM, a codebook-centric GEMM kernel that replaces dequantization with precomputed inner products between centroids and activations stored in a lightweight Psumbook. At inference, code indices directly gather these partial sums, eliminating per-element lookups and reducing the on-chip footprint. The kernel supports the systematic exploration of latency–memory–accuracy trade-offs under a unified implementation.\nOn Llama-3 models, CodeGEMM delivers 1.83x (8B) and 8.93x (70B) speedups in the 2-bit configuration compared to state-of-the-art codebook-based quantization at comparable accuracy and further improves computing efficiency and memory subsystem utilization.",
+    "full_text": "CodeGEMM: A Codebook-Centric Approach to Efficient GEMM in Quantized LLMs. Weight-only quantization is widely used to mitigate the memory-bound nature of LLM inference. Codebook-based methods extend this trend by achieving strong accuracy in the extremely low-bit regime (e.g., 2-bit). However, current kernels rely on dequantization, which repeatedly fetches centroids and reconstructs weights, incurring substantial latency and cache pressure. We present CodeGEMM, a codebook-centric GEMM kernel that replaces dequantization with precomputed inner products between centroids and activations stored in a lightweight Psumbook. At inference, code indices directly gather these partial sums, eliminating per-element lookups and reducing the on-chip footprint. The kernel supports the systematic exploration of latency–memory–accuracy trade-offs under a unified implementation.\nOn Llama-3 models, CodeGEMM delivers 1.83x (8B) and 8.93x (70B) speedups in the 2-bit configuration compared to state-of-the-art codebook-based quantization at comparable accuracy and further improves computing efficiency and memory subsystem utilization.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.1,
@@ -267,7 +294,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "10",
@@ -294,7 +324,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "11",
@@ -321,15 +354,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "12",
     "parentIds": [
       "76"
     ],
-    "name": "B\u00e9zier Splatting for Fast and Differentiable Vector Graphics Rendering. Differentiable vector graphics (VGs) are widely used in image vectorization and vector synthesis, while existing representations are costly to optimize and struggle to achieve high-quality rendering results for high-resolution images. This work introduces a new differentiable VG representation, dubbed B\u00e9zier Splatting, that enables fast yet high-fidelity VG rasterization. B\u00e9zier Splatting samples 2D Gaussians along B\u00e9zier curves, which naturally provide positional gradients at object boundaries. Thanks to the efficient splatting-based differentiable rasterizer, B\u00e9zier Splatting achieves 30\u00d7 and 150\u00d7 faster per forward and backward rasterization step for open curves compared to DiffVG. Additionally, we introduce an adaptive pruning and densification strategy that dynamically adjusts the spatial distribution of curves to escape local minima, further improving VG quality. Furthermore, our new VG representation supports conversion to standard XML-based SVG format, enhancing interoperability with existing VG tools and pipelines. Experimental results show that B\u00e9zier Splatting significantly outperforms existing methods with better visual fidelity and significant optimization speedup.",
-    "full_text": "B\u00e9zier Splatting for Fast and Differentiable Vector Graphics Rendering. Differentiable vector graphics (VGs) are widely used in image vectorization and vector synthesis, while existing representations are costly to optimize and struggle to achieve high-quality rendering results for high-resolution images. This work introduces a new differentiable VG representation, dubbed B\u00e9zier Splatting, that enables fast yet high-fidelity VG rasterization. B\u00e9zier Splatting samples 2D Gaussians along B\u00e9zier curves, which naturally provide positional gradients at object boundaries. Thanks to the efficient splatting-based differentiable rasterizer, B\u00e9zier Splatting achieves 30\u00d7 and 150\u00d7 faster per forward and backward rasterization step for open curves compared to DiffVG. Additionally, we introduce an adaptive pruning and densification strategy that dynamically adjusts the spatial distribution of curves to escape local minima, further improving VG quality. Furthermore, our new VG representation supports conversion to standard XML-based SVG format, enhancing interoperability with existing VG tools and pipelines. Experimental results show that B\u00e9zier Splatting significantly outperforms existing methods with better visual fidelity and significant optimization speedup.",
+    "name": "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering. Differentiable vector graphics (VGs) are widely used in image vectorization and vector synthesis, while existing representations are costly to optimize and struggle to achieve high-quality rendering results for high-resolution images. This work introduces a new differentiable VG representation, dubbed Bézier Splatting, that enables fast yet high-fidelity VG rasterization. Bézier Splatting samples 2D Gaussians along Bézier curves, which naturally provide positional gradients at object boundaries. Thanks to the efficient splatting-based differentiable rasterizer, Bézier Splatting achieves 30× and 150× faster per forward and backward rasterization step for open curves compared to DiffVG. Additionally, we introduce an adaptive pruning and densification strategy that dynamically adjusts the spatial distribution of curves to escape local minima, further improving VG quality. Furthermore, our new VG representation supports conversion to standard XML-based SVG format, enhancing interoperability with existing VG tools and pipelines. Experimental results show that Bézier Splatting significantly outperforms existing methods with better visual fidelity and significant optimization speedup.",
+    "full_text": "Bézier Splatting for Fast and Differentiable Vector Graphics Rendering. Differentiable vector graphics (VGs) are widely used in image vectorization and vector synthesis, while existing representations are costly to optimize and struggle to achieve high-quality rendering results for high-resolution images. This work introduces a new differentiable VG representation, dubbed Bézier Splatting, that enables fast yet high-fidelity VG rasterization. Bézier Splatting samples 2D Gaussians along Bézier curves, which naturally provide positional gradients at object boundaries. Thanks to the efficient splatting-based differentiable rasterizer, Bézier Splatting achieves 30× and 150× faster per forward and backward rasterization step for open curves compared to DiffVG. Additionally, we introduce an adaptive pruning and densification strategy that dynamically adjusts the spatial distribution of curves to escape local minima, further improving VG quality. Furthermore, our new VG representation supports conversion to standard XML-based SVG format, enhancing interoperability with existing VG tools and pipelines. Experimental results show that Bézier Splatting significantly outperforms existing methods with better visual fidelity and significant optimization speedup.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.4,
@@ -348,7 +384,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.666666666666667,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "13",
@@ -375,7 +414,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "14",
@@ -402,7 +444,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "15",
@@ -429,7 +474,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "16",
@@ -456,7 +504,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "17",
@@ -483,7 +534,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.2,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "18",
@@ -510,7 +564,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "19",
@@ -537,7 +594,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "20",
@@ -564,7 +624,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "21",
@@ -591,7 +654,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "22",
@@ -618,7 +684,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "23",
@@ -645,7 +714,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "24",
@@ -672,7 +744,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "25",
@@ -699,7 +774,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "26",
@@ -726,7 +804,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "27",
@@ -753,15 +834,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "28",
     "parentIds": [
       "90"
     ],
-    "name": "Conformal Prediction for Time-series Forecasting with Change Points. Conformal prediction has been explored as a general and efficient way to provide uncertainty quantification for time series. However, current methods struggle to handle time series data with change points \u2014 sudden shifts in the underlying data-generating process. In this paper, we propose a novel Conformal Prediction for Time-series with Change points (CPTC) algorithm, addressing this gap by integrating a model to predict the underlying state with online conformal prediction to model uncertainties in non-stationary time series. We prove CPTC's validity and improved adaptivity in the time series setting under minimum assumptions, and demonstrate CPTC's practical effectiveness on 6 synthetic and real-world datasets, showing improved validity and adaptivity compared to state-of-the-art baselines.",
-    "full_text": "Conformal Prediction for Time-series Forecasting with Change Points. Conformal prediction has been explored as a general and efficient way to provide uncertainty quantification for time series. However, current methods struggle to handle time series data with change points \u2014 sudden shifts in the underlying data-generating process. In this paper, we propose a novel Conformal Prediction for Time-series with Change points (CPTC) algorithm, addressing this gap by integrating a model to predict the underlying state with online conformal prediction to model uncertainties in non-stationary time series. We prove CPTC's validity and improved adaptivity in the time series setting under minimum assumptions, and demonstrate CPTC's practical effectiveness on 6 synthetic and real-world datasets, showing improved validity and adaptivity compared to state-of-the-art baselines.",
+    "name": "Conformal Prediction for Time-series Forecasting with Change Points. Conformal prediction has been explored as a general and efficient way to provide uncertainty quantification for time series. However, current methods struggle to handle time series data with change points — sudden shifts in the underlying data-generating process. In this paper, we propose a novel Conformal Prediction for Time-series with Change points (CPTC) algorithm, addressing this gap by integrating a model to predict the underlying state with online conformal prediction to model uncertainties in non-stationary time series. We prove CPTC's validity and improved adaptivity in the time series setting under minimum assumptions, and demonstrate CPTC's practical effectiveness on 6 synthetic and real-world datasets, showing improved validity and adaptivity compared to state-of-the-art baselines.",
+    "full_text": "Conformal Prediction for Time-series Forecasting with Change Points. Conformal prediction has been explored as a general and efficient way to provide uncertainty quantification for time series. However, current methods struggle to handle time series data with change points — sudden shifts in the underlying data-generating process. In this paper, we propose a novel Conformal Prediction for Time-series with Change points (CPTC) algorithm, addressing this gap by integrating a model to predict the underlying state with online conformal prediction to model uncertainties in non-stationary time series. We prove CPTC's validity and improved adaptivity in the time series setting under minimum assumptions, and demonstrate CPTC's practical effectiveness on 6 synthetic and real-world datasets, showing improved validity and adaptivity compared to state-of-the-art baselines.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -780,7 +864,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "29",
@@ -807,15 +894,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "30",
     "parentIds": [
       "85"
     ],
-    "name": "On Efficiency-Effectiveness Trade-off of Diffusion-based Recommenders. Diffusion models have emerged as a powerful paradigm for generative sequential recommendation, which typically generate next items to recommend guided by user interaction histories with a multi-step denoising process. However, the multi-step process relies on discrete approximations, introducing discretization error that creates a trade-off between computational efficiency and recommendation effectiveness.\nTo address this trade-off, we propose TA-Rec, a two-stage framework that achieves one-step generation by smoothing the denoising function during pretraining while alleviating trajectory deviation by aligning with user preferences during fine-tuning. Specifically, to improve the efficiency without sacrificing the recommendation performance, TA-Rec pretrains the denoising model with Temporal Consistency Regularization (TCR), enforcing the consistency between the denoising results across adjacent steps. Thus, we can smooth the denoising function to map the noise as oracle items in one step with bounded error. To further enhance effectiveness, TA-Rec introduces Adaptive Preference Alignment (APA) that aligns the denoising process with user preference adaptively based on preference pair similarity and timesteps. Extensive experiments prove that TA-Rec\u2019s two-stage objective effectively mitigates the discretization errors-induced trade-off, enhancing both efficiency and effectiveness of diffusion-based recommenders. Our code is available at https://github.com/maowenyu-11/TA-Rec.",
-    "full_text": "On Efficiency-Effectiveness Trade-off of Diffusion-based Recommenders. Diffusion models have emerged as a powerful paradigm for generative sequential recommendation, which typically generate next items to recommend guided by user interaction histories with a multi-step denoising process. However, the multi-step process relies on discrete approximations, introducing discretization error that creates a trade-off between computational efficiency and recommendation effectiveness.\nTo address this trade-off, we propose TA-Rec, a two-stage framework that achieves one-step generation by smoothing the denoising function during pretraining while alleviating trajectory deviation by aligning with user preferences during fine-tuning. Specifically, to improve the efficiency without sacrificing the recommendation performance, TA-Rec pretrains the denoising model with Temporal Consistency Regularization (TCR), enforcing the consistency between the denoising results across adjacent steps. Thus, we can smooth the denoising function to map the noise as oracle items in one step with bounded error. To further enhance effectiveness, TA-Rec introduces Adaptive Preference Alignment (APA) that aligns the denoising process with user preference adaptively based on preference pair similarity and timesteps. Extensive experiments prove that TA-Rec\u2019s two-stage objective effectively mitigates the discretization errors-induced trade-off, enhancing both efficiency and effectiveness of diffusion-based recommenders. Our code is available at https://github.com/maowenyu-11/TA-Rec.",
+    "name": "On Efficiency-Effectiveness Trade-off of Diffusion-based Recommenders. Diffusion models have emerged as a powerful paradigm for generative sequential recommendation, which typically generate next items to recommend guided by user interaction histories with a multi-step denoising process. However, the multi-step process relies on discrete approximations, introducing discretization error that creates a trade-off between computational efficiency and recommendation effectiveness.\nTo address this trade-off, we propose TA-Rec, a two-stage framework that achieves one-step generation by smoothing the denoising function during pretraining while alleviating trajectory deviation by aligning with user preferences during fine-tuning. Specifically, to improve the efficiency without sacrificing the recommendation performance, TA-Rec pretrains the denoising model with Temporal Consistency Regularization (TCR), enforcing the consistency between the denoising results across adjacent steps. Thus, we can smooth the denoising function to map the noise as oracle items in one step with bounded error. To further enhance effectiveness, TA-Rec introduces Adaptive Preference Alignment (APA) that aligns the denoising process with user preference adaptively based on preference pair similarity and timesteps. Extensive experiments prove that TA-Rec’s two-stage objective effectively mitigates the discretization errors-induced trade-off, enhancing both efficiency and effectiveness of diffusion-based recommenders. Our code is available at https://github.com/maowenyu-11/TA-Rec.",
+    "full_text": "On Efficiency-Effectiveness Trade-off of Diffusion-based Recommenders. Diffusion models have emerged as a powerful paradigm for generative sequential recommendation, which typically generate next items to recommend guided by user interaction histories with a multi-step denoising process. However, the multi-step process relies on discrete approximations, introducing discretization error that creates a trade-off between computational efficiency and recommendation effectiveness.\nTo address this trade-off, we propose TA-Rec, a two-stage framework that achieves one-step generation by smoothing the denoising function during pretraining while alleviating trajectory deviation by aligning with user preferences during fine-tuning. Specifically, to improve the efficiency without sacrificing the recommendation performance, TA-Rec pretrains the denoising model with Temporal Consistency Regularization (TCR), enforcing the consistency between the denoising results across adjacent steps. Thus, we can smooth the denoising function to map the noise as oracle items in one step with bounded error. To further enhance effectiveness, TA-Rec introduces Adaptive Preference Alignment (APA) that aligns the denoising process with user preference adaptively based on preference pair similarity and timesteps. Extensive experiments prove that TA-Rec’s two-stage objective effectively mitigates the discretization errors-induced trade-off, enhancing both efficiency and effectiveness of diffusion-based recommenders. Our code is available at https://github.com/maowenyu-11/TA-Rec.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -834,15 +924,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.8,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "31",
     "parentIds": [
       "91"
     ],
-    "name": "Pause Tokens Strictly Increase the Expressivity of Constant-Depth Transformers. Pause tokens, simple filler symbols such as \"...\", consistently improve Transformer performance on both language and mathematical tasks, yet their theoretical effect remains unexplained. We provide the first formal separation result, proving that adding pause tokens to constant-depth, logarithmic-width Transformers strictly increases their computational expressivity. With bounded-precision activations, Transformers without pause tokens compute only a strict subset of $\\mathsf{AC}^0$ functions, while adding a polynomial number of pause tokens enables expressing the complete class. For logarithmic-precision Transformers, we show that adding pause tokens achieves expressivity equivalent to $\\mathsf{TC}^0$, matching known upper bounds. Empirically, we demonstrate that two\u2011layer causally masked Transformers can learn parity when supplied with pause tokens, a function that they appear unable to learn without them. Our results provide a rigorous theoretical explanation for prior empirical findings, clarify how pause tokens interact with width, depth, and numeric precision, and position them as a distinct mechanism, complementary to chain-of-thought prompting, for enhancing Transformer reasoning.",
-    "full_text": "Pause Tokens Strictly Increase the Expressivity of Constant-Depth Transformers. Pause tokens, simple filler symbols such as \"...\", consistently improve Transformer performance on both language and mathematical tasks, yet their theoretical effect remains unexplained. We provide the first formal separation result, proving that adding pause tokens to constant-depth, logarithmic-width Transformers strictly increases their computational expressivity. With bounded-precision activations, Transformers without pause tokens compute only a strict subset of $\\mathsf{AC}^0$ functions, while adding a polynomial number of pause tokens enables expressing the complete class. For logarithmic-precision Transformers, we show that adding pause tokens achieves expressivity equivalent to $\\mathsf{TC}^0$, matching known upper bounds. Empirically, we demonstrate that two\u2011layer causally masked Transformers can learn parity when supplied with pause tokens, a function that they appear unable to learn without them. Our results provide a rigorous theoretical explanation for prior empirical findings, clarify how pause tokens interact with width, depth, and numeric precision, and position them as a distinct mechanism, complementary to chain-of-thought prompting, for enhancing Transformer reasoning.",
+    "name": "Pause Tokens Strictly Increase the Expressivity of Constant-Depth Transformers. Pause tokens, simple filler symbols such as \"...\", consistently improve Transformer performance on both language and mathematical tasks, yet their theoretical effect remains unexplained. We provide the first formal separation result, proving that adding pause tokens to constant-depth, logarithmic-width Transformers strictly increases their computational expressivity. With bounded-precision activations, Transformers without pause tokens compute only a strict subset of $\\mathsf{AC}^0$ functions, while adding a polynomial number of pause tokens enables expressing the complete class. For logarithmic-precision Transformers, we show that adding pause tokens achieves expressivity equivalent to $\\mathsf{TC}^0$, matching known upper bounds. Empirically, we demonstrate that two‑layer causally masked Transformers can learn parity when supplied with pause tokens, a function that they appear unable to learn without them. Our results provide a rigorous theoretical explanation for prior empirical findings, clarify how pause tokens interact with width, depth, and numeric precision, and position them as a distinct mechanism, complementary to chain-of-thought prompting, for enhancing Transformer reasoning.",
+    "full_text": "Pause Tokens Strictly Increase the Expressivity of Constant-Depth Transformers. Pause tokens, simple filler symbols such as \"...\", consistently improve Transformer performance on both language and mathematical tasks, yet their theoretical effect remains unexplained. We provide the first formal separation result, proving that adding pause tokens to constant-depth, logarithmic-width Transformers strictly increases their computational expressivity. With bounded-precision activations, Transformers without pause tokens compute only a strict subset of $\\mathsf{AC}^0$ functions, while adding a polynomial number of pause tokens enables expressing the complete class. For logarithmic-precision Transformers, we show that adding pause tokens achieves expressivity equivalent to $\\mathsf{TC}^0$, matching known upper bounds. Empirically, we demonstrate that two‑layer causally masked Transformers can learn parity when supplied with pause tokens, a function that they appear unable to learn without them. Our results provide a rigorous theoretical explanation for prior empirical findings, clarify how pause tokens interact with width, depth, and numeric precision, and position them as a distinct mechanism, complementary to chain-of-thought prompting, for enhancing Transformer reasoning.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.1,
@@ -861,7 +954,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "32",
@@ -888,7 +984,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "33",
@@ -915,7 +1014,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "34",
@@ -942,7 +1044,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "35",
@@ -969,7 +1074,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.6,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "36",
@@ -996,7 +1104,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "37",
@@ -1023,7 +1134,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.8,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "38",
@@ -1050,7 +1164,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "39",
@@ -1077,15 +1194,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "40",
     "parentIds": [
       "75"
     ],
-    "name": "A Temporal Difference Method for Stochastic Continuous Dynamics. For continuous systems modeled by dynamical equations such as ODEs and SDEs, Bellman's principle of optimality takes the form of the Hamilton-Jacobi-Bellman (HJB) equation, which provides the theoretical target of reinforcement learning (RL). Although recent advances in RL successfully leverage this formulation, the existing methods typically assume the underlying dynamics are known a priori because they need explicit access to the drift and diffusion coefficients to update the value function following the HJB equation. We address this inherent limitation of HJB-based RL; we propose a model-free approach still targeting the HJB equation and the corresponding temporal difference method. We prove exponential stability of the induced continuous-time dynamics, and we empirically demonstrate the resulting advantages over transition\u2013kernel\u2013based formulations. The proposed formulation paves the way toward bridging stochastic control and model-free reinforcement learning.",
-    "full_text": "A Temporal Difference Method for Stochastic Continuous Dynamics. For continuous systems modeled by dynamical equations such as ODEs and SDEs, Bellman's principle of optimality takes the form of the Hamilton-Jacobi-Bellman (HJB) equation, which provides the theoretical target of reinforcement learning (RL). Although recent advances in RL successfully leverage this formulation, the existing methods typically assume the underlying dynamics are known a priori because they need explicit access to the drift and diffusion coefficients to update the value function following the HJB equation. We address this inherent limitation of HJB-based RL; we propose a model-free approach still targeting the HJB equation and the corresponding temporal difference method. We prove exponential stability of the induced continuous-time dynamics, and we empirically demonstrate the resulting advantages over transition\u2013kernel\u2013based formulations. The proposed formulation paves the way toward bridging stochastic control and model-free reinforcement learning.",
+    "name": "A Temporal Difference Method for Stochastic Continuous Dynamics. For continuous systems modeled by dynamical equations such as ODEs and SDEs, Bellman's principle of optimality takes the form of the Hamilton-Jacobi-Bellman (HJB) equation, which provides the theoretical target of reinforcement learning (RL). Although recent advances in RL successfully leverage this formulation, the existing methods typically assume the underlying dynamics are known a priori because they need explicit access to the drift and diffusion coefficients to update the value function following the HJB equation. We address this inherent limitation of HJB-based RL; we propose a model-free approach still targeting the HJB equation and the corresponding temporal difference method. We prove exponential stability of the induced continuous-time dynamics, and we empirically demonstrate the resulting advantages over transition–kernel–based formulations. The proposed formulation paves the way toward bridging stochastic control and model-free reinforcement learning.",
+    "full_text": "A Temporal Difference Method for Stochastic Continuous Dynamics. For continuous systems modeled by dynamical equations such as ODEs and SDEs, Bellman's principle of optimality takes the form of the Hamilton-Jacobi-Bellman (HJB) equation, which provides the theoretical target of reinforcement learning (RL). Although recent advances in RL successfully leverage this formulation, the existing methods typically assume the underlying dynamics are known a priori because they need explicit access to the drift and diffusion coefficients to update the value function following the HJB equation. We address this inherent limitation of HJB-based RL; we propose a model-free approach still targeting the HJB equation and the corresponding temporal difference method. We prove exponential stability of the induced continuous-time dynamics, and we empirically demonstrate the resulting advantages over transition–kernel–based formulations. The proposed formulation paves the way toward bridging stochastic control and model-free reinforcement learning.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -1104,7 +1224,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.666666666666667,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "41",
@@ -1131,7 +1254,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "42",
@@ -1158,7 +1284,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "43",
@@ -1185,7 +1314,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "44",
@@ -1212,7 +1344,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "45",
@@ -1239,7 +1374,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "46",
@@ -1266,7 +1404,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "47",
@@ -1293,15 +1434,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "48",
     "parentIds": [
       "94"
     ],
-    "name": "MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems. Human social interactions depend on the ability to infer others' unspoken intentions, emotions, and beliefs\u2014a cognitive skill grounded in the psychological concept of Theory of Mind (ToM). While large language models (LLMs) excel in semantic understanding tasks, they struggle with the ambiguity and contextual nuance inherent in human communication. To bridge this gap, we introduce **MetaMind**, a multi-agent framework inspired by psychological theories of metacognition, designed to emulate human-like social reasoning. MetaMind decomposes social understanding into three collaborative stages: (1) a *Theory-of-Mind Agent* generates hypotheses about user mental states (e.g., intent, emotion), (2) a *Moral Agent* refines these hypotheses using cultural norms and ethical constraints, and (3) a *Response Agent* generates contextually appropriate responses while validating alignment with inferred intent.\nOur framework achieves state-of-the-art performance across three challenging benchmarks, with 35.7% improvement in real-world social scenarios and 6.2% gain in ToM reasoning. Notably, it enables LLMs to match human-level performance on key ToM tasks for the first time. Ablation studies confirm the necessity of all components, which showcase the framework\u2019s ability to balance contextual plausibility, social appropriateness, and user adaptation. This work advances AI systems toward human-like social intelligence, with applications in empathetic dialogue and culturally sensitive interactions. Code is available at https://github.com/XMZhangAI/MetaMind.",
-    "full_text": "MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems. Human social interactions depend on the ability to infer others' unspoken intentions, emotions, and beliefs\u2014a cognitive skill grounded in the psychological concept of Theory of Mind (ToM). While large language models (LLMs) excel in semantic understanding tasks, they struggle with the ambiguity and contextual nuance inherent in human communication. To bridge this gap, we introduce **MetaMind**, a multi-agent framework inspired by psychological theories of metacognition, designed to emulate human-like social reasoning. MetaMind decomposes social understanding into three collaborative stages: (1) a *Theory-of-Mind Agent* generates hypotheses about user mental states (e.g., intent, emotion), (2) a *Moral Agent* refines these hypotheses using cultural norms and ethical constraints, and (3) a *Response Agent* generates contextually appropriate responses while validating alignment with inferred intent.\nOur framework achieves state-of-the-art performance across three challenging benchmarks, with 35.7% improvement in real-world social scenarios and 6.2% gain in ToM reasoning. Notably, it enables LLMs to match human-level performance on key ToM tasks for the first time. Ablation studies confirm the necessity of all components, which showcase the framework\u2019s ability to balance contextual plausibility, social appropriateness, and user adaptation. This work advances AI systems toward human-like social intelligence, with applications in empathetic dialogue and culturally sensitive interactions. Code is available at https://github.com/XMZhangAI/MetaMind.",
+    "name": "MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems. Human social interactions depend on the ability to infer others' unspoken intentions, emotions, and beliefs—a cognitive skill grounded in the psychological concept of Theory of Mind (ToM). While large language models (LLMs) excel in semantic understanding tasks, they struggle with the ambiguity and contextual nuance inherent in human communication. To bridge this gap, we introduce **MetaMind**, a multi-agent framework inspired by psychological theories of metacognition, designed to emulate human-like social reasoning. MetaMind decomposes social understanding into three collaborative stages: (1) a *Theory-of-Mind Agent* generates hypotheses about user mental states (e.g., intent, emotion), (2) a *Moral Agent* refines these hypotheses using cultural norms and ethical constraints, and (3) a *Response Agent* generates contextually appropriate responses while validating alignment with inferred intent.\nOur framework achieves state-of-the-art performance across three challenging benchmarks, with 35.7% improvement in real-world social scenarios and 6.2% gain in ToM reasoning. Notably, it enables LLMs to match human-level performance on key ToM tasks for the first time. Ablation studies confirm the necessity of all components, which showcase the framework’s ability to balance contextual plausibility, social appropriateness, and user adaptation. This work advances AI systems toward human-like social intelligence, with applications in empathetic dialogue and culturally sensitive interactions. Code is available at https://github.com/XMZhangAI/MetaMind.",
+    "full_text": "MetaMind: Modeling Human Social Thoughts with Metacognitive Multi-Agent Systems. Human social interactions depend on the ability to infer others' unspoken intentions, emotions, and beliefs—a cognitive skill grounded in the psychological concept of Theory of Mind (ToM). While large language models (LLMs) excel in semantic understanding tasks, they struggle with the ambiguity and contextual nuance inherent in human communication. To bridge this gap, we introduce **MetaMind**, a multi-agent framework inspired by psychological theories of metacognition, designed to emulate human-like social reasoning. MetaMind decomposes social understanding into three collaborative stages: (1) a *Theory-of-Mind Agent* generates hypotheses about user mental states (e.g., intent, emotion), (2) a *Moral Agent* refines these hypotheses using cultural norms and ethical constraints, and (3) a *Response Agent* generates contextually appropriate responses while validating alignment with inferred intent.\nOur framework achieves state-of-the-art performance across three challenging benchmarks, with 35.7% improvement in real-world social scenarios and 6.2% gain in ToM reasoning. Notably, it enables LLMs to match human-level performance on key ToM tasks for the first time. Ablation studies confirm the necessity of all components, which showcase the framework’s ability to balance contextual plausibility, social appropriateness, and user adaptation. This work advances AI systems toward human-like social intelligence, with applications in empathetic dialogue and culturally sensitive interactions. Code is available at https://github.com/XMZhangAI/MetaMind.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.4,
@@ -1320,7 +1464,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "49",
@@ -1347,15 +1494,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "50",
     "parentIds": [
       "65"
     ],
-    "name": "Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model. The rapid growth of large AI models has raised significant environmental concerns due to their substantial carbon footprint. Existing carbon accounting methods for AI models are fundamentally deterministic and fail to account for inherent uncertainties in embodied and operational carbon emissions. Our work aims to investigate the effect of these uncertainties on embodied and operational carbon footprint estimates for large AI models. We propose a Probabilistic Carbon Accounting Model (PCAM), which quantifies uncertainties in the carbon accounting of large AI models. We develop parameter models to quantify key components (processors, memory, storage) in the carbon footprint of AI models. To characterize the distribution of the parameters, we develop a carbon dataset by aggregating related data from various sources. Then, we generate the probabilistic distribution of the parameters from the collected dataset. We compare the performance of PCAM with LLMCarbon, the state-of-the-art carbon accounting method for large AI models. PCAM achieves $\\leq7.44\\%$ error compared to LLMCarbon\u2019s $\\leq108.51\\%$.",
-    "full_text": "Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model. The rapid growth of large AI models has raised significant environmental concerns due to their substantial carbon footprint. Existing carbon accounting methods for AI models are fundamentally deterministic and fail to account for inherent uncertainties in embodied and operational carbon emissions. Our work aims to investigate the effect of these uncertainties on embodied and operational carbon footprint estimates for large AI models. We propose a Probabilistic Carbon Accounting Model (PCAM), which quantifies uncertainties in the carbon accounting of large AI models. We develop parameter models to quantify key components (processors, memory, storage) in the carbon footprint of AI models. To characterize the distribution of the parameters, we develop a carbon dataset by aggregating related data from various sources. Then, we generate the probabilistic distribution of the parameters from the collected dataset. We compare the performance of PCAM with LLMCarbon, the state-of-the-art carbon accounting method for large AI models. PCAM achieves $\\leq7.44\\%$ error compared to LLMCarbon\u2019s $\\leq108.51\\%$.",
+    "name": "Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model. The rapid growth of large AI models has raised significant environmental concerns due to their substantial carbon footprint. Existing carbon accounting methods for AI models are fundamentally deterministic and fail to account for inherent uncertainties in embodied and operational carbon emissions. Our work aims to investigate the effect of these uncertainties on embodied and operational carbon footprint estimates for large AI models. We propose a Probabilistic Carbon Accounting Model (PCAM), which quantifies uncertainties in the carbon accounting of large AI models. We develop parameter models to quantify key components (processors, memory, storage) in the carbon footprint of AI models. To characterize the distribution of the parameters, we develop a carbon dataset by aggregating related data from various sources. Then, we generate the probabilistic distribution of the parameters from the collected dataset. We compare the performance of PCAM with LLMCarbon, the state-of-the-art carbon accounting method for large AI models. PCAM achieves $\\leq7.44\\%$ error compared to LLMCarbon’s $\\leq108.51\\%$.",
+    "full_text": "Unveiling the Uncertainty in Embodied and Operational Carbon of Large AI Models through a Probabilistic Carbon Accounting Model. The rapid growth of large AI models has raised significant environmental concerns due to their substantial carbon footprint. Existing carbon accounting methods for AI models are fundamentally deterministic and fail to account for inherent uncertainties in embodied and operational carbon emissions. Our work aims to investigate the effect of these uncertainties on embodied and operational carbon footprint estimates for large AI models. We propose a Probabilistic Carbon Accounting Model (PCAM), which quantifies uncertainties in the carbon accounting of large AI models. We develop parameter models to quantify key components (processors, memory, storage) in the carbon footprint of AI models. To characterize the distribution of the parameters, we develop a carbon dataset by aggregating related data from various sources. Then, we generate the probabilistic distribution of the parameters from the collected dataset. We compare the performance of PCAM with LLMCarbon, the state-of-the-art carbon accounting method for large AI models. PCAM achieves $\\leq7.44\\%$ error compared to LLMCarbon’s $\\leq108.51\\%$.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.3,
@@ -1374,7 +1524,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "51",
@@ -1401,15 +1554,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "52",
     "parentIds": [
       "89"
     ],
-    "name": "Monotone and Separable Set Functions: Characterizations and Neural Models. Motivated by applications for set containment problems, we consider the following\nfundamental problem: can we design set-to-vector functions so that the natural\npartial order on sets is preserved, namely $S \\subseteq T$ if and only if $F (S) \\leq F (T )$.\nWe call functions satisfying this property Monotone and Separating (MAS) set\nfunctions. We establish lower and upper bounds for the vector dimension necessary\nto obtain MAS functions, as a function of the cardinality of the multisets and\nthe underlying ground set. In the important case of an infinite ground set, we\nshow that MAS functions do not exist, but provide a model called MASNET\nwhich provably enjoys a relaxed MAS property we name \u201cweakly MAS\u201d and\nis stable in the sense of Holder continuity. We also show that MAS functions\ncan be used to construct universal models that are monotone by construction\nand can approximate all monotone set functions. Experimentally, we consider\na variety of set containment tasks. The experiments show the benefit of using\nour MASNET model, in comparison with standard set models which do not\nincorporate set containment as an inductive bias.",
-    "full_text": "Monotone and Separable Set Functions: Characterizations and Neural Models. Motivated by applications for set containment problems, we consider the following\nfundamental problem: can we design set-to-vector functions so that the natural\npartial order on sets is preserved, namely $S \\subseteq T$ if and only if $F (S) \\leq F (T )$.\nWe call functions satisfying this property Monotone and Separating (MAS) set\nfunctions. We establish lower and upper bounds for the vector dimension necessary\nto obtain MAS functions, as a function of the cardinality of the multisets and\nthe underlying ground set. In the important case of an infinite ground set, we\nshow that MAS functions do not exist, but provide a model called MASNET\nwhich provably enjoys a relaxed MAS property we name \u201cweakly MAS\u201d and\nis stable in the sense of Holder continuity. We also show that MAS functions\ncan be used to construct universal models that are monotone by construction\nand can approximate all monotone set functions. Experimentally, we consider\na variety of set containment tasks. The experiments show the benefit of using\nour MASNET model, in comparison with standard set models which do not\nincorporate set containment as an inductive bias.",
+    "name": "Monotone and Separable Set Functions: Characterizations and Neural Models. Motivated by applications for set containment problems, we consider the following\nfundamental problem: can we design set-to-vector functions so that the natural\npartial order on sets is preserved, namely $S \\subseteq T$ if and only if $F (S) \\leq F (T )$.\nWe call functions satisfying this property Monotone and Separating (MAS) set\nfunctions. We establish lower and upper bounds for the vector dimension necessary\nto obtain MAS functions, as a function of the cardinality of the multisets and\nthe underlying ground set. In the important case of an infinite ground set, we\nshow that MAS functions do not exist, but provide a model called MASNET\nwhich provably enjoys a relaxed MAS property we name “weakly MAS” and\nis stable in the sense of Holder continuity. We also show that MAS functions\ncan be used to construct universal models that are monotone by construction\nand can approximate all monotone set functions. Experimentally, we consider\na variety of set containment tasks. The experiments show the benefit of using\nour MASNET model, in comparison with standard set models which do not\nincorporate set containment as an inductive bias.",
+    "full_text": "Monotone and Separable Set Functions: Characterizations and Neural Models. Motivated by applications for set containment problems, we consider the following\nfundamental problem: can we design set-to-vector functions so that the natural\npartial order on sets is preserved, namely $S \\subseteq T$ if and only if $F (S) \\leq F (T )$.\nWe call functions satisfying this property Monotone and Separating (MAS) set\nfunctions. We establish lower and upper bounds for the vector dimension necessary\nto obtain MAS functions, as a function of the cardinality of the multisets and\nthe underlying ground set. In the important case of an infinite ground set, we\nshow that MAS functions do not exist, but provide a model called MASNET\nwhich provably enjoys a relaxed MAS property we name “weakly MAS” and\nis stable in the sense of Holder continuity. We also show that MAS functions\ncan be used to construct universal models that are monotone by construction\nand can approximate all monotone set functions. Experimentally, we consider\na variety of set containment tasks. The experiments show the benefit of using\nour MASNET model, in comparison with standard set models which do not\nincorporate set containment as an inductive bias.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.3,
@@ -1428,7 +1584,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "53",
@@ -1455,15 +1614,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "54",
     "parentIds": [
       "93"
     ],
-    "name": "OOD-Barrier: Build a Middle-Barrier for Open-Set Single-Image Test Time Adaptation via Vision Language Models. In real-world environments, a well-designed model must be capable of handling dynamically evolving distributions, where both in-distribution (ID) and out-of-distribution (OOD) samples appear unpredictably and individually, making real-time adaptation particularly challenging. While open-set test-time adaptation has demonstrated effectiveness in adjusting to distribution shifts, existing methods often rely on batch processing and struggle to manage single-sample data stream in open-set environments. To address this limitation, we propose Open-IRT, a novel open-set Intermediate-Representation-based Test-time adaptation framework tailored for single-image test-time adaptation with vision-language models. Open-IRT comprises two key modules designed for dynamic, single-sample adaptation in open-set scenarios. The first is Polarity-aware Prompt-based OOD Filter module, which fully constructs the ID-OOD distribution, considering both the absolute semantic alignment and relative semantic polarity. The second module, Intermediate Domain-based Test-time Adaptation module, constructs an intermediate domain and indirectly decomposes the ID-OOD distributional discrepancy to refine the separation boundary during the test-time. Extensive experiments on a range of domain adaptation benchmarks demonstrate the superiority of Open-IRT. Compared to previous state-of-the-art methods, it achieves significant improvements on representative benchmarks, such as CIFAR-100C and SVHN \u2014 with gains of +8.45\\% in accuracy, -10.80\\% in FPR95, and +11.04\\% in AUROC.",
-    "full_text": "OOD-Barrier: Build a Middle-Barrier for Open-Set Single-Image Test Time Adaptation via Vision Language Models. In real-world environments, a well-designed model must be capable of handling dynamically evolving distributions, where both in-distribution (ID) and out-of-distribution (OOD) samples appear unpredictably and individually, making real-time adaptation particularly challenging. While open-set test-time adaptation has demonstrated effectiveness in adjusting to distribution shifts, existing methods often rely on batch processing and struggle to manage single-sample data stream in open-set environments. To address this limitation, we propose Open-IRT, a novel open-set Intermediate-Representation-based Test-time adaptation framework tailored for single-image test-time adaptation with vision-language models. Open-IRT comprises two key modules designed for dynamic, single-sample adaptation in open-set scenarios. The first is Polarity-aware Prompt-based OOD Filter module, which fully constructs the ID-OOD distribution, considering both the absolute semantic alignment and relative semantic polarity. The second module, Intermediate Domain-based Test-time Adaptation module, constructs an intermediate domain and indirectly decomposes the ID-OOD distributional discrepancy to refine the separation boundary during the test-time. Extensive experiments on a range of domain adaptation benchmarks demonstrate the superiority of Open-IRT. Compared to previous state-of-the-art methods, it achieves significant improvements on representative benchmarks, such as CIFAR-100C and SVHN \u2014 with gains of +8.45\\% in accuracy, -10.80\\% in FPR95, and +11.04\\% in AUROC.",
+    "name": "OOD-Barrier: Build a Middle-Barrier for Open-Set Single-Image Test Time Adaptation via Vision Language Models. In real-world environments, a well-designed model must be capable of handling dynamically evolving distributions, where both in-distribution (ID) and out-of-distribution (OOD) samples appear unpredictably and individually, making real-time adaptation particularly challenging. While open-set test-time adaptation has demonstrated effectiveness in adjusting to distribution shifts, existing methods often rely on batch processing and struggle to manage single-sample data stream in open-set environments. To address this limitation, we propose Open-IRT, a novel open-set Intermediate-Representation-based Test-time adaptation framework tailored for single-image test-time adaptation with vision-language models. Open-IRT comprises two key modules designed for dynamic, single-sample adaptation in open-set scenarios. The first is Polarity-aware Prompt-based OOD Filter module, which fully constructs the ID-OOD distribution, considering both the absolute semantic alignment and relative semantic polarity. The second module, Intermediate Domain-based Test-time Adaptation module, constructs an intermediate domain and indirectly decomposes the ID-OOD distributional discrepancy to refine the separation boundary during the test-time. Extensive experiments on a range of domain adaptation benchmarks demonstrate the superiority of Open-IRT. Compared to previous state-of-the-art methods, it achieves significant improvements on representative benchmarks, such as CIFAR-100C and SVHN — with gains of +8.45\\% in accuracy, -10.80\\% in FPR95, and +11.04\\% in AUROC.",
+    "full_text": "OOD-Barrier: Build a Middle-Barrier for Open-Set Single-Image Test Time Adaptation via Vision Language Models. In real-world environments, a well-designed model must be capable of handling dynamically evolving distributions, where both in-distribution (ID) and out-of-distribution (OOD) samples appear unpredictably and individually, making real-time adaptation particularly challenging. While open-set test-time adaptation has demonstrated effectiveness in adjusting to distribution shifts, existing methods often rely on batch processing and struggle to manage single-sample data stream in open-set environments. To address this limitation, we propose Open-IRT, a novel open-set Intermediate-Representation-based Test-time adaptation framework tailored for single-image test-time adaptation with vision-language models. Open-IRT comprises two key modules designed for dynamic, single-sample adaptation in open-set scenarios. The first is Polarity-aware Prompt-based OOD Filter module, which fully constructs the ID-OOD distribution, considering both the absolute semantic alignment and relative semantic polarity. The second module, Intermediate Domain-based Test-time Adaptation module, constructs an intermediate domain and indirectly decomposes the ID-OOD distributional discrepancy to refine the separation boundary during the test-time. Extensive experiments on a range of domain adaptation benchmarks demonstrate the superiority of Open-IRT. Compared to previous state-of-the-art methods, it achieves significant improvements on representative benchmarks, such as CIFAR-100C and SVHN — with gains of +8.45\\% in accuracy, -10.80\\% in FPR95, and +11.04\\% in AUROC.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.3,
@@ -1482,7 +1644,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "55",
@@ -1509,7 +1674,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "56",
@@ -1536,7 +1704,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "57",
@@ -1563,7 +1734,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "58",
@@ -1590,15 +1764,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "59",
     "parentIds": [
       "87"
     ],
-    "name": "Unbalanced Optimal Total Variation Transport: A Theoretical Approach to Spatial Resource Allocation Problems. We propose and analyze a new class of unbalanced weak optimal transport (OT) problems with total variation penalties, motivated by spatial resource allocation tasks. Unlike classical OT, our framework accommodates general unbalanced nonnegative measures and incorporates cost objectives that directly capture operational trade-offs between transport cost and supply\u2013demand mismatch. In the general setting, we establish the existence of optimal solutions and a dual formulation. We then focus on the semi-discrete setting, where one measure is discrete and the other is absolutely continuous, a structure relevant to applications such as service area partitioning for facilities like schools or medical stations. Exploiting a tessellation-based structure, we derive the corresponding explicit optimality conditions. \nWe further address a quantization problem that jointly optimizes the locations and weights of discrete support points, applicable to facility location tasks such as the cost-efficient deployment of battery swap stations or e-commerce warehouses, informed by demand-side data. The dual-tessellation structure also yields explicit gradient expressions, enabling efficient numerical optimization in finite dimensions.",
-    "full_text": "Unbalanced Optimal Total Variation Transport: A Theoretical Approach to Spatial Resource Allocation Problems. We propose and analyze a new class of unbalanced weak optimal transport (OT) problems with total variation penalties, motivated by spatial resource allocation tasks. Unlike classical OT, our framework accommodates general unbalanced nonnegative measures and incorporates cost objectives that directly capture operational trade-offs between transport cost and supply\u2013demand mismatch. In the general setting, we establish the existence of optimal solutions and a dual formulation. We then focus on the semi-discrete setting, where one measure is discrete and the other is absolutely continuous, a structure relevant to applications such as service area partitioning for facilities like schools or medical stations. Exploiting a tessellation-based structure, we derive the corresponding explicit optimality conditions. \nWe further address a quantization problem that jointly optimizes the locations and weights of discrete support points, applicable to facility location tasks such as the cost-efficient deployment of battery swap stations or e-commerce warehouses, informed by demand-side data. The dual-tessellation structure also yields explicit gradient expressions, enabling efficient numerical optimization in finite dimensions.",
+    "name": "Unbalanced Optimal Total Variation Transport: A Theoretical Approach to Spatial Resource Allocation Problems. We propose and analyze a new class of unbalanced weak optimal transport (OT) problems with total variation penalties, motivated by spatial resource allocation tasks. Unlike classical OT, our framework accommodates general unbalanced nonnegative measures and incorporates cost objectives that directly capture operational trade-offs between transport cost and supply–demand mismatch. In the general setting, we establish the existence of optimal solutions and a dual formulation. We then focus on the semi-discrete setting, where one measure is discrete and the other is absolutely continuous, a structure relevant to applications such as service area partitioning for facilities like schools or medical stations. Exploiting a tessellation-based structure, we derive the corresponding explicit optimality conditions. \nWe further address a quantization problem that jointly optimizes the locations and weights of discrete support points, applicable to facility location tasks such as the cost-efficient deployment of battery swap stations or e-commerce warehouses, informed by demand-side data. The dual-tessellation structure also yields explicit gradient expressions, enabling efficient numerical optimization in finite dimensions.",
+    "full_text": "Unbalanced Optimal Total Variation Transport: A Theoretical Approach to Spatial Resource Allocation Problems. We propose and analyze a new class of unbalanced weak optimal transport (OT) problems with total variation penalties, motivated by spatial resource allocation tasks. Unlike classical OT, our framework accommodates general unbalanced nonnegative measures and incorporates cost objectives that directly capture operational trade-offs between transport cost and supply–demand mismatch. In the general setting, we establish the existence of optimal solutions and a dual formulation. We then focus on the semi-discrete setting, where one measure is discrete and the other is absolutely continuous, a structure relevant to applications such as service area partitioning for facilities like schools or medical stations. Exploiting a tessellation-based structure, we derive the corresponding explicit optimality conditions. \nWe further address a quantization problem that jointly optimizes the locations and weights of discrete support points, applicable to facility location tasks such as the cost-efficient deployment of battery swap stations or e-commerce warehouses, informed by demand-side data. The dual-tessellation structure also yields explicit gradient expressions, enabling efficient numerical optimization in finite dimensions.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.6,
@@ -1617,7 +1794,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.2,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "60",
@@ -1644,15 +1824,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "61",
     "parentIds": [
       "95"
     ],
-    "name": "Towards Realistic Earth-Observation Constellation Scheduling: Benchmark and Methodology. Agile Earth Observation Satellites (AEOSs) constellations offer unprecedented flexibility for monitoring the Earth\u2019s surface, but their scheduling remains challenging under large-scale scenarios, dynamic environments, and stringent constraints. \n  Existing methods often simplify these complexities, limiting their real-world performance. \n  We address this gap with a unified framework integrating a standardized benchmark suite and a novel scheduling model.\n  Our benchmark suite, AEOS-Bench, contains $3,907$ finely tuned satellite assets and $16,410$ scenarios.\n  Each scenario features $1$ to $50$ satellites and $50$ to $300$ imaging tasks.\n  These scenarios are generated via a high-fidelity simulation platform, ensuring realistic satellite behavior such as orbital dynamics and resource constraints.\n  Ground truth scheduling annotations are provided for each scenario.\n  To our knowledge, AEOS-Bench is the first large-scale benchmark suite tailored for realistic constellation scheduling.\n  Building upon this benchmark, we introduce AEOS-Former, a Transformer-based scheduling model that incorporates a constraint-aware attention mechanism. \n  A dedicated internal constraint module explicitly models the physical and operational limits of each satellite.\n  Through simulation-based iterative learning, AEOS-Former adapts to diverse scenarios, offering a robust solution for AEOS constellation scheduling.\n  Experimental results demonstrate that AEOS-Former outperforms baseline models in task completion and energy efficiency, with ablation studies highlighting the contribution of each component.\n  Code and data are provided in https://github.com/buaa-colalab/AEOSBench.",
-    "full_text": "Towards Realistic Earth-Observation Constellation Scheduling: Benchmark and Methodology. Agile Earth Observation Satellites (AEOSs) constellations offer unprecedented flexibility for monitoring the Earth\u2019s surface, but their scheduling remains challenging under large-scale scenarios, dynamic environments, and stringent constraints. \n  Existing methods often simplify these complexities, limiting their real-world performance. \n  We address this gap with a unified framework integrating a standardized benchmark suite and a novel scheduling model.\n  Our benchmark suite, AEOS-Bench, contains $3,907$ finely tuned satellite assets and $16,410$ scenarios.\n  Each scenario features $1$ to $50$ satellites and $50$ to $300$ imaging tasks.\n  These scenarios are generated via a high-fidelity simulation platform, ensuring realistic satellite behavior such as orbital dynamics and resource constraints.\n  Ground truth scheduling annotations are provided for each scenario.\n  To our knowledge, AEOS-Bench is the first large-scale benchmark suite tailored for realistic constellation scheduling.\n  Building upon this benchmark, we introduce AEOS-Former, a Transformer-based scheduling model that incorporates a constraint-aware attention mechanism. \n  A dedicated internal constraint module explicitly models the physical and operational limits of each satellite.\n  Through simulation-based iterative learning, AEOS-Former adapts to diverse scenarios, offering a robust solution for AEOS constellation scheduling.\n  Experimental results demonstrate that AEOS-Former outperforms baseline models in task completion and energy efficiency, with ablation studies highlighting the contribution of each component.\n  Code and data are provided in https://github.com/buaa-colalab/AEOSBench.",
+    "name": "Towards Realistic Earth-Observation Constellation Scheduling: Benchmark and Methodology. Agile Earth Observation Satellites (AEOSs) constellations offer unprecedented flexibility for monitoring the Earth’s surface, but their scheduling remains challenging under large-scale scenarios, dynamic environments, and stringent constraints. \n  Existing methods often simplify these complexities, limiting their real-world performance. \n  We address this gap with a unified framework integrating a standardized benchmark suite and a novel scheduling model.\n  Our benchmark suite, AEOS-Bench, contains $3,907$ finely tuned satellite assets and $16,410$ scenarios.\n  Each scenario features $1$ to $50$ satellites and $50$ to $300$ imaging tasks.\n  These scenarios are generated via a high-fidelity simulation platform, ensuring realistic satellite behavior such as orbital dynamics and resource constraints.\n  Ground truth scheduling annotations are provided for each scenario.\n  To our knowledge, AEOS-Bench is the first large-scale benchmark suite tailored for realistic constellation scheduling.\n  Building upon this benchmark, we introduce AEOS-Former, a Transformer-based scheduling model that incorporates a constraint-aware attention mechanism. \n  A dedicated internal constraint module explicitly models the physical and operational limits of each satellite.\n  Through simulation-based iterative learning, AEOS-Former adapts to diverse scenarios, offering a robust solution for AEOS constellation scheduling.\n  Experimental results demonstrate that AEOS-Former outperforms baseline models in task completion and energy efficiency, with ablation studies highlighting the contribution of each component.\n  Code and data are provided in https://github.com/buaa-colalab/AEOSBench.",
+    "full_text": "Towards Realistic Earth-Observation Constellation Scheduling: Benchmark and Methodology. Agile Earth Observation Satellites (AEOSs) constellations offer unprecedented flexibility for monitoring the Earth’s surface, but their scheduling remains challenging under large-scale scenarios, dynamic environments, and stringent constraints. \n  Existing methods often simplify these complexities, limiting their real-world performance. \n  We address this gap with a unified framework integrating a standardized benchmark suite and a novel scheduling model.\n  Our benchmark suite, AEOS-Bench, contains $3,907$ finely tuned satellite assets and $16,410$ scenarios.\n  Each scenario features $1$ to $50$ satellites and $50$ to $300$ imaging tasks.\n  These scenarios are generated via a high-fidelity simulation platform, ensuring realistic satellite behavior such as orbital dynamics and resource constraints.\n  Ground truth scheduling annotations are provided for each scenario.\n  To our knowledge, AEOS-Bench is the first large-scale benchmark suite tailored for realistic constellation scheduling.\n  Building upon this benchmark, we introduce AEOS-Former, a Transformer-based scheduling model that incorporates a constraint-aware attention mechanism. \n  A dedicated internal constraint module explicitly models the physical and operational limits of each satellite.\n  Through simulation-based iterative learning, AEOS-Former adapts to diverse scenarios, offering a robust solution for AEOS constellation scheduling.\n  Experimental results demonstrate that AEOS-Former outperforms baseline models in task completion and energy efficiency, with ablation studies highlighting the contribution of each component.\n  Code and data are provided in https://github.com/buaa-colalab/AEOSBench.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.6,
@@ -1671,7 +1854,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.6,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "62",
@@ -1698,7 +1884,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "63",
@@ -1725,7 +1914,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "64",
@@ -1752,7 +1944,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.275,
+    "variance": 0.22562500000000008,
+    "is_leaf": false
   },
   {
     "id": "65",
@@ -1779,7 +1974,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "66",
@@ -1806,7 +2004,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "67",
@@ -1833,7 +2034,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.140625,
+    "is_leaf": false
   },
   {
     "id": "68",
@@ -1860,7 +2064,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "69",
@@ -1887,7 +2094,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.25,
+    "is_leaf": false
   },
   {
     "id": "70",
@@ -1914,7 +2124,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": false
   },
   {
     "id": "71",
@@ -1941,7 +2154,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.875,
+    "variance": 0.390625,
+    "is_leaf": false
   },
   {
     "id": "72",
@@ -1968,7 +2184,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.125,
+    "variance": 0.140625,
+    "is_leaf": false
   },
   {
     "id": "73",
@@ -1995,7 +2214,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.140625,
+    "is_leaf": false
   },
   {
     "id": "74",
@@ -2022,7 +2244,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": false
   },
   {
     "id": "75",
@@ -2049,7 +2274,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.583333333333334,
+    "variance": 0.006944444444444469,
+    "is_leaf": false
   },
   {
     "id": "76",
@@ -2076,7 +2304,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.133333333333334,
+    "variance": 0.28444444444444456,
+    "is_leaf": false
   },
   {
     "id": "77",
@@ -2103,7 +2334,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.2,
+    "variance": 0.04000000000000007,
+    "is_leaf": false
   },
   {
     "id": "78",
@@ -2130,7 +2364,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.125,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "79",
@@ -2157,7 +2394,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "80",
@@ -2184,7 +2424,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.45,
+    "variance": 0.0024999999999999823,
+    "is_leaf": false
   },
   {
     "id": "81",
@@ -2211,7 +2454,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.35,
+    "variance": 0.02249999999999997,
+    "is_leaf": false
   },
   {
     "id": "82",
@@ -2238,7 +2484,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "83",
@@ -2266,7 +2515,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "84",
@@ -2293,7 +2545,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "85",
@@ -2320,7 +2575,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.025,
+    "variance": 0.05062500000000004,
+    "is_leaf": false
   },
   {
     "id": "86",
@@ -2347,7 +2605,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "87",
@@ -2374,7 +2635,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.1,
+    "variance": 0.010000000000000018,
+    "is_leaf": false
   },
   {
     "id": "88",
@@ -2401,7 +2665,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "89",
@@ -2428,7 +2695,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.625,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "90",
@@ -2455,7 +2725,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "91",
@@ -2482,7 +2755,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.7,
+    "variance": 0.0899999999999999,
+    "is_leaf": false
   },
   {
     "id": "92",
@@ -2509,7 +2785,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.125,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "93",
@@ -2536,7 +2815,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.125,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "94",
@@ -2563,7 +2845,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": false
   },
   {
     "id": "95",
@@ -2591,7 +2876,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.8,
+    "variance": 0.04000000000000007,
+    "is_leaf": false
   },
   {
     "id": "96",
@@ -2618,7 +2906,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.429166666666667,
+    "variance": 0.1400520833333334,
+    "is_leaf": false
   },
   {
     "id": "97",
@@ -2645,7 +2936,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.3125,
+    "variance": 0.07421875,
+    "is_leaf": false
   },
   {
     "id": "98",
@@ -2672,7 +2966,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.383333333333333,
+    "variance": 0.1280555555555555,
+    "is_leaf": false
   },
   {
     "id": "99",
@@ -2699,7 +2996,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.1875,
+    "variance": 0.13671875,
+    "is_leaf": false
   },
   {
     "id": "100",
@@ -2726,7 +3026,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.225,
+    "variance": 0.08312500000000003,
+    "is_leaf": false
   },
   {
     "id": "101",
@@ -2754,7 +3057,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.3125,
+    "variance": 0.13671875,
+    "is_leaf": false
   },
   {
     "id": "102",
@@ -2781,7 +3087,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "103",
@@ -2808,7 +3117,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.8375,
+    "variance": 0.21671875000000004,
+    "is_leaf": false
   },
   {
     "id": "104",
@@ -2835,7 +3147,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.075,
+    "variance": 0.09812500000000002,
+    "is_leaf": false
   },
   {
     "id": "105",
@@ -2862,7 +3177,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5375,
+    "variance": 0.14171874999999998,
+    "is_leaf": false
   },
   {
     "id": "106",
@@ -2891,7 +3209,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.6875,
+    "variance": 0.01171875,
+    "is_leaf": false
   },
   {
     "id": "107",
@@ -2918,7 +3239,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.254166666666666,
+    "variance": 0.16463541666666667,
+    "is_leaf": false
   },
   {
     "id": "108",
@@ -2945,7 +3269,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.2875,
+    "variance": 0.03546875000000002,
+    "is_leaf": false
   },
   {
     "id": "109",
@@ -2972,7 +3299,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.2375,
+    "variance": 0.03171875,
+    "is_leaf": false
   },
   {
     "id": "110",
@@ -2999,7 +3329,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.125,
+    "is_leaf": false
   },
   {
     "id": "111",
@@ -3026,7 +3359,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.416666666666667,
+    "variance": 0.09722222222222225,
+    "is_leaf": false
   },
   {
     "id": "112",
@@ -3053,7 +3389,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.308333333333334,
+    "variance": 0.15298611111111116,
+    "is_leaf": false
   },
   {
     "id": "113",
@@ -3080,7 +3419,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4125000000000005,
+    "variance": 0.07796875,
+    "is_leaf": false
   },
   {
     "id": "114",
@@ -3107,7 +3449,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5649999999999995,
+    "variance": 0.21302499999999994,
+    "is_leaf": false
   },
   {
     "id": "115",
@@ -3135,7 +3480,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.204166666666667,
+    "variance": 0.11560763888888888,
+    "is_leaf": false
   },
   {
     "id": "116",
@@ -3162,7 +3510,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.418055555555555,
+    "variance": 0.14122492283950616,
+    "is_leaf": false
   },
   {
     "id": "117",
@@ -3189,7 +3540,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.39375,
+    "variance": 0.1227734375,
+    "is_leaf": false
   },
   {
     "id": "118",
@@ -3219,7 +3573,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4875,
+    "variance": 0.06359375,
+    "is_leaf": false
   },
   {
     "id": "119",
@@ -3246,7 +3603,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.45,
+    "variance": 0.11000000000000001,
+    "is_leaf": false
   },
   {
     "id": "120",
@@ -3274,7 +3634,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.396527777777778,
+    "variance": 0.1184717399691358,
+    "is_leaf": false
   },
   {
     "id": "121",
@@ -3301,7 +3664,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4035714285714285,
+    "variance": 0.1370705782312925,
+    "is_leaf": false
   },
   {
     "id": "122",
@@ -3329,7 +3695,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.355208333333334,
+    "variance": 0.12662217881944446,
+    "is_leaf": false
   },
   {
     "id": "123",
@@ -3357,7 +3726,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.466666666666667,
+    "variance": 0.0897222222222222,
+    "is_leaf": false
   },
   {
     "id": "124",
@@ -3384,7 +3756,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.398563218390804,
+    "variance": 0.12424123067776453,
+    "is_leaf": false
   },
   {
     "id": "125",
@@ -3411,7 +3786,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.395720720720721,
+    "variance": 0.11693739347455563,
+    "is_leaf": false
   },
   {
     "id": "126",
@@ -3436,6 +3814,9 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.397456140350877,
+    "variance": 0.1213984995383195,
+    "is_leaf": false
   }
 ]

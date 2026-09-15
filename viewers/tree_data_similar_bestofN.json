@@ -24,7 +24,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.333333333333333,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "1",
@@ -51,7 +54,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "2",
@@ -79,15 +85,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "3",
     "parentIds": [
       "67"
     ],
-    "name": "ReMA: Learning to Meta-Think for LLMs with Multi-agent Reinforcement Learning. Recent research on Reasoning of Large Language Models (LLMs) has sought to further enhance their performance by integrating meta-thinking\u2014enabling models to monitor, evaluate, and control their reasoning processes for more adaptive and effective problem-solving.\nHowever, current single-agent work lacks a specialized design for acquiring meta-thinking, resulting in low efficacy.\nTo address this challenge, we introduce Reinforced Meta-thinking Agents (ReMA), a novel framework that leverages Multi-Agent Reinforcement Learning (MARL) to elicit meta-thinking behaviors, encouraging LLMs to think about thinking.\nReMA decouples the reasoning process into two hierarchical agents: a high-level meta-thinking agent responsible for generating strategic oversight and plans, and a low-level reasoning agent for detailed executions.\nThrough iterative reinforcement learning with aligned objectives, these agents explore and learn collaboration, leading to improved generalization and robustness.\nEmpirical results from single-turn experiments demonstrate that ReMA outperforms single-agent RL baselines on complex reasoning tasks, including competitive-level mathematical benchmarks and LLM-as-a-Judge benchmarks.\nAdditionally, we further extend ReMA to multi-turn interaction settings, leveraging turn-level ratio and parameter sharing to improve efficiency.\nComprehensive ablation studies further illustrate the evolving dynamics of each distinct agent, providing valuable insights into how the meta-thinking reasoning process enhances the reasoning capabilities of LLMs.",
-    "full_text": "ReMA: Learning to Meta-Think for LLMs with Multi-agent Reinforcement Learning. Recent research on Reasoning of Large Language Models (LLMs) has sought to further enhance their performance by integrating meta-thinking\u2014enabling models to monitor, evaluate, and control their reasoning processes for more adaptive and effective problem-solving.\nHowever, current single-agent work lacks a specialized design for acquiring meta-thinking, resulting in low efficacy.\nTo address this challenge, we introduce Reinforced Meta-thinking Agents (ReMA), a novel framework that leverages Multi-Agent Reinforcement Learning (MARL) to elicit meta-thinking behaviors, encouraging LLMs to think about thinking.\nReMA decouples the reasoning process into two hierarchical agents: a high-level meta-thinking agent responsible for generating strategic oversight and plans, and a low-level reasoning agent for detailed executions.\nThrough iterative reinforcement learning with aligned objectives, these agents explore and learn collaboration, leading to improved generalization and robustness.\nEmpirical results from single-turn experiments demonstrate that ReMA outperforms single-agent RL baselines on complex reasoning tasks, including competitive-level mathematical benchmarks and LLM-as-a-Judge benchmarks.\nAdditionally, we further extend ReMA to multi-turn interaction settings, leveraging turn-level ratio and parameter sharing to improve efficiency.\nComprehensive ablation studies further illustrate the evolving dynamics of each distinct agent, providing valuable insights into how the meta-thinking reasoning process enhances the reasoning capabilities of LLMs.",
+    "name": "ReMA: Learning to Meta-Think for LLMs with Multi-agent Reinforcement Learning. Recent research on Reasoning of Large Language Models (LLMs) has sought to further enhance their performance by integrating meta-thinking—enabling models to monitor, evaluate, and control their reasoning processes for more adaptive and effective problem-solving.\nHowever, current single-agent work lacks a specialized design for acquiring meta-thinking, resulting in low efficacy.\nTo address this challenge, we introduce Reinforced Meta-thinking Agents (ReMA), a novel framework that leverages Multi-Agent Reinforcement Learning (MARL) to elicit meta-thinking behaviors, encouraging LLMs to think about thinking.\nReMA decouples the reasoning process into two hierarchical agents: a high-level meta-thinking agent responsible for generating strategic oversight and plans, and a low-level reasoning agent for detailed executions.\nThrough iterative reinforcement learning with aligned objectives, these agents explore and learn collaboration, leading to improved generalization and robustness.\nEmpirical results from single-turn experiments demonstrate that ReMA outperforms single-agent RL baselines on complex reasoning tasks, including competitive-level mathematical benchmarks and LLM-as-a-Judge benchmarks.\nAdditionally, we further extend ReMA to multi-turn interaction settings, leveraging turn-level ratio and parameter sharing to improve efficiency.\nComprehensive ablation studies further illustrate the evolving dynamics of each distinct agent, providing valuable insights into how the meta-thinking reasoning process enhances the reasoning capabilities of LLMs.",
+    "full_text": "ReMA: Learning to Meta-Think for LLMs with Multi-agent Reinforcement Learning. Recent research on Reasoning of Large Language Models (LLMs) has sought to further enhance their performance by integrating meta-thinking—enabling models to monitor, evaluate, and control their reasoning processes for more adaptive and effective problem-solving.\nHowever, current single-agent work lacks a specialized design for acquiring meta-thinking, resulting in low efficacy.\nTo address this challenge, we introduce Reinforced Meta-thinking Agents (ReMA), a novel framework that leverages Multi-Agent Reinforcement Learning (MARL) to elicit meta-thinking behaviors, encouraging LLMs to think about thinking.\nReMA decouples the reasoning process into two hierarchical agents: a high-level meta-thinking agent responsible for generating strategic oversight and plans, and a low-level reasoning agent for detailed executions.\nThrough iterative reinforcement learning with aligned objectives, these agents explore and learn collaboration, leading to improved generalization and robustness.\nEmpirical results from single-turn experiments demonstrate that ReMA outperforms single-agent RL baselines on complex reasoning tasks, including competitive-level mathematical benchmarks and LLM-as-a-Judge benchmarks.\nAdditionally, we further extend ReMA to multi-turn interaction settings, leveraging turn-level ratio and parameter sharing to improve efficiency.\nComprehensive ablation studies further illustrate the evolving dynamics of each distinct agent, providing valuable insights into how the meta-thinking reasoning process enhances the reasoning capabilities of LLMs.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -106,7 +115,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "4",
@@ -133,15 +145,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "5",
     "parentIds": [
       "68"
     ],
-    "name": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback. Reinforcement Learning from Human Feedback (RLHF) is essential for aligning large language models (LLMs) with human preferences and values. While recent research has primarily focused on algorithmic advancements\u2014such as reducing computational overhead or strengthening reward models to mitigate reward hacking\u2014the critical role of prompt-data construction and its scalability has received comparatively less attention. In this paper, we address this gap by systematically exploring data-driven bottlenecks that currently hinder RLHF performance scaling, focusing specifically on the challenges posed by reward hacking and decreasing response diversity.\nTo mitigate reward hacking, we introduce a hybrid reward system combining reasoning task verifiers (RTV) and a generative reward model (GenRM). This approach not only exhibits enhanced resistance to reward hacking, but also enables accurate assessment of responses against clearly defined ground-truth solutions. Additionally, in order to ensure response diversity and enhance learning effectiveness, we propose a novel prompt-selection method named \\textbf{Pre-PPO}, explicitly identifying training prompts that are inherently challenging and thus less prone to reward hacking. Furthermore, we find that \\textbf{prioritizing mathematical and coding tasks during the early phases of RLHF training} significantly boosts performance, given that these tasks naturally encode fine-grained response distinctions and possess clearly defined ground truths.\nThrough comprehensive experiments conducted across two model sizes, we validate the effectiveness and scalability of our proposed methods. Results show that RTV exhibits the strongest resistance to reward hacking, followed by GenRM with ground truth, and finally GenRM relying on SFT Best-of-N responses. Moreover, our proposed strategies enable the model to rapidly capture subtle task-specific distinctions, leading to substantial improvements in overall RLHF performance. This work underscores the importance of careful data construction and provides practical methodologies to overcome critical performance barriers in RLHF.",
-    "full_text": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback. Reinforcement Learning from Human Feedback (RLHF) is essential for aligning large language models (LLMs) with human preferences and values. While recent research has primarily focused on algorithmic advancements\u2014such as reducing computational overhead or strengthening reward models to mitigate reward hacking\u2014the critical role of prompt-data construction and its scalability has received comparatively less attention. In this paper, we address this gap by systematically exploring data-driven bottlenecks that currently hinder RLHF performance scaling, focusing specifically on the challenges posed by reward hacking and decreasing response diversity.\nTo mitigate reward hacking, we introduce a hybrid reward system combining reasoning task verifiers (RTV) and a generative reward model (GenRM). This approach not only exhibits enhanced resistance to reward hacking, but also enables accurate assessment of responses against clearly defined ground-truth solutions. Additionally, in order to ensure response diversity and enhance learning effectiveness, we propose a novel prompt-selection method named \\textbf{Pre-PPO}, explicitly identifying training prompts that are inherently challenging and thus less prone to reward hacking. Furthermore, we find that \\textbf{prioritizing mathematical and coding tasks during the early phases of RLHF training} significantly boosts performance, given that these tasks naturally encode fine-grained response distinctions and possess clearly defined ground truths.\nThrough comprehensive experiments conducted across two model sizes, we validate the effectiveness and scalability of our proposed methods. Results show that RTV exhibits the strongest resistance to reward hacking, followed by GenRM with ground truth, and finally GenRM relying on SFT Best-of-N responses. Moreover, our proposed strategies enable the model to rapidly capture subtle task-specific distinctions, leading to substantial improvements in overall RLHF performance. This work underscores the importance of careful data construction and provides practical methodologies to overcome critical performance barriers in RLHF.",
+    "name": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback. Reinforcement Learning from Human Feedback (RLHF) is essential for aligning large language models (LLMs) with human preferences and values. While recent research has primarily focused on algorithmic advancements—such as reducing computational overhead or strengthening reward models to mitigate reward hacking—the critical role of prompt-data construction and its scalability has received comparatively less attention. In this paper, we address this gap by systematically exploring data-driven bottlenecks that currently hinder RLHF performance scaling, focusing specifically on the challenges posed by reward hacking and decreasing response diversity.\nTo mitigate reward hacking, we introduce a hybrid reward system combining reasoning task verifiers (RTV) and a generative reward model (GenRM). This approach not only exhibits enhanced resistance to reward hacking, but also enables accurate assessment of responses against clearly defined ground-truth solutions. Additionally, in order to ensure response diversity and enhance learning effectiveness, we propose a novel prompt-selection method named \\textbf{Pre-PPO}, explicitly identifying training prompts that are inherently challenging and thus less prone to reward hacking. Furthermore, we find that \\textbf{prioritizing mathematical and coding tasks during the early phases of RLHF training} significantly boosts performance, given that these tasks naturally encode fine-grained response distinctions and possess clearly defined ground truths.\nThrough comprehensive experiments conducted across two model sizes, we validate the effectiveness and scalability of our proposed methods. Results show that RTV exhibits the strongest resistance to reward hacking, followed by GenRM with ground truth, and finally GenRM relying on SFT Best-of-N responses. Moreover, our proposed strategies enable the model to rapidly capture subtle task-specific distinctions, leading to substantial improvements in overall RLHF performance. This work underscores the importance of careful data construction and provides practical methodologies to overcome critical performance barriers in RLHF.",
+    "full_text": "Exploring Data Scaling Trends and Effects in Reinforcement Learning from Human Feedback. Reinforcement Learning from Human Feedback (RLHF) is essential for aligning large language models (LLMs) with human preferences and values. While recent research has primarily focused on algorithmic advancements—such as reducing computational overhead or strengthening reward models to mitigate reward hacking—the critical role of prompt-data construction and its scalability has received comparatively less attention. In this paper, we address this gap by systematically exploring data-driven bottlenecks that currently hinder RLHF performance scaling, focusing specifically on the challenges posed by reward hacking and decreasing response diversity.\nTo mitigate reward hacking, we introduce a hybrid reward system combining reasoning task verifiers (RTV) and a generative reward model (GenRM). This approach not only exhibits enhanced resistance to reward hacking, but also enables accurate assessment of responses against clearly defined ground-truth solutions. Additionally, in order to ensure response diversity and enhance learning effectiveness, we propose a novel prompt-selection method named \\textbf{Pre-PPO}, explicitly identifying training prompts that are inherently challenging and thus less prone to reward hacking. Furthermore, we find that \\textbf{prioritizing mathematical and coding tasks during the early phases of RLHF training} significantly boosts performance, given that these tasks naturally encode fine-grained response distinctions and possess clearly defined ground truths.\nThrough comprehensive experiments conducted across two model sizes, we validate the effectiveness and scalability of our proposed methods. Results show that RTV exhibits the strongest resistance to reward hacking, followed by GenRM with ground truth, and finally GenRM relying on SFT Best-of-N responses. Moreover, our proposed strategies enable the model to rapidly capture subtle task-specific distinctions, leading to substantial improvements in overall RLHF performance. This work underscores the importance of careful data construction and provides practical methodologies to overcome critical performance barriers in RLHF.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -160,15 +175,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "6",
     "parentIds": [
       "69"
     ],
-    "name": "Diversity-Aware Policy Optimization for Large Language Model Reasoning. The reasoning capabilities of large language models (LLMs) have advanced rapidly, particularly following the release of DeepSeek-R1, which has inspired a surge of research into data quality and reinforcement learning (RL) algorithms. Despite the pivotal role diversity plays in RL, its influence on LLM reasoning remains largely underexplored. To bridge this gap, this work presents a systematic investigation into the impact of diversity in RL-based training for LLM reasoning, and proposes a novel diversity-aware policy optimization method. Across evaluations on 12 LLMs, we observe a strong positive correlation between the solution diversity and potential@k (a novel metric quantifying an LLM\u2019s reasoning potential) in high-performing models. This finding motivates our method to explicitly promote diversity during RL training. Specifically,  we design a token-level diversity and reformulate it into a practical objective, then we selectively apply it to positive samples. Integrated into the R1-zero training framework, our method achieves a 3.5\\% average improvement across four mathematical reasoning benchmarks, while generating more diverse and robust solutions.",
-    "full_text": "Diversity-Aware Policy Optimization for Large Language Model Reasoning. The reasoning capabilities of large language models (LLMs) have advanced rapidly, particularly following the release of DeepSeek-R1, which has inspired a surge of research into data quality and reinforcement learning (RL) algorithms. Despite the pivotal role diversity plays in RL, its influence on LLM reasoning remains largely underexplored. To bridge this gap, this work presents a systematic investigation into the impact of diversity in RL-based training for LLM reasoning, and proposes a novel diversity-aware policy optimization method. Across evaluations on 12 LLMs, we observe a strong positive correlation between the solution diversity and potential@k (a novel metric quantifying an LLM\u2019s reasoning potential) in high-performing models. This finding motivates our method to explicitly promote diversity during RL training. Specifically,  we design a token-level diversity and reformulate it into a practical objective, then we selectively apply it to positive samples. Integrated into the R1-zero training framework, our method achieves a 3.5\\% average improvement across four mathematical reasoning benchmarks, while generating more diverse and robust solutions.",
+    "name": "Diversity-Aware Policy Optimization for Large Language Model Reasoning. The reasoning capabilities of large language models (LLMs) have advanced rapidly, particularly following the release of DeepSeek-R1, which has inspired a surge of research into data quality and reinforcement learning (RL) algorithms. Despite the pivotal role diversity plays in RL, its influence on LLM reasoning remains largely underexplored. To bridge this gap, this work presents a systematic investigation into the impact of diversity in RL-based training for LLM reasoning, and proposes a novel diversity-aware policy optimization method. Across evaluations on 12 LLMs, we observe a strong positive correlation between the solution diversity and potential@k (a novel metric quantifying an LLM’s reasoning potential) in high-performing models. This finding motivates our method to explicitly promote diversity during RL training. Specifically,  we design a token-level diversity and reformulate it into a practical objective, then we selectively apply it to positive samples. Integrated into the R1-zero training framework, our method achieves a 3.5\\% average improvement across four mathematical reasoning benchmarks, while generating more diverse and robust solutions.",
+    "full_text": "Diversity-Aware Policy Optimization for Large Language Model Reasoning. The reasoning capabilities of large language models (LLMs) have advanced rapidly, particularly following the release of DeepSeek-R1, which has inspired a surge of research into data quality and reinforcement learning (RL) algorithms. Despite the pivotal role diversity plays in RL, its influence on LLM reasoning remains largely underexplored. To bridge this gap, this work presents a systematic investigation into the impact of diversity in RL-based training for LLM reasoning, and proposes a novel diversity-aware policy optimization method. Across evaluations on 12 LLMs, we observe a strong positive correlation between the solution diversity and potential@k (a novel metric quantifying an LLM’s reasoning potential) in high-performing models. This finding motivates our method to explicitly promote diversity during RL training. Specifically,  we design a token-level diversity and reformulate it into a practical objective, then we selectively apply it to positive samples. Integrated into the R1-zero training framework, our method achieves a 3.5\\% average improvement across four mathematical reasoning benchmarks, while generating more diverse and robust solutions.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -187,15 +205,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "7",
     "parentIds": [
       "70"
     ],
-    "name": "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning. Mathematical reasoning in large language models has been successfully incentivized through reinforcement learning with verifiable rewards, leading to improved one-shot precision. In this work, we turn our focus to the coding domain. Beyond one-shot precision, we highlight unit test generation as another key factor for enhancing coding ability, since accurate unit tests are essential for enabling self-checking and self-correction during inference.\nTraditional approaches for fine-tuning LLMs on unit test generation rely heavily on ground-truth code solutions in the training data. We propose CURE, a novel reinforcement learning framework with a dedicated reward design that co-evolves coding and unit test generation capabilities based on their interaction outcomes\u2014without any ground-truth code as supervision. This approach enables flexible and scalable training and allows the unit tester to learn directly from the coder\u2019s mistakes.\nThrough extensive evaluations, we demonstrate that our CURE models, derived from base models of varying sizes, excel in both code generation and unit test generation. They naturally extend to downstream tasks such as test-time scaling\u2014achieving a 6.2\\% improvement over the base model\u2014and agentic unit test generation, with a 25.1\\% improvement. Our 4B model consistently outperforms Qwen3-4B while achieving 64.8\\% inference efficiency in unit test generation. Notably, we also find that the CURE model can serve as an effective reward model for reinforcement learning on base models, even in the absence of any labeled supervision.",
-    "full_text": "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning. Mathematical reasoning in large language models has been successfully incentivized through reinforcement learning with verifiable rewards, leading to improved one-shot precision. In this work, we turn our focus to the coding domain. Beyond one-shot precision, we highlight unit test generation as another key factor for enhancing coding ability, since accurate unit tests are essential for enabling self-checking and self-correction during inference.\nTraditional approaches for fine-tuning LLMs on unit test generation rely heavily on ground-truth code solutions in the training data. We propose CURE, a novel reinforcement learning framework with a dedicated reward design that co-evolves coding and unit test generation capabilities based on their interaction outcomes\u2014without any ground-truth code as supervision. This approach enables flexible and scalable training and allows the unit tester to learn directly from the coder\u2019s mistakes.\nThrough extensive evaluations, we demonstrate that our CURE models, derived from base models of varying sizes, excel in both code generation and unit test generation. They naturally extend to downstream tasks such as test-time scaling\u2014achieving a 6.2\\% improvement over the base model\u2014and agentic unit test generation, with a 25.1\\% improvement. Our 4B model consistently outperforms Qwen3-4B while achieving 64.8\\% inference efficiency in unit test generation. Notably, we also find that the CURE model can serve as an effective reward model for reinforcement learning on base models, even in the absence of any labeled supervision.",
+    "name": "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning. Mathematical reasoning in large language models has been successfully incentivized through reinforcement learning with verifiable rewards, leading to improved one-shot precision. In this work, we turn our focus to the coding domain. Beyond one-shot precision, we highlight unit test generation as another key factor for enhancing coding ability, since accurate unit tests are essential for enabling self-checking and self-correction during inference.\nTraditional approaches for fine-tuning LLMs on unit test generation rely heavily on ground-truth code solutions in the training data. We propose CURE, a novel reinforcement learning framework with a dedicated reward design that co-evolves coding and unit test generation capabilities based on their interaction outcomes—without any ground-truth code as supervision. This approach enables flexible and scalable training and allows the unit tester to learn directly from the coder’s mistakes.\nThrough extensive evaluations, we demonstrate that our CURE models, derived from base models of varying sizes, excel in both code generation and unit test generation. They naturally extend to downstream tasks such as test-time scaling—achieving a 6.2\\% improvement over the base model—and agentic unit test generation, with a 25.1\\% improvement. Our 4B model consistently outperforms Qwen3-4B while achieving 64.8\\% inference efficiency in unit test generation. Notably, we also find that the CURE model can serve as an effective reward model for reinforcement learning on base models, even in the absence of any labeled supervision.",
+    "full_text": "Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning. Mathematical reasoning in large language models has been successfully incentivized through reinforcement learning with verifiable rewards, leading to improved one-shot precision. In this work, we turn our focus to the coding domain. Beyond one-shot precision, we highlight unit test generation as another key factor for enhancing coding ability, since accurate unit tests are essential for enabling self-checking and self-correction during inference.\nTraditional approaches for fine-tuning LLMs on unit test generation rely heavily on ground-truth code solutions in the training data. We propose CURE, a novel reinforcement learning framework with a dedicated reward design that co-evolves coding and unit test generation capabilities based on their interaction outcomes—without any ground-truth code as supervision. This approach enables flexible and scalable training and allows the unit tester to learn directly from the coder’s mistakes.\nThrough extensive evaluations, we demonstrate that our CURE models, derived from base models of varying sizes, excel in both code generation and unit test generation. They naturally extend to downstream tasks such as test-time scaling—achieving a 6.2\\% improvement over the base model—and agentic unit test generation, with a 25.1\\% improvement. Our 4B model consistently outperforms Qwen3-4B while achieving 64.8\\% inference efficiency in unit test generation. Notably, we also find that the CURE model can serve as an effective reward model for reinforcement learning on base models, even in the absence of any labeled supervision.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -214,15 +235,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "8",
     "parentIds": [
       "71"
     ],
-    "name": "On the Effect of Negative Gradient in Group Relative Deep Reinforcement Optimization. Reinforcement learning (RL) has become popular in enhancing the reasoning capabilities of large language models (LLMs), with Group Relative Policy Optimization (GRPO) emerging as a widely used algorithm in recent systems. Despite GRPO's widespread adoption, we identify a previously unrecognized phenomenon we term Lazy Likelihood Displacement (LLD), wherein the likelihood of correct responses marginally increases or even decreases during training. This behavior mirrors a recently discovered misalignment issue in Direct Preference Optimization (DPO), attributed to the influence of negative gradients. We provide a theoretical analysis of GRPO\u2019s learning dynamic, identifying the source of LLD as the naive penalization of all tokens in incorrect responses with the same strength. To address this, we develop a method called NTHR, which downweights penalties on tokens contributing to the LLD. Unlike prior DPO-based approaches, NTHR takes advantage of GRPO\u2019s group-based structure, using correct responses as anchors to identify influential tokens. Experiments on math reasoning benchmarks demonstrate that NTHR effectively mitigates LLD, yielding consistent performance gains across models ranging from 0.5B to 3B parameters.",
-    "full_text": "On the Effect of Negative Gradient in Group Relative Deep Reinforcement Optimization. Reinforcement learning (RL) has become popular in enhancing the reasoning capabilities of large language models (LLMs), with Group Relative Policy Optimization (GRPO) emerging as a widely used algorithm in recent systems. Despite GRPO's widespread adoption, we identify a previously unrecognized phenomenon we term Lazy Likelihood Displacement (LLD), wherein the likelihood of correct responses marginally increases or even decreases during training. This behavior mirrors a recently discovered misalignment issue in Direct Preference Optimization (DPO), attributed to the influence of negative gradients. We provide a theoretical analysis of GRPO\u2019s learning dynamic, identifying the source of LLD as the naive penalization of all tokens in incorrect responses with the same strength. To address this, we develop a method called NTHR, which downweights penalties on tokens contributing to the LLD. Unlike prior DPO-based approaches, NTHR takes advantage of GRPO\u2019s group-based structure, using correct responses as anchors to identify influential tokens. Experiments on math reasoning benchmarks demonstrate that NTHR effectively mitigates LLD, yielding consistent performance gains across models ranging from 0.5B to 3B parameters.",
+    "name": "On the Effect of Negative Gradient in Group Relative Deep Reinforcement Optimization. Reinforcement learning (RL) has become popular in enhancing the reasoning capabilities of large language models (LLMs), with Group Relative Policy Optimization (GRPO) emerging as a widely used algorithm in recent systems. Despite GRPO's widespread adoption, we identify a previously unrecognized phenomenon we term Lazy Likelihood Displacement (LLD), wherein the likelihood of correct responses marginally increases or even decreases during training. This behavior mirrors a recently discovered misalignment issue in Direct Preference Optimization (DPO), attributed to the influence of negative gradients. We provide a theoretical analysis of GRPO’s learning dynamic, identifying the source of LLD as the naive penalization of all tokens in incorrect responses with the same strength. To address this, we develop a method called NTHR, which downweights penalties on tokens contributing to the LLD. Unlike prior DPO-based approaches, NTHR takes advantage of GRPO’s group-based structure, using correct responses as anchors to identify influential tokens. Experiments on math reasoning benchmarks demonstrate that NTHR effectively mitigates LLD, yielding consistent performance gains across models ranging from 0.5B to 3B parameters.",
+    "full_text": "On the Effect of Negative Gradient in Group Relative Deep Reinforcement Optimization. Reinforcement learning (RL) has become popular in enhancing the reasoning capabilities of large language models (LLMs), with Group Relative Policy Optimization (GRPO) emerging as a widely used algorithm in recent systems. Despite GRPO's widespread adoption, we identify a previously unrecognized phenomenon we term Lazy Likelihood Displacement (LLD), wherein the likelihood of correct responses marginally increases or even decreases during training. This behavior mirrors a recently discovered misalignment issue in Direct Preference Optimization (DPO), attributed to the influence of negative gradients. We provide a theoretical analysis of GRPO’s learning dynamic, identifying the source of LLD as the naive penalization of all tokens in incorrect responses with the same strength. To address this, we develop a method called NTHR, which downweights penalties on tokens contributing to the LLD. Unlike prior DPO-based approaches, NTHR takes advantage of GRPO’s group-based structure, using correct responses as anchors to identify influential tokens. Experiments on math reasoning benchmarks demonstrate that NTHR effectively mitigates LLD, yielding consistent performance gains across models ranging from 0.5B to 3B parameters.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -241,7 +265,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "9",
@@ -268,15 +295,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "10",
     "parentIds": [
       "72"
     ],
-    "name": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs. Process Reward Models (PRMs) have recently emerged as a powerful framework for supervising intermediate reasoning steps in large language models (LLMs). Previous PRMs are primarily trained on model final output responses and struggle to evaluate intermediate thinking trajectories robustly, especially in the emerging setting of trajectory\u2013response outputs generated by frontier reasoning models like Deepseek-R1.  In this work, we introduce ReasonFlux-PRM, a novel trajectory-aware PRM explicitly designed to evaluate the trajectory-response type of reasoning traces. ReasonFlux-PRM incorporates both step-level and trajectory-level supervision, enabling fine-grained reward assignment aligned with structured chain-of-thought data. We adapt ReasonFlux-PRM to support reward supervision under both offline and online settings, including (i) selecting high-quality model distillation data for downstream supervised fine-tuning of smaller models, (ii) providing dense process-level rewards for policy optimization during reinforcement learning, and (iii) enabling reward-guided Best-of-N test-time scaling.  Empirical results on challenging downstream benchmarks such as AIME, MATH500, and GPQA-Diamond demonstrate that ReasonFlux-PRM-7B selects higher quality data than strong PRMs (e.g., Qwen2.5-Math-PRM-72B) and human-curated baselines. Furthermore, ReasonFlux-PRM-7B yields consistent performance improvements, achieving average gains of 12.1\\% in supervised fine-tuning, 4.5\\% in reinforcement learning, and 6.3\\% in test-time scaling. We also release an efficient ReasonFlux-PRM-1.5B for resource-constrained applications and edge deployment. Our code and models are released at https://github.com/Gen-Verse/ReasonFlux.",
-    "full_text": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs. Process Reward Models (PRMs) have recently emerged as a powerful framework for supervising intermediate reasoning steps in large language models (LLMs). Previous PRMs are primarily trained on model final output responses and struggle to evaluate intermediate thinking trajectories robustly, especially in the emerging setting of trajectory\u2013response outputs generated by frontier reasoning models like Deepseek-R1.  In this work, we introduce ReasonFlux-PRM, a novel trajectory-aware PRM explicitly designed to evaluate the trajectory-response type of reasoning traces. ReasonFlux-PRM incorporates both step-level and trajectory-level supervision, enabling fine-grained reward assignment aligned with structured chain-of-thought data. We adapt ReasonFlux-PRM to support reward supervision under both offline and online settings, including (i) selecting high-quality model distillation data for downstream supervised fine-tuning of smaller models, (ii) providing dense process-level rewards for policy optimization during reinforcement learning, and (iii) enabling reward-guided Best-of-N test-time scaling.  Empirical results on challenging downstream benchmarks such as AIME, MATH500, and GPQA-Diamond demonstrate that ReasonFlux-PRM-7B selects higher quality data than strong PRMs (e.g., Qwen2.5-Math-PRM-72B) and human-curated baselines. Furthermore, ReasonFlux-PRM-7B yields consistent performance improvements, achieving average gains of 12.1\\% in supervised fine-tuning, 4.5\\% in reinforcement learning, and 6.3\\% in test-time scaling. We also release an efficient ReasonFlux-PRM-1.5B for resource-constrained applications and edge deployment. Our code and models are released at https://github.com/Gen-Verse/ReasonFlux.",
+    "name": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs. Process Reward Models (PRMs) have recently emerged as a powerful framework for supervising intermediate reasoning steps in large language models (LLMs). Previous PRMs are primarily trained on model final output responses and struggle to evaluate intermediate thinking trajectories robustly, especially in the emerging setting of trajectory–response outputs generated by frontier reasoning models like Deepseek-R1.  In this work, we introduce ReasonFlux-PRM, a novel trajectory-aware PRM explicitly designed to evaluate the trajectory-response type of reasoning traces. ReasonFlux-PRM incorporates both step-level and trajectory-level supervision, enabling fine-grained reward assignment aligned with structured chain-of-thought data. We adapt ReasonFlux-PRM to support reward supervision under both offline and online settings, including (i) selecting high-quality model distillation data for downstream supervised fine-tuning of smaller models, (ii) providing dense process-level rewards for policy optimization during reinforcement learning, and (iii) enabling reward-guided Best-of-N test-time scaling.  Empirical results on challenging downstream benchmarks such as AIME, MATH500, and GPQA-Diamond demonstrate that ReasonFlux-PRM-7B selects higher quality data than strong PRMs (e.g., Qwen2.5-Math-PRM-72B) and human-curated baselines. Furthermore, ReasonFlux-PRM-7B yields consistent performance improvements, achieving average gains of 12.1\\% in supervised fine-tuning, 4.5\\% in reinforcement learning, and 6.3\\% in test-time scaling. We also release an efficient ReasonFlux-PRM-1.5B for resource-constrained applications and edge deployment. Our code and models are released at https://github.com/Gen-Verse/ReasonFlux.",
+    "full_text": "ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs. Process Reward Models (PRMs) have recently emerged as a powerful framework for supervising intermediate reasoning steps in large language models (LLMs). Previous PRMs are primarily trained on model final output responses and struggle to evaluate intermediate thinking trajectories robustly, especially in the emerging setting of trajectory–response outputs generated by frontier reasoning models like Deepseek-R1.  In this work, we introduce ReasonFlux-PRM, a novel trajectory-aware PRM explicitly designed to evaluate the trajectory-response type of reasoning traces. ReasonFlux-PRM incorporates both step-level and trajectory-level supervision, enabling fine-grained reward assignment aligned with structured chain-of-thought data. We adapt ReasonFlux-PRM to support reward supervision under both offline and online settings, including (i) selecting high-quality model distillation data for downstream supervised fine-tuning of smaller models, (ii) providing dense process-level rewards for policy optimization during reinforcement learning, and (iii) enabling reward-guided Best-of-N test-time scaling.  Empirical results on challenging downstream benchmarks such as AIME, MATH500, and GPQA-Diamond demonstrate that ReasonFlux-PRM-7B selects higher quality data than strong PRMs (e.g., Qwen2.5-Math-PRM-72B) and human-curated baselines. Furthermore, ReasonFlux-PRM-7B yields consistent performance improvements, achieving average gains of 12.1\\% in supervised fine-tuning, 4.5\\% in reinforcement learning, and 6.3\\% in test-time scaling. We also release an efficient ReasonFlux-PRM-1.5B for resource-constrained applications and edge deployment. Our code and models are released at https://github.com/Gen-Verse/ReasonFlux.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -295,7 +325,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "11",
@@ -322,7 +355,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "12",
@@ -349,7 +385,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.333333333333333,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "13",
@@ -376,15 +415,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "14",
     "parentIds": [
       "75"
     ],
-    "name": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?. Reinforcement Learning with Verifiable Rewards (RLVR) has recently demonstrated notable success in enhancing the reasoning performance of large language models (LLMs), particularly in mathematics and programming tasks. \nIt is widely believed that, similar to how traditional RL helps agents to explore and learn new strategies, RLVR enables LLMs to continuously self-improve, thus acquiring novel reasoning abilities that exceed the capacity of the corresponding base models. \nIn this study, we take a critical look at \\textit{the current state of RLVR} by systematically probing the reasoning capability boundaries of RLVR-trained LLMs across diverse model families, RL algorithms, and math/coding/visual reasoning benchmarks, using pass@\\textit{k} at large \\textit{k} values as the evaluation metric.\nWhile RLVR improves sampling efficiency towards the correct path, we surprisingly find that current training does \\emph{not} elicit fundamentally new reasoning patterns.\nWe observe that while RLVR-trained models outperform their base models at smaller values of $k$ (\\eg, $k$=1), base models achieve higher pass@$k$ score when $k$ is large.\nMoreover, we observe that the reasoning capability boundary of LLMs often narrows as RLVR training progresses.\nFurther coverage and perplexity analysis shows that the reasoning paths generated by RLVR models are already included in the base models' sampling distribution, suggesting that their reasoning abilities originate from and are \\textit{bounded} by the base model. \nFrom this perspective, treating the base model as an upper bound, our quantitative analysis shows that six popular RLVR algorithms perform similarly and remain far from optimal in fully leveraging the potential of the base model.\nIn contrast, we find that distillation can introduce new reasoning patterns from the teacher and genuinely expand the model\u2019s reasoning capabilities.\nTaken together, our findings suggest that current RLVR methods have not fully realized the potential of RL to elicit genuinely novel reasoning abilities in LLMs. This underscores the need for improved RL paradigms\u2014such as continual scaling and multi-turn agent-environment interaction\u2014to unlock this potential.",
-    "full_text": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?. Reinforcement Learning with Verifiable Rewards (RLVR) has recently demonstrated notable success in enhancing the reasoning performance of large language models (LLMs), particularly in mathematics and programming tasks. \nIt is widely believed that, similar to how traditional RL helps agents to explore and learn new strategies, RLVR enables LLMs to continuously self-improve, thus acquiring novel reasoning abilities that exceed the capacity of the corresponding base models. \nIn this study, we take a critical look at \\textit{the current state of RLVR} by systematically probing the reasoning capability boundaries of RLVR-trained LLMs across diverse model families, RL algorithms, and math/coding/visual reasoning benchmarks, using pass@\\textit{k} at large \\textit{k} values as the evaluation metric.\nWhile RLVR improves sampling efficiency towards the correct path, we surprisingly find that current training does \\emph{not} elicit fundamentally new reasoning patterns.\nWe observe that while RLVR-trained models outperform their base models at smaller values of $k$ (\\eg, $k$=1), base models achieve higher pass@$k$ score when $k$ is large.\nMoreover, we observe that the reasoning capability boundary of LLMs often narrows as RLVR training progresses.\nFurther coverage and perplexity analysis shows that the reasoning paths generated by RLVR models are already included in the base models' sampling distribution, suggesting that their reasoning abilities originate from and are \\textit{bounded} by the base model. \nFrom this perspective, treating the base model as an upper bound, our quantitative analysis shows that six popular RLVR algorithms perform similarly and remain far from optimal in fully leveraging the potential of the base model.\nIn contrast, we find that distillation can introduce new reasoning patterns from the teacher and genuinely expand the model\u2019s reasoning capabilities.\nTaken together, our findings suggest that current RLVR methods have not fully realized the potential of RL to elicit genuinely novel reasoning abilities in LLMs. This underscores the need for improved RL paradigms\u2014such as continual scaling and multi-turn agent-environment interaction\u2014to unlock this potential.",
+    "name": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?. Reinforcement Learning with Verifiable Rewards (RLVR) has recently demonstrated notable success in enhancing the reasoning performance of large language models (LLMs), particularly in mathematics and programming tasks. \nIt is widely believed that, similar to how traditional RL helps agents to explore and learn new strategies, RLVR enables LLMs to continuously self-improve, thus acquiring novel reasoning abilities that exceed the capacity of the corresponding base models. \nIn this study, we take a critical look at \\textit{the current state of RLVR} by systematically probing the reasoning capability boundaries of RLVR-trained LLMs across diverse model families, RL algorithms, and math/coding/visual reasoning benchmarks, using pass@\\textit{k} at large \\textit{k} values as the evaluation metric.\nWhile RLVR improves sampling efficiency towards the correct path, we surprisingly find that current training does \\emph{not} elicit fundamentally new reasoning patterns.\nWe observe that while RLVR-trained models outperform their base models at smaller values of $k$ (\\eg, $k$=1), base models achieve higher pass@$k$ score when $k$ is large.\nMoreover, we observe that the reasoning capability boundary of LLMs often narrows as RLVR training progresses.\nFurther coverage and perplexity analysis shows that the reasoning paths generated by RLVR models are already included in the base models' sampling distribution, suggesting that their reasoning abilities originate from and are \\textit{bounded} by the base model. \nFrom this perspective, treating the base model as an upper bound, our quantitative analysis shows that six popular RLVR algorithms perform similarly and remain far from optimal in fully leveraging the potential of the base model.\nIn contrast, we find that distillation can introduce new reasoning patterns from the teacher and genuinely expand the model’s reasoning capabilities.\nTaken together, our findings suggest that current RLVR methods have not fully realized the potential of RL to elicit genuinely novel reasoning abilities in LLMs. This underscores the need for improved RL paradigms—such as continual scaling and multi-turn agent-environment interaction—to unlock this potential.",
+    "full_text": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?. Reinforcement Learning with Verifiable Rewards (RLVR) has recently demonstrated notable success in enhancing the reasoning performance of large language models (LLMs), particularly in mathematics and programming tasks. \nIt is widely believed that, similar to how traditional RL helps agents to explore and learn new strategies, RLVR enables LLMs to continuously self-improve, thus acquiring novel reasoning abilities that exceed the capacity of the corresponding base models. \nIn this study, we take a critical look at \\textit{the current state of RLVR} by systematically probing the reasoning capability boundaries of RLVR-trained LLMs across diverse model families, RL algorithms, and math/coding/visual reasoning benchmarks, using pass@\\textit{k} at large \\textit{k} values as the evaluation metric.\nWhile RLVR improves sampling efficiency towards the correct path, we surprisingly find that current training does \\emph{not} elicit fundamentally new reasoning patterns.\nWe observe that while RLVR-trained models outperform their base models at smaller values of $k$ (\\eg, $k$=1), base models achieve higher pass@$k$ score when $k$ is large.\nMoreover, we observe that the reasoning capability boundary of LLMs often narrows as RLVR training progresses.\nFurther coverage and perplexity analysis shows that the reasoning paths generated by RLVR models are already included in the base models' sampling distribution, suggesting that their reasoning abilities originate from and are \\textit{bounded} by the base model. \nFrom this perspective, treating the base model as an upper bound, our quantitative analysis shows that six popular RLVR algorithms perform similarly and remain far from optimal in fully leveraging the potential of the base model.\nIn contrast, we find that distillation can introduce new reasoning patterns from the teacher and genuinely expand the model’s reasoning capabilities.\nTaken together, our findings suggest that current RLVR methods have not fully realized the potential of RL to elicit genuinely novel reasoning abilities in LLMs. This underscores the need for improved RL paradigms—such as continual scaling and multi-turn agent-environment interaction—to unlock this potential.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -403,7 +445,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 6.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "15",
@@ -430,7 +475,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "16",
@@ -457,7 +505,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "17",
@@ -484,7 +535,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.666666666666667,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "18",
@@ -513,7 +567,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "19",
@@ -540,7 +597,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "20",
@@ -567,7 +627,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "21",
@@ -595,7 +658,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "22",
@@ -622,7 +688,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.6,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "23",
@@ -649,7 +718,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "24",
@@ -677,7 +749,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "25",
@@ -704,7 +779,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "26",
@@ -731,15 +809,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "27",
     "parentIds": [
       "86"
     ],
-    "name": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning. Despite recent progress in large-scale reinforcement learning (RL) for reasoning, the training recipe for building high-performing reasoning models remains elusive. Key implementation details of frontier models, such as DeepSeek-R1, including data curation strategies and RL training recipe, are often omitted. Moreover, recent research indicates distillation remains more effective than RL for smaller models. In this work, we demonstrate that large-scale RL can significantly enhance the reasoning capabilities of strong, small- and mid-sized models, achieving results that surpass those of state-of-the-art distillation-based models. We systematically study the RL training process through extensive ablations and propose a simple yet effective approach: first training on math-only prompts, then on code-only prompts. \nNotably, we find that math-only RL not only significantly enhances the performance of strong distilled models on math benchmarks (e.g., +14.6\\% / +17.2\\% on AIME 2025 for the 7B / 14B models), but also code reasoning tasks (e.g., +6.8\\% / +5.8\\% on LiveCodeBench for the 7B / 14B models).  In addition, extended code-only RL further improves code benchmark performance while causing minimal degradation in math results.  We develop a robust data curation pipeline to collect challenging prompts with high-quality, verifiable answers and test cases to enable verification-based RL across both domains. The dataset will be released to support open research.\nFinally, we identify key experimental insights, including curriculum learning with progressively increasing response lengths and the stabilizing effect of on-policy parameter updates.  We find that RL not only elicits the foundational reasoning capabilities acquired during pretraining and supervised fine-tuning (SFT), but also pushes the limits of the model\u2019s reasoning ability, enabling it to solve problems that were previously unsolvable.",
-    "full_text": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning. Despite recent progress in large-scale reinforcement learning (RL) for reasoning, the training recipe for building high-performing reasoning models remains elusive. Key implementation details of frontier models, such as DeepSeek-R1, including data curation strategies and RL training recipe, are often omitted. Moreover, recent research indicates distillation remains more effective than RL for smaller models. In this work, we demonstrate that large-scale RL can significantly enhance the reasoning capabilities of strong, small- and mid-sized models, achieving results that surpass those of state-of-the-art distillation-based models. We systematically study the RL training process through extensive ablations and propose a simple yet effective approach: first training on math-only prompts, then on code-only prompts. \nNotably, we find that math-only RL not only significantly enhances the performance of strong distilled models on math benchmarks (e.g., +14.6\\% / +17.2\\% on AIME 2025 for the 7B / 14B models), but also code reasoning tasks (e.g., +6.8\\% / +5.8\\% on LiveCodeBench for the 7B / 14B models).  In addition, extended code-only RL further improves code benchmark performance while causing minimal degradation in math results.  We develop a robust data curation pipeline to collect challenging prompts with high-quality, verifiable answers and test cases to enable verification-based RL across both domains. The dataset will be released to support open research.\nFinally, we identify key experimental insights, including curriculum learning with progressively increasing response lengths and the stabilizing effect of on-policy parameter updates.  We find that RL not only elicits the foundational reasoning capabilities acquired during pretraining and supervised fine-tuning (SFT), but also pushes the limits of the model\u2019s reasoning ability, enabling it to solve problems that were previously unsolvable.",
+    "name": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning. Despite recent progress in large-scale reinforcement learning (RL) for reasoning, the training recipe for building high-performing reasoning models remains elusive. Key implementation details of frontier models, such as DeepSeek-R1, including data curation strategies and RL training recipe, are often omitted. Moreover, recent research indicates distillation remains more effective than RL for smaller models. In this work, we demonstrate that large-scale RL can significantly enhance the reasoning capabilities of strong, small- and mid-sized models, achieving results that surpass those of state-of-the-art distillation-based models. We systematically study the RL training process through extensive ablations and propose a simple yet effective approach: first training on math-only prompts, then on code-only prompts. \nNotably, we find that math-only RL not only significantly enhances the performance of strong distilled models on math benchmarks (e.g., +14.6\\% / +17.2\\% on AIME 2025 for the 7B / 14B models), but also code reasoning tasks (e.g., +6.8\\% / +5.8\\% on LiveCodeBench for the 7B / 14B models).  In addition, extended code-only RL further improves code benchmark performance while causing minimal degradation in math results.  We develop a robust data curation pipeline to collect challenging prompts with high-quality, verifiable answers and test cases to enable verification-based RL across both domains. The dataset will be released to support open research.\nFinally, we identify key experimental insights, including curriculum learning with progressively increasing response lengths and the stabilizing effect of on-policy parameter updates.  We find that RL not only elicits the foundational reasoning capabilities acquired during pretraining and supervised fine-tuning (SFT), but also pushes the limits of the model’s reasoning ability, enabling it to solve problems that were previously unsolvable.",
+    "full_text": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning. Despite recent progress in large-scale reinforcement learning (RL) for reasoning, the training recipe for building high-performing reasoning models remains elusive. Key implementation details of frontier models, such as DeepSeek-R1, including data curation strategies and RL training recipe, are often omitted. Moreover, recent research indicates distillation remains more effective than RL for smaller models. In this work, we demonstrate that large-scale RL can significantly enhance the reasoning capabilities of strong, small- and mid-sized models, achieving results that surpass those of state-of-the-art distillation-based models. We systematically study the RL training process through extensive ablations and propose a simple yet effective approach: first training on math-only prompts, then on code-only prompts. \nNotably, we find that math-only RL not only significantly enhances the performance of strong distilled models on math benchmarks (e.g., +14.6\\% / +17.2\\% on AIME 2025 for the 7B / 14B models), but also code reasoning tasks (e.g., +6.8\\% / +5.8\\% on LiveCodeBench for the 7B / 14B models).  In addition, extended code-only RL further improves code benchmark performance while causing minimal degradation in math results.  We develop a robust data curation pipeline to collect challenging prompts with high-quality, verifiable answers and test cases to enable verification-based RL across both domains. The dataset will be released to support open research.\nFinally, we identify key experimental insights, including curriculum learning with progressively increasing response lengths and the stabilizing effect of on-policy parameter updates.  We find that RL not only elicits the foundational reasoning capabilities acquired during pretraining and supervised fine-tuning (SFT), but also pushes the limits of the model’s reasoning ability, enabling it to solve problems that were previously unsolvable.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.3,
@@ -758,7 +839,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "28",
@@ -785,7 +869,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "29",
@@ -812,7 +899,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "30",
@@ -839,7 +929,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "31",
@@ -866,7 +959,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "32",
@@ -893,7 +989,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "33",
@@ -921,7 +1020,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "34",
@@ -930,8 +1032,8 @@
       "77",
       "70"
     ],
-    "name": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning. Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for training large language models (LLMs) on complex reasoning tasks, such as mathematical problem solving. A prerequisite for the scalability of RLVR is a high-quality problem set with precise and verifiable answers. However, the scarcity of well-crafted human-labeled math problems and limited-verification answers in existing distillation-oriented synthetic datasets limit their effectiveness in RL. Additionally, most problem synthesis strategies indiscriminately expand the problem set without considering the model\u2019s capabilities, leading to low efficiency in generating useful questions. To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation. Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training. We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training, enabling it to focus on and gradually overcome its weaknesses. Without relying on external knowledge distillation, our framework enables robust generalization by empowering the model to self-identify and address its weaknesses in RL, yielding average performance gains of 10% and 7.7% on 7B and 32B models across eight mainstream reasoning benchmarks. Our code and data are available at https://anonymous.4open.science/r/SwS-E6F5/",
-    "full_text": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning. Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for training large language models (LLMs) on complex reasoning tasks, such as mathematical problem solving. A prerequisite for the scalability of RLVR is a high-quality problem set with precise and verifiable answers. However, the scarcity of well-crafted human-labeled math problems and limited-verification answers in existing distillation-oriented synthetic datasets limit their effectiveness in RL. Additionally, most problem synthesis strategies indiscriminately expand the problem set without considering the model\u2019s capabilities, leading to low efficiency in generating useful questions. To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation. Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training. We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training, enabling it to focus on and gradually overcome its weaknesses. Without relying on external knowledge distillation, our framework enables robust generalization by empowering the model to self-identify and address its weaknesses in RL, yielding average performance gains of 10% and 7.7% on 7B and 32B models across eight mainstream reasoning benchmarks. Our code and data are available at https://anonymous.4open.science/r/SwS-E6F5/",
+    "name": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning. Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for training large language models (LLMs) on complex reasoning tasks, such as mathematical problem solving. A prerequisite for the scalability of RLVR is a high-quality problem set with precise and verifiable answers. However, the scarcity of well-crafted human-labeled math problems and limited-verification answers in existing distillation-oriented synthetic datasets limit their effectiveness in RL. Additionally, most problem synthesis strategies indiscriminately expand the problem set without considering the model’s capabilities, leading to low efficiency in generating useful questions. To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation. Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training. We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training, enabling it to focus on and gradually overcome its weaknesses. Without relying on external knowledge distillation, our framework enables robust generalization by empowering the model to self-identify and address its weaknesses in RL, yielding average performance gains of 10% and 7.7% on 7B and 32B models across eight mainstream reasoning benchmarks. Our code and data are available at https://anonymous.4open.science/r/SwS-E6F5/",
+    "full_text": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning. Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for training large language models (LLMs) on complex reasoning tasks, such as mathematical problem solving. A prerequisite for the scalability of RLVR is a high-quality problem set with precise and verifiable answers. However, the scarcity of well-crafted human-labeled math problems and limited-verification answers in existing distillation-oriented synthetic datasets limit their effectiveness in RL. Additionally, most problem synthesis strategies indiscriminately expand the problem set without considering the model’s capabilities, leading to low efficiency in generating useful questions. To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation. Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training. We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training, enabling it to focus on and gradually overcome its weaknesses. Without relying on external knowledge distillation, our framework enables robust generalization by empowering the model to self-identify and address its weaknesses in RL, yielding average performance gains of 10% and 7.7% on 7B and 32B models across eight mainstream reasoning benchmarks. Our code and data are available at https://anonymous.4open.science/r/SwS-E6F5/",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -950,7 +1052,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "35",
@@ -978,7 +1083,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "36",
@@ -1005,7 +1113,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "37",
@@ -1033,7 +1144,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "38",
@@ -1060,15 +1174,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "39",
     "parentIds": [
       "92"
     ],
-    "name": "The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning. Reinforcement learning with verifiable rewards (RLVR) is a promising approach for training language models (LMs) on reasoning tasks that elicit emergent long chains of thought (CoTs). Unlike supervised learning, it updates the model using both correct and incorrect samples via policy gradients. To better understand its mechanism, we decompose the learning signal into reinforcing correct responses and penalizing incorrect ones, referred to as **P**ositive and **N**egative **S**ample **R**einforcement (**PSR** and **NSR**), respectively. We train `Qwen2.5-Math-7B`, `Qwen3-4B` and `Llama-3.1-8B-Instruct` on a mathematical reasoning dataset and uncover a surprising result: training with only negative samples \u2014 without reinforcing correct responses \u2014 can be highly effective: it consistently improves performance over the base model across the entire Pass@$k$ spectrum $k$ up to 256), often matching or surpassing PPO and GRPO. In contrast, reinforcing only correct responses improves Pass@1 but degrades performance at higher $k$, due to reduced diversity. These inference-scaling trends highlight that solely penalizing incorrect responses may contribute more to performance than previously recognized. Through gradient analysis, we show that NSR works by suppressing incorrect generations and redistributing probability mass toward other plausible candidates, guided by the model's prior beliefs. It refines the model's existing knowledge rather than introducing entirely new behaviors. Building on this insight, we propose a simple variant of the RL objective that upweights NSR, and show that it consistently improves overall Pass@$k$ performance on MATH, AIME 2025, and AMC23. Our code is available at [`https://github.com/TianHongZXY/RLVR-Decomposed`](https://github.com/TianHongZXY/RLVR-Decomposed).",
-    "full_text": "The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning. Reinforcement learning with verifiable rewards (RLVR) is a promising approach for training language models (LMs) on reasoning tasks that elicit emergent long chains of thought (CoTs). Unlike supervised learning, it updates the model using both correct and incorrect samples via policy gradients. To better understand its mechanism, we decompose the learning signal into reinforcing correct responses and penalizing incorrect ones, referred to as **P**ositive and **N**egative **S**ample **R**einforcement (**PSR** and **NSR**), respectively. We train `Qwen2.5-Math-7B`, `Qwen3-4B` and `Llama-3.1-8B-Instruct` on a mathematical reasoning dataset and uncover a surprising result: training with only negative samples \u2014 without reinforcing correct responses \u2014 can be highly effective: it consistently improves performance over the base model across the entire Pass@$k$ spectrum $k$ up to 256), often matching or surpassing PPO and GRPO. In contrast, reinforcing only correct responses improves Pass@1 but degrades performance at higher $k$, due to reduced diversity. These inference-scaling trends highlight that solely penalizing incorrect responses may contribute more to performance than previously recognized. Through gradient analysis, we show that NSR works by suppressing incorrect generations and redistributing probability mass toward other plausible candidates, guided by the model's prior beliefs. It refines the model's existing knowledge rather than introducing entirely new behaviors. Building on this insight, we propose a simple variant of the RL objective that upweights NSR, and show that it consistently improves overall Pass@$k$ performance on MATH, AIME 2025, and AMC23. Our code is available at [`https://github.com/TianHongZXY/RLVR-Decomposed`](https://github.com/TianHongZXY/RLVR-Decomposed).",
+    "name": "The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning. Reinforcement learning with verifiable rewards (RLVR) is a promising approach for training language models (LMs) on reasoning tasks that elicit emergent long chains of thought (CoTs). Unlike supervised learning, it updates the model using both correct and incorrect samples via policy gradients. To better understand its mechanism, we decompose the learning signal into reinforcing correct responses and penalizing incorrect ones, referred to as **P**ositive and **N**egative **S**ample **R**einforcement (**PSR** and **NSR**), respectively. We train `Qwen2.5-Math-7B`, `Qwen3-4B` and `Llama-3.1-8B-Instruct` on a mathematical reasoning dataset and uncover a surprising result: training with only negative samples — without reinforcing correct responses — can be highly effective: it consistently improves performance over the base model across the entire Pass@$k$ spectrum $k$ up to 256), often matching or surpassing PPO and GRPO. In contrast, reinforcing only correct responses improves Pass@1 but degrades performance at higher $k$, due to reduced diversity. These inference-scaling trends highlight that solely penalizing incorrect responses may contribute more to performance than previously recognized. Through gradient analysis, we show that NSR works by suppressing incorrect generations and redistributing probability mass toward other plausible candidates, guided by the model's prior beliefs. It refines the model's existing knowledge rather than introducing entirely new behaviors. Building on this insight, we propose a simple variant of the RL objective that upweights NSR, and show that it consistently improves overall Pass@$k$ performance on MATH, AIME 2025, and AMC23. Our code is available at [`https://github.com/TianHongZXY/RLVR-Decomposed`](https://github.com/TianHongZXY/RLVR-Decomposed).",
+    "full_text": "The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning. Reinforcement learning with verifiable rewards (RLVR) is a promising approach for training language models (LMs) on reasoning tasks that elicit emergent long chains of thought (CoTs). Unlike supervised learning, it updates the model using both correct and incorrect samples via policy gradients. To better understand its mechanism, we decompose the learning signal into reinforcing correct responses and penalizing incorrect ones, referred to as **P**ositive and **N**egative **S**ample **R**einforcement (**PSR** and **NSR**), respectively. We train `Qwen2.5-Math-7B`, `Qwen3-4B` and `Llama-3.1-8B-Instruct` on a mathematical reasoning dataset and uncover a surprising result: training with only negative samples — without reinforcing correct responses — can be highly effective: it consistently improves performance over the base model across the entire Pass@$k$ spectrum $k$ up to 256), often matching or surpassing PPO and GRPO. In contrast, reinforcing only correct responses improves Pass@1 but degrades performance at higher $k$, due to reduced diversity. These inference-scaling trends highlight that solely penalizing incorrect responses may contribute more to performance than previously recognized. Through gradient analysis, we show that NSR works by suppressing incorrect generations and redistributing probability mass toward other plausible candidates, guided by the model's prior beliefs. It refines the model's existing knowledge rather than introducing entirely new behaviors. Building on this insight, we propose a simple variant of the RL objective that upweights NSR, and show that it consistently improves overall Pass@$k$ performance on MATH, AIME 2025, and AMC23. Our code is available at [`https://github.com/TianHongZXY/RLVR-Decomposed`](https://github.com/TianHongZXY/RLVR-Decomposed).",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -1087,7 +1204,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "40",
@@ -1114,7 +1234,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "41",
@@ -1141,15 +1264,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.333333333333333,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "42",
     "parentIds": [
       "91"
     ],
-    "name": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models. Recent advances in reasoning-centric language models have highlighted reinforcement learning (RL) as a promising method for aligning models with verifiable rewards. However, it remains contentious whether RL truly expands a model\u2019s reasoning capabilities or merely amplifies high-reward outputs already latent in the base model\u2019s distribution, and whether continually scaling up RL compute reliably leads to improved reasoning performance. In this work, we challenge prevailing assumptions by demonstrating that prolonged RL (ProRL) training can uncover novel reasoning strategies that are inaccessible to base models, even under extensive sampling. We introduce ProRL, a novel training methodology that incorporates KL divergence control, reference policy resetting, and a diverse suite of tasks. Our empirical analysis reveals that RL-trained models consistently outperform base models across a wide range of pass@$k$ evaluations, including scenarios where base models fail entirely regardless of the number of attempts. We further show that reasoning boundary improvements correlates strongly with task competence of base model and training duration, suggesting that RL can explore and populate new regions of solution space over time.  These findings offer new insights into the conditions under which RL meaningfully expands reasoning boundaries in language models and establish a foundation for future work on long-horizon RL for reasoning. We will release model weights and data to support further research.",
-    "full_text": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models. Recent advances in reasoning-centric language models have highlighted reinforcement learning (RL) as a promising method for aligning models with verifiable rewards. However, it remains contentious whether RL truly expands a model\u2019s reasoning capabilities or merely amplifies high-reward outputs already latent in the base model\u2019s distribution, and whether continually scaling up RL compute reliably leads to improved reasoning performance. In this work, we challenge prevailing assumptions by demonstrating that prolonged RL (ProRL) training can uncover novel reasoning strategies that are inaccessible to base models, even under extensive sampling. We introduce ProRL, a novel training methodology that incorporates KL divergence control, reference policy resetting, and a diverse suite of tasks. Our empirical analysis reveals that RL-trained models consistently outperform base models across a wide range of pass@$k$ evaluations, including scenarios where base models fail entirely regardless of the number of attempts. We further show that reasoning boundary improvements correlates strongly with task competence of base model and training duration, suggesting that RL can explore and populate new regions of solution space over time.  These findings offer new insights into the conditions under which RL meaningfully expands reasoning boundaries in language models and establish a foundation for future work on long-horizon RL for reasoning. We will release model weights and data to support further research.",
+    "name": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models. Recent advances in reasoning-centric language models have highlighted reinforcement learning (RL) as a promising method for aligning models with verifiable rewards. However, it remains contentious whether RL truly expands a model’s reasoning capabilities or merely amplifies high-reward outputs already latent in the base model’s distribution, and whether continually scaling up RL compute reliably leads to improved reasoning performance. In this work, we challenge prevailing assumptions by demonstrating that prolonged RL (ProRL) training can uncover novel reasoning strategies that are inaccessible to base models, even under extensive sampling. We introduce ProRL, a novel training methodology that incorporates KL divergence control, reference policy resetting, and a diverse suite of tasks. Our empirical analysis reveals that RL-trained models consistently outperform base models across a wide range of pass@$k$ evaluations, including scenarios where base models fail entirely regardless of the number of attempts. We further show that reasoning boundary improvements correlates strongly with task competence of base model and training duration, suggesting that RL can explore and populate new regions of solution space over time.  These findings offer new insights into the conditions under which RL meaningfully expands reasoning boundaries in language models and establish a foundation for future work on long-horizon RL for reasoning. We will release model weights and data to support further research.",
+    "full_text": "ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries in Large Language Models. Recent advances in reasoning-centric language models have highlighted reinforcement learning (RL) as a promising method for aligning models with verifiable rewards. However, it remains contentious whether RL truly expands a model’s reasoning capabilities or merely amplifies high-reward outputs already latent in the base model’s distribution, and whether continually scaling up RL compute reliably leads to improved reasoning performance. In this work, we challenge prevailing assumptions by demonstrating that prolonged RL (ProRL) training can uncover novel reasoning strategies that are inaccessible to base models, even under extensive sampling. We introduce ProRL, a novel training methodology that incorporates KL divergence control, reference policy resetting, and a diverse suite of tasks. Our empirical analysis reveals that RL-trained models consistently outperform base models across a wide range of pass@$k$ evaluations, including scenarios where base models fail entirely regardless of the number of attempts. We further show that reasoning boundary improvements correlates strongly with task competence of base model and training duration, suggesting that RL can explore and populate new regions of solution space over time.  These findings offer new insights into the conditions under which RL meaningfully expands reasoning boundaries in language models and establish a foundation for future work on long-horizon RL for reasoning. We will release model weights and data to support further research.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -1168,7 +1294,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "43",
@@ -1195,7 +1324,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "44",
@@ -1225,7 +1357,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "45",
@@ -1252,7 +1387,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "46",
@@ -1279,7 +1417,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "47",
@@ -1306,15 +1447,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "48",
     "parentIds": [
       "78"
     ],
-    "name": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning. Self-improvement via RL often fails on complex reasoning tasks because GRPO-style post-training methods rely on the model\u2019s initial ability to generate positive samples. Without guided exploration, these approaches merely reinforce what the model already knows (distribution-sharpening) rather than enabling the model to solve problems where it initially generates no correct solutions.\nTo unlock reasoning ability in such settings, the model must explore new reasoning trajectories beyond its current output distribution. Such exploration requires access to sufficiently good positive samples to guide the learning. \n\nWhile expert demonstrations seem like a natural solution, we find that they are often ineffective in RL post-training. Instead, we identify two key properties of effective positive samples: they should (1) be likely under the current policy, and (2) increase the model\u2019s likelihood of predicting the correct answer. Based on these insights, we propose \\textbf{Self-Explanation Policy Optimization (ExPO)}\u2014a simple and modular framework that generates such samples by conditioning on the ground-truth answer. ExPO enables efficient exploration and guides the model to produce reasoning trajectories more aligned with its policy than expert-written CoTs, while ensuring higher quality than its own (incorrect) samples. Experiments show that ExPO improves both learning efficiency and final performance on reasoning benchmarks, surpassing expert-demonstration-based methods in challenging settings such as MATH level-5, where the model initially struggles the most.",
-    "full_text": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning. Self-improvement via RL often fails on complex reasoning tasks because GRPO-style post-training methods rely on the model\u2019s initial ability to generate positive samples. Without guided exploration, these approaches merely reinforce what the model already knows (distribution-sharpening) rather than enabling the model to solve problems where it initially generates no correct solutions.\nTo unlock reasoning ability in such settings, the model must explore new reasoning trajectories beyond its current output distribution. Such exploration requires access to sufficiently good positive samples to guide the learning. \n\nWhile expert demonstrations seem like a natural solution, we find that they are often ineffective in RL post-training. Instead, we identify two key properties of effective positive samples: they should (1) be likely under the current policy, and (2) increase the model\u2019s likelihood of predicting the correct answer. Based on these insights, we propose \\textbf{Self-Explanation Policy Optimization (ExPO)}\u2014a simple and modular framework that generates such samples by conditioning on the ground-truth answer. ExPO enables efficient exploration and guides the model to produce reasoning trajectories more aligned with its policy than expert-written CoTs, while ensuring higher quality than its own (incorrect) samples. Experiments show that ExPO improves both learning efficiency and final performance on reasoning benchmarks, surpassing expert-demonstration-based methods in challenging settings such as MATH level-5, where the model initially struggles the most.",
+    "name": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning. Self-improvement via RL often fails on complex reasoning tasks because GRPO-style post-training methods rely on the model’s initial ability to generate positive samples. Without guided exploration, these approaches merely reinforce what the model already knows (distribution-sharpening) rather than enabling the model to solve problems where it initially generates no correct solutions.\nTo unlock reasoning ability in such settings, the model must explore new reasoning trajectories beyond its current output distribution. Such exploration requires access to sufficiently good positive samples to guide the learning. \n\nWhile expert demonstrations seem like a natural solution, we find that they are often ineffective in RL post-training. Instead, we identify two key properties of effective positive samples: they should (1) be likely under the current policy, and (2) increase the model’s likelihood of predicting the correct answer. Based on these insights, we propose \\textbf{Self-Explanation Policy Optimization (ExPO)}—a simple and modular framework that generates such samples by conditioning on the ground-truth answer. ExPO enables efficient exploration and guides the model to produce reasoning trajectories more aligned with its policy than expert-written CoTs, while ensuring higher quality than its own (incorrect) samples. Experiments show that ExPO improves both learning efficiency and final performance on reasoning benchmarks, surpassing expert-demonstration-based methods in challenging settings such as MATH level-5, where the model initially struggles the most.",
+    "full_text": "ExPO: Unlocking Hard Reasoning with Self-Explanation-Guided Reinforcement Learning. Self-improvement via RL often fails on complex reasoning tasks because GRPO-style post-training methods rely on the model’s initial ability to generate positive samples. Without guided exploration, these approaches merely reinforce what the model already knows (distribution-sharpening) rather than enabling the model to solve problems where it initially generates no correct solutions.\nTo unlock reasoning ability in such settings, the model must explore new reasoning trajectories beyond its current output distribution. Such exploration requires access to sufficiently good positive samples to guide the learning. \n\nWhile expert demonstrations seem like a natural solution, we find that they are often ineffective in RL post-training. Instead, we identify two key properties of effective positive samples: they should (1) be likely under the current policy, and (2) increase the model’s likelihood of predicting the correct answer. Based on these insights, we propose \\textbf{Self-Explanation Policy Optimization (ExPO)}—a simple and modular framework that generates such samples by conditioning on the ground-truth answer. ExPO enables efficient exploration and guides the model to produce reasoning trajectories more aligned with its policy than expert-written CoTs, while ensuring higher quality than its own (incorrect) samples. Experiments show that ExPO improves both learning efficiency and final performance on reasoning benchmarks, surpassing expert-demonstration-based methods in challenging settings such as MATH level-5, where the model initially struggles the most.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -1333,7 +1477,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "49",
@@ -1360,7 +1507,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "50",
@@ -1387,15 +1537,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "51",
     "parentIds": [
       "64"
     ],
-    "name": "KTAE: A Model-Free Algorithm to Key-Tokens Advantage Estimation in Mathematical Reasoning. Recent advances have demonstrated that integrating reinforcement learning with rule-based rewards can significantly enhance the reasoning capabilities of large language models (LLMs), even without supervised fine-tuning (SFT). However, prevalent reinforcement learning algorithms such as GRPO and its variants like DAPO, suffer from a coarse granularity issue when computing the advantage. Specifically, they compute rollout-level advantages that assign identical values to every token within a sequence, failing to capture token-specific contributions. To address this limitation, we propose Key-token Advantage Estimation (KTAE)\u2014a novel algorithm that estimates fine-grained, token-level advantages without introducing additional models. KTAE leverages the correctness of sampled rollouts and applies statistical analysis to quantify the importance of individual tokens within a sequence to the final outcome. This quantified token-level importance is then combined with the rollout-level advantage to obtain a more fine-grained token-level advantage estimation. Empirical results show that models trained with GRPO+KTAE and DAPO+KTAE outperform baseline methods across five mathematical reasoning benchmarks. Notably, they achieve higher accuracy with shorter responses and even surpass R1-Distill-Qwen-1.5B using the same base model.",
-    "full_text": "KTAE: A Model-Free Algorithm to Key-Tokens Advantage Estimation in Mathematical Reasoning. Recent advances have demonstrated that integrating reinforcement learning with rule-based rewards can significantly enhance the reasoning capabilities of large language models (LLMs), even without supervised fine-tuning (SFT). However, prevalent reinforcement learning algorithms such as GRPO and its variants like DAPO, suffer from a coarse granularity issue when computing the advantage. Specifically, they compute rollout-level advantages that assign identical values to every token within a sequence, failing to capture token-specific contributions. To address this limitation, we propose Key-token Advantage Estimation (KTAE)\u2014a novel algorithm that estimates fine-grained, token-level advantages without introducing additional models. KTAE leverages the correctness of sampled rollouts and applies statistical analysis to quantify the importance of individual tokens within a sequence to the final outcome. This quantified token-level importance is then combined with the rollout-level advantage to obtain a more fine-grained token-level advantage estimation. Empirical results show that models trained with GRPO+KTAE and DAPO+KTAE outperform baseline methods across five mathematical reasoning benchmarks. Notably, they achieve higher accuracy with shorter responses and even surpass R1-Distill-Qwen-1.5B using the same base model.",
+    "name": "KTAE: A Model-Free Algorithm to Key-Tokens Advantage Estimation in Mathematical Reasoning. Recent advances have demonstrated that integrating reinforcement learning with rule-based rewards can significantly enhance the reasoning capabilities of large language models (LLMs), even without supervised fine-tuning (SFT). However, prevalent reinforcement learning algorithms such as GRPO and its variants like DAPO, suffer from a coarse granularity issue when computing the advantage. Specifically, they compute rollout-level advantages that assign identical values to every token within a sequence, failing to capture token-specific contributions. To address this limitation, we propose Key-token Advantage Estimation (KTAE)—a novel algorithm that estimates fine-grained, token-level advantages without introducing additional models. KTAE leverages the correctness of sampled rollouts and applies statistical analysis to quantify the importance of individual tokens within a sequence to the final outcome. This quantified token-level importance is then combined with the rollout-level advantage to obtain a more fine-grained token-level advantage estimation. Empirical results show that models trained with GRPO+KTAE and DAPO+KTAE outperform baseline methods across five mathematical reasoning benchmarks. Notably, they achieve higher accuracy with shorter responses and even surpass R1-Distill-Qwen-1.5B using the same base model.",
+    "full_text": "KTAE: A Model-Free Algorithm to Key-Tokens Advantage Estimation in Mathematical Reasoning. Recent advances have demonstrated that integrating reinforcement learning with rule-based rewards can significantly enhance the reasoning capabilities of large language models (LLMs), even without supervised fine-tuning (SFT). However, prevalent reinforcement learning algorithms such as GRPO and its variants like DAPO, suffer from a coarse granularity issue when computing the advantage. Specifically, they compute rollout-level advantages that assign identical values to every token within a sequence, failing to capture token-specific contributions. To address this limitation, we propose Key-token Advantage Estimation (KTAE)—a novel algorithm that estimates fine-grained, token-level advantages without introducing additional models. KTAE leverages the correctness of sampled rollouts and applies statistical analysis to quantify the importance of individual tokens within a sequence to the final outcome. This quantified token-level importance is then combined with the rollout-level advantage to obtain a more fine-grained token-level advantage estimation. Empirical results show that models trained with GRPO+KTAE and DAPO+KTAE outperform baseline methods across five mathematical reasoning benchmarks. Notably, they achieve higher accuracy with shorter responses and even surpass R1-Distill-Qwen-1.5B using the same base model.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -1414,7 +1567,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "52",
@@ -1441,7 +1597,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "53",
@@ -1449,8 +1608,8 @@
       "87",
       "81"
     ],
-    "name": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning. Entropy minimization (EM) trains the model to concentrate even more probability mass on its most confident outputs. \nWe show that this simple objective alone, without any labeled data, can substantially improve large language models\u2019 (LLMs) performance on challenging math, physics, and coding tasks. We explore three approaches: (1) EM-FT minimizes token-level entropy similarly to instruction finetuning, but on unlabeled outputs drawn from the model; (2) EM-RL: reinforcement learning with negative entropy as the only reward to maximize; (3) EM-INF: inference-time logit adjustment to reduce entropy without any training data or parameter updates. \nOn Qwen-7B, EM-RL, without any labeled data, achieves comparable or better performance than strong RL baselines such as GRPO and RLOO that are trained on 60K labeled examples. Furthermore, EM-INF enables Qwen-32B to match or exceed the performance of proprietary models like GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro on the challenging SciCode benchmark, while being 3x more efficient than self-consistency and sequential refinement. Our findings reveal that many pretrained LLMs possess previously underappreciated reasoning capabilities that can be effectively elicited through entropy minimization alone, without any labeled data or even any parameter updates.",
-    "full_text": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning. Entropy minimization (EM) trains the model to concentrate even more probability mass on its most confident outputs. \nWe show that this simple objective alone, without any labeled data, can substantially improve large language models\u2019 (LLMs) performance on challenging math, physics, and coding tasks. We explore three approaches: (1) EM-FT minimizes token-level entropy similarly to instruction finetuning, but on unlabeled outputs drawn from the model; (2) EM-RL: reinforcement learning with negative entropy as the only reward to maximize; (3) EM-INF: inference-time logit adjustment to reduce entropy without any training data or parameter updates. \nOn Qwen-7B, EM-RL, without any labeled data, achieves comparable or better performance than strong RL baselines such as GRPO and RLOO that are trained on 60K labeled examples. Furthermore, EM-INF enables Qwen-32B to match or exceed the performance of proprietary models like GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro on the challenging SciCode benchmark, while being 3x more efficient than self-consistency and sequential refinement. Our findings reveal that many pretrained LLMs possess previously underappreciated reasoning capabilities that can be effectively elicited through entropy minimization alone, without any labeled data or even any parameter updates.",
+    "name": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning. Entropy minimization (EM) trains the model to concentrate even more probability mass on its most confident outputs. \nWe show that this simple objective alone, without any labeled data, can substantially improve large language models’ (LLMs) performance on challenging math, physics, and coding tasks. We explore three approaches: (1) EM-FT minimizes token-level entropy similarly to instruction finetuning, but on unlabeled outputs drawn from the model; (2) EM-RL: reinforcement learning with negative entropy as the only reward to maximize; (3) EM-INF: inference-time logit adjustment to reduce entropy without any training data or parameter updates. \nOn Qwen-7B, EM-RL, without any labeled data, achieves comparable or better performance than strong RL baselines such as GRPO and RLOO that are trained on 60K labeled examples. Furthermore, EM-INF enables Qwen-32B to match or exceed the performance of proprietary models like GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro on the challenging SciCode benchmark, while being 3x more efficient than self-consistency and sequential refinement. Our findings reveal that many pretrained LLMs possess previously underappreciated reasoning capabilities that can be effectively elicited through entropy minimization alone, without any labeled data or even any parameter updates.",
+    "full_text": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning. Entropy minimization (EM) trains the model to concentrate even more probability mass on its most confident outputs. \nWe show that this simple objective alone, without any labeled data, can substantially improve large language models’ (LLMs) performance on challenging math, physics, and coding tasks. We explore three approaches: (1) EM-FT minimizes token-level entropy similarly to instruction finetuning, but on unlabeled outputs drawn from the model; (2) EM-RL: reinforcement learning with negative entropy as the only reward to maximize; (3) EM-INF: inference-time logit adjustment to reduce entropy without any training data or parameter updates. \nOn Qwen-7B, EM-RL, without any labeled data, achieves comparable or better performance than strong RL baselines such as GRPO and RLOO that are trained on 60K labeled examples. Furthermore, EM-INF enables Qwen-32B to match or exceed the performance of proprietary models like GPT-4o, Claude 3 Opus, and Gemini 1.5 Pro on the challenging SciCode benchmark, while being 3x more efficient than self-consistency and sequential refinement. Our findings reveal that many pretrained LLMs possess previously underappreciated reasoning capabilities that can be effectively elicited through entropy minimization alone, without any labeled data or even any parameter updates.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.75,
@@ -1469,15 +1628,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 5.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "54",
     "parentIds": [
       "95"
     ],
-    "name": "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking. LLMs often need effective configurations, like temperature and reasoning steps, to handle tasks requiring sophisticated reasoning and problem-solving, ranging from joke generation to mathematical reasoning. Existing prompting approaches usually adopt general-purpose, fixed configurations that work \u201cwell enough\u201d across tasks but seldom achieve task-specific optimality.\nTo address this gap, we introduce AdaReasoner, an LLM-agnostic plugin designed for any LLM to automate adaptive reasoning configurations for tasks requiring different types of thinking. AdaReasoner is trained using a reinforcement learning (RL) framework, combining a factorized action space with a targeted exploration strategy, along with  a pretrained reward model to optimize the policy model for reasoning configurations with only a few-shot guide.\nAdaReasoner is backed by theoretical guarantees and experiments of fast convergence and a sublinear policy gap. Across six different LLMs and a variety of reasoning tasks, it consistently outperforms standard baselines, preserves out-of-distribution robustness, \nand yield gains on knowledge-intensive tasks through tailored prompts.",
-    "full_text": "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking. LLMs often need effective configurations, like temperature and reasoning steps, to handle tasks requiring sophisticated reasoning and problem-solving, ranging from joke generation to mathematical reasoning. Existing prompting approaches usually adopt general-purpose, fixed configurations that work \u201cwell enough\u201d across tasks but seldom achieve task-specific optimality.\nTo address this gap, we introduce AdaReasoner, an LLM-agnostic plugin designed for any LLM to automate adaptive reasoning configurations for tasks requiring different types of thinking. AdaReasoner is trained using a reinforcement learning (RL) framework, combining a factorized action space with a targeted exploration strategy, along with  a pretrained reward model to optimize the policy model for reasoning configurations with only a few-shot guide.\nAdaReasoner is backed by theoretical guarantees and experiments of fast convergence and a sublinear policy gap. Across six different LLMs and a variety of reasoning tasks, it consistently outperforms standard baselines, preserves out-of-distribution robustness, \nand yield gains on knowledge-intensive tasks through tailored prompts.",
+    "name": "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking. LLMs often need effective configurations, like temperature and reasoning steps, to handle tasks requiring sophisticated reasoning and problem-solving, ranging from joke generation to mathematical reasoning. Existing prompting approaches usually adopt general-purpose, fixed configurations that work “well enough” across tasks but seldom achieve task-specific optimality.\nTo address this gap, we introduce AdaReasoner, an LLM-agnostic plugin designed for any LLM to automate adaptive reasoning configurations for tasks requiring different types of thinking. AdaReasoner is trained using a reinforcement learning (RL) framework, combining a factorized action space with a targeted exploration strategy, along with  a pretrained reward model to optimize the policy model for reasoning configurations with only a few-shot guide.\nAdaReasoner is backed by theoretical guarantees and experiments of fast convergence and a sublinear policy gap. Across six different LLMs and a variety of reasoning tasks, it consistently outperforms standard baselines, preserves out-of-distribution robustness, \nand yield gains on knowledge-intensive tasks through tailored prompts.",
+    "full_text": "AdaReasoner: Adaptive Reasoning Enables More Flexible Thinking. LLMs often need effective configurations, like temperature and reasoning steps, to handle tasks requiring sophisticated reasoning and problem-solving, ranging from joke generation to mathematical reasoning. Existing prompting approaches usually adopt general-purpose, fixed configurations that work “well enough” across tasks but seldom achieve task-specific optimality.\nTo address this gap, we introduce AdaReasoner, an LLM-agnostic plugin designed for any LLM to automate adaptive reasoning configurations for tasks requiring different types of thinking. AdaReasoner is trained using a reinforcement learning (RL) framework, combining a factorized action space with a targeted exploration strategy, along with  a pretrained reward model to optimize the policy model for reasoning configurations with only a few-shot guide.\nAdaReasoner is backed by theoretical guarantees and experiments of fast convergence and a sublinear policy gap. Across six different LLMs and a variety of reasoning tasks, it consistently outperforms standard baselines, preserves out-of-distribution robustness, \nand yield gains on knowledge-intensive tasks through tailored prompts.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -1496,7 +1658,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "55",
@@ -1523,7 +1688,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "56",
@@ -1551,7 +1719,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "57",
@@ -1579,7 +1750,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "58",
@@ -1606,7 +1780,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "59",
@@ -1633,7 +1810,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "60",
@@ -1660,15 +1840,18 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "61",
     "parentIds": [
       "70"
     ],
-    "name": "Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling. Optimization modeling is fundamental to decision-making in fields such as supply chain management, logistics, and financial engineering, but its complexity presents a major barrier to adoption. Automating model creation from natural language is key to improving efficiency and access. However, while Large Language Models (LLMs) are a promising tool for this, they often produce flawed or infeasible results due to errors and hallucinations.\n   To address this issue, we propose Solver-Informed Reinforcement Learning (SIRL), a framework that uses Reinforcement Learning with Verifiable Reward to improve LLMs\u2019 ability to generate accurate and executable optimization models. Specifically, SIRL automatically assesses the executable code and the instance-level mathematical model represented by the associated .lp files. This process yields precise feedback on syntactic validity, feasibility, and solution quality, which serves as a direct reward signal to guide the reinforcement learning process. Furthermore, this verification mechanism also supports our instance-enhanced self-consistency method for creating high-quality training data.\n    Extensive experiments on diverse public benchmarks demonstrate that models trained with our SIRL framework achieve state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Specifically, our SIRL-32B model surpasses DeepSeek-V3 and OpenAI-o3 on the majority of these benchmarks.\n    Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.",
-    "full_text": "Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling. Optimization modeling is fundamental to decision-making in fields such as supply chain management, logistics, and financial engineering, but its complexity presents a major barrier to adoption. Automating model creation from natural language is key to improving efficiency and access. However, while Large Language Models (LLMs) are a promising tool for this, they often produce flawed or infeasible results due to errors and hallucinations.\n   To address this issue, we propose Solver-Informed Reinforcement Learning (SIRL), a framework that uses Reinforcement Learning with Verifiable Reward to improve LLMs\u2019 ability to generate accurate and executable optimization models. Specifically, SIRL automatically assesses the executable code and the instance-level mathematical model represented by the associated .lp files. This process yields precise feedback on syntactic validity, feasibility, and solution quality, which serves as a direct reward signal to guide the reinforcement learning process. Furthermore, this verification mechanism also supports our instance-enhanced self-consistency method for creating high-quality training data.\n    Extensive experiments on diverse public benchmarks demonstrate that models trained with our SIRL framework achieve state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Specifically, our SIRL-32B model surpasses DeepSeek-V3 and OpenAI-o3 on the majority of these benchmarks.\n    Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.",
+    "name": "Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling. Optimization modeling is fundamental to decision-making in fields such as supply chain management, logistics, and financial engineering, but its complexity presents a major barrier to adoption. Automating model creation from natural language is key to improving efficiency and access. However, while Large Language Models (LLMs) are a promising tool for this, they often produce flawed or infeasible results due to errors and hallucinations.\n   To address this issue, we propose Solver-Informed Reinforcement Learning (SIRL), a framework that uses Reinforcement Learning with Verifiable Reward to improve LLMs’ ability to generate accurate and executable optimization models. Specifically, SIRL automatically assesses the executable code and the instance-level mathematical model represented by the associated .lp files. This process yields precise feedback on syntactic validity, feasibility, and solution quality, which serves as a direct reward signal to guide the reinforcement learning process. Furthermore, this verification mechanism also supports our instance-enhanced self-consistency method for creating high-quality training data.\n    Extensive experiments on diverse public benchmarks demonstrate that models trained with our SIRL framework achieve state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Specifically, our SIRL-32B model surpasses DeepSeek-V3 and OpenAI-o3 on the majority of these benchmarks.\n    Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.",
+    "full_text": "Solver-Informed RL: Grounding Large Language Models for Authentic Optimization Modeling. Optimization modeling is fundamental to decision-making in fields such as supply chain management, logistics, and financial engineering, but its complexity presents a major barrier to adoption. Automating model creation from natural language is key to improving efficiency and access. However, while Large Language Models (LLMs) are a promising tool for this, they often produce flawed or infeasible results due to errors and hallucinations.\n   To address this issue, we propose Solver-Informed Reinforcement Learning (SIRL), a framework that uses Reinforcement Learning with Verifiable Reward to improve LLMs’ ability to generate accurate and executable optimization models. Specifically, SIRL automatically assesses the executable code and the instance-level mathematical model represented by the associated .lp files. This process yields precise feedback on syntactic validity, feasibility, and solution quality, which serves as a direct reward signal to guide the reinforcement learning process. Furthermore, this verification mechanism also supports our instance-enhanced self-consistency method for creating high-quality training data.\n    Extensive experiments on diverse public benchmarks demonstrate that models trained with our SIRL framework achieve state-of-the-art performance, substantially outperforming existing methods in generating accurate and executable optimization models. Specifically, our SIRL-32B model surpasses DeepSeek-V3 and OpenAI-o3 on the majority of these benchmarks.\n    Our code is publicly available at https://github.com/Cardinal-Operations/SIRL.",
     "similarity": null,
     "summary_blocked": null,
     "evalScore": 0.85,
@@ -1687,7 +1870,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "62",
@@ -1714,7 +1900,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "63",
@@ -1741,7 +1930,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.0,
+    "is_leaf": true
   },
   {
     "id": "64",
@@ -1770,7 +1962,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.291666666666666,
+    "variance": 0.0017361111111110989,
+    "is_leaf": false
   },
   {
     "id": "65",
@@ -1798,7 +1993,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.666666666666667,
+    "variance": 0.22222222222222224,
+    "is_leaf": false
   },
   {
     "id": "66",
@@ -1826,7 +2024,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.333333333333333,
+    "variance": 0.05555555555555555,
+    "is_leaf": false
   },
   {
     "id": "67",
@@ -1854,7 +2055,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.166666666666667,
+    "variance": 0.05555555555555555,
+    "is_leaf": false
   },
   {
     "id": "68",
@@ -1881,7 +2085,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.875,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "69",
@@ -1908,7 +2115,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "70",
@@ -1935,7 +2145,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.171875,
+    "is_leaf": false
   },
   {
     "id": "71",
@@ -1962,7 +2175,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.390625,
+    "is_leaf": false
   },
   {
     "id": "72",
@@ -1990,7 +2206,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "73",
@@ -2018,7 +2237,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "74",
@@ -2045,7 +2267,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.416666666666666,
+    "variance": 0.006944444444444469,
+    "is_leaf": false
   },
   {
     "id": "75",
@@ -2076,7 +2301,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.666666666666667,
+    "variance": 0.888888888888889,
+    "is_leaf": false
   },
   {
     "id": "76",
@@ -2105,7 +2333,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": false
   },
   {
     "id": "77",
@@ -2132,7 +2363,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.4125,
+    "variance": 0.13546875,
+    "is_leaf": false
   },
   {
     "id": "78",
@@ -2159,7 +2393,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.472222222222222,
+    "variance": 0.029320987654321024,
+    "is_leaf": false
   },
   {
     "id": "79",
@@ -2187,7 +2424,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "80",
@@ -2214,7 +2454,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0,
+    "is_leaf": false
   },
   {
     "id": "81",
@@ -2241,7 +2484,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.583333333333333,
+    "variance": 0.22222222222222224,
+    "is_leaf": false
   },
   {
     "id": "82",
@@ -2268,7 +2514,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.2,
+    "variance": 0.12166666666666658,
+    "is_leaf": false
   },
   {
     "id": "83",
@@ -2296,7 +2545,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "84",
@@ -2323,7 +2575,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.416666666666667,
+    "variance": 0.18055555555555558,
+    "is_leaf": false
   },
   {
     "id": "85",
@@ -2351,7 +2606,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "86",
@@ -2378,7 +2636,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.0,
+    "variance": 0.16666666666666666,
+    "is_leaf": false
   },
   {
     "id": "87",
@@ -2405,7 +2666,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.75,
+    "variance": 0.16666666666666666,
+    "is_leaf": false
   },
   {
     "id": "88",
@@ -2433,7 +2697,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375,
+    "variance": 0.140625,
+    "is_leaf": false
   },
   {
     "id": "89",
@@ -2460,7 +2727,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.25,
+    "is_leaf": false
   },
   {
     "id": "90",
@@ -2487,7 +2757,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.361111111111111,
+    "variance": 0.010802469135802475,
+    "is_leaf": false
   },
   {
     "id": "91",
@@ -2519,7 +2792,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "92",
@@ -2546,7 +2822,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.125,
+    "variance": 0.140625,
+    "is_leaf": false
   },
   {
     "id": "93",
@@ -2573,7 +2852,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.0625,
+    "is_leaf": false
   },
   {
     "id": "94",
@@ -2600,7 +2882,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 3.875,
+    "variance": 0.015625,
+    "is_leaf": false
   },
   {
     "id": "95",
@@ -2627,7 +2912,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.125,
+    "is_leaf": false
   },
   {
     "id": "96",
@@ -2654,7 +2942,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.291666666666666,
+    "variance": 0.053819444444444434,
+    "is_leaf": false
   },
   {
     "id": "97",
@@ -2681,7 +2972,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.175,
+    "is_leaf": false
   },
   {
     "id": "98",
@@ -2708,7 +3002,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.266666666666667,
+    "variance": 0.09305555555555552,
+    "is_leaf": false
   },
   {
     "id": "99",
@@ -2737,7 +3034,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.25,
+    "variance": 0.05357142857142857,
+    "is_leaf": false
   },
   {
     "id": "100",
@@ -2764,7 +3064,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.214285714285714,
+    "variance": 0.1326530612244898,
+    "is_leaf": false
   },
   {
     "id": "101",
@@ -2794,7 +3097,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.333333333333333,
+    "variance": 0.034722222222222224,
+    "is_leaf": false
   },
   {
     "id": "102",
@@ -2821,7 +3127,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.222222222222222,
+    "variance": 0.1728395061728395,
+    "is_leaf": false
   },
   {
     "id": "103",
@@ -2848,7 +3157,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.388888888888889,
+    "variance": 0.2515432098765432,
+    "is_leaf": false
   },
   {
     "id": "104",
@@ -2875,7 +3187,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.5,
+    "variance": 0.3888888888888889,
+    "is_leaf": false
   },
   {
     "id": "105",
@@ -2902,7 +3217,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.523809523809524,
+    "variance": 0.11451247165532882,
+    "is_leaf": false
   },
   {
     "id": "106",
@@ -2929,7 +3247,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.3999999999999995,
+    "variance": 0.13863636363636364,
+    "is_leaf": false
   },
   {
     "id": "107",
@@ -2956,7 +3277,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.466666666666667,
+    "variance": 0.38916666666666677,
+    "is_leaf": false
   },
   {
     "id": "108",
@@ -2987,7 +3311,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.444444444444445,
+    "variance": 0.41358024691358014,
+    "is_leaf": false
   },
   {
     "id": "109",
@@ -3014,7 +3341,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.305555555555555,
+    "variance": 0.07098765432098765,
+    "is_leaf": false
   },
   {
     "id": "110",
@@ -3041,7 +3371,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.416666666666666,
+    "variance": 0.29671717171717177,
+    "is_leaf": false
   },
   {
     "id": "111",
@@ -3070,7 +3403,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.409090909090909,
+    "variance": 0.34400826446281,
+    "is_leaf": false
   },
   {
     "id": "112",
@@ -3097,7 +3433,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.326388888888888,
+    "variance": 0.22101658950617284,
+    "is_leaf": false
   },
   {
     "id": "113",
@@ -3124,7 +3463,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.434782608695652,
+    "variance": 0.3000945179584121,
+    "is_leaf": false
   },
   {
     "id": "114",
@@ -3152,7 +3494,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.345714285714285,
+    "variance": 0.2836244897959184,
+    "is_leaf": false
   },
   {
     "id": "115",
@@ -3180,7 +3525,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.479,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.371212121212121,
+    "variance": 0.2504591368227732,
+    "is_leaf": false
   },
   {
     "id": "116",
@@ -3207,7 +3555,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.426282051282051,
+    "variance": 0.2720763477975016,
+    "is_leaf": false
   },
   {
     "id": "117",
@@ -3236,7 +3587,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.39367816091954,
+    "variance": 0.18673206500198172,
+    "is_leaf": false
   },
   {
     "id": "118",
@@ -3263,7 +3617,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.3863095238095235,
+    "variance": 0.2138701105442177,
+    "is_leaf": false
   },
   {
     "id": "119",
@@ -3290,7 +3647,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.36231884057971,
+    "variance": 0.19420814954841417,
+    "is_leaf": false
   },
   {
     "id": "120",
@@ -3317,7 +3677,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.384868421052632,
+    "variance": 0.2337293686518929,
+    "is_leaf": false
   },
   {
     "id": "121",
@@ -3345,7 +3708,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.368728522336769,
+    "variance": 0.24375290797227242,
+    "is_leaf": false
   },
   {
     "id": "122",
@@ -3372,7 +3738,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.3751984126984125,
+    "variance": 0.2567823680398085,
+    "is_leaf": false
   },
   {
     "id": "123",
@@ -3400,7 +3769,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.383148148148147,
+    "variance": 0.21863268175582995,
+    "is_leaf": false
   },
   {
     "id": "124",
@@ -3427,7 +3799,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.378326996197718,
+    "variance": 0.23231439581957883,
+    "is_leaf": false
   },
   {
     "id": "125",
@@ -3454,7 +3829,10 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.375522755227552,
+    "variance": 0.23948491532885807,
+    "is_leaf": false
   },
   {
     "id": "126",
@@ -3479,6 +3857,9 @@
       "score_Meta-Llama-3-8B-Instruct": 0.316,
       "score_GPT-4": 0.4789999999999999,
       "score_Claude": 0.445
-    }
+    },
+    "avg_score": 4.376903870162296,
+    "variance": 0.2359553328314638,
+    "is_leaf": false
   }
 ]
