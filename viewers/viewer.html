@@ -197,20 +197,25 @@
     }
 
     const colour = d => {
-      const raw = getScoreValue(d.data, selectedScoreField);
-      const score = +raw;
-      if (isNaN(score)) return '#ccc';
-
-      // Normalize to 0–1 range
-      const normalized = Math.max(0, Math.min(1, score / 10)); // assume 0–10 scale
-
-      // Define diverging color scale
-      const colorScale = d3.scaleLinear()
-        .domain([0, 0.33, 0.66, 1]) // 4 stops
-        .range(["darkred", "lightcoral", "lightblue", "darkblue"])
-        .interpolate(d3.interpolateLab); // smoother transitions
-
-      return colorScale(normalized);
+      // Sir's requirement: color NODE based on selected metric
+      const val = d.data[selectedScoreField];
+      if (val == null || isNaN(val)) return '#ccc';
+      // Different scales for avg vs var metrics
+      if (selectedScoreField.startsWith('var_')) {
+        // variance range ~0-0.5
+        const v = Math.max(0, Math.min(0.5, val));
+        return d3.scaleLinear()
+          .domain([0, 0.15, 0.3, 0.5])
+          .range(['#2ca02c', '#98df8a', '#ffbb78', '#d62728'])
+          .interpolate(d3.interpolateLab)(v);
+      } else {
+        // avg range ~1-6 (review score)
+        const v = Math.max(1, Math.min(6, val));
+        return d3.scaleLinear()
+          .domain([1, 2.5, 4, 5, 6])
+          .range(['#b00020', '#ff7f0e', '#ffdd57', '#98df8a', '#2ca02c'])
+          .interpolate(d3.interpolateLab)(v);
+      }
     };
     /* helper for node colour */
     // const colour = sim =>
@@ -248,10 +253,10 @@
 
       const dataFile = resolveViewerDataFile();
       d3.json(dataFile).then(data => {
-        const scoreKeys = collectScoreFields(data);
+        const scoreKeys = ['avg_rating','avg_quality','avg_clarity','avg_significance','avg_originality','var_rating','var_quality','var_clarity','var_significance','var_originality'];
         const sel = document.getElementById('score-select');
         sel.innerHTML = scoreKeys.map(k =>
-          `<option value="${k}">${k.replace(/^score_/, '').replace(/^wb_score_/, '')}</option>`
+          `<option value="${k}">${k}</option>`
         ).join('');
         selectedScoreField = scoreKeys[0] ?? '';
 
@@ -476,14 +481,7 @@
           }
           return avg.toFixed(2);
         })
-        .style('fill', d => {
-          const avg = d.data.avg_score;
-          if (avg == null) return '#333';
-          if (avg >= 4.5) return '#0a7b0a';
-          if (avg >= 4.0) return '#1a7fbf';
-          if (avg >= 3.0) return '#c47a00';
-          return '#b00020';
-        });
+        .style('fill', '#333');  /* fixed neutral text color; node circle shows metric */
 
       node.exit().remove();
 
