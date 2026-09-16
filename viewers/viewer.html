@@ -520,12 +520,18 @@
     });
 
     document.getElementById('resetBtn').addEventListener('click', () => {
+      if (!g || !svg || !zoomBehaviour) return;  // data not loaded yet
       const W = container.clientWidth;
       const H = container.clientHeight;
-      document.getElementById('searchBox').value = '';
+      const sb = document.getElementById('searchBox');
+      if (sb) sb.value = '';
       g.selectAll('.node').classed('dimmed selected related', false);
       g.selectAll('.link').classed('highlighted dimmed', false);
-      txtBox.html('');
+      if (txtBox) txtBox.html('');
+      // Properly reset zoom to identity, then refit
+      svg.call(zoomBehaviour.transform, d3.zoomIdentity);
+      currentZoom = 1;
+      fitted = false;
       fitToScreen(W, H);
     });
   </script>
