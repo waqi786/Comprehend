@@ -520,19 +520,45 @@
     });
 
     document.getElementById('resetBtn').addEventListener('click', () => {
-      if (!g || !svg || !zoomBehaviour) return;  // data not loaded yet
+      console.log('[RESET] clicked. g:', !!g, 'svg:', !!svg, 'zoomBehaviour:', !!zoomBehaviour, 'root:', !!root);
+      if (!svg || !g || !root || !zoomBehaviour) {
+        console.warn('[RESET] aborting - not ready');
+        return;
+      }
+      
       const W = container.clientWidth;
       const H = container.clientHeight;
+      
+      // 1) Clear search box
       const sb = document.getElementById('searchBox');
       if (sb) sb.value = '';
-      g.selectAll('.node').classed('dimmed selected related', false);
-      g.selectAll('.link').classed('highlighted dimmed', false);
-      if (txtBox) txtBox.html('');
-      // Properly reset zoom to identity, then refit
-      svg.call(zoomBehaviour.transform, d3.zoomIdentity);
+      
+      // 2) Remove all highlight / dim classes from nodes and links
+      g.selectAll('.node')
+        .classed('dimmed', false)
+        .classed('selected', false)
+        .classed('related', false);
+      g.selectAll('.link')
+        .classed('highlighted', false)
+        .classed('dimmed', false);
+      
+      // 3) Clear the side panel
+      const tb = document.getElementById('full-text-box');
+      if (tb) tb.innerHTML = '';
+      
+      // 4) Hard reset zoom to identity
+      svg.transition().duration(0).call(zoomBehaviour.transform, d3.zoomIdentity);
       currentZoom = 1;
+      
+      // 5) Reset re-fit flag and fit to screen
       fitted = false;
-      fitToScreen(W, H);
+      try {
+        fitToScreen(W, H);
+      } catch (e) {
+        console.warn('[RESET] fitToScreen failed:', e);
+      }
+      
+      console.log('[RESET] done');
     });
   </script>
 </body>
