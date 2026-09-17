@@ -11,29 +11,30 @@ Qwen2.5 local vLLM pipeline. Zero API cost.
 - Summary: Qwen2.5-7B-Instruct (vLLM)
 - Judge: Qwen2.5-3B-Instruct (vLLM, different model — no self-bias)
 
-## Phases
-- **Phase 1**: Baseline (no Best-of-N)
-- **Phase 2**: Best-of-N (3 candidates per pair, judge picks highest combined)
+## Pipeline
+Phase 1 only — single summary per pair (no Best-of-N).
+
+Note: Best-of-N experiments are parked in the `bon-experimental` branch.
 
 ## Folder Structure
-code/ — pipeline source (main.py, tree.py, summarize.py, evaluate.py)
-trees/ — 4 built hierarchy JSONs
-evals/ — 4 evaluation JSONs
-viewers/ — 4 viewer-format DAG JSONs + viewer.html
-visualizations/ — avg/variance plots
-
-text
+- `code/` — pipeline source (main.py, tree.py, summarize.py, evaluate.py)
+- `trees/` — 2 hierarchy JSONs (similar + dissimilar)
+- `evals/` — 2 evaluation JSONs
+- `viewers/` — 2 standalone viewer HTMLs + viewer.html + tree data
+- `visualizations/` — avg/variance plots
 
 ## Results (L0 = leaves, L5 = near root)
 
-| Level | Similar P1 | Similar P2 | Dissim P1 | Dissim P2 |
-|---|---|---|---|---|
-| L0 entail | 0.755 | 0.763 | 0.405 | 0.455 |
-| L5 entail | 0.850 | 0.800 | 0.850 | 0.800 |
+| Level | Similar P1 | Dissim P1 |
+|---|---|---|
+| L0 entail | 0.755 | 0.405 |
+| L5 entail | 0.850 | 0.850 |
 
-Best-of-N improves L0 quality. Similar papers merge naturally (high entailment); dissimilar papers resist (low entailment); both converge at root.
+Similar papers merge naturally (high entailment); dissimilar papers 
+resist (low entailment); both converge at root.
 
 ## How to view trees
-Open `viewers/viewer.html` in browser and load any `tree_data_*.json`.
+Open `viewers/viewer_similar_standalone.html` or 
+`viewers/viewer_dissimilar_standalone.html` directly in a browser.
 
 Generated with `python main.py view` per README.
