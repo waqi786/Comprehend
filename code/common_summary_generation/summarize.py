@@ -2,8 +2,7 @@ import re
 import anthropic
 from tree import Tree
 import time
-from openai import OpenAI
-from evaluation.evaluate import FAITHFULNESS_PROMPT, INFORMATIVENESS_PROMPT, _get_score as _eval_get_score 
+from openai import OpenAI 
 
 # openai_api_key = "DUMMY"
 # openai_api_base = "http://<GPU_HOST>:8000/v1"
@@ -362,57 +361,17 @@ Abstract B: {story2}
                 api_key=api_keys["gemma"]["api_key"],
                 base_url=api_keys["gemma"]["base_url"]
             )
-
-            # ==== BEST-OF-N: generate 3 candidates, judge picks best ====
-            N_CANDIDATES = 3
-            candidates = []
-            for _ci in range(N_CANDIDATES):
-                try:
-                    response = client.chat.completions.create(
-                        model=api_keys["gemma"].get("model", "gemma-3-finetuned-merged-bf16"),
-                        max_tokens=1024,
-                        temperature=0.7,
-                        stop=["<end_of_turn>"],
-                        messages=[
-                            {"role": "system", "content": system_prompt},
-                            {"role": "user", "content": prompt14}
-                        ]
-                    )
-                    raw_c = response.choices[0].message.content.strip()
-                    m_c = re.search(r"\(start\)(.*?)\(end\)", raw_c, re.I | re.S)
-                    s_c = m_c.group(1).strip() if m_c else raw_c.strip()
-                    if s_c:
-                        candidates.append(s_c)
-                except Exception as _e:
-                    print(f"[bestofN] candidate {_ci} failed: {_e}")
-
-            if not candidates:
-                raw = ""
-            elif len(candidates) == 1:
-                raw = candidates[0]
-            else:
-                # Score each candidate with the judge (gemma_eval)
-                best_summary = None
-                best_combined = -1.0
-                for _ci, cand in enumerate(candidates):
-                    try:
-                        e_a, _ = _eval_get_score(FAITHFULNESS_PROMPT, story1, cand,
-                                                 model_name="gemma_eval", api_keys=api_keys)
-                        e_b, _ = _eval_get_score(FAITHFULNESS_PROMPT, story2, cand,
-                                                 model_name="gemma_eval", api_keys=api_keys)
-                        i_a, _ = _eval_get_score(INFORMATIVENESS_PROMPT, story1, cand,
-                                                 model_name="gemma_eval", api_keys=api_keys)
-                        i_b, _ = _eval_get_score(INFORMATIVENESS_PROMPT, story2, cand,
-                                                 model_name="gemma_eval", api_keys=api_keys)
-                        combined = min(e_a, e_b) + min(i_a, i_b)
-                        print(f"[bestofN] cand {_ci}: e_a={e_a:.2f} e_b={e_b:.2f} i_a={i_a:.2f} i_b={i_b:.2f} combined={combined:.3f}")
-                        if combined > best_combined:
-                            best_combined = combined
-                            best_summary = cand
-                    except Exception as _e:
-                        print(f"[bestofN] scoring cand {_ci} failed: {_e}")
-                raw = best_summary if best_summary else candidates[0]
-                print(f"[bestofN] selected best (combined={best_combined:.3f})")
+            response = client.chat.completions.create(
+                model=api_keys["gemma"].get("model", "gemma-3-finetuned-merged-bf16"),
+                max_tokens=1024,
+                stop=["<end_of_turn>"],  # IMPORTANT: never stop on "(end)" -- the
+                                          # extraction regex needs it in the output
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": prompt14}
+                ]
+            )
+            raw = response.choices[0].message.content.strip()
         elif model_name == "gemini":
             client = OpenAI(
                 api_key=api_keys["gemini"]["api_key"],
