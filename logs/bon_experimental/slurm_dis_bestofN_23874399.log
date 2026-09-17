@@ -1,0 +1,900 @@
+=== STEP 1: Starting vLLM 7B on port 8000 ===
+=== STEP 2: Waiting for 7B ===
+7B READY
+{"object":"list","data":[{"id":"Qwen/Qwen2.5-7B-Instruct","object":"model","created":1789408917,"owned_by":"vllm","root":"Qwen/Qwen2.5-7B-Instruct","parent":null,"max_model_len":8192,"permission":[{"id":"modelperm-a6cd6b51aaddccb6","object":"model_permission","created":1789408917,"allow_create_engine":false,"allow_sampling":true,"allow_logprobs":true,"allow_search_indices":false,"allow_view":true,"allow_fine_tuning":false,"organization":"*","group":null,"is_blocking":false}]}]}=== STEP 3: Starting vLLM 3B on port 8001 ===
+=== STEP 4: Waiting for 3B ===
+3B READY
+{"object":"list","data":[{"id":"Qwen/Qwen2.5-3B-Instruct","object":"model","created":1789408978,"owned_by":"vllm","root":"Qwen/Qwen2.5-3B-Instruct","parent":null,"max_model_len":8192,"permission":[{"id":"modelperm-9e5eaa5ccf62c970","object":"model_permission","created":1789408978,"allow_create_engine":false,"allow_sampling":true,"allow_logprobs":true,"allow_search_indices":false,"allow_view":true,"allow_fine_tuning":false,"organization":"*","group":null,"is_blocking":false}]}]}=== STEP 5: Running tree pipeline (WITH best-of-N) ===
+Loading SentenceTransformer model: all-mpnet-base-v2
+
+Processing rows:
+
+Total active rows: 64
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+Encoding the corpus. This might take a while...
+Storing embeddings on disk...
+Embeddings stored successfully
+Loading SentenceTransformer model: all-mpnet-base-v2 on device=cpu (USE_CUDA=False, cuda_available=True)
+do_custom:  True
+level_is_zero:  True
+
+Processing rows:
+
+Total active rows: 64
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+Loading precomputed embeddings...
+Embeddings loaded successfully
+
+Building similarity graph:
+
+Running blossom algorithm
+
+ID mapping: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17, 18: 18, 19: 19, 20: 20, 21: 21, 22: 22, 23: 23, 24: 24, 25: 25, 26: 26, 27: 27, 28: 28, 29: 29, 30: 30, 31: 31, 32: 32, 33: 33, 34: 34, 35: 35, 36: 36, 37: 37, 38: 38, 39: 39, 40: 40, 41: 41, 42: 42, 43: 43, 44: 44, 45: 45, 46: 46, 47: 47, 48: 48, 49: 49, 50: 50, 51: 51, 52: 52, 53: 53, 54: 54, 55: 55, 56: 56, 57: 57, 58: 58, 59: 59, 60: 60, 61: 61, 62: 62, 63: 63}
+Extracting main ideas for batch 0 to 8...
+Extracting main ideas for batch 8 to 16...
+Extracting main ideas for batch 16 to 24...
+Extracting main ideas for batch 24 to 32...
+Extracting main ideas for batch 32 to 40...
+Extracting main ideas for batch 40 to 48...
+Extracting main ideas for batch 48 to 56...
+Extracting main ideas for batch 56 to 64...
+
+Writing results:
+Pair: Node 2 (row 2) ↔ Node 27 (row 27) | Text Sim: 0.2551 | Idea Sim: 0.2978333830833435 | Assigned Score: 0.5529
+Pair: Node 25 (row 25) ↔ Node 38 (row 38) | Text Sim: 0.3043 | Idea Sim: 0.091218501329422 | Assigned Score: 0.3955
+Pair: Node 6 (row 6) ↔ Node 39 (row 39) | Text Sim: 0.3044 | Idea Sim: 0.09049008041620255 | Assigned Score: 0.3949
+Pair: Node 34 (row 34) ↔ Node 63 (row 63) | Text Sim: 0.3463 | Idea Sim: 0.05750555917620659 | Assigned Score: 0.4038
+Pair: Node 46 (row 46) ↔ Node 48 (row 48) | Text Sim: 0.3211 | Idea Sim: 0.29050886631011963 | Assigned Score: 0.6116
+Pair: Node 19 (row 19) ↔ Node 47 (row 47) | Text Sim: 0.3160 | Idea Sim: 0.26166436076164246 | Assigned Score: 0.5777
+Pair: Node 31 (row 31) ↔ Node 44 (row 44) | Text Sim: 0.3142 | Idea Sim: 0.29959139227867126 | Assigned Score: 0.6138
+Pair: Node 3 (row 3) ↔ Node 43 (row 43) | Text Sim: 0.2831 | Idea Sim: 0.14836528897285461 | Assigned Score: 0.4314
+Pair: Node 21 (row 21) ↔ Node 49 (row 49) | Text Sim: 0.3213 | Idea Sim: 0.2543509006500244 | Assigned Score: 0.5757
+Pair: Node 16 (row 16) ↔ Node 56 (row 56) | Text Sim: 0.3382 | Idea Sim: 0.3487900197505951 | Assigned Score: 0.6870
+Pair: Node 10 (row 10) ↔ Node 18 (row 18) | Text Sim: 0.1874 | Idea Sim: 0.09096097946166992 | Assigned Score: 0.2783
+Pair: Node 8 (row 8) ↔ Node 51 (row 51) | Text Sim: 0.3271 | Idea Sim: 0.24529807269573212 | Assigned Score: 0.5724
+Pair: Node 7 (row 7) ↔ Node 42 (row 42) | Text Sim: 0.3099 | Idea Sim: 0.1428053081035614 | Assigned Score: 0.4527
+Pair: Node 24 (row 24) ↔ Node 59 (row 59) | Text Sim: 0.3423 | Idea Sim: 0.10936065018177032 | Assigned Score: 0.4517
+Pair: Node 36 (row 36) ↔ Node 54 (row 54) | Text Sim: 0.3292 | Idea Sim: 0.08129358291625977 | Assigned Score: 0.4105
+Pair: Node 4 (row 4) ↔ Node 29 (row 29) | Text Sim: 0.2621 | Idea Sim: 0.39257973432540894 | Assigned Score: 0.6547
+Pair: Node 13 (row 13) ↔ Node 33 (row 33) | Text Sim: 0.2888 | Idea Sim: 0.07785165309906006 | Assigned Score: 0.3666
+Pair: Node 17 (row 17) ↔ Node 32 (row 32) | Text Sim: 0.2732 | Idea Sim: 0.20345836877822876 | Assigned Score: 0.4767
+Pair: Node 11 (row 11) ↔ Node 40 (row 40) | Text Sim: 0.2778 | Idea Sim: 0.2993696630001068 | Assigned Score: 0.5771
+Pair: Node 55 (row 55) ↔ Node 61 (row 61) | Text Sim: 0.3434 | Idea Sim: 0.14912867546081543 | Assigned Score: 0.4925
+Pair: Node 9 (row 9) ↔ Node 53 (row 53) | Text Sim: 0.3273 | Idea Sim: 0.1391286998987198 | Assigned Score: 0.4664
+Pair: Node 0 (row 0) ↔ Node 37 (row 37) | Text Sim: 0.3034 | Idea Sim: 0.15009282529354095 | Assigned Score: 0.4535
+Pair: Node 14 (row 14) ↔ Node 60 (row 60) | Text Sim: 0.3427 | Idea Sim: 0.2669236958026886 | Assigned Score: 0.6096
+Pair: Node 23 (row 23) ↔ Node 45 (row 45) | Text Sim: 0.2960 | Idea Sim: 0.18196547031402588 | Assigned Score: 0.4780
+Pair: Node 20 (row 20) ↔ Node 58 (row 58) | Text Sim: 0.3333 | Idea Sim: 0.23259063065052032 | Assigned Score: 0.5659
+Pair: Node 1 (row 1) ↔ Node 50 (row 50) | Text Sim: 0.3246 | Idea Sim: 0.2512252926826477 | Assigned Score: 0.5758
+Pair: Node 26 (row 26) ↔ Node 52 (row 52) | Text Sim: 0.3273 | Idea Sim: 0.28525957465171814 | Assigned Score: 0.6126
+Pair: Node 12 (row 12) ↔ Node 35 (row 35) | Text Sim: 0.2925 | Idea Sim: -0.01139085553586483 | Assigned Score: 0.2812
+Pair: Node 22 (row 22) ↔ Node 30 (row 30) | Text Sim: 0.2671 | Idea Sim: 0.2373100072145462 | Assigned Score: 0.5044
+Pair: Node 28 (row 28) ↔ Node 41 (row 41) | Text Sim: 0.3012 | Idea Sim: 0.33213770389556885 | Assigned Score: 0.6333
+Pair: Node 15 (row 15) ↔ Node 57 (row 57) | Text Sim: 0.3226 | Idea Sim: 0.11684828996658325 | Assigned Score: 0.4394
+Pair: Node 5 (row 5) ↔ Node 62 (row 62) | Text Sim: 0.3125 | Idea Sim: 0.10571753233671188 | Assigned Score: 0.4183
+redoing: 
+Level 1 │ Node 0 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 1 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.20 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 2 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.40 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.40 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 3 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.30 combined=0.400
+[bestofN] selected best (combined=0.600)
+Level 1 │ Node 4 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.60 i_a=0.00 i_b=0.60 combined=0.300
+[bestofN] cand 1: e_a=0.00 e_b=0.60 i_a=0.00 i_b=0.60 combined=0.000
+[bestofN] cand 2: e_a=0.30 e_b=0.60 i_a=0.00 i_b=0.85 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 5 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.30 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 6 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.700)
+Level 1 │ Node 7 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 8 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.40 combined=0.600
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.60 combined=0.300
+[bestofN] selected best (combined=0.600)
+Level 1 │ Node 9 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.20 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 10 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.15 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 11 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.85 i_a=0.10 i_b=0.40 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 12 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=0.700)
+Level 1 │ Node 13 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.10 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.45 combined=0.700
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.75 i_b=0.50 combined=0.800
+[bestofN] selected best (combined=0.800)
+Level 1 │ Node 14 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.30 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.30 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 15 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.85 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.45 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] selected best (combined=0.700)
+Level 1 │ Node 16 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.60 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 17 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.15 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 19 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.20 combined=0.500
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.25 combined=0.550
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.550)
+Level 1 │ Node 20 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.75 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.85 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] selected best (combined=0.700)
+Level 1 │ Node 21 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.45 combined=0.300
+[bestofN] cand 1: e_a=0.00 e_b=0.30 i_a=0.00 i_b=0.45 combined=0.000
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 1 │ Node 22 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.60 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.20 i_b=0.40 combined=0.500
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.40 combined=0.400
+[bestofN] selected best (combined=0.500)
+Level 1 │ Node 23 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.25 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.40 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 24 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.45 combined=0.700
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] selected best (combined=0.700)
+Level 1 │ Node 25 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 1 │ Node 26 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.15 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 28 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.75 i_b=0.40 combined=0.700
+[bestofN] selected best (combined=0.700)
+Level 1 │ Node 31 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.00 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.000
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 1 │ Node 34 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.25 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 36 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.90 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 1 │ Node 46 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.25 combined=0.450
+[bestofN] selected best (combined=0.450)
+Level 1 │ Node 55 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.50 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.25 combined=0.550
+[bestofN] selected best (combined=0.600)
+This work provides theoretical guarantees for a distributional autoencoder model and introduces a scalable 5D neural surrogate for gyrokinetic plasma turbulence simulations.
+0.2
+redoing: 
+Level 2 │ Node 0 │ Summary generation between prompts with entail_2 score: 0.2
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.15 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 2 │ Node 1 │ Summary generation between prompts with entail_2 score: 0.2
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.00 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.000
+[bestofN] selected best (combined=0.300)
+Level 2 │ Node 2 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.25 i_b=0.45 combined=0.550
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.20 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.550)
+Level 2 │ Node 3 │ Summary generation between prompts with entail_2 score: 0.45
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.40 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.40 combined=0.700
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.20 combined=0.400
+[bestofN] selected best (combined=0.700)
+Level 2 │ Node 4 │ Summary generation between prompts with entail_2 score: 0.0
+[bestofN] cand 0: e_a=0.30 e_b=0.60 i_a=0.00 i_b=0.85 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.60 i_a=0.00 i_b=0.60 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 2 │ Node 5 │ Summary generation between prompts with entail_2 score: 0.25
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.30 combined=0.450
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 6 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.15 combined=0.450
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.45 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 7 │ Summary generation between prompts with entail_2 score: 0.1
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.30 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 2 │ Node 8 │ Summary generation between prompts with entail_2 score: 0.7
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.15 combined=0.400
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 9 │ Summary generation between prompts with entail_2 score: 0.1
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 2 │ Node 10 │ Summary generation between prompts with entail_2 score: 0.0
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.00 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.000
+[bestofN] selected best (combined=0.300)
+Level 2 │ Node 11 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.15 combined=0.450
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 12 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.45 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.30 i_b=0.40 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.40 combined=0.700
+[bestofN] selected best (combined=0.700)
+Level 2 │ Node 13 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] cand 1: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.60 combined=0.900
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.900)
+Level 2 │ Node 14 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.15 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.15 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 2 │ Node 15 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.45 i_b=0.60 combined=0.750
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.750)
+Level 2 │ Node 16 │ Summary generation between prompts with entail_2 score: 0.25
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.30 i_b=0.40 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] selected best (combined=0.600)
+Level 2 │ Node 17 │ Summary generation between prompts with entail_2 score: 0.25
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.15 combined=0.450
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.15 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.30 combined=0.300
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 19 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.45 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.25 combined=0.550
+[bestofN] selected best (combined=0.600)
+Level 2 │ Node 20 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.85 i_a=0.40 i_b=0.60 combined=0.700
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.700)
+Level 2 │ Node 21 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 2 │ Node 22 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.40 combined=0.450
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.40 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.85 combined=0.400
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 23 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.20 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.40 combined=0.300
+[bestofN] selected best (combined=0.600)
+Level 2 │ Node 24 │ Summary generation between prompts with entail_2 score: 0.6
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.30 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.30 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=0.450)
+Level 2 │ Node 25 │ Summary generation between prompts with entail_2 score: 0.25
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.45 i_b=0.10 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.85 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 2 │ Node 26 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.00 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.15 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 2 │ Node 28 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.40 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.30 i_b=0.40 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.700)
+Level 2 │ Node 31 │ Summary generation between prompts with entail_2 score: 0.1
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.10 combined=0.300
+[bestofN] cand 1: e_a=0.00 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.000
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.00 combined=0.300
+[bestofN] selected best (combined=0.300)
+Level 2 │ Node 34 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.10 combined=0.400
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.10 i_b=0.10 combined=0.400
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.400)
+Level 2 │ Node 36 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.60 e_b=0.30 i_a=0.75 i_b=0.00 combined=0.300
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.40 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.700)
+Level 2 │ Node 46 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.75 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.40 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.10 combined=0.400
+[bestofN] selected best (combined=0.700)
+Level 2 │ Node 55 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.00 i_b=0.25 combined=0.300
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.25 i_b=0.20 combined=0.500
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.25 combined=0.550
+[bestofN] selected best (combined=0.550)
+This work provides theoretical guarantees for a distributional autoencoder and introduces a novel neural surrogate for modeling 5D nonlinear gyrokinetic simulations in plasma turbulence.
+0.2
+Level 0 │ total: 64 │ survivors: 32
+Getting stat for level 0
+Adding additional edges between nodes and parents for level 0 and 1
+Loading SentenceTransformer model: all-mpnet-base-v2
+
+Processing rows:
+
+Total active rows: 32
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Encoding the corpus. This might take a while...
+Storing embeddings on disk...
+Embeddings stored successfully
+Loading SentenceTransformer model: all-mpnet-base-v2 on device=cpu (USE_CUDA=False, cuda_available=True)
+do_custom:  False
+level_is_zero:  False
+
+Processing rows:
+
+Total active rows: 32
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+Loading precomputed embeddings...
+Embeddings loaded successfully
+
+Building similarity graph:
+
+Running blossom algorithm
+
+ID mapping: {0: 64, 1: 65, 2: 66, 3: 67, 4: 68, 5: 69, 6: 70, 7: 71, 8: 72, 9: 73, 10: 74, 11: 75, 12: 76, 13: 77, 14: 78, 15: 79, 16: 80, 17: 81, 18: 82, 19: 83, 20: 84, 21: 85, 22: 86, 23: 87, 24: 88, 25: 89, 26: 90, 27: 91, 28: 92, 29: 93, 30: 94, 31: 95}
+
+Writing results:
+Pair: Node 81 (row 17) ↔ Node 92 (row 28) | Text Sim: 0.2034 | Idea Sim: N/A | Assigned Score: 0.2034
+Pair: Node 66 (row 2) ↔ Node 87 (row 23) | Text Sim: 0.3487 | Idea Sim: N/A | Assigned Score: 0.3487
+Pair: Node 64 (row 0) ↔ Node 75 (row 11) | Text Sim: 0.3401 | Idea Sim: N/A | Assigned Score: 0.3401
+Pair: Node 68 (row 4) ↔ Node 80 (row 16) | Text Sim: 0.1832 | Idea Sim: N/A | Assigned Score: 0.1832
+Pair: Node 70 (row 6) ↔ Node 94 (row 30) | Text Sim: 0.3453 | Idea Sim: N/A | Assigned Score: 0.3453
+Pair: Node 83 (row 19) ↔ Node 90 (row 26) | Text Sim: 0.3567 | Idea Sim: N/A | Assigned Score: 0.3567
+Pair: Node 65 (row 1) ↔ Node 78 (row 14) | Text Sim: 0.2966 | Idea Sim: N/A | Assigned Score: 0.2966
+Pair: Node 77 (row 13) ↔ Node 82 (row 18) | Text Sim: 0.3325 | Idea Sim: N/A | Assigned Score: 0.3325
+Pair: Node 88 (row 24) ↔ Node 93 (row 29) | Text Sim: 0.3063 | Idea Sim: N/A | Assigned Score: 0.3063
+Pair: Node 69 (row 5) ↔ Node 84 (row 20) | Text Sim: 0.3642 | Idea Sim: N/A | Assigned Score: 0.3642
+Pair: Node 67 (row 3) ↔ Node 79 (row 15) | Text Sim: 0.2596 | Idea Sim: N/A | Assigned Score: 0.2596
+Pair: Node 71 (row 7) ↔ Node 95 (row 31) | Text Sim: 0.3661 | Idea Sim: N/A | Assigned Score: 0.3661
+Pair: Node 73 (row 9) ↔ Node 91 (row 27) | Text Sim: 0.3161 | Idea Sim: N/A | Assigned Score: 0.3161
+Pair: Node 72 (row 8) ↔ Node 85 (row 21) | Text Sim: 0.3206 | Idea Sim: N/A | Assigned Score: 0.3206
+Pair: Node 76 (row 12) ↔ Node 86 (row 22) | Text Sim: 0.2743 | Idea Sim: N/A | Assigned Score: 0.2743
+Pair: Node 74 (row 10) ↔ Node 89 (row 25) | Text Sim: 0.2656 | Idea Sim: N/A | Assigned Score: 0.2656
+redoing: 
+Level 3 │ Node 0 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.15 combined=0.450
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 3 │ Node 1 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.60 combined=1.200
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.75 i_b=0.85 combined=1.350
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 3 │ Node 2 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=1.00 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 3 │ Node 3 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.90 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 3 │ Node 4 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.40 combined=1.000
+[bestofN] cand 1: e_a=0.60 e_b=0.60 i_a=0.75 i_b=0.60 combined=1.200
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.60 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=1.200)
+Level 3 │ Node 5 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.60 e_b=0.60 i_a=0.75 i_b=0.85 combined=1.350
+[bestofN] selected best (combined=1.450)
+Level 3 │ Node 6 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.60 combined=0.900
+[bestofN] cand 1: e_a=0.60 e_b=0.90 i_a=0.75 i_b=0.85 combined=1.350
+[bestofN] cand 2: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 3 │ Node 7 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=1.00 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=0.600)
+Level 3 │ Node 8 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.60 e_b=0.60 i_a=0.60 i_b=0.60 combined=1.200
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 3 │ Node 9 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.85 i_a=0.15 i_b=0.85 combined=0.450
+[bestofN] cand 1: e_a=0.30 e_b=0.85 i_a=0.15 i_b=0.85 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.85 i_a=0.30 i_b=0.85 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 3 │ Node 10 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.40 combined=0.600
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.15 i_b=0.60 combined=0.450
+[bestofN] cand 2: e_a=0.30 e_b=0.85 i_a=0.30 i_b=0.85 combined=0.600
+[bestofN] selected best (combined=0.600)
+Level 3 │ Node 12 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.85 e_b=0.30 i_a=0.60 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=0.600)
+Level 3 │ Node 13 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 3 │ Node 17 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.30 i_b=0.40 combined=0.600
+[bestofN] cand 1: e_a=0.30 e_b=0.60 i_a=0.60 i_b=0.60 combined=0.900
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.60 i_b=0.60 combined=0.900
+[bestofN] selected best (combined=0.900)
+Level 3 │ Node 19 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=1.00 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] cand 1: e_a=0.85 e_b=1.00 i_a=0.75 i_b=0.85 combined=1.600
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.60 combined=1.200
+[bestofN] selected best (combined=1.600)
+Level 3 │ Node 24 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.75 combined=1.600
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.600)
+This work investigates theoretical and neural modeling approaches.
+0.3
+redoing: 
+Level 4 │ Node 0 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.30 i_a=0.15 i_b=0.10 combined=0.400
+[bestofN] cand 1: e_a=0.60 e_b=0.30 i_a=0.40 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.85 e_b=0.30 i_a=0.40 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=0.450)
+Level 4 │ Node 1 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.60 i_b=0.75 combined=0.900
+[bestofN] selected best (combined=1.450)
+Level 4 │ Node 2 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=1.00 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.60 e_b=1.00 i_a=0.85 i_b=0.90 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 4 │ Node 3 │ Summary generation between prompts with entail_2 score: 0.8
+[bestofN] cand 0: e_a=1.00 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 4 │ Node 4 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.30 e_b=0.60 i_a=0.15 i_b=0.60 combined=0.450
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.30 combined=0.900
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=0.900)
+Level 4 │ Node 5 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.60 e_b=0.85 i_a=0.60 i_b=0.90 combined=1.200
+[bestofN] cand 1: e_a=0.60 e_b=0.90 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] cand 2: e_a=0.60 e_b=0.85 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] selected best (combined=1.200)
+Level 4 │ Node 6 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.60 combined=0.900
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 4 │ Node 7 │ Summary generation between prompts with entail_2 score: 0.2
+[bestofN] cand 0: e_a=1.00 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=1.00 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.15 combined=0.450
+[bestofN] selected best (combined=0.600)
+Level 4 │ Node 8 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.60 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=1.450)
+Level 4 │ Node 9 │ Summary generation between prompts with entail_2 score: 0.2
+[bestofN] cand 0: e_a=0.60 e_b=0.85 i_a=0.60 i_b=0.60 combined=1.200
+[bestofN] cand 1: e_a=0.30 e_b=0.85 i_a=0.30 i_b=0.75 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.85 i_a=0.60 i_b=0.85 combined=0.900
+[bestofN] selected best (combined=1.200)
+Level 4 │ Node 10 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.60 e_b=0.85 i_a=0.30 i_b=0.85 combined=0.900
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.60 combined=1.200
+[bestofN] cand 2: e_a=0.60 e_b=0.85 i_a=0.40 i_b=0.85 combined=1.000
+[bestofN] selected best (combined=1.200)
+Level 4 │ Node 12 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.85 e_b=0.30 i_a=0.60 i_b=0.15 combined=0.450
+[bestofN] cand 1: e_a=0.85 e_b=0.30 i_a=0.75 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.60 e_b=0.60 i_a=0.15 i_b=0.85 combined=0.750
+[bestofN] selected best (combined=0.750)
+Level 4 │ Node 13 │ Summary generation between prompts with entail_2 score: 0.85
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.75 i_b=0.85 combined=1.600
+[bestofN] selected best (combined=1.700)
+Level 4 │ Node 17 │ Summary generation between prompts with entail_2 score: 0.3
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.60 i_b=0.40 combined=0.700
+[bestofN] cand 1: e_a=0.30 e_b=0.30 i_a=0.60 i_b=0.30 combined=0.600
+[bestofN] cand 2: e_a=0.30 e_b=0.30 i_a=0.40 i_b=0.40 combined=0.700
+[bestofN] selected best (combined=0.700)
+Level 4 │ Node 19 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.85 e_b=1.00 i_a=0.75 i_b=0.85 combined=1.600
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 4 │ Node 24 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+This work investigates theoretical and neural modeling approaches in distinct domains including plasma physics and computational neuroscience.
+0.3
+Level 1 │ total: 32 │ survivors: 16
+Getting stat for level 1
+Adding additional edges between nodes and parents for level 1 and 2
+Loading SentenceTransformer model: all-mpnet-base-v2
+
+Processing rows:
+
+Total active rows: 16
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Encoding the corpus. This might take a while...
+Storing embeddings on disk...
+Embeddings stored successfully
+Loading SentenceTransformer model: all-mpnet-base-v2 on device=cpu (USE_CUDA=False, cuda_available=True)
+do_custom:  False
+level_is_zero:  False
+
+Processing rows:
+
+Total active rows: 16
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Loading precomputed embeddings...
+Embeddings loaded successfully
+
+Building similarity graph:
+
+Running blossom algorithm
+
+ID mapping: {0: 96, 1: 97, 2: 98, 3: 99, 4: 100, 5: 101, 6: 102, 7: 103, 8: 104, 9: 105, 10: 106, 11: 107, 12: 108, 13: 109, 14: 110, 15: 111}
+
+Writing results:
+Pair: Node 101 (row 5) ↔ Node 107 (row 11) | Text Sim: 0.3363 | Idea Sim: N/A | Assigned Score: 0.3363
+Pair: Node 100 (row 4) ↔ Node 104 (row 8) | Text Sim: 0.3399 | Idea Sim: N/A | Assigned Score: 0.3399
+Pair: Node 98 (row 2) ↔ Node 103 (row 7) | Text Sim: 0.3961 | Idea Sim: N/A | Assigned Score: 0.3961
+Pair: Node 110 (row 14) ↔ Node 111 (row 15) | Text Sim: 0.5559 | Idea Sim: N/A | Assigned Score: 0.5559
+Pair: Node 102 (row 6) ↔ Node 105 (row 9) | Text Sim: 0.4000 | Idea Sim: N/A | Assigned Score: 0.4000
+Pair: Node 96 (row 0) ↔ Node 99 (row 3) | Text Sim: 0.1595 | Idea Sim: N/A | Assigned Score: 0.1595
+Pair: Node 97 (row 1) ↔ Node 109 (row 13) | Text Sim: 0.4880 | Idea Sim: N/A | Assigned Score: 0.4880
+Pair: Node 106 (row 10) ↔ Node 108 (row 12) | Text Sim: 0.5227 | Idea Sim: N/A | Assigned Score: 0.5227
+redoing: 
+Level 5 │ Node 0 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.60 i_a=0.30 i_b=0.40 combined=0.900
+[bestofN] cand 1: e_a=0.60 e_b=0.60 i_a=0.30 i_b=0.40 combined=0.900
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.30 i_b=0.40 combined=0.900
+[bestofN] selected best (combined=0.900)
+Level 5 │ Node 1 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.60 combined=0.900
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 5 │ Node 2 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=1.00 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.850
+[bestofN] cand 2: e_a=0.85 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.850)
+Level 5 │ Node 4 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 5 │ Node 5 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.60 combined=1.200
+[bestofN] cand 1: e_a=0.85 e_b=0.85 i_a=0.60 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.60 e_b=0.60 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] selected best (combined=1.450)
+Level 5 │ Node 6 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.60 combined=1.200
+[bestofN] cand 1: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] selected best (combined=1.700)
+Level 5 │ Node 10 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.90 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.700)
+Level 5 │ Node 14 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=1.00 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+This work explores various modeling and processing techniques across different scientific domains such as plasma physics, computational neuroscience, image processing, and remote sensing.
+0.4
+redoing: 
+Level 6 │ Node 0 │ Summary generation between prompts with entail_2 score: 0.4
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.30 i_b=0.30 combined=0.900
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.30 i_b=0.30 combined=0.900
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.60 i_b=0.30 combined=0.900
+[bestofN] selected best (combined=0.900)
+Level 6 │ Node 1 │ Summary generation between prompts with entail_2 score: 0.8
+[bestofN] cand 0: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.90 i_b=0.75 combined=1.350
+[bestofN] cand 2: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.60 combined=0.900
+[bestofN] selected best (combined=1.350)
+Level 6 │ Node 2 │ Summary generation between prompts with entail_2 score: 0.85
+[bestofN] cand 0: e_a=0.85 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.85 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 6 │ Node 4 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 6 │ Node 5 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.60 i_b=0.85 combined=1.200
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.60 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 6 │ Node 6 │ Summary generation between prompts with entail_2 score: 0.85
+[bestofN] cand 0: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.75 combined=1.350
+[bestofN] selected best (combined=1.700)
+Level 6 │ Node 10 │ Summary generation between prompts with entail_2 score: 0.75
+[bestofN] cand 0: e_a=0.60 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.90 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.750
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.750)
+Level 6 │ Node 14 │ Summary generation between prompts with entail_2 score: 0.85
+[bestofN] cand 0: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 1: e_a=0.60 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+This work explores modeling and processing techniques across multiple domains such as plasma physics, computational neuroscience, image processing, and remote sensing.
+0.4
+Level 2 │ total: 16 │ survivors: 8
+Getting stat for level 2
+Adding additional edges between nodes and parents for level 2 and 3
+Loading SentenceTransformer model: all-mpnet-base-v2
+
+Processing rows:
+
+Total active rows: 8
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7]
+Encoding the corpus. This might take a while...
+Storing embeddings on disk...
+Embeddings stored successfully
+Loading SentenceTransformer model: all-mpnet-base-v2 on device=cpu (USE_CUDA=False, cuda_available=True)
+do_custom:  False
+level_is_zero:  False
+
+Processing rows:
+
+Total active rows: 8
+Active row numbers: [0, 1, 2, 3, 4, 5, 6, 7]
+Loading precomputed embeddings...
+Embeddings loaded successfully
+
+Building similarity graph:
+
+Running blossom algorithm
+
+ID mapping: {0: 112, 1: 113, 2: 114, 3: 115, 4: 116, 5: 117, 6: 118, 7: 119}
+
+Writing results:
+Pair: Node 118 (row 6) ↔ Node 119 (row 7) | Text Sim: 0.4721 | Idea Sim: N/A | Assigned Score: 0.4721
+Pair: Node 113 (row 1) ↔ Node 114 (row 2) | Text Sim: 0.2846 | Idea Sim: N/A | Assigned Score: 0.2846
+Pair: Node 115 (row 3) ↔ Node 116 (row 4) | Text Sim: 0.5292 | Idea Sim: N/A | Assigned Score: 0.5292
+Pair: Node 112 (row 0) ↔ Node 117 (row 5) | Text Sim: 0.2028 | Idea Sim: N/A | Assigned Score: 0.2028
+redoing: 
+Level 7 │ Node 0 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.30 e_b=0.60 i_a=0.15 i_b=0.85 combined=0.450
+[bestofN] cand 1: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.15 combined=0.450
+[bestofN] cand 2: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.450)
+Level 7 │ Node 1 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.60 e_b=0.60 i_a=0.75 i_b=0.60 combined=1.200
+[bestofN] cand 1: e_a=0.90 e_b=0.85 i_a=0.90 i_b=0.45 combined=1.300
+[bestofN] cand 2: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+Level 7 │ Node 3 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=1.00 i_a=0.85 i_b=0.90 combined=1.700
+[bestofN] cand 1: e_a=1.00 e_b=0.90 i_a=0.85 i_b=0.85 combined=1.750
+[bestofN] cand 2: e_a=1.00 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.750)
+Level 7 │ Node 6 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.30 i_a=0.85 i_b=0.30 combined=0.600
+[bestofN] cand 1: e_a=0.60 e_b=0.30 i_a=0.85 i_b=0.60 combined=0.900
+[bestofN] cand 2: e_a=0.85 e_b=0.60 i_a=0.85 i_b=0.40 combined=1.000
+[bestofN] selected best (combined=1.000)
+This work investigates various modeling and processing techniques across different scientific domains and natural language processing.
+0.75
+Level 3 │ total: 8 │ survivors: 4
+Getting stat for level 3
+Adding additional edges between nodes and parents for level 3 and 4
+Loading SentenceTransformer model: all-mpnet-base-v2
+
+Processing rows:
+
+Total active rows: 4
+Active row numbers: [0, 1, 2, 3]
+Encoding the corpus. This might take a while...
+Storing embeddings on disk...
+Embeddings stored successfully
+Loading SentenceTransformer model: all-mpnet-base-v2 on device=cpu (USE_CUDA=False, cuda_available=True)
+do_custom:  False
+level_is_zero:  False
+
+Processing rows:
+
+Total active rows: 4
+Active row numbers: [0, 1, 2, 3]
+Loading precomputed embeddings...
+Embeddings loaded successfully
+
+Building similarity graph:
+
+Running blossom algorithm
+
+ID mapping: {0: 120, 1: 121, 2: 122, 3: 123}
+
+Writing results:
+Pair: Node 120 (row 0) ↔ Node 121 (row 1) | Text Sim: 0.3493 | Idea Sim: N/A | Assigned Score: 0.3493
+Pair: Node 122 (row 2) ↔ Node 123 (row 3) | Text Sim: 0.5240 | Idea Sim: N/A | Assigned Score: 0.5240
+redoing: 
+Level 8 │ Node 0 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=1.00 e_b=0.60 i_a=0.85 i_b=0.75 combined=1.350
+[bestofN] cand 1: e_a=1.00 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 2: e_a=1.00 e_b=0.60 i_a=0.85 i_b=0.85 combined=1.450
+[bestofN] selected best (combined=1.700)
+Level 8 │ Node 2 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.60 e_b=0.85 i_a=0.85 i_b=0.90 combined=1.450
+[bestofN] cand 2: e_a=0.90 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+This work explores methodologies and algorithms for addressing complex computational challenges and improving processing techniques across scientific domains and natural language processing.
+0.85
+Level 4 │ total: 4 │ survivors: 2
+Getting stat for level 4
+Adding additional edges between nodes and parents for level 4 and 5
+Loading SentenceTransformer model: all-mpnet-base-v2
+
+Processing rows:
+
+Total active rows: 2
+Active row numbers: [0, 1]
+Encoding the corpus. This might take a while...
+Storing embeddings on disk...
+Embeddings stored successfully
+Loading SentenceTransformer model: all-mpnet-base-v2 on device=cpu (USE_CUDA=False, cuda_available=True)
+do_custom:  False
+level_is_zero:  False
+
+Processing rows:
+
+Total active rows: 2
+Active row numbers: [0, 1]
+Loading precomputed embeddings...
+Embeddings loaded successfully
+
+Building similarity graph:
+
+Running blossom algorithm
+
+ID mapping: {0: 124, 1: 125}
+
+Writing results:
+Pair: Node 124 (row 0) ↔ Node 125 (row 1) | Text Sim: 0.4221 | Idea Sim: N/A | Assigned Score: 0.4221
+redoing: 
+Level 9 │ Node 0 │ Summary generation between prompts with entail_2 score: None
+[bestofN] cand 0: e_a=0.85 e_b=1.00 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] cand 1: e_a=0.85 e_b=1.00 i_a=0.75 i_b=0.85 combined=1.600
+[bestofN] cand 2: e_a=0.85 e_b=0.85 i_a=0.85 i_b=0.85 combined=1.700
+[bestofN] selected best (combined=1.700)
+This work develops methodologies and techniques for addressing complex challenges across scientific domains, emphasizing efficiency, effectiveness, and statistical reliability in processing and analysis.
+0.75
+Level 5 │ total: 2 │ survivors: 1
+Getting stat for level 5
+Adding additional edges between nodes and parents for level 5 and 6
+=== STEP 6: Running evaluation ===
+Loading Results/UF_random_prompts_64_base_dissimilar_bestofN_blossom.json...
+Evaluated 10/63 parents...
+Evaluated 20/63 parents...
+Evaluated 30/63 parents...
+Evaluated 40/63 parents...
+Evaluated 50/63 parents...
+Evaluated 60/63 parents...
+Saved Results/eval_outputs/UF_random_prompts_64_base_dissimilar_bestofN_blossom_eval.json
+=== STEP 7: Cleanup ===
+=== DONE ===
+-rw-r--r--. 1 prajwals hawshiuan 1172689 Sep 14 11:58 Results/UF_random_prompts_64_base_dissimilar_bestofN_blossom.json
+total 6336
+drwxrwsr-x. 2 anandr   hawshiuan    2560 Sep 14 12:07 .
+drwxrwsr-x. 3 anandr   hawshiuan    5632 Sep 14 11:03 ..
+-rw-rw-r--. 1 anandr   hawshiuan 1263249 Sep 12 07:23 UF_random_prompts_64_base_blossom_eval.json
+-rw-r--r--. 1 prajwals hawshiuan 1214915 Sep 14 12:07 UF_random_prompts_64_base_dissimilar_bestofN_blossom_eval.json
+-rw-r--r--. 1 prajwals hawshiuan 1206173 Sep 13 20:41 UF_random_prompts_64_base_dissimilar_blossom_eval.json
+-rw-r--r--. 1 prajwals hawshiuan 1386984 Sep 14 10:37 UF_random_prompts_64_base_similar_bestofN_blossom_eval.json
+-rw-r--r--. 1 prajwals hawshiuan 1376924 Sep 13 19:14 UF_random_prompts_64_base_similar_blossom_eval.json
