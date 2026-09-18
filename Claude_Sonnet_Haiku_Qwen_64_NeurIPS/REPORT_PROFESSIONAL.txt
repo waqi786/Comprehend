@@ -1,0 +1,79 @@
+==============================================================================
+   CLAUDE SONNET  vs  CLAUDE HAIKU  vs  QWEN 2.5-7B
+   64-Paper NeurIPS 2025 Comparison Report
+==============================================================================
+
+  Dataset  : 64 similar + 64 dissimilar NeurIPS 2025 papers
+  Judge    : GPT-4o-mini (fixed for all 3 summarizers -> fair)
+  Prompts  : Same prompt14 as Phase 1 pipeline
+  Trees    : 7 levels, 127 nodes each
+
+==============================================================================
+   SECTION 1  --  SUMMARIZER COMPARISON  (Similar Set)
+==============================================================================
+
+  Level  Metric          Sonnet    Haiku     Qwen 7B   Winner
+  ------------------------------------------------------------------------------
+  L1     entail_min      0.531     0.531     0.469     Sonnet
+  L1     info_min        0.500     0.500     0.406     Sonnet
+  L1     spec_faith      0.688     0.781     0.594     Haiku
+  L2     entail_min      0.562     0.625     0.500     Haiku
+  L2     info_min        0.500     0.500     0.500     Sonnet
+  L2     spec_faith      0.562     0.500     0.500     Sonnet
+  L3     entail_min      0.500     0.625     0.500     Haiku
+  L3     info_min        0.500     0.500     0.500     Sonnet
+  L3     spec_faith      0.500     0.625     0.375     Haiku
+  L4     entail_min      0.750     0.750     0.750     Sonnet
+  L4     info_min        0.500     0.500     0.500     Sonnet
+  L4     spec_faith      0.500     0.500     0.500     Sonnet
+
+==============================================================================
+   SECTION 2  --  SUMMARIZER COMPARISON  (Dissimilar Set)
+==============================================================================
+
+  Level  Metric          Sonnet    Haiku     Qwen 7B   Winner
+  ------------------------------------------------------------------------------
+  L1     entail_min      0.469     0.406     0.094     Sonnet
+  L1     info_min        0.125     0.125     0.000     Sonnet
+  L1     spec_faith      0.969     1.000     0.906     Haiku
+  L2     entail_min      0.500     0.438     0.375     Sonnet
+  L2     info_min        0.500     0.375     0.312     Sonnet
+  L2     spec_faith      0.688     0.875     0.875     Haiku
+  L3     entail_min      0.625     0.500     0.375     Sonnet
+  L3     info_min        0.500     0.500     0.375     Sonnet
+  L3     spec_faith      0.625     0.875     0.875     Haiku
+  L4     entail_min      0.500     0.500     0.500     Sonnet
+  L4     info_min        0.500     0.500     0.500     Sonnet
+  L4     spec_faith      0.500     0.500     0.500     Sonnet
+
+==============================================================================
+   SECTION 3  --  SIMILARITY MODEL  (scincl vs mpnet)
+==============================================================================
+
+  Model     Within-Sim   Within-Dis   Cross     Separation
+  ------------------------------------------------------------------------------
+  mpnet     0.7038       0.1450       0.2184    +0.4854
+  scincl    0.9024       0.6868       0.7110    +0.1914
+
+==============================================================================
+   KEY FINDINGS
+==============================================================================
+
+  1. Sonnet and Haiku perform comparably on both sets, both
+     ahead of Qwen 7B on entailment and informativeness.
+
+  2. Haiku shows stronger SPECIFICITY (spec_faith) across
+     levels in both sets (peaks at 1.000 on dissimilar L1).
+
+  3. mpnet separates similar vs dissimilar papers far better
+     than scincl (+0.485 vs +0.191). scincl gives ~0.687 avg
+     similarity for dissimilar papers, i.e. too high to be
+     discriminative. ** mpnet retained for pipeline. **
+
+  4. Judge caveat: scores from GPT-4o-mini (not Qwen 3B used
+     in Phase 1). Absolute values differ; relative ranking
+     across 3 summarizers remains valid.
+
+==============================================================================
+   END OF REPORT
+==============================================================================

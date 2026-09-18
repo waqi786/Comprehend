@@ -1,0 +1,46 @@
+{
+  "per_level": [
+    {
+      "level": 0,
+      "n": 0,
+      "entail_min": 0.0,
+      "info_min": 0.0,
+      "spec_faith": 0.0
+    },
+    {
+      "level": 1,
+      "n": 16,
+      "entail_min": 0.46875,
+      "info_min": 0.125,
+      "spec_faith": 0.96875
+    },
+    {
+      "level": 2,
+      "n": 8,
+      "entail_min": 0.5,
+      "info_min": 0.5,
+      "spec_faith": 0.6875
+    },
+    {
+      "level": 3,
+      "n": 4,
+      "entail_min": 0.625,
+      "info_min": 0.5,
+      "spec_faith": 0.625
+    },
+    {
+      "level": 4,
+      "n": 2,
+      "entail_min": 0.5,
+      "info_min": 0.5,
+      "spec_faith": 0.5
+    },
+    {
+      "level": 5,
+      "n": 0,
+      "entail_min": 0.0,
+      "info_min": 0.0,
+      "spec_faith": 0.0
+    }
+  ]
+}

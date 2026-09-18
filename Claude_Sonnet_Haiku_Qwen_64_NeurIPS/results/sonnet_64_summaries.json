@@ -1,0 +1,194 @@
+[
+  {
+    "parent_id": null,
+    "a_id": 0,
+    "b_id": 51,
+    "summary": "This work develops reinforcement learning methods to improve the reasoning capabilities and efficiency of large language models by computing more fine-grained advantages beyond standard rollout-level approaches used in algorithms like GRPO, demonstrating improved performance on mathematical reasoning tasks with reduced response lengths."
+  },
+  {
+    "parent_id": null,
+    "a_id": 1,
+    "b_id": 37,
+    "summary": "This work develops reinforcement learning methods that enhance large language model reasoning capabilities without relying on external human supervision or labeled reasoning process data, demonstrating effective performance on mathematical and coding reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 2,
+    "b_id": 4,
+    "summary": "This work develops reinforcement learning methods for improving large language model reasoning through post-training, with evaluation on mathematical reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 3,
+    "b_id": 38,
+    "summary": "This work investigates the emergence and enhancement of reasoning capabilities in large language models through reinforcement learning approaches, examining how RL methods can enable models to develop thinking-like behaviors for improved problem-solving performance."
+  },
+  {
+    "parent_id": null,
+    "a_id": 5,
+    "b_id": 9,
+    "summary": "This work addresses scalability challenges in reinforcement learning from human feedback for large language models, with particular focus on mathematical reasoning tasks and the limitations of relying solely on verifiable ground-truth rewards."
+  },
+  {
+    "parent_id": null,
+    "a_id": 6,
+    "b_id": 40,
+    "summary": "This work investigates reinforcement learning-based training methods for improving large language model reasoning capabilities, proposing novel policy optimization algorithms that incorporate token-level objectives and demonstrating improvements on mathematical reasoning benchmarks through experiments on multiple language models."
+  },
+  {
+    "parent_id": null,
+    "a_id": 7,
+    "b_id": 61,
+    "summary": "This work applies reinforcement learning with verifiable rewards to enhance large language models' capabilities in technical domains that permit automatic verification, enabling models to learn from execution feedback without relying on ground-truth solutions during training."
+  },
+  {
+    "parent_id": null,
+    "a_id": 8,
+    "b_id": 13,
+    "summary": "This work investigates reinforcement learning methods for enhancing reasoning capabilities of large language models, with a focus on analyzing and improving Group Relative Policy Optimization (GRPO) by identifying limitations in how it handles correct and incorrect responses during training, and proposing methods that address these issues to achieve performance gains on mathematical reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 10,
+    "b_id": 50,
+    "summary": "This work develops process reward models (PRMs) for large language models that provide step-level evaluation of reasoning trajectories, addressing challenges in training data quality and scalability, and demonstrating improved performance on mathematical reasoning benchmarks through novel supervision and learning frameworks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 11,
+    "b_id": 18,
+    "summary": "This work presents reinforcement learning methods for fine-tuning large language models to improve reasoning capabilities, proposing algorithms that reduce computational and memory overhead compared to standard policy optimization baselines like PPO and GRPO, and demonstrating competitive performance on mathematical reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 12,
+    "b_id": 35,
+    "summary": "This work proposes reinforcement learning-based fine-tuning methods to improve the reasoning capabilities of large language models by optimizing the reasoning process at a granular level beyond treating entire reasoning trajectories uniformly, with experimental validation on multiple reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 14,
+    "b_id": 36,
+    "summary": "This work investigates the relationship between reinforcement learning training and reasoning capabilities in large language models, examining whether current RL approaches for mathematical problem-solving genuinely enhance reasoning abilities and analyzing the limitations of existing methods in fully realizing the potential of RL-based training for complex reasoning tasks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 15,
+    "b_id": 24,
+    "summary": "This work develops reinforcement learning methods for improving the reasoning capabilities of large language models in settings where high-quality labeled data or ground-truth rewards are limited or unavailable, utilizing majority voting mechanisms to estimate rewards for training without external annotations."
+  },
+  {
+    "parent_id": null,
+    "a_id": 16,
+    "b_id": 44,
+    "summary": "This work develops reinforcement learning frameworks that jointly train large language model generators and verifiers through adversarial or interleaved training dynamics to improve reasoning capabilities, demonstrating state-of-the-art performance on mathematical reasoning benchmarks including ProcessBench without requiring manual step-level annotations."
+  },
+  {
+    "parent_id": null,
+    "a_id": 17,
+    "b_id": 48,
+    "summary": "This work addresses limitations of on-policy reinforcement learning with verifiable rewards for training reasoning models by incorporating guided exploration through alternative policy demonstrations, enabling models to learn beyond their initial capabilities and solve complex reasoning tasks where standard on-policy methods fail."
+  },
+  {
+    "parent_id": null,
+    "a_id": 19,
+    "b_id": 57,
+    "summary": "This work develops reinforcement learning frameworks to enhance reasoning capabilities in diffusion language models, demonstrating that outcome-based RL optimization can significantly improve performance on mathematical reasoning and code generation tasks compared to supervised fine-tuning alone."
+  },
+  {
+    "parent_id": null,
+    "a_id": 20,
+    "b_id": 55,
+    "summary": "This work develops methods for self-improving language models through adaptive training strategies that address data sampling inefficiencies, demonstrating improved reasoning performance and training efficiency without relying on additional manually annotated supervision."
+  },
+  {
+    "parent_id": null,
+    "a_id": 21,
+    "b_id": 52,
+    "summary": "This work develops methods to improve the reasoning capabilities of large language models on mathematical and reasoning tasks, achieving substantial accuracy improvements on benchmarks through novel optimization approaches that go beyond standard supervised fine-tuning."
+  },
+  {
+    "parent_id": null,
+    "a_id": 22,
+    "b_id": 46,
+    "summary": "This work addresses the challenge of training language models to acquire complex reasoning capabilities in specialized domains by combining supervised fine-tuning with expert knowledge and reinforcement learning to bridge the gap between initial model capabilities and expert-level performance."
+  },
+  {
+    "parent_id": null,
+    "a_id": 23,
+    "b_id": 34,
+    "summary": "This work develops reinforcement learning frameworks to enhance the reasoning capabilities of large language models by addressing key challenges in scalable task construction, automatic verifiability of outputs, and efficient training strategies, demonstrating improvements on mathematical and reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 25,
+    "b_id": 56,
+    "summary": "This work proposes a reinforcement learning framework that trains large language models to simultaneously improve their problem-solving and self-verification capabilities within a unified training process, demonstrating improved performance on mathematical reasoning benchmarks without requiring external verifiers at inference time."
+  },
+  {
+    "parent_id": null,
+    "a_id": 26,
+    "b_id": 43,
+    "summary": "This work develops reinforcement learning techniques to improve large language model reasoning capabilities through policy optimization methods that address challenges in training stability and convergence."
+  },
+  {
+    "parent_id": null,
+    "a_id": 27,
+    "b_id": 60,
+    "summary": "This work applies reinforcement learning with outcome-based rewards to enhance the mathematical reasoning capabilities of large language models, demonstrating that RL training significantly improves performance on challenging math benchmarks through systematic experimentation and analysis of the training process."
+  },
+  {
+    "parent_id": null,
+    "a_id": 28,
+    "b_id": 53,
+    "summary": "This work investigates the role of entropy in improving reasoning capabilities of large language models through reinforcement learning approaches, demonstrating that entropy-based optimization methods can substantially enhance performance on challenging mathematical and reasoning tasks using models such as Qwen without requiring labeled data."
+  },
+  {
+    "parent_id": null,
+    "a_id": 29,
+    "b_id": 31,
+    "summary": "This work addresses challenges in reinforcement learning fine-tuning of large language models for reasoning tasks by proposing methods to improve the effectiveness and efficiency of the RL training process through strategic data augmentation and selection techniques."
+  },
+  {
+    "parent_id": null,
+    "a_id": 30,
+    "b_id": 49,
+    "summary": "This work addresses the computational challenges of applying reinforcement learning to improve reasoning capabilities in large language models, proposing methods to enhance the efficiency and scalability of RL-based training for reasoning tasks such as mathematical problem solving."
+  },
+  {
+    "parent_id": null,
+    "a_id": 32,
+    "b_id": 41,
+    "summary": "This work develops reinforcement learning-based methods to optimize reasoning in large language models without requiring explicit chain-of-thought supervision, demonstrating improved performance on reasoning benchmarks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 33,
+    "b_id": 42,
+    "summary": "This work investigates how reinforcement learning enhances reasoning capabilities in large language models beyond simple accuracy improvements, analyzing whether RL expands models' reasoning boundaries by enabling novel strategies or primarily optimizes existing capabilities, and proposes methodologies to improve RL training effectiveness for complex reasoning tasks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 39,
+    "b_id": 59,
+    "summary": "This work investigates reinforcement learning approaches for fine-tuning large language models on mathematical reasoning tasks, examining how to effectively leverage both positive and negative training examples to improve performance on benchmarks such as MATH and GSM8K."
+  },
+  {
+    "parent_id": null,
+    "a_id": 45,
+    "b_id": 62,
+    "summary": "This work develops reward models that incorporate chain-of-thought reasoning processes to improve reward signal accuracy in reinforcement learning from human feedback, utilizing test-time compute and reinforcement learning training frameworks to enhance performance on reward modeling benchmarks across diverse domains including reasoning-heavy tasks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 47,
+    "b_id": 63,
+    "summary": "This work develops policy optimization methods to improve the training efficiency of reinforcement learning-based reasoning models for large language models, proposing techniques that reduce computational costs while maintaining or enhancing model performance on mathematical reasoning tasks."
+  },
+  {
+    "parent_id": null,
+    "a_id": 54,
+    "b_id": 58,
+    "summary": "This work applies reinforcement learning to improve reasoning capabilities in language models, demonstrating effectiveness across multiple tasks and maintaining robustness on out-of-distribution examples."
+  }
+]
