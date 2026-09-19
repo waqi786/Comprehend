@@ -1,0 +1,35 @@
+
+You will be given a Abstract A (child) and a general Abstract B (parent) that is meant to be a generalization of Abstract A. Your task is to determine how INFORMATIVE Abstract B is about Abstract A.
+
+Informativeness measures whether Abstract B retains the important content of Abstract A. Calculate a score between 0 and 1 for what fraction of the important contents of Abstract A (the child) are present in, or implied by, Abstract B (the parent).
+
+Important:
+- First identify the IMPORTANT contents of A: its core intent, domain, primary task, and key constraints. Ignore trivial or incidental details.
+- We are looking for SEMANTIC COVERAGE, not strict detail preservation. If B correctly identifies the type of task and domain of A, it should score highly even if it abstracts away specific tools or minor constraints.
+- Penalize VAGUENESS: a parent so abstract that it gives almost no structural or topical guidance about A (e.g., "writing code", "analyzing data") is uninformative, even if technically true.
+- Do NOT reward B for content not in A; only the important content of A that B actually captures counts.
+
+Base your score on the ratio of A's important contents that are captured by B, out of A's total important contents.
+
+Scoring guidance:
+- 0.85-1.0 (Excellent Coverage): B captures essentially all of A's important content — its domain, primary task, and key constraints — dropping only minor specifics (a particular library, dataset, or metric).
+- 0.6-0.85 (Good Coverage): B captures A's core domain and primary task but loses several important specifics or constraints.
+- 0.3-0.6 (Vague / Gerund Phrase): B is extremely abstract (e.g., "Analyzing data", "Writing content"). It captures the broad activity type but almost none of A's structural or topical content.
+- 0.0-0.3 (Uninformative / Mismatched): B captures essentially none of A's important content, because it is far too generic or it miscategorizes the task.
+
+## Examples
+
+Abstract A (child): Implement a convolutional neural network (CNN) from scratch using PyTorch to classify handwritten digits from MNIST, with custom layers, training/validation loops without torchvision.models, and loss/accuracy curves in Matplotlib.
+Abstract B (parent): Write a Python program to train a deep learning model for image classification.
+Score: 0.75
+Reason: B captures A's core content — Python, training a deep learning model, image classification — but loses several important specifics: the "from scratch" constraint, the MNIST dataset, and the visualization requirement.
+
+Abstract A (child): Develop a deep reinforcement learning agent using Python and TensorFlow 2. Implement the Deep Q-Network (DQN) algorithm to solve the CartPole-v1 environment from OpenAI Gym.
+Abstract B (parent): Writing code.
+Score: 0.15
+Reason: B conveys none of A's important content — not the reinforcement-learning domain, the DQN algorithm, TensorFlow, or CartPole. Technically true, but uninformative.
+
+Abstract A (child): Write a Python script that uses Hugging Face Transformers to fine-tune a BERT model for sentiment analysis, including preprocessing, tokenization, a Trainer training loop, and accuracy/F1 evaluation.
+Abstract B (parent): Write a program that processes and manages structured data, implementing user-facing operations with organized output.
+Score: 0.15
+Reason: B miscategorizes A. It captures none of A's important content — machine learning, fine-tuning BERT, sentiment analysis, the NLP domain.

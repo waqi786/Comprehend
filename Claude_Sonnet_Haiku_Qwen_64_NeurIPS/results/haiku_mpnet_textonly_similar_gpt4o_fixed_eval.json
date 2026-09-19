@@ -1,0 +1,67 @@
+{
+  "per_level": [
+    {
+      "level": 0,
+      "n": 0,
+      "entail_1": 0.0,
+      "entail_2": 0.0,
+      "faithfulness": 0.0,
+      "informativeness": 0.0,
+      "spec_faith": 0.0
+    },
+    {
+      "level": 1,
+      "n": 32,
+      "entail_1": 0.8390625000000002,
+      "entail_2": 0.678125,
+      "faithfulness": 0.8921875000000005,
+      "informativeness": 0.9039062500000005,
+      "spec_faith": 0.8890625000000004
+    },
+    {
+      "level": 2,
+      "n": 16,
+      "entail_1": 0.8578125000000001,
+      "entail_2": 0.715625,
+      "faithfulness": 0.9078125000000002,
+      "informativeness": 0.8968750000000002,
+      "spec_faith": 0.9203125000000002
+    },
+    {
+      "level": 3,
+      "n": 8,
+      "entail_1": 0.8781249999999999,
+      "entail_2": 0.75625,
+      "faithfulness": 0.9406249999999999,
+      "informativeness": 0.9062499999999999,
+      "spec_faith": 0.9562499999999999
+    },
+    {
+      "level": 4,
+      "n": 4,
+      "entail_1": 0.8625,
+      "entail_2": 0.725,
+      "faithfulness": 0.9125000000000001,
+      "informativeness": 0.9,
+      "spec_faith": 0.98125
+    },
+    {
+      "level": 5,
+      "n": 2,
+      "entail_1": 0.8125,
+      "entail_2": 0.625,
+      "faithfulness": 0.9,
+      "informativeness": 0.8625,
+      "spec_faith": 0.0
+    },
+    {
+      "level": 6,
+      "n": 0,
+      "entail_1": 0.0,
+      "entail_2": 0.0,
+      "faithfulness": 0.0,
+      "informativeness": 0.0,
+      "spec_faith": 0.0
+    }
+  ]
+}

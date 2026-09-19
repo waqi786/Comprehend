@@ -1,0 +1,37 @@
+
+You will be given a Abstract A and a general Abstract B that is a generalization of Abstract A. Your task is to determine how well Abstract B serves as the generalization of Abstract A.
+
+Calculate a score between 0 to 1 for how much Abstract A implies Abstract C. Score close to 1 means all or most detail in Abstract B exist or is implied in Abstract A. Score close to 0 means all or most detail in Abstract B does not exist or is not implied in Abstract A. Base your score as much as possible to the ratio of how many details in Abstract B are in or are implied in Abstract A out of the total distinct details of B.
+
+Finally, output your score in the following format:
+Score: [SCORE]
+
+Below this, give your reasoning for your score. 
+
+Here are some examples:
+High-Scoring Example
+Abstract A:
+Write a Python script that uses the Hugging Face Transformers library to fine-tune a BERT model for sentiment analysis on a custom dataset. Include data preprocessing using the datasets library, tokenizer usage, training loop with Trainer, and evaluation metrics such as accuracy and F1-score. Also, provide inline comments to explain each step of the process.
+Abstract B:
+Create a Python program that demonstrates how to fine-tune a pre-trained NLP model using the Hugging Face Transformers library on a labeled dataset for a text classification task. The program should show preprocessing, tokenization, training, and evaluation, and include explanations in the code.
+Score: 0.95
+Reasoning:
+Abstract B accurately generalizes Abstract A. It captures all core elements: Python, Hugging Face Transformers, fine-tuning, text classification (which includes sentiment analysis), preprocessing, tokenization, training, and evaluation. It does omit the exact model name ("BERT") and specific metrics (like F1-score) but keeps the essential instructional structure and goal. The loss of only minor detail results in a very high score.
+
+Mid-Scoring Example
+Abstract A:
+Implement a convolutional neural network (CNN) from scratch using PyTorch to classify handwritten digits from the MNIST dataset. The implementation should include custom-defined layers, training and validation loops without using PyTorch’s torchvision.models, and visualizations of training loss and accuracy curves using Matplotlib.
+Abstract B:
+Create a PyTorch-based image classification model for a standard dataset, avoiding pre-built architectures and training it from scratch.
+Score: 0.65
+Reasoning:
+Abstract B captures several major elements from A: it specifies PyTorch, training from scratch, image classification, and a standard dataset (MNIST fits this). However, B omits key details: no mention of CNNs, handwritten digits, manual loop implementation, or visualization. It’s a reasonably good generalization but loses too many specifics for a higher score.
+
+Low-Scoring Example
+Abstract A:
+Develop a deep reinforcement learning agent using Python and TensorFlow 2. Implement the Deep Q-Network (DQN) algorithm to solve the CartPole-v1 environment from OpenAI Gym. The agent should include experience replay, target network updates, and ε-greedy exploration strategy. Provide a training loop and visualize rewards over episodes.
+Abstract B:
+Write a program that uses AI to play a game.
+Score: 0.25
+Reasoning:
+Abstract B is far too vague to meaningfully imply the details of Abstract A. While technically Abstract A fulfills the requirement in B (it is a program using AI to play a game), the inverse does not hold: Abstract B could refer to anything from rule-based agents in Tic-Tac-Toe to generative agents in Minecraft. It lacks any mention of reinforcement learning, specific algorithms (DQN), the use of Python or TensorFlow, or the CartPole environment. Therefore, the overlap is minimal, justifying a low score.

@@ -1,0 +1,52 @@
+
+You will be given a candidate Abstract A and a general Abstract B. Abstract B is a general prompt — a category or summary formed from a group of other prompts. Abstract A is a candidate prompt that we are testing to see whether it belongs under category B (A was not necessarily used to create B). Your task is to determine how FAITHFUL category B is to candidate A.
+
+Faithfulness measures whether everything category B asks for is actually grounded in candidate A. Calculate a score between 0 and 1 for what fraction of the distinct details in Abstract B (the category) are present in, or implied by, Abstract A (the candidate). A high score means candidate A satisfies everything the category requires, so it plausibly belongs under B.
+
+Faithfulness measures ONE thing: of the requirements category B actually states, what fraction are supported by candidate A? It says nothing about how much of A that B leaves out.
+
+Important:
+- The ONLY reason to score below 1.0 is a requirement B imposes that A does not (fully) meet — a task, domain, constraint, or detail B requires that A does not support. Nothing else lowers this score.
+- Do NOT penalize the candidate for being more specific than B, for containing extra detail B omits, or for B being abstract — even if B keeps only A's topic or domain and drops A's task or format. "B omits A's requirements" and "B is too vague" are INFORMATIVENESS concerns, not faithfulness ones. A category that requires only things A supports is fully faithful (1.0), no matter how sparse it is.
+- Implicit support counts fully. A requirement in B does NOT need to appear verbatim in A — if candidate A clearly implies it, it is fully satisfied; do not deduct just because A does not state B's wording explicitly. A candidate that implicitly satisfies every requirement of an abstract category is fully faithful (1.0).
+- Implication can be partial. If a requirement in B is typically but not necessarily implied by A (it usually follows but is not guaranteed), give it partial credit. This — a requirement A only weakly supports or fails to meet — is the only thing that pulls the score down.
+
+Base your score on the ratio of B's distinct details that are supported by A, out of the total distinct details in B.
+
+Scoring guidance:
+- 0.85-1.0 (Fully Grounded): Every requirement in category B is present in or implied by candidate A, however abstract or sparse B is. A candidate that implicitly satisfies every requirement of an abstract category scores 1.0 — B's abstraction does not cost anything.
+- 0.6-0.85 (Mostly Grounded): Nearly every requirement B states is met, but B imposes one requirement A only probably/partially implies, or a minor shift in framing. Reserve this for a genuinely weakly-supported requirement — NOT for B being abstract or omitting A's content.
+- 0.3-0.6 (Partially Grounded): B mixes supported content with a noticeable detail or requirement that A does not meet even implicitly. (Reserve this for genuinely absent or contradicted requirements — not for ones that A merely implies rather than states.)
+- 0.0-0.3 (Hallucinated / Mismatched): B requires a task, domain, or constraint that is absent from or contradicts A (e.g., A trains an ML model, but B describes user-facing CRUD operations).
+
+## Examples
+
+Abstract A (candidate): Implement a convolutional neural network (CNN) from scratch using PyTorch to classify handwritten digits from MNIST, with custom layers, training/validation loops without torchvision.models, and loss/accuracy curves in Matplotlib.
+Abstract B (category): Write a Python program to train a deep learning model for image classification.
+Score: 1.0
+Reason: Every requirement in B — Python, training a deep learning model, image classification — is fully present in A. B abstracts away CNNs, MNIST, and Matplotlib, but the candidate's extra detail is not penalized and B requires nothing A lacks, so faithfulness is perfect.
+
+Abstract A (candidate): Develop a deep reinforcement learning agent. Implement the Deep Q-Network (DQN) algorithm to solve the CartPole-v1 environment from OpenAI Gym.
+Abstract B (category): Writing code.
+Score: 1.0
+Reason: B's only requirement, "writing code," is fully met by implementing a DQN agent — you cannot implement the algorithm without it — so it is fully grounded. B is maximally vague, but vagueness lowers INFORMATIVENESS, not faithfulness; B requires nothing A fails to support, so faithfulness is perfect.
+
+Abstract A (candidate): Write a Python web scraper using requests and BeautifulSoup that collects book titles and prices from an online bookstore's catalog pages and writes them to a CSV file.
+Abstract B (category): Write a Python program that gathers information from a website and archives it for long-term record-keeping.
+Score: 0.8
+Reason: "Python," "gathers information from a website," and saving the data are all clearly implied by A, so the candidate satisfies them — abstraction costs nothing. The one dock is "for long-term record-keeping," a purpose A neither states nor clearly implies (writing to a CSV could serve any use); that single weakly-supported requirement earns partial credit. The rest is met, so faithfulness stays high.
+
+Abstract A (candidate): Write a 1,000-word op-ed arguing that city councils should expand protected bike lanes, citing reduced traffic fatalities and lower carbon emissions.
+Abstract B (category): Write an opinion piece that argues for a local policy change and backs it up with concrete benefits.
+Score: 1.0
+Reason: Every requirement in B is implied by A: an op-ed is an opinion piece, advocating that city councils expand bike lanes implies arguing for a local policy change, and citing fewer fatalities and lower emissions implies concrete benefits. Implicit support counts and B requires nothing A lacks, so the abstraction and dropped specifics cost nothing — faithfulness is perfect.
+
+Abstract A (candidate): Design a REST API in Go with JWT authentication, rate limiting, a PostgreSQL backend, OpenAPI docs, and integration tests covering every endpoint.
+Abstract B (category): Build a backend web service.
+Score: 1.0
+Reason: B keeps almost nothing from A — no Go, JWT, rate limiting, PostgreSQL, docs, or tests — so it would score very low on INFORMATIVENESS. But faithfulness only checks that the requirement B does impose ("build a backend web service") is supported by A, and it fully is. Omitting the rest never lowers faithfulness, so the score is 1.0.
+
+Abstract A (candidate): Write a Python script that uses Hugging Face Transformers to fine-tune a BERT model for sentiment analysis, including preprocessing, tokenization, a Trainer training loop, and accuracy/F1 evaluation.
+Abstract B (category): Write a program that processes and manages structured data, implementing user-facing operations with organized output.
+Score: 0.30
+Reason: "Processes structured data" is loosely supported, but "implementing user-facing operations" is a requirement the candidate does not meet — A trains a model and has no user-facing/CRUD component. The low score is for this unmet/invented requirement, NOT for B dropping A's specifics (BERT, sentiment analysis, F1) — that omission alone would not lower faithfulness.
