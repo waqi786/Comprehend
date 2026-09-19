@@ -24,10 +24,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 43,
+          "third": 62,
           "third_score": 0.31191641092300415,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B is a significant generalization of Abstract A. Both abstracts discuss theoretical guarantees for distributional autoencoders, which aligns closely. However, Abstract A delves into specific properties and applications of Distributional Principal Autoencoders (DPA), including exact theoretical guarantees for data distribution and intrinsic dimensionality. Abstract B, while still within the scope of distributional autoencoders, broadens the context to \"theoretical guarantees for a distributional autoencoder\" and mentions a \"neural surrogate for modeling complex physical phenomena in plasma turbulence.\" The latter part of Abstract B is not present in Abstract A and introduces a new application domain (plasma turbulence).\n\nThe core ideas of Abstract A are mostly captured by Abstract B, particularly the theoretical guarantees aspect. However, the specific focus on DPA and its applications to data distribution and intrinsic dimensionality are not fully implied by Abstract B. Therefore, the score reflects a moderate level of generalization, with some core concepts being captured but others being expanded upon or replaced.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not provide any meaningful information that is either present or implied in Abstract A. Abstract A discusses a specific method called the Fractal-Based Recursive Spectral Reconstruction Network (FRN) for generating hyperspectral images from RGB images. It describes the recursive nature of the reconstruction process, the use of a state space model, and the benefits of the method compared to existing approaches. Abstract B, on the other hand, talks about theoretical guarantees for a distributional autoencoder and a novel neural surrogate for modeling plasma turbulence. There is no overlap whatsoever between the content of these two abstracts. The concepts, techniques, and goals are entirely different, making Abstract B an inappropriate generalization of Abstract A.",
-          "specificity": 0.15,
+          "specificity": 0.175,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -74,10 +74,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 48,
+          "third": 39,
           "third_score": 0.31344902515411377,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B fails to adequately generalize Abstract A. Abstract A specifically describes a multi-agent system called SpecMAS that autonomously generates and verifies executable system models from natural language specifications using formal model checking techniques. It details the system's components (reasoning agent, debugging agent, and verification process), the input (Standard Operating Procedure, SOP), and the verification method (temporal logic model checking).\n\nAbstract B, on the other hand, introduces SpecMAS alongside another concept, a probabilistic carbon accounting model (PCAM). While both deal with systems and specifications, the addition of PCAM introduces entirely new and unrelated concepts (probabilistic carbon accounting, quantifying uncertainties in AI models) that are not present or implied in Abstract A. The presence of PCAM in Abstract B significantly reduces the overlap and makes it clear that Abstract B is not a generalization of Abstract A, but rather introduces an additional, unrelated element. Thus, the score reflects the minimal overlap between the two abstracts.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not contain any details that are either present or implied in Abstract A. Abstract A discusses a multi-agent framework called MetaMind that focuses on modeling human social thoughts through Theory of Mind, moral reasoning, and response generation. It emphasizes the performance improvements and advancements in AI systems towards human-like social intelligence. In contrast, Abstract B introduces SpecMAS, a multi-agent system for generating and verifying executable system models from natural language specifications, and PCAM, a probabilistic carbon accounting model. There is no overlap whatsoever between the topics and details presented in Abstract A and Abstract B. Therefore, the score is 0.",
-          "specificity": 0.125,
+          "specificity": 0.15000000000000002,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -124,10 +124,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 59,
+          "third": 30,
           "third_score": 0.29466986656188965,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B provides a broad context that broadly encompasses the topic of Abstract A. Both abstracts deal with queue management and equilibrium computation in economic and game-theoretic settings. Abstract A specifically addresses a two-sided market with price-sensitive customers and servers, whereas Abstract B is more general, focusing on complex economic and game-theoretic settings. \n\nThe key elements present in Abstract A (near-optimal algorithms, queue management, and equilibria) are well-represented in Abstract B. However, Abstract B lacks the specific details about the two-sided market, the price-sensitive nature of customers and servers, the particular performance metrics (regret, average queue length, maximum queue length), and the exact near-optimality proof provided in Abstract A. \n\nThese specific details are crucial for understanding the exact problem and solution presented in Abstract A, but they are not necessary for grasping the broader theme of designing near-optimal algorithms for complex queue management problems. Therefore, the score reflects a balance between the shared general themes and the significant differences in specificity.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B is significantly less detailed and more broadly focused compared to Abstract A. Abstract A specifically discusses unbalanced weak optimal transport problems with total variation penalties, particularly in the context of spatial resource allocation tasks. Abstract B, on the other hand, is more general, focusing on designing near-optimal algorithms for managing queues and computing equilibria in complex economic and game-theoretic settings. While both abstracts deal with optimization and equilibrium concepts, the specific topics and methodologies described in Abstract A are not present or implied in Abstract B. Therefore, the overlap is minimal, resulting in a low score.",
-          "specificity": 0.475,
+          "specificity": 0.225,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -174,10 +174,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 18,
+          "third": 15,
           "third_score": 0.20299510657787323,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B serves as an adequate generalization of Abstract A, capturing the essence of the research described. Both abstracts discuss improvements in optical imaging and spectral reconstruction, which aligns well with Abstract B's broad focus. Abstract A provides more detailed information about the specific techniques used (dual-comb interferometry, ghost imaging, and transformer-based reconstruction), but these are all within the scope of the broader category of optical imaging and spectral reconstruction.\n\nAbstract B omits specific details such as:\n- The exact method of speckle illumination using optical frequency combs.\n- The use of a single-pixel detector for ghost imaging.\n- The introduction of Optical Ghost-GPT as a transformer-based reconstruction model.\n- The performance comparison with classical ghost imaging techniques.\n- The application to endoscopic imaging specifically.\n\nWhile these details are crucial for understanding the specific contributions and advancements made in the research, they do not contradict or negate the core idea presented in Abstract B. Therefore, the score reflects a strong generalization, with significant overlap in the main themes and goals of both abstracts.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not imply any details from Abstract A. Abstract A discusses a foundation model named ChromFound designed specifically for single-cell chromatin accessibility data (scATAC-seq) and its applications in various tasks like cell type annotation and cross-omics prediction. In contrast, Abstract B focuses entirely on optical imaging and spectral reconstruction techniques for medical and sensing applications, which are completely unrelated to the content of Abstract A. There is no overlap in terms of methodology, application areas, or technology discussed. Therefore, the score is 0.",
-          "specificity": 0.375,
+          "specificity": 0.125,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -224,10 +224,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 29,
+          "third": 41,
           "third_score": 0.2620965242385864,
           "evaluation_specificity": "Eval A:\nScore: 0.2\nReasoning:\nAbstract B provides a significant departure from the content of Abstract A. Abstract A focuses on the challenges and implications of integrating studies with disparate outcome measures in causal inference, specifically examining the effects of different scales measuring withdrawal symptoms in opioid use disorder trials. Abstract B, however, shifts focus entirely to a novel mechanism for pairwise comparisons using large language models in peer review, which has no direct relation to the topics discussed in Abstract A. The only superficially related element is the mention of \"disparate outcome measures,\" but this is vastly oversimplified and does not capture the depth or context provided in Abstract A. Therefore, Abstract B fails to generalize Abstract A adequately, resulting in a low score.\nEval B:\nScore: 0.75\nReasoning:\nAbstract B effectively captures the main thrust of Abstract A by introducing and exploring a novel mechanism for peer review using LLMs through pairwise comparisons. Both abstracts discuss the integration of LLMs into peer review processes and the concept of pairwise comparisons. Abstract B omits some specific details from Abstract A, such as the detailed explanation of the mechanism (pairwise comparisons), the focus on LLM agents, and the specific benefits observed (significantly outperforming traditional methods). However, these details are not central to the overall idea presented. The core concepts of using LLMs for peer review and the importance of pairwise comparisons are well-represented in Abstract B. The omission of minor details does not significantly detract from the generalization, resulting in a high score.",
-          "specificity": 0.475,
+          "specificity": 0.175,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -274,10 +274,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 62,
+          "third": 63,
           "third_score": 0.3125463128089905,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B is a highly unsuitable generalization of Abstract A. Abstract A focuses specifically on the development of RayFusion, a ray-based fusion method for collaborative visual perception, which aims to enhance the accuracy of 3D object detection by addressing depth ambiguity in camera-based systems. In contrast, Abstract B discusses \"advanced techniques for improving collaborative visual perception and persistent homology computation for large-scale point cloud data.\" While both abstracts involve aspects related to perception and collaboration, they differ significantly in scope and focus. Abstract B does not contain any specific details about RayFusion, collaborative visual perception, or even mentions 3D object detection. Instead, it introduces entirely new concepts like persistent homology and point cloud data, which are not implied at all in Abstract A. The minimal overlap (if any) is insufficient to justify a high score, hence the low score.\nEval B:\nScore: 0.4\nReasoning:\nAbstract B provides a broad context that aligns with the main topic of Abstract A, which is about persistent homology (PH) for large-scale point cloud data. Both abstracts focus on computational challenges and solutions for handling large datasets in the context of PH computation. However, Abstract B is significantly less detailed and more general compared to Abstract A.\n\nKey aspects present in both:\n- Both discuss PH computation for large-scale point cloud data.\n- Both mention computational challenges related to the size of the dataset and the need for efficient algorithms.\n\nKey aspects present in Abstract A but missing in Abstract B:\n- The specific focus on the Flood complex and its construction.\n- Details about the Alpha complex, sparse Rips approximations, and their limitations.\n- The informal definition and flooding process of the Flood complex.\n- The experimental scaling results on 3D point cloud data.\n- The comparison with object classification performance on real-world and synthetic data.\n\nThe details provided in Abstract B are general and do not capture the specific contributions and findings presented in Abstract A. Therefore, while there is some overlap in the overall theme, the level of detail and specificity in Abstract A is not adequately represented in Abstract B. This results in a moderate score of 0.4.",
-          "specificity": 0.325,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -324,10 +324,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 45,
+          "third": 39,
           "third_score": 0.3080744743347168,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B serves as a reasonably good generalization of Abstract A. Both abstracts discuss the creation of coherent narratives with embedded multimedia content, which aligns closely. Abstract B captures the essence of the task, including the use of large language models and the insertion of multimedia content into a narrative. \n\nHowever, Abstract B omits several specific details present in Abstract A:\n- The exact problem domain (long-to-short video editing vs. possibly other applications like documentary teaser generation)\n- The specific methodological components (REGen framework, quote placeholders, retrieval model, candidate quotable video clips)\n- The particular application context (documentary teasers) mentioned in Abstract A\n\nThese omissions mean that while Abstract B conveys the main idea and approach, it does not capture all the specific details and nuances of Abstract A. The score of 0.75 reflects that Abstract B encompasses the core concept and approach while still leaving room for the more detailed information provided in Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a completely different context from Abstract A. Abstract A discusses a method for generating realistic dance movements based on music, utilizing a mixture-of-experts architecture for genre-awareness. In contrast, Abstract B focuses on narrative generation with embedded multimedia content, specifically for video editing and code generation using large language models. There is no overlap between the core concepts, techniques, or applications described in Abstract A and those in Abstract B. Therefore, Abstract B does not serve as a generalization of Abstract A; it introduces entirely new ideas and topics.",
-          "specificity": 0.375,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -374,7 +374,7 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 44,
+          "third": 41,
           "third_score": 0.27463245391845703,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B captures some key aspects of Abstract A but falls short in terms of specificity and detail. Abstract A specifically discusses the BFGS quasi-Newton method, its convergence guarantees under strict self-concordance conditions, and the affine-invariance of these guarantees. Abstract B, while broadly related to optimization algorithms and quasi-Newton methods, does not specify these particular details. It mentions convex bodies and quasi-Newton methods, which are relevant but less specific than what is provided in Abstract A. The focus on efficiency and optimization problems is also present, but the scope is broader. Therefore, while there is a significant overlap, Abstract B does not fully capture the level of detail found in Abstract A, resulting in a moderate score.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a completely different focus from Abstract A. Abstract A discusses the theoretical aspects of the Stochastic Gradient Adam (SGAdam) algorithm, specifically its generalization properties in the context of neural networks and the impact of batch size and weight decay. Abstract B, on the other hand, shifts the focus entirely to optimization algorithms for convex bodies and quasi-Newton methods. There is no overlap whatsoever between the topics discussed in these abstracts. Abstract B does not imply any details from Abstract A, nor does it introduce new concepts that are related to the content of Abstract A. Therefore, the score is 0.",
           "specificity": 0.2,
@@ -424,7 +424,7 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 52,
+          "third": 42,
           "third_score": 0.29399994015693665,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad framework that encompasses clustering and decision tree optimization problems, which are indeed addressed in Abstract A. However, the specific focus on \"edge-colored hypergraphs\" and \"overlapping and robust clustering\" is not directly implied by Abstract B. Abstract B mentions clustering and decision tree optimization but does not specify the type of clustering or the particular challenges (such as overlapping and robustness) that Abstract A addresses. Additionally, while Abstract B talks about efficient algorithms and theoretical guarantees, it does not mention the combination of LP rounding with combinatorial algorithms as presented in Abstract A. The overlap is significant in terms of the overall problem area but lacks the specific details of Abstract A, resulting in a mid-range score.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B fails to serve as a generalization of Abstract A. Abstract A discusses monotone and separable set functions, specifically focusing on designing set-to-vector functions to preserve partial orders on sets and exploring different properties and models (MAS, MASNET, weakly MAS, universal models). Abstract B, on the other hand, shifts focus entirely to clustering and decision tree optimization problems, which are entirely unrelated topics. There is no overlap in terms of the core concepts, methodologies, or goals presented in the two abstracts. The content and objectives are completely distinct, making it impossible for Abstract B to generalize Abstract A in any meaningful way.",
           "specificity": 0.2,
@@ -474,10 +474,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 44,
+          "third": 50,
           "third_score": 0.30934572219848633,
           "evaluation_specificity": "Eval A:\nScore: 0.15\nReasoning:\nAbstract B provides a broad context that encompasses the topic of efficient inference techniques for large language models and generative models, which aligns somewhat with the focus on large language models (LLMs) mentioned in Abstract A. However, Abstract B is significantly more generalized and does not capture many specific details from Abstract A.\n\nKey differences:\n1. **Specific Focus**: Abstract A is highly specific to LLMs and the 2-bit quantization technique within them. Abstract B is much broader, covering \"large language models\" and \"generative models for crystal structure design.\"\n2. **Technique Details**: Abstract A describes a novel kernel called CodeGEMM tailored specifically for weight-only quantization in LLMs. Abstract B does not mention any specific technique or implementation details.\n3. **Quantization and Inference**: While both abstracts discuss efficient inference techniques, Abstract A focuses on a particular aspect of quantization (CodeGEMM) while Abstract B is more general about the topic of inference techniques.\n4. **Performance Metrics**: Abstract A provides concrete performance improvements (speedups) for CodeGEMM in specific configurations, whereas Abstract B does not mention any performance metrics.\n\nGiven these significant differences, Abstract B does not effectively generalize Abstract A. The overlap is minimal, and most of the specific details from Abstract A are either missing or generalized away in Abstract B. Therefore, the score reflects a low level of implication.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B is completely unrelated to the content of Abstract A. Abstract A discusses theoretical aspects of the stochastic gradient Adam optimizer in the context of deep learning, specifically focusing on its generalization properties in over-parameterized neural networks. In contrast, Abstract B shifts the focus entirely to efficient inference techniques for large language models and crystal structure design, which are entirely different topics. There are no shared details or implications between these two abstracts, making it clear that Abstract B does not serve as a generalization of Abstract A at all.",
-          "specificity": 0.075,
+          "specificity": 0.1,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -524,10 +524,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 41,
+          "third": 42,
           "third_score": 0.24237887561321259,
           "evaluation_specificity": "Eval A:\nScore: 0.2\nReasoning:\nAbstract B provides a highly abstracted summary of Abstract A, focusing on stabilization techniques for partially observable LTI systems. However, it completely misses the details and context provided in Abstract A. Abstract A specifically addresses the challenge of stabilizing unknown partially observable LTI systems, detailing a new technique called LTS-P that estimates the unstable subsystem and designs a stabilizing controller. Abstract B, on the other hand, shifts the focus entirely to single-cell chromatin accessibility data, which is unrelated to the LTI systems discussed in Abstract A. The only superficial connection is the general theme of stabilization, but there is no overlap in the specific methods, objectives, or the systems being studied. Therefore, the score reflects that Abstract B does not imply any significant details from Abstract A, leading to a low score.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B is completely unrelated to the content of Abstract A. Abstract A discusses computational efficiency in the context of kernel ridge regression under covariate shift in RKHSs. In contrast, Abstract B focuses on techniques for stabilizing partially observable linear time-invariant systems and developing a foundation model for analyzing single-cell chromatin accessibility data. There is no overlap whatsoever between these two topics, hence a score of 0.",
-          "specificity": 0.1,
+          "specificity": 0.15,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -574,10 +574,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 30,
+          "third": 37,
           "third_score": 0.27121204137802124,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B attempts to generalize Abstract A by mentioning synaptic short-term plasticity (STP) and addressing limitations in reinforcement learning, which are both present in Abstract A. However, Abstract B significantly diverges from the specific details provided in Abstract A. Here's a breakdown:\n\n- **Specific Model**: Abstract A describes a detailed two-layer continuous attractor neural network model with specific layers dominated by synaptic depression and facilitation, which are crucial for explaining the repulsion and attraction mechanisms. Abstract B does not mention these specific components.\n  \n- **Neural Network Structure**: Abstract A explicitly mentions the two-layer structure and the role of each layer in different stages of perception. Abstract B does not specify these details.\n\n- **Mechanisms Explained**: Abstract A focuses on how STP orchestrates repulsion and attraction at different stages of perception, including the sensory and post-perception phases. Abstract B, while mentioning STP, does not delve into these specific mechanisms.\n\n- **Bayesian Interpretation**: Abstract A emphasizes the Bayesian interpretation of serial dependence based on the model. Abstract B does not mention this aspect.\n\n- **Experiments and Observations**: Abstract A references visual orientation judgment experiments and their successful explanation by the model. Abstract B does not mention these empirical validations.\n\n- **Temporal Windows**: Abstract A specifically mentions the time constants of STP defining the temporal windows of repulsion and attraction. Abstract B does not address this.\n\nWhile Abstract B captures the broad theme of exploring neural mechanisms related to STP and continuous dynamics, it misses the majority of the specific details and explanatory power of Abstract A. Therefore, the score reflects a moderate level of generalization, placing it around 0.4.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not contain any information relevant to the content of Abstract A. Abstract A discusses diffusion-based recommender systems, specifically addressing the efficiency-effectiveness trade-off in these systems. It mentions diffusion models, denoising processes, temporal consistency regularization (TCR), adaptive preference alignment (APA), and experimental validation. In contrast, Abstract B focuses on neural mechanisms underlying serial dependence in perception, using a computational model with synaptic short-term plasticity, and addressing limitations in reinforcement learning for continuous dynamics. There is no overlap whatsoever between the topics and methods described in Abstract A and Abstract B. Therefore, Abstract B fails to serve as a generalization of Abstract A.",
-          "specificity": 0.2,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -624,10 +624,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 62,
+          "third": 53,
           "third_score": 0.269176721572876,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B provides a broad overview of the field and the type of work being discussed, which is a strong indication that it serves as a generalization of Abstract A. Abstract A specifically addresses the development of a new differentiable VG representation called Bézier Splatting, focusing on its advantages in terms of speed and quality, as well as its compatibility with existing standards.\n\nAbstract B mentions \"differentiable representations and optimization techniques for vector graphics\" which aligns well with the focus on differentiable VGs in Abstract A. However, Abstract B is more general and does not specify the particular technique (Bézier Splatting) or the specific optimizations (fast rasterization, quality improvements, etc.) detailed in Abstract A. \n\nThe key details that are implied by Abstract B include:\n- The use of differentiable representations for vector graphics\n- Techniques for optimization and speed improvement\n\nWhile Abstract A provides more specific information about the method (Bézier Splatting), the general idea of optimizing and representing vector graphics is captured in Abstract B. Therefore, the score reflects that Abstract B captures the essence of the work described in Abstract A, albeit with a reduction in specificity.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a significant departure from the content of Abstract A. Abstract A discusses the development of a new computational method (the Flood complex) for efficiently computing persistent homology (PH) on large datasets. It addresses challenges related to scalability and computational efficiency, particularly in the context of machine learning applications on large-scale point cloud data.\n\nIn contrast, Abstract B focuses entirely on developing differentiable representations and optimization techniques for vector graphics and physically sound design generation. There is no overlap in the core topics, methodologies, or application domains between Abstract A and Abstract B. Abstract B does not imply or hint at any of the concepts or details found in Abstract A, such as persistent homology, large-scale point cloud data, Delaunay triangulations, or computational efficiency improvements. Therefore, the score reflects a lack of any meaningful implication or generalization from Abstract A to Abstract B.",
-          "specificity": 0.375,
+          "specificity": 0.05,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -674,10 +674,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 58,
+          "third": 28,
           "third_score": 0.27053189277648926,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B effectively generalizes Abstract A by capturing the main themes of protein stability prediction and computational methods used in drug discovery. Both abstracts discuss computational techniques related to protein stability, including inverse folding models and their applications. Abstract B specifies \"protein stability prediction\" which aligns with the focus on protein stability in Abstract A. It also mentions \"virtual screening in drug discovery,\" which is a common application area for protein stability predictions.\n\nHowever, Abstract B is slightly more broad and general compared to Abstract A. It doesn't specify the use of inverse folding models or the free-energy interpretation mentioned in Abstract A. These specific details are crucial to the content and context of Abstract A but are not essential for the broader theme of computational methods in protein stability prediction and drug discovery.\n\nThe overlap is significant enough to warrant a high score, but the omission of the detailed approach and specific methodological aspects of Abstract A reduces the perfect match score. Therefore, a score of 0.75 reflects the substantial overlap while acknowledging the notable differences in specificity.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a completely different topic from Abstract A. Abstract A discusses improving perturbation-based explanations in machine learning models, focusing on uncertainty calibration and its impact on model reliability and explanation quality. In contrast, Abstract B focuses on protein stability prediction and virtual screening in drug discovery, which is entirely unrelated to machine learning or uncertainty calibration in models. There are no shared concepts or details between the two abstracts, so Abstract B does not serve as a generalization of Abstract A at all.",
-          "specificity": 0.375,
+          "specificity": 0.225,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -724,10 +724,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 48,
+          "third": 54,
           "third_score": 0.31751203536987305,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B is a significant generalization of Abstract A. Abstract A focuses specifically on a closed-form solution for question subset selection in adaptive testing, aiming to reduce the number of questions needed for accurate ability estimation while maintaining estimation accuracy. Abstract B, on the other hand, broadens the scope to include adaptive testing and distributed mediation analysis, which are not explicitly mentioned in Abstract A. \n\nWhile Abstract B touches on the theme of adaptive testing and mentions ability estimation, it significantly diverges from the specific focus on question subset selection and the closed-form solution provided in Abstract A. Abstract B also introduces new concepts like distributed mediation analysis, which are not present in Abstract A.\n\nThe overlap is limited to the overall theme of adaptive testing and ability estimation, with Abstract A providing more detailed information about the specific method proposed. Therefore, the score reflects that while there is some implied connection, Abstract B does not capture the majority of the details and specifics found in Abstract A.\nEval B:\nScore: 0\nReasoning:\nAbstract B provides no details that are either explicitly mentioned or implied in Abstract A. Abstract A discusses a multi-agent framework called MetaMind aimed at improving AI's social reasoning abilities through a decomposition of social understanding into three stages: Theory-of-Mind Agent, Moral Agent, and Response Agent. It also mentions advancements in LLMs and their performance improvements on ToM tasks. Abstract B, however, focuses entirely on adaptive testing and distributed mediation analysis, which are completely unrelated topics. There is no overlap between the content and goals of the two abstracts, hence the score of 0.",
-          "specificity": 0.15,
+          "specificity": 0.125,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -774,10 +774,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 43,
+          "third": 61,
           "third_score": 0.31296372413635254,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a broad overview of the focus on advanced mechanisms for image processing tasks, which is relevant to the content of Abstract A. However, Abstract B does not capture the specific technical details or the unique aspects of the proposed MODEM mechanism presented in Abstract A. Abstract B mentions \"advanced mechanisms\" but does not specify the type of degradation estimation (Morton-Order Degradation Estimation Mechanism) or the specific components (MOS2D, DDEM) introduced in Abstract A. Additionally, Abstract B does not mention the focus on adverse weather image recovery or the integration of selective state-space models. Therefore, while there is some relevance, the majority of the detail in Abstract A is not implied or captured by Abstract B, leading to a relatively low score.\nEval B:\nScore: 0.3\nReasoning:\nAbstract B provides a broad focus on advanced mechanisms for fine-grained analysis and restoration, which are concepts that could be relevant to the work described in Abstract A. However, the details provided in Abstract A about spectral reconstruction, recursive spectral reconstruction networks, and the specific techniques employed (such as the atomic reconstruction module and band-aware state space model) are not captured by Abstract B. Abstract B lacks specificity regarding the type of image processing tasks and the particular mechanisms being developed, focusing more generally on \"advanced mechanisms\" rather than the specific spectral reconstruction methods detailed in Abstract A. Therefore, while there is some overlap in the general area of image processing and analysis, the level of detail and specificity present in Abstract A are not adequately covered by Abstract B. This results in a relatively low score.",
-          "specificity": 0.3,
+          "specificity": 0.125,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -824,7 +824,7 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 52,
+          "third": 48,
           "third_score": 0.3030118942260742,
           "evaluation_specificity": "Eval A:\nScore: 0.2\nReasoning:\nAbstract B is significantly less detailed and relevant to the content of Abstract A. Abstract A focuses on the role of descriptive representation in collective decision making, particularly regarding intersections of multiple features and their impact on social welfare. In contrast, Abstract B discusses the role of representation in decision-making processes and proposes a method for balancing local and global information in federated learning. While both abstracts touch on the concept of representation, they address entirely different topics and methodologies. Abstract B does not capture any substantial details from Abstract A, making the score very low.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A discusses the design of monotone and separable set functions (MAS functions) for set containment problems, focusing on theoretical properties, bounds, and a specific model called MASNET. Abstract B, on the other hand, shifts the focus entirely to representation in decision-making processes and federated learning, which is completely unrelated to the content of Abstract A. There is no overlap in terms of topic, methodology, or even the type of learning models being discussed. The details in Abstract B are entirely absent from Abstract A, making the score 0.",
           "specificity": 0.1,
@@ -874,10 +874,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 58,
+          "third": 50,
           "third_score": 0.2929800748825073,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B does not directly generalize the core concepts or details of Abstract A. Abstract A specifically discusses \"Provable Watermarking for Data Poisoning Attacks,\" which involves proposing and analyzing two types of watermarking schemes (post-poisoning and poisoning-concurrent) to ensure the detectability and utility of watermarked poisoned datasets. Abstract B, on the other hand, shifts focus entirely to \"dataset integrity and secure data sharing\" and introduces a new topic about \"efficient distribution estimation under \\(\\ell^p\\)-losses using refinement methods.\" \n\nWhile both abstracts touch on the theme of watermarking and data poisoning, there is no direct overlap in the detailed content or methodology presented. Abstract B does not capture the specific context of data poisoning attacks, the proposed watermarking techniques, or the theoretical analyses provided in Abstract A. Therefore, the score reflects that Abstract B provides very little information that can be inferred or implied from Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A discusses improving perturbation-based explanations by understanding the role of uncertainty calibration in machine learning models. It introduces ReCalX, a method to recalibrate models for better explanations. Abstract B, on the other hand, is entirely unrelated and discusses methods for ensuring dataset integrity and secure data sharing through watermarking in the context of data poisoning attacks, as well as efficient distribution estimation under \\(\\ell^p\\)-losses using refinement methods. There is no overlap or implication between these two abstracts, making it clear that Abstract B fails to generalize Abstract A in any meaningful way.",
-          "specificity": 0.15,
+          "specificity": 0.225,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -924,10 +924,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 36,
+          "third": 58,
           "third_score": 0.26300162076950073,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B provides a very broad generalization of the key concepts mentioned in Abstract A, particularly focusing on stabilization techniques for partially observable systems and foundational models for data analysis. However, the specific focus on single-cell chromatin accessibility data in Abstract A is not captured at all by Abstract B. Abstract B omits any mention of scATAC-seq, chromatin accessibility, or any biological context related to single-cell data. It also does not reference the development of a foundation model or its application to solving complex problems in single-cell genomics. The two abstracts are entirely unrelated in terms of their content and focus, making it clear that Abstract B does not serve as a meaningful generalization of Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A discusses a framework for consistent multi-protocol image segmentation in biomedical imaging, focusing on generating diverse yet coherent segmentation maps across different applications and unseen domains. In contrast, Abstract B focuses on stabilizing partially observable linear time-invariant systems, which is unrelated to image segmentation, biomedical imaging, or the generation of segmentation maps. The two abstracts have no overlapping details or concepts, hence a score of 0.",
-          "specificity": 0.125,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -974,10 +974,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 50,
+          "third": 62,
           "third_score": 0.27757900953292847,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B effectively captures the main thrust of Abstract A, focusing on the theoretical contributions and improvements in computational efficiency for disease spread predictions. It correctly identifies the areas of focus in Abstract A: the theoretical framework, the proposed algorithm RAPID, and its applications in real-world scenarios. \n\nHowever, Abstract B does not specify the context of computational epidemiology, the use of Monte Carlo simulations, the specific types of contact networks considered, or the detailed theoretical derivations provided in Abstract A. These specific details are important for understanding the problem domain and the depth of the research, but they are not necessary for grasping the broader contribution of Abstract A.\n\nThe omission of these specifics results in a mid-range score, as Abstract B conveys the essential message about improving computational efficiency and accuracy in disease spread predictions but lacks the specific technical details that would make it more directly applicable or understandable to those already familiar with the field.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A in any meaningful way. Abstract A focuses on the development of a Probabilistic Carbon Accounting Model (PCAM) for large AI models, specifically addressing uncertainties in their carbon footprint. Abstract B, on the other hand, discusses contributions to computational epidemiology and diffusion models, which are entirely unrelated fields. There is no overlap in the concepts, methodologies, or objectives between the two abstracts. Therefore, the score is close to 0, indicating that Abstract B neither implies nor relates to Abstract A in any substantial manner.",
-          "specificity": 0.375,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1024,10 +1024,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 40,
+          "third": 56,
           "third_score": 0.3029209077358246,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B is a broad generalization that touches on some themes mentioned in Abstract A, particularly focusing on improvements in real-world robotic manipulation and machine learning model explanations. However, it fails to capture the specific details that make Abstract A unique and detailed.\n\nKey points from Abstract A that are not adequately covered by Abstract B include:\n- The specific problem addressed: Dataset Aggregation (DAgger) for real-world contact-rich manipulation.\n- The novel components introduced: Compliant Intervention Interface and Compliant Residual Policy formulation.\n- The performance improvements achieved: Over 60% increase in base policy success rates on book flipping and belt assembly tasks.\n- The comparison with other methods: Outperforming retraining-from-scratch and fine-tuning approaches.\n- The practical implementation guidance provided: Extensive real-world experiments and recommendations.\n\nWhile Abstract B mentions \"improving real-world robotic manipulation\" and \"machine learning model explanations,\" it does not specify these aspects in relation to the specific techniques and improvements described in Abstract A. Additionally, Abstract B lacks any reference to the contact-rich nature of the tasks or the use of DAgger.\n\nTherefore, the score reflects that Abstract B captures only a small fraction of the details from Abstract A, resulting in a low score.\nEval B:\nScore: 0.25\nReasoning:\nAbstract B is significantly more focused on robotic manipulation and model explanations, which are entirely different from the topic of Abstract A, which discusses a Temporal Difference Method for Stochastic Continuous Dynamics, specifically focusing on reinforcement learning and the Hamilton-Jacobi-Bellman (HJB) equation. The proposed method in Abstract A is a model-free approach aimed at continuous dynamical systems, whereas Abstract B does not mention these elements. The topics and details do not overlap, hence the low score.",
-          "specificity": 0.275,
+          "specificity": 0.15000000000000002,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1074,10 +1074,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 61,
+          "third": 49,
           "third_score": 0.3436703085899353,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a general framework that encompasses some of the key ideas present in Abstract A, particularly focusing on scalable approaches and fine-grained geographic localization. However, Abstract B is significantly broader in scope and does not capture all the specific details of Abstract A. Here's a breakdown:\n\n- **Core Focus**: Both abstracts discuss scaling approaches for geographic localization, which is a shared element. Abstract B expands this to include gait recognition, which is not mentioned in Abstract A.\n  \n- **Specific Techniques**:\n  - **Proxy Classification Task**: Abstract A explicitly mentions using a proxy classification task during training to learn rich feature representations. Abstract B does not mention this technique.\n  - **Combining Prototypes with Aerial Imagery**: Abstract A describes combining learned prototypes with aerial imagery for increased robustness. Abstract B does not address this aspect.\n  - **Fine-Grained Retrieval**: Abstract A details how their method achieves fine-grained localization within 200 meters for 68% of queries. Abstract B does not specify these performance metrics.\n  - **Dataset Coverage**: Abstract A refers to a dataset covering a large part of Europe, while Abstract B does not specify a particular dataset or its geographical extent.\n  - **Code Availability**: Abstract A mentions code availability at a specific URL, which Abstract B does not reference.\n\nWhile Abstract B correctly identifies the focus on scalable approaches and fine-grained localization, it lacks the detailed technical aspects and specific results presented in Abstract A. Therefore, the score reflects the partial overlap in content and the significant differences in detail.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not imply any details from Abstract A. Abstract A discusses the development of a large-scale benchmark suite (AEOS-Bench) and a novel scheduling model (AEOS-Former) for real-world Earth observation satellite constellations. In contrast, Abstract B talks about fine-grained geographic localization at a continental level and explores new paradigms in gait recognition using vocabulary guidance. There is no overlap in topics, methodology, or objectives between the two abstracts. Therefore, the score is 0, indicating that none of the details in Abstract B are either present or implied in Abstract A.",
-          "specificity": 0.2,
+          "specificity": 0.35000000000000003,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1124,10 +1124,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 30,
+          "third": 46,
           "third_score": 0.2670730948448181,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a broad context for the work described in Abstract A, which is focused on active seriation for recovering latent orderings. However, Abstract B is significantly more general and abstract compared to Abstract A. Here's the breakdown:\n\n- **Core Concept**: Both Abstracts deal with the recovery of latent orderings, but Abstract B is broader, encompassing recommendation systems, while Abstract A specifically targets seriation.\n  \n- **Specific Details**: Abstract A provides specific details about the problem setup (adaptive pairwise similarity queries, underlying Robinson matrices), the proposed algorithm (active seriation), its theoretical guarantees (probability of error, number of observations), and the separation condition under which these guarantees hold. Abstract B mentions \"efficient recovery of latent orderings\" and \"improving the efficiency-effectiveness trade-offs,\" which are broad goals that could apply to various contexts beyond recommendation systems.\n\n- **Overlap**: While Abstract B hints at the relevance of the problem(Abstract A discusses), it does not capture the specific technical details and guarantees presented in Abstract A. Abstract B lacks the precise formulation of the problem, the specific algorithm, and the rigorous theoretical guarantees mentioned in Abstract A.\n\nTherefore, the score reflects that while there is some thematic overlap, the content and detail of Abstract A are not sufficiently implied or captured by Abstract B. The lower score reflects the significant difference in specificity and detail between the two abstracts.\nEval B:\nScore: 0.4\nReasoning:\nAbstract B captures the broad theme of developing algorithms for improving efficiency and effectiveness in recommendation systems, which is present in Abstract A's discussion of the efficiency-effectiveness trade-off in diffusion-based recommenders. Abstract B mentions \"efficient recovery of latent orderings,\" which aligns with the idea of improving recommendation performance through more effective methods.\n\nHowever, Abstract B significantly underrepresents the specific techniques and mechanisms discussed in Abstract A. Key elements like \"two-stage framework,\" \"Temporal Consistency Regularization (TCR),\" and \"Adaptive Preference Alignment (APA)\" are not mentioned in Abstract B. These are crucial components that demonstrate how the authors specifically address the trade-off by proposing novel solutions.\n\nAdditionally, Abstract B omits the technical details about diffusion models, denoising processes, and the multi-step denoising approach used in Abstract A. These details are foundational to understanding the problem and the proposed solutions.\n\nGiven these observations, Abstract B provides enough context to understand the general area of research but fails to capture the specific innovations and technical aspects detailed in Abstract A. The score reflects that Abstract B captures a portion of the problem statement but does not fully convey the technical contributions made in Abstract A.",
-          "specificity": 0.35,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1174,7 +1174,7 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 38,
+          "third": 37,
           "third_score": 0.27673473954200745,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad generalization of the concepts mentioned in Abstract A but falls short in terms of specific details. Both abstracts discuss signal processing and generation tasks, particularly in the context of physiological signals. However, Abstract A delves into specific challenges like motion artifacts, baseline drift, and non-stationary features, which are not explicitly covered in Abstract B. Abstract B mentions \"physiological signal analysis\" but does not specify the techniques or models detailed in Abstract A. Similarly, while it discusses \"signal processing and generation tasks,\" it does not capture the multi-scale wavelet-transformer approach, the introduction of pretrained models for EMG and ECG, or the multi-modal framework involving EEG. \n\nThe overlap lies mainly in the overarching themes of advanced signal processing and generation tasks. However, the lack of specific details in Abstract B makes it less effective as a generalization of Abstract A. Therefore, the score reflects a moderate level of overlap, resulting in a score of 0.4.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B fails to capture any significant details from Abstract A. Abstract A discusses target speaker extraction specifically, focusing on using noisy positive and negative enrollments to extract the target speaker's voice. It mentions improving SI-SNRi and reducing optimization steps compared to previous methods. In contrast, Abstract B is entirely unrelated, discussing signal processing and generation tasks in general, particularly those related to physiological signals and 3D dance generation. There is no overlap in terms of content, methodology, or objectives, hence the score of 0.",
           "specificity": 0.2,
@@ -1224,10 +1224,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 55,
+          "third": 46,
           "third_score": 0.3196367621421814,
           "evaluation_specificity": "Eval A:\nScore: 0.6\nReasoning:\nAbstract B provides a broad context for the research described in Abstract A, focusing on innovative approaches to combinatorial optimization problems, specifically mentioning neural vehicle routing and unbalanced optimal transport problems. Abstract A, however, delves into the details of a specific insertion-based method (Learning to Construct with Insertion-based Paradigm, L2C-Insert) for solving Vehicle Routing Problems (VRPs) using Neural Combinatorial Optimization (NCO).\n\nAbstract B mentions neural vehicle routing, which aligns with the VRP addressed in Abstract A. It also touches on combinatorial optimization, which encompasses VRPs. However, the specific insertion-based method (L2C-Insert) is not detailed in Abstract B. Abstract B is more general and does not capture the unique aspects of the insertion-based approach or the precise methodological details provided in Abstract A.\n\nThe key elements in Abstract A—such as the insertion-based paradigm, the model architecture for precise insertion position prediction, the training scheme, and the inference technique—are not present in Abstract B. Therefore, while Abstract B provides a reasonable generalization by mentioning the broader category of combinatorial optimization and neural vehicle routing, it does not fully capture the specifics of Abstract A.\n\nGiven these considerations, the score reflects that Abstract B captures about half of the distinct details of Abstract A, making the score 0.6.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B is highly abstract and does not capture any significant details from Abstract A. Abstract A discusses a specific multi-objective Bayesian Optimization algorithm (MOBO-OSD) that aims to find a diverse set of Pareto optimal solutions through constrained optimization problems and employs techniques like Pareto Front Estimation and batch optimization. Abstract B, on the other hand, focuses on two entirely different areas: a neural vehicle routing method and unbalanced optimal transport problems. There is no overlap between the concepts discussed in Abstract A and those in Abstract B. Therefore, Abstract B does not serve as a generalization of Abstract A at all; it introduces entirely new and unrelated ideas.",
-          "specificity": 0.4,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1274,10 +1274,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 38,
+          "third": 37,
           "third_score": 0.3043244481086731,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B serves as an adequate generalization of Abstract A. It captures the essence of the research by mentioning gaze estimation and improving model generalization and performance in challenging conditions. However, it misses several specific details that are crucial to understanding the proposed 3DPE-Gaze framework.\n\nKey details in Abstract A that are missing or not directly implied in Abstract B include:\n- The explicit use of 3D facial priors (3DPE-Gaze framework)\n- The incorporation of the FLAME model\n- The concept of feature decoupling through 3D Geometric Prior Module (3DGP)\n- The use of Contrastive Learning (CLIP-guided contrastive learning) in Semantic Concept Alignment Module (SCAM)\n- The combination of 3D facial landmarks as a prior\n\nWhile these details are not necessary for a broad understanding of the research area, their omission reduces the level of detail implied by Abstract B compared to Abstract A. Therefore, the score reflects a balance between the overlapping elements and the significant differences, resulting in a moderate score of 0.75.\nEval B:\nScore: 0.3\nReasoning:\nAbstract B fails to capture the majority of the details present in Abstract A. While both abstracts discuss speaker extraction, Abstract B does not mention the specific technique of comparing positive and negative enrollments, nor does it reference the improvement in SI-SNRi or the reduction in optimization steps. Abstract B introduces new concepts like gaze estimation and emphasizes improving model generalization and performance in challenging conditions, which are not directly related to the core focus of Abstract A. The limited overlap in terms of the specific methodology and experimental results means that Abstract B does not serve as a strong generalization of Abstract A.",
-          "specificity": 0.525,
+          "specificity": 0.19999999999999998,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1324,10 +1324,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 60,
+          "third": 4,
           "third_score": 0.26436847448349,
           "evaluation_specificity": "Eval A:\nScore: 0.7\n\nReasoning:\nAbstract B effectively captures the main themes and foundational aspects of Abstract A, which is centered around causal inference within a topos-theoretic framework. Both abstracts discuss causal inference and foundational theories, albeit at different levels of detail and specificity.\n\nAbstract A delves into specific concepts like topos causal models (TCMs), sheaves, subobject classifiers, Heyting algebras, and Mitchell-Bénabou languages. Abstract B, while more general, mentions \"foundational aspects\" and \"theoretical frameworks,\" which align closely with Abstract A's focus on developing a new framework for causal inference. Abstract B also acknowledges the importance of set functions and relationships, which are implicitly related to the causal mechanisms discussed in Abstract A.\n\nHowever, Abstract B does not specify the topos-theoretic approach or the particular types of models (TCMs) mentioned in Abstract A. It lacks detailed technical terms and specific examples that are present in Abstract A. Despite these omissions, Abstract B still captures the essence of Abstract A's contribution to the field of causal inference, making it a strong generalization.\n\nTherefore, the score reflects a significant overlap in content and intent, warranting a score near 1. However, due to the omission of specific technical details and terminology, the score is slightly lower than 1.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B fails to serve as a generalization of Abstract A in any meaningful way. Abstract A focuses specifically on distributed mediation analysis, detailing the development of new statistical tests (distributed Sobel's test and distributed MaxP test) for mediation analysis under a distributed framework. It also mentions theoretical analysis and practical applications in an educational study.\n\nAbstract B, on the other hand, discusses foundational aspects of causal inference and set function properties, which have no direct relation to the specific techniques or applications described in Abstract A. There is no overlap in the main topics, methods, or results presented. The content of Abstract B is entirely unrelated to the distributed mediation analysis described in Abstract A. Therefore, the score is close to 0, indicating that none of the details in Abstract B are implied or exist within the scope of Abstract A.",
-          "specificity": 0.35,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1374,10 +1374,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 42,
+          "third": 2,
           "third_score": 0.25703516602516174,
           "evaluation_specificity": "Eval A:\nScore: 0.1\nReasoning:\nAbstract B fails to capture the core concepts and details present in Abstract A. Abstract A specifically discusses quantum algorithms for computing $\\varepsilon$-approximate correlated equilibria (CE) and coarse correlated equilibria (CCE) in multi-player normal-form games. It also mentions quantum improvements to the multi-scale Multiplicative Weight Update (MWU) method and provides detailed query complexities for both CE and CCE computations. Abstract B, on the other hand, broadly states that the focus is on designing near-optimal algorithms for managing queues and computing equilibria in complex economic and game-theoretic settings. While these topics are related to game theory, Abstract B does not specify the particular types of equilibria or the quantum aspects mentioned in Abstract A. The scope and detail are entirely different, making it clear that Abstract B does not serve as an effective generalization of Abstract A.\nEval B:\nScore: 0.25\nReasoning:\nAbstract B is completely unrelated to the content of Abstract A. Abstract A discusses algorithms for computing the John Ellipsoid in convex optimization, while Abstract B talks about designing algorithms for queue management and computing equilibria in economic and game-theoretic settings. There is no overlap in terms of subject matter, methodology, or specific techniques. Abstract B does not imply any of the details provided in Abstract A, making the score close to 0.",
-          "specificity": 0.175,
+          "specificity": 0.30000000000000004,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1424,10 +1424,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 41,
+          "third": 40,
           "third_score": 0.30118823051452637,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B provides a broad context that is well-aligned with the core focus of Abstract A, which is handling non-stationary time series data using conformal prediction. Both abstracts emphasize the importance of dealing with changes in the underlying data-generating process in time series forecasting. \n\nAbstract A specifically mentions \"Conformal Prediction for Time-series Forecasting with Change Points\" and describes a method (CPTC) that integrates a model to predict the underlying state and online conformal prediction to model uncertainties in non-stationary time series. Abstract B, on the other hand, talks about advanced techniques for handling non-stationary time series data and nonparametric regression under distribution shifts, which aligns closely with the adaptive nature of CPTC described in Abstract A.\n\nWhile Abstract B does not specify conformal prediction or change points, it captures the essence of dealing with non-stationarity and adapting to changing conditions in time series data. It also touches on computational efficiency and statistical accuracy, which are important aspects discussed in Abstract A. The main differences lie in the specific techniques used (conformal prediction vs. unspecified methods) and the slight shift towards nonparametric regression rather than the precise formulation of CPTC.\n\nGiven these points, the overlap is significant enough to justify a high score. The key concepts and challenges addressed in both abstracts are very similar, making Abstract B an effective generalization of Abstract A.\nEval B:\nScore: 0.75\nReasoning:\nAbstract B effectively captures the essence of Abstract A by highlighting the focus on computational efficiency and statistical accuracy under distribution shifts, which are central themes in Abstract A. Both abstracts deal with handling non-stationary data and nonparametric regression in the context of reproducing kernel Hilbert spaces (RKHSs).\n\nAbstract A specifically mentions kernel ridge regression, covariate shift, and computational efficiency, while also touching on the use of random projections and hypothesis spaces within RKHSs. Abstract B abstracts these details by referring to \"advanced techniques\" for non-stationary time series data and nonparametric regression under distribution shifts, which broadly aligns with the content of Abstract A.\n\nHowever, Abstract B does not explicitly mention kernel ridge regression, the specific use of random projections, or the focus on reproducible kernel Hilbert spaces. These elements are critical to understanding the specific contributions and methodology of Abstract A. Thus, while Abstract B captures the overall topic and intent, it does not fully imply all the details present in Abstract A. The overlap is significant, but not complete, hence the score of 0.75.",
-          "specificity": 0.75,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1474,10 +1474,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 39,
+          "third": 4,
           "third_score": 0.2645278573036194,
           "evaluation_specificity": "Eval A:\nScore: 0.8\n\nReasoning:\nAbstract B effectively captures the main thrust and key points of Abstract A, maintaining a high level of coherence and focus. Both abstracts discuss the integration of large language models (LLMs) into peer review processes, specifically focusing on pairwise comparisons. \n\nAbstract A introduces and explores a novel mechanism for LLMs to perform pairwise comparisons among manuscripts, highlighting its superiority over traditional rating-based methods and noting potential biases. Abstract B also mentions the introduction of a novel mechanism for pairwise comparisons using LLMs in peer review. \n\nWhile Abstract B does not explicitly mention the specific outcomes of pairwise comparisons or the advantages/disadvantages, it aligns well with the overall theme and direction of Abstract A. The core concept of leveraging LLMs for pairwise comparisons is clearly implied and maintained in Abstract B. The minor differences in phrasing and focus do not detract significantly from the overall similarity.\n\nThe score reflects a strong alignment between the two abstracts, with most details present or implied in Abstract A being captured by Abstract B. The slight differences in scope and specific outcomes do not substantially impact the broad implication of the work.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A discusses a unified local search framework for code generation using Large Language Models (LLMs), focusing on overcoming challenges related to scalability and efficiency in code generation tasks. It specifically details the proposed framework ReLoc, its components, and its performance improvements compared to existing methods.\n\nAbstract B, on the other hand, talks about integrating studies with disparate outcome measures and introducing a novel mechanism for pairwise comparisons using LLMs in peer review. There is no overlap between the topics or the content of these two abstracts. Abstract B neither mentions code generation nor refers to LLMs in the context of code generation. Therefore, the score is 0, indicating that none of the details in Abstract B are either present or implied in Abstract A.",
-          "specificity": 0.4,
+          "specificity": 0.42500000000000004,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1524,10 +1524,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 58,
+          "third": 44,
           "third_score": 0.29758575558662415,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad context that aligns well with the main theme of Abstract A, which is about addressing the efficiency-effectiveness trade-off in diffusion-based recommender systems. Both focus on optimizing these systems to balance computational efficiency with recommendation quality. However, Abstract B is more general and does not capture the specific techniques and mechanisms described in Abstract A, such as the two-stage framework, Temporal Consistency Regularization (TCR), and Adaptive Preference Alignment (APA).\n\nAbstract A delves into detailed methods (two-stage framework, TCR, APA) that are not mentioned in Abstract B. These specific techniques are crucial for understanding how the efficiency and effectiveness trade-off is addressed in the proposed system. Without these specific details, Abstract B cannot fully serve as a generalization of Abstract A. Therefore, the score reflects that while there is significant alignment in the overall topic, the critical details specific to the approach are missing.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a completely different topic from Abstract A. Abstract A discusses improving perturbation-based explanations for machine learning models, focusing on the role of uncertainty calibration and introducing a new method called ReCalX. In contrast, Abstract B is about developing algorithms for efficient recovery of latent orderings and improving the efficiency-effectiveness trade-offs in recommendation systems. There is no overlap between these two abstracts in terms of content or methodology. Therefore, Abstract B does not serve as a generalization of Abstract A at all; it fails to capture any details or concepts from Abstract A.",
-          "specificity": 0.2,
+          "specificity": 0.175,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1574,10 +1574,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 44,
+          "third": 54,
           "third_score": 0.3141587972640991,
           "evaluation_specificity": "Eval A:\nScore: 0.1\nReasoning:\nAbstract B fails to capture or imply the core details of Abstract A. Abstract A focuses on the theoretical separation results regarding pause tokens and their effect on the computational expressivity of Transformers, particularly in the context of bounded-precision activations and logarithmic precision. It also mentions an empirical demonstration of pause tokens improving Transformer performance on certain tasks like learning parity.\n\nAbstract B, on the other hand, is about exploring the theoretical foundations of neural network transformers and the influence of batch size on Adam's generalization in neural networks. While it touches on the broader topic of neural networks and optimization algorithms, it does not address the specific theoretical results or empirical findings related to pause tokens mentioned in Abstract A. The focus of Abstract B is entirely different and does not encompass or imply the content of Abstract A. Therefore, the score reflects the minimal overlap between the two abstracts.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B fails to adequately generalize Abstract A in a meaningful way. Abstract A focuses specifically on the theoretical aspects of Adam, particularly its generalization properties in relation to batch size and weight decay in over-parameterized CNNs. It discusses the behavior of Adam compared to its full-batch counterpart, the effect of mini-batches, and the implications for weight decay tuning.\n\nAbstract B, on the other hand, broadens the scope significantly by exploring the theoretical foundations of neural network transformers and optimization algorithms, with a particular emphasis on pause tokens and batch size in Adam's generalization. These topics are entirely different from the content of Abstract A. Abstract B does not contain any significant details or concepts that are implied in Abstract A. The only vague similarity is the mention of Adam in both abstracts, but this is not enough to consider Abstract B as a generalization of Abstract A.\n\nThe lack of overlap in terms of specific concepts, methodologies, and results makes it clear that Abstract B does not serve as a generalization of Abstract A. Therefore, the score reflects the minimal overlap and the significant divergence in focus and content between the two abstracts.",
-          "specificity": 0.15000000000000002,
+          "specificity": 0.22499999999999998,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1624,10 +1624,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 41,
+          "third": 59,
           "third_score": 0.30117836594581604,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B fails to capture the core details and focus of Abstract A. Abstract A specifically deals with refinement methods for estimating discrete distributions under $\\ell^p$-losses in a communication-constrained setting. It introduces refinement methods that involve generating rough estimates and refining them based on these initial estimates, along with specific techniques like successive refinement, sample compression, thresholding, and random hashing. Abstract B, however, shifts the focus entirely to methods for ensuring dataset integrity and secure data sharing through watermarking, which is unrelated to the topic of $\\ell^p$-loss distribution estimation. Additionally, Abstract B mentions another focus on efficient distribution estimation under $\\ell^p$-losses, which again diverges from the specific refinement methods discussed in Abstract A. Therefore, the details in Abstract B are either completely absent or not implied in Abstract A, leading to a low score.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B provides a completely different topic from Abstract A. Abstract A discusses computational efficiency under covariate shift in kernel ridge regression, specifically focusing on random projections and their impact on both computational efficiency and statistical accuracy. In contrast, Abstract B deals with dataset integrity, secure data sharing, watermarking techniques, and efficient distribution estimation under $\\ell^p$-losses using refinement methods. There is no overlap or implication between these two abstracts in terms of content or methodology. Abstract B does not serve as a generalization of Abstract A in any way, making the score very low.",
-          "specificity": 0.225,
+          "specificity": 0.1,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1674,10 +1674,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 46,
+          "third": 58,
           "third_score": 0.2999489903450012,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B is a generalization that touches upon aspects of drug discovery and computational methods, which are indeed relevant to the topic of Abstract A. However, it does not capture the specific focus on Active Learning (AL) for Virtual Screening (VS) with a learnable policy model, nor does it mention the reinforcement learning approach (reinforced AL) or the use of a Markov Decision Process (MDP) framework. \n\nAbstract B talks about protein stability prediction and virtual screening, which are related fields but do not fully encompass the details of Abstract A. The core concepts of Active Learning, reinforcement learning, and the MDP formulation are notably absent. Therefore, while there is some overlap in the broader field of computational methods and drug discovery, the specific details of Abstract A are not implied by Abstract B. This results in a relatively low score.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides no information that is either directly or indirectly implied in Abstract A. Abstract A discusses the integration of schema selection within a reinforcement learning framework for enhancing Cypher generation, while Abstract B focuses entirely on protein stability prediction and virtual screening in drug discovery. There is no overlap in terms of methodology, application domain, or technical details. Therefore, Abstract B does not serve as a generalization of Abstract A at all.",
-          "specificity": 0.15,
+          "specificity": 0.125,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1724,10 +1724,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 57,
+          "third": 58,
           "third_score": 0.34076425433158875,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B attempts to generalize Abstract A by mentioning \"challenges in video anomaly detection\" and \"novel paradigms for sparse supervision generalization.\" These points align somewhat with the core issues discussed in Abstract A, such as the heavy annotation burdens and sensitivity to subtle anomalies. However, Abstract B significantly broadens the scope beyond the specific context of video anomaly detection and single-frame supervision.\n\nAbstract A focuses on developing a method (Single-Frame Supervised Video Anomaly Detection, SF-VAD) that addresses specific limitations in existing VAD methods. It introduces a new paradigm called Frame-guided Progressive Learning (FPL) to generalize sparse frame supervision to event-level anomaly understanding. The detailed steps and mechanisms of FPL are not present in Abstract B, which instead speaks more generally about \"novel paradigms for sparse supervision generalization.\"\n\nThe overlap lies in the acknowledgment of challenges in sparse supervision and the need for generalized solutions. However, the details and specific contributions described in Abstract A (such as the construction of SF-VAD benchmarks, the methodology of FPL, and the experimental results) are notably absent from Abstract B. Therefore, while Abstract B captures the essence of addressing sparse supervision issues in a broader context, it fails to capture the specific technical innovations and detailed contributions made in Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A focuses specifically on fine-grained shadow detection, detailing a new method that considers shadow opacity rather than just binary masks. It introduces modules for generating realistic shadow images, separating shadow features, predicting opacity masks, and creating a new annotated dataset. Abstract B, on the other hand, discusses challenges in video anomaly detection and multi-object tracking, which are entirely unrelated topics. There is no overlap in the core concepts, methodologies, or objectives between Abstract A and Abstract B. Therefore, the score is 0.",
-          "specificity": 0.15,
+          "specificity": 0.22499999999999998,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1774,10 +1774,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 12,
+          "third": 55,
           "third_score": 0.292545884847641,
           "evaluation_specificity": "Eval A:\nScore: 0.6\nReasoning:\nAbstract B provides a broad overview of the focus on differentiable representations and optimization techniques for physically sound design generation, which aligns well with the main goals of Abstract A. Both documents discuss the development of models capable of generating designs that adhere to both textual specifications and physical constraints. \n\nHowever, Abstract B does not capture the specific details provided in Abstract A, such as:\n- The use of a text-image model for visual alignment.\n- The inclusion of a differentiable physics simulator for physical performance measurement.\n- The joint optimization of structural (topology) and visual properties.\n- The experimental verification through the 3-point bending test on 3D printed beam designs.\n\nThese specific elements are crucial to the detailed methodology described in Abstract A and are not implied by Abstract B alone. Therefore, while there is significant overlap in the general direction and focus, the specific details in Abstract A are not fully captured by Abstract B, leading to a moderate score.\nEval B:\nScore: 0.75\nReasoning:\nAbstract B effectively captures the essence of Abstract A by highlighting the development of differentiable representations and optimization techniques for vector graphics. Both abstracts discuss advancements in vector graphics (VGs) and their optimization, with Abstract B providing a broader context that encompasses the specific improvements introduced in Abstract A.\n\nAbstract A provides more detailed information about Bézier Splatting, including its sampling method, efficient rasterization, and improvements over existing methods like DiffVG. Abstract B, however, does not specify these technical details but rather mentions the focus on differentiable representations and optimization techniques in general terms. \n\nThe core concepts of differentiability, optimization, and improvements in VG quality are present in both abstracts. Abstract B is able to imply the existence of these concepts within the broader field of VG optimization, making it a strong generalization. The additional details provided in Abstract A (such as Bézier Splatting's specific technique and performance improvements) are not directly mentioned but are implied within the scope of what Abstract B outlines.\n\nGiven this balance of details and concepts, the score of 0.75 reflects the significant overlap and general applicability of Abstract B to the topic of Abstract A.",
-          "specificity": 0.675,
+          "specificity": 0.05,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1824,10 +1824,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 57,
+          "third": 21,
           "third_score": 0.3043670356273651,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B serves as a reasonable generalization of Abstract A, capturing the essence of addressing diverse segmentation protocols and distribution shifts in biomedical imaging and computer vision. Both abstracts focus on overcoming issues related to inconsistent or limited applicability of segmentation methods across different domains or protocols.\n\nHowever, Abstract B lacks the specific context and technical details provided in Abstract A. It does not mention the use of multi-label segmentation maps, the generation of consistent maps across related images, the comparison against strong baselines, or the experimental validation across multiple unseen domains. These are critical aspects of the original work that Abstract B does not explicitly convey.\n\nTherefore, while Abstract B correctly identifies the main problem and solution area (diverse protocols and distribution shifts), it omits crucial details that make Abstract A unique and informative. Given these considerations, the score reflects a balance where most of the core concepts are present but some important specific details are missing, resulting in a score of 0.75.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not at all generalize or imply any of the details found in Abstract A. Abstract A discusses fine-grained shadow detection, specifically focusing on the nuances of shadow opacities and their impact on scene understanding. Abstract B, however, talks about addressing challenges in handling diverse segmentation protocols and distribution shifts in biomedical imaging and computer vision. There is no overlap whatsoever between the topics discussed in Abstract A and Abstract B. Therefore, the score is 0, indicating that Abstract B provides no information that can be inferred or implied from Abstract A.",
-          "specificity": 0.375,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1874,10 +1874,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 62,
+          "third": 53,
           "third_score": 0.31699061393737793,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B is highly insufficient as a generalization of Abstract A. Abstract A discusses a specific method called GyroSwin, which is a neural surrogate designed for 5D nonlinear gyrokinetic plasma turbulence simulations. It elaborates on the architecture, components, performance, and scalability of GyroSwin. In contrast, Abstract B is extremely broad and does not capture any of the specific details from Abstract A. Abstract B mentions \"theoretical guarantees for a distributional autoencoder\" and \"novel neural surrogate for modeling complex physical phenomena,\" which are entirely unrelated to the specific focus and technical details of GyroSwin. The scope and content of Abstract B do not even remotely align with the content of Abstract A, making it an ineffective generalization.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not contain any information that is either explicitly mentioned or implied in Abstract A. Abstract A discusses the Flood complex, a method for computing persistent homology on large-scale point clouds, while Abstract B focuses on theoretical guarantees for a distributional autoencoder and a neural surrogate for modeling plasma turbulence. There is no overlap in terms of topic, methodology, or even the field of study (neural networks vs. persistent homology). Therefore, Abstract B fails to serve as a generalization of Abstract A, warranting a score of 0.",
-          "specificity": 0.125,
+          "specificity": 0.22499999999999998,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1924,10 +1924,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 25,
+          "third": 30,
           "third_score": 0.3043244481086731,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad overview that touches on the theme of improving performance in challenging conditions, which is relevant to Abstract A's focus on target speaker extraction from noisy enrollments. However, Abstract B diverges significantly in specifying \"enhancing gaze estimation\" and \"specialized techniques,\" which are not mentioned or implied in Abstract A. These additional elements introduce new concepts that are not present in the original abstract.\n\nAbstract A focuses specifically on target speaker extraction, detailing the use of positive and negative enrollments to extract the target speaker's characteristics from noisy environments. It mentions improvements in terms of SI-SNRi and convergence speed but does not discuss gaze estimation or specialized techniques.\n\nGiven that Abstract B introduces entirely new concepts not present in Abstract A, while also not fully capturing the specifics of Abstract A, the score reflects a moderate level of overlap. The score of 0.4 indicates a moderate degree of generalization where some core ideas are shared, but the majority of the details in Abstract B are either absent or not implied in Abstract A.\nEval B:\nScore: 0.75\nReasoning:\nAbstract B provides a broad overview that aligns well with the key points in Abstract A. Both discuss frameworks for improving gaze estimation and addressing challenging conditions. Abstract B captures the essence of proposing new techniques for generalization and performance enhancement, which are central themes in Abstract A.\n\nHowever, there are some details in Abstract A that are not directly covered by Abstract B:\n- The specific names of the modules (3D Geometric Prior Module and Semantic Concept Alignment Module) are not mentioned in Abstract B.\n- The explicit modeling of 3D facial priors and the use of the FLAME model are not detailed in Abstract B.\n- The combination of 3D facial landmarks as a prior is not highlighted in Abstract B.\n\nDespite these omissions, Abstract B still conveys the main idea of developing improved frameworks for gaze estimation. The core concepts of generalization and performance enhancement are present, making Abstract B a strong generalization of Abstract A. Therefore, the score reflects a good balance of detail implied and omitted compared to the broader scope of Abstract B.",
-          "specificity": 0.575,
+          "specificity": 0.15000000000000002,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -1974,10 +1974,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 46,
+          "third": 9,
           "third_score": 0.3005070388317108,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B fails to capture the core details and specific focus of Abstract A. Abstract A discusses a unified local search framework for code generation with Large Language Models (LLMs), detailing specific components and techniques like initial code drafting, neighborhood code generation, candidate evaluation, and revision reward modeling. Abstract B, on the other hand, shifts the focus entirely to narrative generation with embedded multimedia content, particularly for video editing. There is no overlap in the specific technical details, methodologies, or applications discussed. While both abstracts involve the use of LLMs, the nature of the tasks they address is completely different, making it clear that Abstract B does not serve as an appropriate generalization of Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A in any meaningful way. Abstract A focuses on developing a reinforcement learning-based system for integrating schema selection into Cypher generation, addressing challenges in translating natural language into Cypher queries for graph databases. In contrast, Abstract B discusses frameworks for generating coherent narratives with embedded multimedia content, particularly for video editing and code generation using large language models. There is no overlap in the core concepts, techniques, or applications between the two abstracts. The focus of Abstract B is entirely different from the reinforcement learning approach and schema selection problem presented in Abstract A. Therefore, the score is 0, indicating that none of the details in Abstract B are implied or present in Abstract A.",
-          "specificity": 0.125,
+          "specificity": 0.1,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2024,10 +2024,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 30,
+          "third": 20,
           "third_score": 0.3064512610435486,
           "evaluation_specificity": "Eval A:\nScore: 0.0\nReasoning:\nAbstract B fails to generalize Abstract A at all. Abstract A discusses a Temporal Difference Method specifically tailored for stochastic continuous dynamics, leveraging the Hamilton-Jacobi-Bellman (HJB) equation and addressing the challenge of unknown dynamics in reinforcement learning. Abstract B, on the other hand, focuses on the neural mechanisms underlying serial dependence in perception and a computational model incorporating synaptic short-term plasticity, which is unrelated to the continuous dynamics and Temporal Difference Methods discussed in Abstract A. The two abstracts cover entirely different topics and do not share any significant details or concepts.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a completely different context and topic from Abstract A. Abstract A discusses the efficiency-effectiveness trade-off in diffusion-based recommender systems, focusing on smoothing denoising functions and preference alignment to mitigate discretization errors. Abstract B, however, talks about neural mechanisms underlying serial dependence in perception using a computational model involving synaptic short-term plasticity, addressing limitations in reinforcement learning for continuous dynamics. There is no overlap whatsoever between the topics, methods, or goals presented in these abstracts. Therefore, the score is 0, indicating that none of the details in Abstract B are present or implied in Abstract A.",
-          "specificity": 0.0,
+          "specificity": 0.15000000000000002,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2074,10 +2074,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 47,
+          "third": 0,
           "third_score": 0.3187439739704132,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B serves as a reasonable generalization of Abstract A. Both abstracts discuss computational efficiency under distribution shifts in nonparametric regression, which is a common theme. Abstract B captures the essence of handling non-stationary time series data and nonparametric regression under distribution shifts, which are central to Abstract A's focus on covariate shift in reproducing kernel Hilbert spaces (RKHSs).\n\nHowever, Abstract B is more general and does not specify the exact context of RKHSs or the particular technique of random projections used in Abstract A. Abstract B mentions \"advanced techniques\" for computational efficiency and statistical accuracy, which are broad categories that encompass the specific approach taken in Abstract A. \n\nThe key details in Abstract A, such as the use of random projections within RKHSs, the focus on computational efficiency, and the exploration of the trade-off between computational efficiency and statistical accuracy, are not explicitly mentioned in Abstract B. Therefore, while Abstract B provides a broad framework that could apply to the content of Abstract A, it does not capture all the specific details present in Abstract A.\n\nGiven these considerations, the score reflects a moderate level of implication, closer to 0.75 rather than 1.0, as it does not fully capture all the specifics of Abstract A but still retains the core ideas of both abstracts.\nEval B:\nScore: 0.3\nReasoning:\nAbstract B offers a more generalized focus on non-stationary time series data and nonparametric regression under distribution shifts compared to the specific context of diffusion models and spectral analysis provided in Abstract A. While both abstracts touch on the idea of analyzing data distributions and applying techniques to improve performance, there are significant differences in detail and scope.\n\nAbstract A specifically discusses spectral analysis applied to diffusion models used for schedule design in the context of synthetic data generation. It introduces a novel approach to understanding the inference process of diffusion models through a frequency response perspective, which directly relates to the data distribution and noise schedules.\n\nAbstract B, on the other hand, broadens the scope to cover a wider range of data types (non-stationary time series data) and broader applications (nonparametric regression under distribution shifts). These topics are not directly addressed in Abstract A, which focuses narrowly on diffusion models and their application to schedule design.\n\nWhile both abstracts involve the concept of analyzing data distributions and applying techniques to improve performance, the specific details and context in Abstract A do not imply the broader, more generalized topics covered in Abstract B. Therefore, the overlap is limited, resulting in a lower score.",
-          "specificity": 0.525,
+          "specificity": 0.325,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2124,10 +2124,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 7,
+          "third": 59,
           "third_score": 0.30991387367248535,
           "evaluation_specificity": "Eval A:\nScore: 0.2\nReasoning:\nAbstract B provides a very broad generalization of Abstract A. It mentions optimization problems and quasi-Newton methods, which are relevant to convex optimization. However, Abstract A specifically deals with the computation of the John Ellipsoid for a particular type of convex body (a centrally symmetric polytope defined by a rank-d matrix). Abstract B does not capture the specific context or the detailed computational aspects of the John Ellipsoid computation described in Abstract A. The focus on quasi-Newton methods and optimization problems is too general compared to the precise problem addressed in Abstract A. Additionally, Abstract B does not mention any approximation of an ellipsoid or the use of sketching or treewidth-based techniques, which are central to the content of Abstract A. Thus, while there is some relevance due to the shared field of convex optimization, the significant details of Abstract A are not implied or captured by Abstract B.\nEval B:\nScore: 0.4\nReasoning:\nAbstract B provides a broad overview of the focus on optimization problems and the use of quasi-Newton methods, which is consistent with the content of Abstract A. However, Abstract B is significantly more general and does not capture all the specific details provided in Abstract A. Here's a breakdown:\n\n- **Quasi-Newton Methods**: Both Abstracts mention quasi-Newton methods, so this detail is captured.\n- **Convex Optimization**: Abstract B broadly covers optimization problems involving convex bodies, which is relevant but not as specific as the affine-invariant global non-asymptotic convergence analysis for the BFGS method.\n- **Global Convergence Guarantees**: Abstract B does not specify the type of guarantees (global linear and superlinear convergence) or the specific assumptions (strict convexity, strong self-concordance).\n- **BFGS Method**: Abstract B mentions quasi-Newton methods but does not specifically identify BFGS.\n- **Line Search Scheme**: Abstract B does not mention the specific line search scheme used.\n- **Strongly Self-Concordant**: Abstract B does not explicitly mention the concept of strong self-concordance.\n- **Affine-Invariance**: Abstract B does not address the affine-invariance property mentioned in Abstract A.\n- **Initial Conditions**: Abstract B does not specify the conditions on the initial Hessian approximation and step size determination.\n\nWhile Abstract B captures the main theme of optimization with quasi-Newton methods, it lacks the specific details that make Abstract A unique. Therefore, the score reflects that Abstract B is moderately relevant but does not fully capture the essence and specificity of Abstract A.",
-          "specificity": 0.30000000000000004,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2174,10 +2174,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 0,
+          "third": 62,
           "third_score": 0.31191641092300415,
           "evaluation_specificity": "Eval A:\nScore: 0.3\n\nReasoning:\nAbstract B fails to capture most of the detailed technical aspects of Abstract A. While both abstracts discuss improvements in imaging and spectral reconstruction, they diverge significantly in terms of specificity. Abstract A provides a detailed explanation of the Fractal-Based Recursive Spectral Reconstruction Network (FRN), including its architecture, the recursive atomic reconstruction module, the band-aware state space model, and experimental validation. Abstract B, however, is overly broad and does not specify any particular method or technology. It merely states that the work advances optical imaging and spectral reconstruction techniques without detailing the specific contributions or innovations presented in Abstract A. The limited overlap in details (the advancement of imaging and spectral reconstruction techniques) is not enough to justify a higher score, especially since Abstract B does not provide the necessary context or technical details to infer the content of Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B fails to serve as a generalization of Abstract A. Abstract A discusses Distributional Autoencoders (DPA), specifically focusing on theoretical guarantees, data distribution scores, and intrinsic dimensionality. Abstract B, however, shifts entirely to the field of optical imaging and spectral reconstruction, which has no direct correlation or implication with the content of Abstract A. There are no shared concepts, methodologies, or objectives between the two abstracts. Therefore, the score is close to 0, indicating that Abstract B does not imply any significant portion of Abstract A.",
-          "specificity": 0.15,
+          "specificity": 0.1,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2224,10 +2224,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 31,
+          "third": 9,
           "third_score": 0.3141587972640991,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B does not effectively generalize Abstract A in a meaningful way. Abstract A focuses on the theoretical aspects of Adam's generalization in over-parameterized two-layer CNNs on image data, particularly how batch size affects Adam's generalization performance. It discusses the convergence properties, effective weight decay bounds, and experimental validations of these findings.\n\nIn contrast, Abstract B shifts the focus entirely to transformer expressivity and the impact of batch size on Adam's generalization in neural networks, which are entirely different topics. Abstract B mentions \"neural network transformers\" and \"batch size,\" but it does not capture the specific focus on Adam's generalization, over-parameterized CNNs, or the detailed theoretical analysis presented in Abstract A. The mention of \"pause tokens\" is not relevant to the content of Abstract A.\n\nTherefore, while there is a small overlap in mentioning \"batch size,\" the overall content and specific focus of Abstract B do not align with or imply the details provided in Abstract A, resulting in a low score.\nEval B:\nScore: 0.1\nReasoning:\nAbstract B provides a broad overview of the theoretical foundations of neural network transformers and optimization algorithms, including the impact of pause tokens on transformer expressivity. However, it does not capture the specific details provided in Abstract A. Abstract A focuses on a detailed theoretical result regarding the expressivity of constant-depth, logarithmic-width Transformers with and without pause tokens, providing formal separations and computational complexity results. Abstract B, on the other hand, mentions pause tokens but does not delve into the specific theoretical aspects described in Abstract A. Additionally, Abstract B introduces the concept of batch size and its influence on Adam's generalization, which is entirely unrelated to the content of Abstract A. The overlap is minimal, and the majority of the details in Abstract A are not present or implied in Abstract B.",
-          "specificity": 0.2,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2274,10 +2274,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 6,
+          "third": 23,
           "third_score": 0.3080744445323944,
           "evaluation_specificity": "Eval A:\nScore: 0.7\n\nReasoning:\nAbstract B provides a broad context that aligns well with the content of Abstract A, indicating an advanced architecture for signal processing and generation tasks, specifically in the domain of 3D dance generation. Abstract A focuses on a particular solution for music-driven 3D dance generation, emphasizing the decoupling of choreographic consistency into generality and genre specificity, and introducing a novel architecture called MEGADance. Abstract B mentions \"advanced architectures\" and \"signal processing and generation tasks,\" which are broadly consistent with the concepts discussed in Abstract A.\n\nHowever, Abstract B does not specify the exact nature of the signal processing (e.g., music-driven 3D dance generation) or the advanced architecture (e.g., Mixture-of-Experts, Finite Scalar Quantization, Mamba-Transformer hybrid backbone). These specific details are unique to the MEGADance architecture described in Abstract A. Additionally, Abstract B does not mention the quantitative and qualitative performance results or the availability of the code, which are crucial aspects of Abstract A.\n\nGiven that Abstract B captures the general theme and approach of Abstract A but lacks specific technical details and results, the score is relatively high but not perfect. The overlap lies in the overall concept and approach to advancing signal processing and generation techniques, making it a strong generalization despite the missing specific information.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B is significantly less related to Abstract A. Abstract A discusses a multimodal retrieval-embedded generation framework specifically designed for video editing tasks, particularly documentary teaser generation. It involves a language model, a retrieval model, and techniques like quote placeholders and coherent narrative maintenance.\n\nAbstract B, on the other hand, is about introducing advanced architectures for signal processing and generation tasks, which is much broader and does not mention any of the specific elements found in Abstract A, such as:\n- Retrieval-Embedded Generation\n- Language Model\n- Narrative coherence\n- Quote placeholders\n- Video editing\n- Documentary teaser generation\n\nThe only vaguely related term is \"signal processing,\" which is extremely broad and does not capture the specifics of the work presented in Abstract A. Therefore, there is minimal overlap, leading to a low score.",
-          "specificity": 0.44999999999999996,
+          "specificity": 0.3,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2324,10 +2324,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 48,
+          "third": 6,
           "third_score": 0.32113099098205566,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B provides a broad overview that captures several key aspects implied in Abstract A, particularly focusing on specialized frameworks for text-to-database query generation and integrating human-like reasoning. Here's a breakdown:\n\n- **Text-to-database query generation**: Both Abstracts mention the Text-to-Cypher task, indicating this aspect is well covered.\n- **Specialized frameworks**: Abstract B explicitly mentions \"specialized frameworks,\" which aligns with the introduction of Cypher-RI.\n- **Machine learning techniques**: Abstract B references \"advanced machine learning techniques,\" which includes reinforcement learning mentioned in Abstract A.\n- **Integrating schema selection**: Abstract B hints at \"human-like social reasoning\" and \"enhancing inference capabilities and generalization,\" which aligns with the integration of schema selection described in Abstract A.\n- **Improvement in performance**: Abstract B mentions \"superior performance,\" which can be inferred from the improvements mentioned in Abstract A.\n\nHowever, Abstract B lacks several specific details that are crucial to understanding the specifics of Cypher-RI:\n- **Cypher generation pipeline**: Abstract B doesn't specify that the framework integrates schema selection into the Cypher generation pipeline.\n- **Reinforcement learning paradigm**: While mentioned, Abstract B doesn't explicitly state the reinforcement learning approach used for training the model.\n- **Parameter size and accuracy improvement**: Abstract B doesn't mention the 7B-parameter model or the 9.41% accuracy improvement.\n\nDespite these omissions, Abstract B captures the essence of the research direction and the type of methodologies involved, making it a strong generalization of Abstract A. Therefore, the score reflects a high degree of implication, warranting a score of 0.75.\nEval B:\nScore: 0.25\nReasoning:\nAbstract B is a significantly more general statement compared to Abstract A. Abstract A specifically discusses a multi-agent system called MetaMind designed to enhance social reasoning, particularly Theory of Mind (ToM), in the context of human social interactions and large language models (LLMs). Abstract B, on the other hand, is a broad statement about introducing specialized frameworks for enhancing text-to-database query generation and human-like social reasoning. While both touch on the theme of social reasoning, Abstract B is too vague to imply all the specific details provided in Abstract A. Abstract A mentions a multi-agent system, the decomposition of social understanding into stages, and the use of LLMs, whereas Abstract B does not specify these details. Additionally, Abstract B does not mention the particular focus on ToM, the benchmarks achieved, or the improvements made. Therefore, the overlap is minimal, leading to a low score.",
-          "specificity": 0.5,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2374,7 +2374,7 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 53,
+          "third": 41,
           "third_score": 0.33193305134773254,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad context for the work described in Abstract A, which is focused on the spectral analysis of diffusion models and their application to schedule design. Abstract B mentions computational epidemiology and diffusion models, which are closely related fields where diffusion processes are studied. However, Abstract B is more general and does not specifically address the detailed aspects of spectral analysis, frequency response, or the specific application to schedule design that are central to Abstract A.\n\nKey elements missing from Abstract B include:\n1. The focus on diffusion models (specifically spectral analysis).\n2. The introduction of a frequency response perspective.\n3. The presentation of an inference process as a closed-form spectral transfer function.\n4. The demonstration of leveraging the proposed analysis for designing effective noise schedules.\n5. The emphasis on theoretical foundations for synthesis process decisions.\n\nWhile Abstract B does capture the broader context of diffusion models and their applications, it does not sufficiently convey the technical depth and specific contributions outlined in Abstract A. Therefore, the score reflects that Abstract B captures some but not all of the key elements implied in Abstract A, resulting in a moderate score.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B fails to generalize any substantial details from Abstract A. Abstract A discusses a specific method (SGEquiDiff) for accelerating the inverse design of crystalline materials using generative models, focusing on handling space group symmetries in crystal structures. Abstract B, on the other hand, is entirely unrelated, discussing computational epidemiology and diffusion models, which have no connection to the content of Abstract A. The concepts, terminology, and objectives are completely different, making it impossible for Abstract B to serve as a generalization of Abstract A.",
           "specificity": 0.2,
@@ -2424,10 +2424,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 14,
+          "third": 1,
           "third_score": 0.31751203536987305,
           "evaluation_specificity": "Eval A:\nScore: 0.2\nReasoning:\nAbstract B is significantly less detailed and relevant to the core concepts presented in Abstract A. Abstract A focuses on developing a multi-agent system called MetaMind that aims to improve human-like social reasoning through a structured approach involving Theory of Mind, Moral, and Response Agents. Abstract A emphasizes the application of this framework to achieve state-of-the-art performance in various social reasoning tasks and highlights its potential applications in AI systems.\n\nAbstract B, on the other hand, broadens the scope to encompass \"specialized frameworks for enhancing text-to-database query generation\" and mentions \"human-like social reasoning.\" While both abstracts touch on social reasoning, there is no clear implication that the framework for text-to-database query generation (which is not mentioned in Abstract A) is directly related to the multi-agent system described in Abstract A. Additionally, Abstract B does not mention the key components of MetaMind, such as the Theory-of-Mind Agent, Moral Agent, and Response Agent, nor does it discuss the benchmarks or improvements achieved.\n\nThe overlap is minimal, focusing mainly on the theme of social reasoning but failing to capture the specific details and contributions made in Abstract A. Therefore, the score reflects that only a small fraction of the details in Abstract B are either present or implied in Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B fails to generalize any significant detail from Abstract A. Abstract A discusses a closed-form solution for question subset selection in adaptive testing, focusing on improving human ability estimation through targeted question selection. In contrast, Abstract B talks about frameworks for enhancing text-to-database query generation and human-like social reasoning, which have no relation to adaptive testing, human ability estimation, or the specific methods described in Abstract A. The two abstracts discuss entirely different topics and technologies, so there is no overlap in terms of content or methodology. Therefore, the score is 0.",
-          "specificity": 0.1,
+          "specificity": 0.125,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2474,10 +2474,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 21,
+          "third": 63,
           "third_score": 0.3213343024253845,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B effectively captures the essence of Abstract A by focusing on the development of scalable approaches for gait recognition and the use of vocabulary guidance. Both abstracts share the common goal of improving gait recognition methods. Abstract B mentions \"fine-grained geographic localization\" which, while not explicitly detailed in Abstract A, can be inferred as a potential extension or application area of the proposed method, similar to how vocabulary-guided gait recognition might have broader implications beyond its immediate scope.\n\nAbstract A provides specific details about vocabulary-guided gait recognition (Gait-World), the challenges faced by existing methods (learning from limited databases), and the proposed solution (α-Gait with Vocabulary Relation Mapper and Gait Fine-grained Detector). Abstract B acknowledges these challenges and the need for scalable solutions, thus implying the core ideas presented in Abstract A. However, Abstract B does not go into the same level of detail about the specific components (Vocabulary Relation Mapper, Gait Fine-grained Detector) nor does it specify the datasets used or the performance metrics evaluated.\n\nThe overlap lies in the overall approach and the necessity for scalability and novel methods in gait recognition. The details that Abstract B omits are relatively minor compared to the significant details it captures. Therefore, a score of 0.75 reflects that Abstract B serves as a strong generalization of Abstract A, capturing the main thrust and goals of the work while leaving out some of the specific technical implementations and datasets.\nEval B:\nScore: 0.4\nReasoning:\nAbstract B provides a broad context that overlaps somewhat with Abstract A, particularly in terms of addressing global-scale problems and fine-grained localization. However, it significantly diverges in specifying \"gait recognition using vocabulary guidance,\" which is not mentioned or implied in Abstract A. \n\nAbstract A discusses image geo-localization specifically, detailing how a hybrid approach using proxy classification and aerial imagery embeddings achieves fine-grained localization over large geographic extents. It also mentions an extensive evaluation demonstrating improved localization accuracy compared to existing methods.\n\nAbstract B, on the other hand, introduces a different problem area (gait recognition) and a novel technique (vocabulary guidance). While both deal with scalability and fine-grained localization, the specific techniques and applications are quite distinct. \n\nGiven that Abstract B introduces a completely new topic (gait recognition) and a method (vocabulary guidance) that are not present or implied in Abstract A, the score reflects a moderate degree of overlap. The primary focus of Abstract A is on image geo-localization, whereas Abstract B broadens the scope to include gait recognition, making the generalization less comprehensive. Thus, the score is closer to 0 than to 1.",
-          "specificity": 0.575,
+          "specificity": 0.125,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2524,10 +2524,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 61,
+          "third": 1,
           "third_score": 0.33079594373703003,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a broad overview of work involving a probabilistic carbon accounting model (PCAM) and mentions a multi-agent system (SpecMAS) for generating and verifying executable system models from natural language specifications. However, Abstract A delves into the specific application of PCAM for quantifying uncertainties in the carbon footprint of large AI models, including the development of parameter models, the aggregation of data to create a carbon dataset, and the comparison with an existing method (LLMCarbon).\n\nAbstract B does not capture all the detailed aspects mentioned in Abstract A, particularly:\n- The focus on large AI models specifically.\n- The development of parameter models for different components (processors, memory, storage).\n- The aggregation and characterization of a carbon dataset.\n- The comparison with LLMCarbon.\n- The specific error reduction achieved by PCAM (≤7.44%).\n\nWhile there is some overlap in the concept of a probabilistic carbon accounting model, the level of detail and context provided in Abstract A are not adequately covered by Abstract B. Therefore, the score reflects the limited overlap and the significant lack of detail in Abstract B compared to Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A focuses on the development of a benchmark suite and a scheduling model for Earth observation satellite constellations. In contrast, Abstract B discusses a multi-agent system for generating and verifying executable system models from natural language specifications, along with a probabilistic carbon accounting model. There is no overlap in terms of the subject matter, methodology, or any specific details mentioned in Abstract A that can be inferred from Abstract B. Therefore, the score is 0.",
-          "specificity": 0.15,
+          "specificity": 0.30000000000000004,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2574,10 +2574,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 62,
+          "third": 42,
           "third_score": 0.3061007857322693,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a broad context that aligns somewhat with the scope of Abstract A, but it does not capture many of the specific details and goals of Abstract A. Abstract B mentions clustering and decision tree optimization, which are broader topics than the specific focus on decision trees and local search heuristics in Abstract A. Additionally, Abstract B does not mention the NP-completeness of the problems studied, the parameterized complexity analysis, or the exact algorithms implemented and their runtime complexities. \n\nWhile there is some overlap in the general area of decision tree optimization and the use of local search, the specific details and goals of Abstract A are significantly more detailed and specific compared to Abstract B. Therefore, the score reflects that Abstract B does not sufficiently generalize the content of Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides no direct information or implication regarding the concepts or techniques described in Abstract A. Abstract A discusses the Flood complex, a method for computing persistent homology on large-scale point clouds, while Abstract B focuses on clustering and decision tree optimization problems. There is no overlap in terms of methodology, application, or specific techniques discussed. Therefore, Abstract B does not serve as a generalization of Abstract A; it introduces entirely different topics and areas of study.",
-          "specificity": 0.15,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2624,10 +2624,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 22,
+          "third": 16,
           "third_score": 0.3185569643974304,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a broad context that touches upon foundational aspects of causal inference and set function properties, which are indeed relevant to the topic discussed in Abstract A. However, Abstract B is significantly more abstract and less specific compared to Abstract A. Here's the breakdown:\n\n- **Causal Inference**: Abstract A does not explicitly discuss causal inference, focusing instead on set functions and their properties. Abstract B mentions causal inference, but it is not central to the content.\n  \n- **Set Function Properties**: Both Abstract A and Abstract B deal with set functions, but Abstract A specifically focuses on monotone and separable set functions, while Abstract B is broader, touching on various set function properties including causal mechanisms.\n\n- **Specific Details**: Abstract A mentions several specific details like \"Monotone and Separating (MAS) set functions,\" \"cardinality of the multisets,\" \"infinite ground set,\" \"MasNET model,\" and \"set containment tasks.\" None of these specific elements are present in Abstract B.\n\nGiven these observations, Abstract B captures only a small portion of the specific concepts and applications described in Abstract A. It does not imply the core ideas about MAS set functions, their properties, or the experimental results involving MasNET. Therefore, the score reflects a low level of overlap, resulting in a score of 0.3.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A in any meaningful way. Abstract A discusses active seriation, a method for recovering an unknown ordering of items based on pairwise similarity queries. It focuses on statistical guarantees, probabilistic recovery, and performance under certain conditions. Abstract B, on the other hand, is about foundational aspects of causal inference and set function properties, which are entirely unrelated topics. There is no overlap in the core concepts, methods, or goals between the two abstracts. Therefore, the score is 0, indicating that Abstract B provides no meaningful generalization of Abstract A.",
-          "specificity": 0.15,
+          "specificity": 0.15000000000000002,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2674,10 +2674,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 9,
+          "third": 0,
           "third_score": 0.32728129625320435,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B fails to capture any significant details from Abstract A. Abstract A specifically discusses Space Group Equivariant Crystal Diffusion (SGEquiDiff), a model designed for accelerating the inverse design of crystalline materials. It details the model's architecture, including an SE(3)-invariant telescoping discrete sampler, permutation-invariant transformer-based autoregressive sampling, and space group equivariant diffusion. Abstract B, on the other hand, is entirely about efficient inference techniques for large language models and generative models for crystal structure design. There is no overlap between the specific focus on crystal structure design with space group constraints in Abstract A and the more general topic of language models in Abstract B. Therefore, the score reflects the minimal overlap, resulting in a low score.\nEval B:\nScore: 0.15\nReasoning:\nAbstract B is a highly abstract and general description that does not capture nearly enough detail from Abstract A to be considered a meaningful generalization. Abstract A specifically discusses a novel approach called CodeGEMM aimed at improving the efficiency of GEMM operations in quantized Large Language Models (LLMs). It details the problem of weight-only quantization, the inefficiencies of existing kernels, and introduces CodeGEMM as a solution with specific performance improvements. In contrast, Abstract B is a broad statement about efficient inference techniques for large language models and crystal structure design. It lacks any mention of CodeGEMM, GEMM, quantization, or the specific optimizations described in Abstract A. The only connection is the broad topic of efficient inference, but even this is too vague to imply the detailed content of Abstract A. Therefore, the score reflects the minimal overlap and significant lack of detail.",
-          "specificity": 0.2,
+          "specificity": 0.1,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2724,10 +2724,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 49,
+          "third": 36,
           "third_score": 0.33206433057785034,
           "evaluation_specificity": "Eval A:\nScore: 0.0\nReasoning:\nAbstract B fails to serve as a generalization of Abstract A in any meaningful way. Abstract A discusses specific techniques and methods for handling out-of-distribution (OOD) samples in the context of single-image test time adaptation using vision-language models. It introduces a framework called Open-IRT, which includes detailed modules for filtering and adapting to different distributions. Abstract B, on the other hand, is focused on addressing challenges in diverse segmentation protocols and distribution shifts in biomedical imaging and computer vision. There is no overlap in terms of the specific methodologies, applications, or technical details discussed between Abstract A and Abstract B. Abstract B does not capture or imply any aspect of the content or approach described in Abstract A, thus it does not serve as a valid generalization.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A focuses specifically on the development of a new method called \"Vocabulary-Guided Gait Recognition\" (Gait-World) aimed at improving gait recognition through the integration of Vision-Language Models (VLMs) and vocabulary prompts. It discusses the extraction of gait features and the challenges associated with gait recognition, particularly the limitations of existing methods and the potential benefits of leveraging vocabulary information from VLMs.\n\nIn contrast, Abstract B discusses challenges in handling diverse segmentation protocols and distribution shifts in biomedical imaging and computer vision. There is no overlap between the core topic of Abstract A (gait recognition and vocabulary-guided models) and the focus of Abstract B (biomedical imaging and distribution shifts). Therefore, Abstract B neither implies nor generalizes Abstract A in any meaningful way.",
-          "specificity": 0.0,
+          "specificity": 0.22499999999999998,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2774,10 +2774,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 33,
+          "third": 41,
           "third_score": 0.3364638090133667,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a high-level overview of the work, mentioning Bayesian optimization and multi-objective problems. However, it does not capture the specific details provided in Abstract A, particularly:\n\n1. **MOBO-OSD Algorithm**: Abstract A specifically describes the MOBO-OSD algorithm, including its approach to generating diverse Pareto-optimal solutions through orthogonal search directions and the use of Pareto Front Estimation. Abstract B does not mention these specific components.\n   \n2. **Bayesian Optimization Context**: Abstract A clearly situates the work within Bayesian Optimization, specifying that it addresses multi-objective optimization challenges. Abstract B mentions Bayesian optimization but does not specify the multi-objective context.\n   \n3. **Orthogonal Search Directions (OSDs)**: Abstract A details the use of OSDs to ensure broad coverage of the objective space and enhance both solution diversity and hypervolume performance. Abstract B does not mention this concept.\n   \n4. **Pareto Front Estimation**: Abstract A discusses the use of Pareto Front Estimation to generate additional solutions in the neighborhood of existing ones. Abstract B does not reference this technique.\n   \n5. **Batch Optimization**: Abstract A explicitly mentions the support for batch optimization, which can accelerate the process. Abstract B does not discuss this feature.\n   \nWhile Abstract B captures the general idea of using Bayesian optimization for multi-objective problems and mentions a benchmark suite, it misses the detailed description and specific techniques outlined in Abstract A. Therefore, the score reflects that Abstract B provides significant general information but lacks the specific technical details present in Abstract A, resulting in a moderate score of 0.3.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B provides a completely different context and topic from Abstract A. Abstract A discusses the application of Reinforced Active Learning (Reactive Active Learning) for Virtual Screening (VS) in drug discovery, focusing on overcoming challenges related to low hit rates and high computational costs. Abstract B, on the other hand, focuses on Bayesian optimization techniques for multi-objective problems and introduces a benchmark suite for satellite constellation scheduling. There is no overlap between the core concepts, methodologies, or applications presented in Abstract A and Abstract B. Therefore, Abstract B does not serve as a generalization of Abstract A at all.",
-          "specificity": 0.15,
+          "specificity": 0.075,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2824,10 +2824,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 60,
+          "third": 38,
           "third_score": 0.3379214406013489,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B does not adequately generalize the content of Abstract A. While both abstracts discuss federated learning and balancing local and global information, they diverge significantly in their specific focus and details. Abstract A introduces the concept of soft-consensual Federated Learning, specifically addressing the challenges of data heterogeneity and proposing a method to achieve a soft consensus through multiple paths. Abstract B, on the other hand, focuses on the broader role of representation in decision-making processes and does not mention federated learning, soft consensus, or any related concepts. \n\nThe main elements of Abstract A (federated learning, balancing local and global information, soft consensus, multiple paths) are not present in Abstract B. Therefore, the score reflects that only a small portion of the detail from Abstract A is implied or present in Abstract B. The lack of overlap in terms of both the context and specific methods discussed results in a relatively low score.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B fails to serve as a generalization of Abstract A in any meaningful way. Abstract A discusses distributed mediation analysis with specific methods (distributed Sobel's test and distributed MaxP test) applied to a real-world educational study. Abstract B, on the other hand, focuses on the role of representation in decision-making processes and proposes a method for balancing local and global information in federated learning. There is no overlap between these topics; they address entirely different areas of research. Abstract B does not contain any details from Abstract A, nor do they share any common concepts or methodologies. Therefore, the score reflects that Abstract B provides no meaningful generalization of the content found in Abstract A.",
-          "specificity": 0.25,
+          "specificity": 0.175,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2874,10 +2874,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 25,
+          "third": 5,
           "third_score": 0.33249160647392273,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad context that encompasses many aspects of image processing tasks, which aligns well with the scope of Abstract A. However, Abstract B does not capture the specific focus on fine-grained shadow detection and the detailed technical contributions presented in Abstract A. Here's a breakdown:\n\n- **Core Focus**: Both abstracts deal with image processing tasks, which is a broad category.\n- **Specificity**: Abstract A specifically targets fine-grained shadow detection, while Abstract B is more general, mentioning \"advanced mechanisms for fine-grained analysis and restoration.\" This level of specificity is lost in Abstract B.\n- **Methodology**: Abstract A introduces novel modules and techniques for shadow detection, including shadow opacity augmentation, feature separation, and mask prediction. Abstract B does not specify these components.\n- **Datasets**: Abstract A mentions constructing a new dataset with opacity-annotated shadow masks, which is a significant contribution. Abstract B does not address this aspect.\n\nWhile Abstract B captures the essence of advanced image processing methods, the specific technical details and contributions of Abstract A are not adequately covered. The score reflects that there is significant overlap in the overall theme but substantial gaps in the specific technical aspects.\nEval B:\nScore: 0.25\nReasoning:\nAbstract B is a highly abstract description that broadly touches on the theme of image processing tasks, which is somewhat related to the content of Abstract A. However, the details in Abstract A are specific to gaze estimation and the use of 3D facial priors, which are not mentioned or implied in Abstract B. Abstract B does not capture the core elements such as the 3D Geometric Prior Module (3DGP), Semantic Concept Alignment Module (SCAM), FLAME model, contrastive learning, or the specific focus on gaze estimation. It also does not reference the experimental results or the improvement over existing methods. Therefore, the overlap is minimal, leading to a low score.",
-          "specificity": 0.325,
+          "specificity": 0.15000000000000002,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2924,10 +2924,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 31,
+          "third": 50,
           "third_score": 0.33949631452560425,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B is highly inadequate as a generalization of Abstract A. Abstract A focuses specifically on improving perturbation-based explanations for machine learning models, particularly addressing the issue of miscalibration in these explanations. It introduces a method called ReCalX to calibrate models for better explanation quality.\n\nIn contrast, Abstract B is entirely unrelated and shifts the focus to \"improving real-world robotic manipulation and machine learning model explanations.\" While both touch upon machine learning model explanations, the specific topic, methodology, and context (robotics vs. general machine learning) are vastly different. Abstract B does not capture any of the key elements or findings from Abstract A, making it an unsuitable generalization. Therefore, the score reflects the minimal overlap and relevance between the two abstracts.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B is completely unrelated to the content of Abstract A. Abstract A discusses the theoretical and practical effects of pause tokens in Transformers, specifically focusing on computational expressivity, learning capabilities, and empirical demonstrations. In contrast, Abstract B shifts focus entirely to the challenges in improving real-world robotic manipulation and machine learning model explanations, which have no apparent connection to the content of Abstract A. There is no overlap whatsoever between the two abstracts, hence the score of 0.",
-          "specificity": 0.125,
+          "specificity": 0.1,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -2974,10 +2974,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 42,
+          "third": 55,
           "third_score": 0.3044701814651489,
           "evaluation_specificity": "Eval A:\nScore: 0.75\nReasoning:\nAbstract B provides a broad and somewhat general context for the research presented in Abstract A. Both abstracts discuss the solution of optimization problems related to spatial resource allocation, which is a common theme. Abstract B mentions \"novel approaches\" and \"theoretical analysis,\" which aligns with the content of Abstract A, particularly its focus on establishing the existence of optimal solutions and deriving explicit optimality conditions for unbalanced optimal transport problems.\n\nHowever, Abstract B does not capture the specific details of the unbalanced optimal transport (OT) problems with total variation penalties introduced in Abstract A. Abstract B's scope is broader, covering a wider range of combinatorial optimization problems, including neural vehicle routing. While this is a valid and important area, it does not fully encompass the specific type of unbalanced OT problems detailed in Abstract A.\n\nThe key details that are present in Abstract A but not in Abstract B include:\n- The introduction of unbalanced weak optimal transport problems with total variation penalties.\n- The focus on spatial resource allocation tasks.\n- The establishment of the existence of optimal solutions and a dual formulation.\n- The semi-discrete setting and the derivation of optimality conditions.\n- The quantization problem and the joint optimization of locations and weights of discrete support points.\n\nGiven these specifics, the overlap is significant but not complete. Abstract B captures the essence of the field of combinatorial optimization and spatial resource allocation, but it does not specifically address the unbalanced OT problems discussed in Abstract A. Therefore, a score of 0.75 reflects that Abstract B does serve as a generalization, albeit a broad one, of the specific research described in Abstract A.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A discusses algorithms for computing the John Ellipsoid in the context of convex optimization and computational geometry. Specifically, it focuses on developing new algorithms for approximating the John Ellipsoid in a structured polytope setting, emphasizing efficiency and computational complexity improvements.\n\nAbstract B, on the other hand, discusses approaches to solving combinatorial optimization problems, particularly focusing on a novel insertion-based method for neural vehicle routing and the theoretical analysis of unbalanced optimal transport problems for spatial resource allocation. These topics are completely unrelated to the content of Abstract A.\n\nThe lack of any overlapping concepts, techniques, or methodologies between the two abstracts makes it clear that Abstract B does not generalize Abstract A in any meaningful way. Therefore, the score reflects a complete absence of overlap, resulting in a score of 0.",
-          "specificity": 0.375,
+          "specificity": 0.25,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -3024,10 +3024,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 56,
+          "third": 4,
           "third_score": 0.3379214406013489,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad overview that touches on some of the key elements of Abstract A, particularly the focus on distributed mediation analysis and the need for efficient methods. However, it does not capture the specific technical details provided in Abstract A. Here's a breakdown:\n\n- **Distributed Mediation Analysis**: Both Abstracts touch on this topic, so there is partial overlap.\n- **Efficient Methods**: Abstract B mentions \"efficient methods\" but does not specify the type of methods (distributed Sobel's test, distributed MaxP test) used in Abstract A.\n- **Adaptive Testing**: Abstract B specifically mentions \"adaptive testing,\" which is not mentioned in Abstract A.\n- **Data Settings**: Abstract B mentions \"distributed data settings\" which aligns with the distributed framework described in Abstract A.\n\nThe significant omission is the detailed description of the specific tests (distributed Sobel's test and distributed MaxP test) and the theoretical and empirical validation provided in Abstract A. These are crucial components that are not captured by Abstract B.\n\nGiven that Abstract B captures some but not all the specific details of Abstract A, the score reflects a moderate level of generalization. The overlap is more on the conceptual level rather than the technical implementation details. Therefore, a score of 0.4 is appropriate, indicating a fair degree of generalization but not complete coverage.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not serve as a generalization of Abstract A at all. Abstract A discusses Soft-Consensual Federated Learning (SCFL) techniques specifically designed to handle data heterogeneity in federated learning environments. It introduces concepts like soft consensus, multiple path solving, negotiation processes, and swapping strategies aimed at balancing global and local features.\n\nIn contrast, Abstract B focuses entirely on adaptive testing and distributed mediation analysis, which are completely unrelated topics. There is no overlap whatsoever between the core ideas and methodologies presented in Abstract A and those mentioned in Abstract B. Therefore, the score reflects that none of the details from Abstract B can be inferred or implied from Abstract A, resulting in a score of 0.",
-          "specificity": 0.2,
+          "specificity": 0.275,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -3074,10 +3074,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": false,
-          "third": 55,
+          "third": 54,
           "third_score": 0.3433612287044525,
           "evaluation_specificity": "Eval A:\nScore: 0.25\nReasoning:\nAbstract B provides a significant deviation from the content of Abstract A. Abstract A focuses specifically on a benchmark suite (AEOS-Bench) and a novel scheduling model (AEOS-Former) for real-world Earth observation satellite constellation scheduling. Abstract B, on the other hand, discusses Bayesian optimization techniques for multi-objective problems and introduces a benchmark suite for agile Earth observation satellite constellation scheduling, which is not mentioned in Abstract A at all. The two abstracts have no overlapping details regarding the specific methodologies, models, or benchmarks discussed in Abstract A. Abstract B introduces new concepts and areas of research (Bayesian optimization and multi-objective problems) that are not related to the specific focus of Abstract A. Therefore, the score reflects that Abstract B does not serve as a meaningful generalization of Abstract A.\nEval B:\nScore: 0.3\nReasoning:\nAbstract B fails to capture many of the key details from Abstract A. While both abstracts discuss multi-objective optimization, the content diverges significantly. Abstract A specifically focuses on the MOBO-OSD algorithm, which addresses batch multi-objective Bayesian optimization through orthogonal search directions. Abstract B, however, discusses Bayesian optimization techniques in the context of multi-objective problems and introduces a benchmark suite for satellite constellation scheduling, which is unrelated to the specific algorithm and approach described in Abstract A. The main contributions and technical details of Abstract A are not present or implied in Abstract B. Therefore, the score reflects the minimal overlap between the two abstracts.",
-          "specificity": 0.275,
+          "specificity": 0.225,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -3124,10 +3124,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 42,
+          "third": 37,
           "third_score": 0.3375660181045532,
           "evaluation_specificity": "Eval A:\nScore: 0.4\nReasoning:\nAbstract B provides a broad context for the work, mentioning \"advanced techniques\" and \"improving collaborative visual perception and persistent homology computation,\" which are indeed themes present in Abstract A. However, Abstract B is overly broad and does not capture the specific details of the Flood complex introduced in Abstract A. Key elements like the introduction of the Flood complex, its inspiration from Alpha and Witness complexes, the specific filtration value \\( r \\), the process of flooding, the theoretical properties, and the emphasis on scalability and performance improvements on large-scale point cloud data are not explicitly mentioned in Abstract B.\n\nAbstract B lacks the technical depth and specificity that Abstract A provides, focusing instead on a general area of research rather than a particular contribution. Therefore, while there is some overlap in the overall theme, the specific details and contributions of Abstract A are not adequately captured by Abstract B. This results in a moderate score reflecting the partial overlap but significant gaps in detail.\nEval B:\nScore: 0.0\nReasoning:\nAbstract B does not imply any details from Abstract A. Abstract A discusses algorithms for computing the John Ellipsoid in convex optimization, specifically focusing on polytopes defined by certain matrices. Abstract B, however, is about advanced techniques for collaborative visual perception and persistent homology computation for large-scale point cloud data. These topics are completely unrelated and do not share any significant details or concepts. Therefore, the score reflects that there is no overlap or implication between the two abstracts.",
-          "specificity": 0.2,
+          "specificity": 0.175,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -3174,10 +3174,10 @@
           "entail_1": null,
           "entail_2": null,
           "alive": true,
-          "third": 49,
+          "third": 62,
           "third_score": 0.31594884395599365,
           "evaluation_specificity": "Eval A:\nScore: 0.3\nReasoning:\nAbstract B provides a broad context that Abstract A is addressing, particularly in the areas of anomaly detection and multi-object tracking. However, the specific focus and techniques detailed in Abstract A (Spatial-Temporal Tracklet Matching, Tracklet Clips, Confident Initial Tracklet Generator, Tracklet Clip Graph Construction, Tracklet Clip Graph Matching) are not present or implied in Abstract B. Abstract B mentions \"novel paradigms\" and \"sparse supervision generalization,\" which are more general concepts rather than the specific techniques detailed in Abstract A. Additionally, Abstract B does not specify the type of multi-object tracking (e.g., Multi-Object Tracking) or the particular challenges addressed (e.g., viewpoint variations and occlusions).\n\nThe score of 0.3 reflects that while there is some overlap in the general area of addressing challenges in multi-object tracking, the specific technical details and contributions of Abstract A are not adequately captured or implied by Abstract B.\nEval B:\nScore: 0.2\nReasoning:\nAbstract B fails to capture any substantial details from Abstract A. Abstract A discusses Vocabulary-Guided Gait Recognition, a method for improving gait recognition by leveraging Vision-Language Models (VLMs) and addressing challenges related to gait features and modality integration. In contrast, Abstract B focuses entirely on video anomaly detection and multi-object tracking, which are completely unrelated topics. The only superficial similarity is the mention of \"paradigms\" and \"supervision,\" but these are vastly different concepts. Abstract B does not imply or even hint at the ideas presented in Abstract A, hence the low score.",
-          "specificity": 0.25,
+          "specificity": 0.2,
           "faithfulness1": null,
           "faithfulness2": null,
           "informativeness1": null,
@@ -3222,7 +3222,9 @@
           "score": null,
           "parentIds": [
             "111"
-          ]
+          ],
+          "third": 18,
+          "specificity": 0.0
         },
         {
           "id": 65,
@@ -3238,7 +3240,9 @@
           "score": null,
           "parentIds": [
             "107"
-          ]
+          ],
+          "third": 3,
+          "specificity": 0.0
         },
         {
           "id": 66,
@@ -3254,7 +3258,9 @@
           "score": null,
           "parentIds": [
             "105"
-          ]
+          ],
+          "third": 24,
+          "specificity": 0.0
         },
         {
           "id": 67,
@@ -3270,7 +3276,9 @@
           "score": null,
           "parentIds": [
             "100"
-          ]
+          ],
+          "third": 8,
+          "specificity": 0.0
         },
         {
           "id": 68,
@@ -3286,7 +3294,9 @@
           "score": null,
           "parentIds": [
             "105"
-          ]
+          ],
+          "third": 25,
+          "specificity": 0.0
         },
         {
           "id": 69,
@@ -3302,7 +3312,9 @@
           "score": null,
           "parentIds": [
             "109"
-          ]
+          ],
+          "third": 21,
+          "specificity": 0.0
         },
         {
           "id": 70,
@@ -3318,7 +3330,9 @@
           "score": null,
           "parentIds": [
             "97"
-          ]
+          ],
+          "third": 24,
+          "specificity": 0.0
         },
         {
           "id": 71,
@@ -3334,7 +3348,9 @@
           "score": null,
           "parentIds": [
             "104"
-          ]
+          ],
+          "third": 10,
+          "specificity": 0.0
         },
         {
           "id": 72,
@@ -3350,7 +3366,9 @@
           "score": null,
           "parentIds": [
             "99"
-          ]
+          ],
+          "third": 3,
+          "specificity": 0.0
         },
         {
           "id": 73,
@@ -3366,7 +3384,9 @@
           "score": null,
           "parentIds": [
             "103"
-          ]
+          ],
+          "third": 4,
+          "specificity": 0.0
         },
         {
           "id": 74,
@@ -3382,7 +3402,9 @@
           "score": null,
           "parentIds": [
             "104"
-          ]
+          ],
+          "third": 7,
+          "specificity": 0.0
         },
         {
           "id": 75,
@@ -3398,7 +3420,9 @@
           "score": null,
           "parentIds": [
             "101"
-          ]
+          ],
+          "third": 19,
+          "specificity": 0.0
         },
         {
           "id": 76,
@@ -3414,7 +3438,9 @@
           "score": null,
           "parentIds": [
             "96"
-          ]
+          ],
+          "third": 19,
+          "specificity": 0.0
         },
         {
           "id": 77,
@@ -3430,7 +3456,9 @@
           "score": null,
           "parentIds": [
             "101"
-          ]
+          ],
+          "third": 19,
+          "specificity": 0.0
         },
         {
           "id": 78,
@@ -3446,7 +3474,9 @@
           "score": null,
           "parentIds": [
             "99"
-          ]
+          ],
+          "third": 24,
+          "specificity": 0.0
         },
         {
           "id": 79,
@@ -3462,7 +3492,9 @@
           "score": null,
           "parentIds": [
             "110"
-          ]
+          ],
+          "third": 28,
+          "specificity": 0.0
         },
         {
           "id": 80,
@@ -3478,7 +3510,9 @@
           "score": null,
           "parentIds": [
             "98"
-          ]
+          ],
+          "third": 10,
+          "specificity": 0.0
         },
         {
           "id": 81,
@@ -3494,7 +3528,9 @@
           "score": null,
           "parentIds": [
             "111"
-          ]
+          ],
+          "third": 5,
+          "specificity": 0.0
         },
         {
           "id": 82,
@@ -3510,7 +3546,9 @@
           "score": null,
           "parentIds": [
             "97"
-          ]
+          ],
+          "third": 23,
+          "specificity": 0.0
         },
         {
           "id": 83,
@@ -3526,7 +3564,9 @@
           "score": null,
           "parentIds": [
             "106"
-          ]
+          ],
+          "third": 13,
+          "specificity": 0.0
         },
         {
           "id": 84,
@@ -3542,7 +3582,9 @@
           "score": null,
           "parentIds": [
             "98"
-          ]
+          ],
+          "third": 27,
+          "specificity": 0.0
         },
         {
           "id": 85,
@@ -3558,7 +3600,9 @@
           "score": null,
           "parentIds": [
             "108"
-          ]
+          ],
+          "third": 7,
+          "specificity": 0.0
         },
         {
           "id": 86,
@@ -3574,7 +3618,9 @@
           "score": null,
           "parentIds": [
             "103"
-          ]
+          ],
+          "third": 15,
+          "specificity": 0.0
         },
         {
           "id": 87,
@@ -3590,7 +3636,9 @@
           "score": null,
           "parentIds": [
             "107"
-          ]
+          ],
+          "third": 21,
+          "specificity": 0.0
         },
         {
           "id": 88,
@@ -3606,7 +3654,9 @@
           "score": null,
           "parentIds": [
             "102"
-          ]
+          ],
+          "third": 25,
+          "specificity": 0.0
         },
         {
           "id": 89,
@@ -3622,7 +3672,9 @@
           "score": null,
           "parentIds": [
             "109"
-          ]
+          ],
+          "third": 5,
+          "specificity": 0.0
         },
         {
           "id": 90,
@@ -3638,7 +3690,9 @@
           "score": null,
           "parentIds": [
             "102"
-          ]
+          ],
+          "third": 18,
+          "specificity": 0.0
         },
         {
           "id": 91,
@@ -3654,7 +3708,9 @@
           "score": null,
           "parentIds": [
             "96"
-          ]
+          ],
+          "third": 20,
+          "specificity": 0.0
         },
         {
           "id": 92,
@@ -3670,7 +3726,9 @@
           "score": null,
           "parentIds": [
             "110"
-          ]
+          ],
+          "third": 1,
+          "specificity": 0.0
         },
         {
           "id": 93,
@@ -3686,7 +3744,9 @@
           "score": null,
           "parentIds": [
             "106"
-          ]
+          ],
+          "third": 14,
+          "specificity": 0.0
         },
         {
           "id": 94,
@@ -3702,7 +3762,9 @@
           "score": null,
           "parentIds": [
             "100"
-          ]
+          ],
+          "third": 14,
+          "specificity": 0.0
         },
         {
           "id": 95,
@@ -3718,7 +3780,9 @@
           "score": null,
           "parentIds": [
             "108"
-          ]
+          ],
+          "third": 27,
+          "specificity": 0.0
         }
       ]
     },
@@ -3739,7 +3803,9 @@
           "score": null,
           "parentIds": [
             "114"
-          ]
+          ],
+          "third": 13,
+          "specificity": 0.0
         },
         {
           "id": 97,
@@ -3755,7 +3821,9 @@
           "score": null,
           "parentIds": [
             "113"
-          ]
+          ],
+          "third": 11,
+          "specificity": 0.0
         },
         {
           "id": 98,
@@ -3771,7 +3839,9 @@
           "score": null,
           "parentIds": [
             "115"
-          ]
+          ],
+          "third": 5,
+          "specificity": 0.0
         },
         {
           "id": 99,
@@ -3787,7 +3857,9 @@
           "score": null,
           "parentIds": [
             "117"
-          ]
+          ],
+          "third": 11,
+          "specificity": 0.0
         },
         {
           "id": 100,
@@ -3803,7 +3875,9 @@
           "score": null,
           "parentIds": [
             "119"
-          ]
+          ],
+          "third": 12,
+          "specificity": 0.0
         },
         {
           "id": 101,
@@ -3819,7 +3893,9 @@
           "score": null,
           "parentIds": [
             "112"
-          ]
+          ],
+          "third": 13,
+          "specificity": 0.0
         },
         {
           "id": 102,
@@ -3835,7 +3911,9 @@
           "score": null,
           "parentIds": [
             "117"
-          ]
+          ],
+          "third": 4,
+          "specificity": 0.0
         },
         {
           "id": 103,
@@ -3851,7 +3929,9 @@
           "score": null,
           "parentIds": [
             "116"
-          ]
+          ],
+          "third": 10,
+          "specificity": 0.0
         },
         {
           "id": 104,
@@ -3867,7 +3947,9 @@
           "score": null,
           "parentIds": [
             "118"
-          ]
+          ],
+          "third": 4,
+          "specificity": 0.0
         },
         {
           "id": 105,
@@ -3883,7 +3965,9 @@
           "score": null,
           "parentIds": [
             "116"
-          ]
+          ],
+          "third": 6,
+          "specificity": 0.0
         },
         {
           "id": 106,
@@ -3899,7 +3983,9 @@
           "score": null,
           "parentIds": [
             "113"
-          ]
+          ],
+          "third": 12,
+          "specificity": 0.0
         },
         {
           "id": 107,
@@ -3915,7 +4001,9 @@
           "score": null,
           "parentIds": [
             "119"
-          ]
+          ],
+          "third": 12,
+          "specificity": 0.0
         },
         {
           "id": 108,
@@ -3931,7 +4019,9 @@
           "score": null,
           "parentIds": [
             "118"
-          ]
+          ],
+          "third": 11,
+          "specificity": 0.0
         },
         {
           "id": 109,
@@ -3947,7 +4037,9 @@
           "score": null,
           "parentIds": [
             "114"
-          ]
+          ],
+          "third": 10,
+          "specificity": 0.0
         },
         {
           "id": 110,
@@ -3963,7 +4055,9 @@
           "score": null,
           "parentIds": [
             "115"
-          ]
+          ],
+          "third": 7,
+          "specificity": 0.0
         },
         {
           "id": 111,
@@ -3979,7 +4073,9 @@
           "score": null,
           "parentIds": [
             "112"
-          ]
+          ],
+          "third": 13,
+          "specificity": 0.0
         }
       ]
     },
@@ -4000,7 +4096,9 @@
           "score": null,
           "parentIds": [
             "120"
-          ]
+          ],
+          "third": 1,
+          "specificity": 0.0
         },
         {
           "id": 113,
@@ -4016,7 +4114,9 @@
           "score": null,
           "parentIds": [
             "122"
-          ]
+          ],
+          "third": 5,
+          "specificity": 0.0
         },
         {
           "id": 114,
@@ -4032,7 +4132,9 @@
           "score": null,
           "parentIds": [
             "120"
-          ]
+          ],
+          "third": 4,
+          "specificity": 0.0
         },
         {
           "id": 115,
@@ -4048,7 +4150,9 @@
           "score": null,
           "parentIds": [
             "123"
-          ]
+          ],
+          "third": 0,
+          "specificity": 0.0
         },
         {
           "id": 116,
@@ -4064,7 +4168,9 @@
           "score": null,
           "parentIds": [
             "123"
-          ]
+          ],
+          "third": 7,
+          "specificity": 0.0
         },
         {
           "id": 117,
@@ -4080,7 +4186,9 @@
           "score": null,
           "parentIds": [
             "122"
-          ]
+          ],
+          "third": 7,
+          "specificity": 0.0
         },
         {
           "id": 118,
@@ -4096,7 +4204,9 @@
           "score": null,
           "parentIds": [
             "121"
-          ]
+          ],
+          "third": 5,
+          "specificity": 0.0
         },
         {
           "id": 119,
@@ -4112,7 +4222,9 @@
           "score": null,
           "parentIds": [
             "121"
-          ]
+          ],
+          "third": 5,
+          "specificity": 0.0
         }
       ]
     },
@@ -4133,7 +4245,9 @@
           "score": null,
           "parentIds": [
             "124"
-          ]
+          ],
+          "third": 3,
+          "specificity": 0.0
         },
         {
           "id": 121,
@@ -4149,7 +4263,9 @@
           "score": null,
           "parentIds": [
             "124"
-          ]
+          ],
+          "third": 3,
+          "specificity": 0.0
         },
         {
           "id": 122,
@@ -4165,7 +4281,9 @@
           "score": null,
           "parentIds": [
             "125"
-          ]
+          ],
+          "third": 0,
+          "specificity": 0.0
         },
         {
           "id": 123,
@@ -4181,7 +4299,9 @@
           "score": null,
           "parentIds": [
             "125"
-          ]
+          ],
+          "third": 1,
+          "specificity": 0.0
         }
       ]
     },
@@ -4202,7 +4322,8 @@
           "score": null,
           "parentIds": [
             "126"
-          ]
+          ],
+          "third": null
         },
         {
           "id": 125,
@@ -4218,7 +4339,8 @@
           "score": null,
           "parentIds": [
             "126"
-          ]
+          ],
+          "third": null
         }
       ]
     },
