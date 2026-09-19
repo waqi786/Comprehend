@@ -350,7 +350,7 @@ Source code and datasets are available on GitHub: https://github.com/plus-rkwitt
       txtBox = d3.select('#full-text-box');
 
       const dataFile = resolveViewerDataFile();
-      d3.json(dataFile).then(data => {
+      Promise.resolve(window.__EMBEDDED_TREE_DATA__).then(data => {
         const scoreKeys = ['avg_rating','avg_quality','avg_clarity','avg_significance','avg_originality','var_rating','var_quality','var_clarity','var_significance','var_originality'];
         const sel = document.getElementById('score-select');
         sel.innerHTML = scoreKeys.map(k =>
