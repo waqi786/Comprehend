@@ -3235,7 +3235,7 @@
         {
           "id": 64,
           "prompt": "Generative reward models that incorporate chain-of-thought reasoning processes enhance the alignment of large language models with human preferences. These models leverage extended reasoning at test time to improve reward accuracy and robustness compared to conventional approaches. By enabling deliberate reasoning before generating final reward signals, such models demonstrate superior performance on complex reasoning tasks and can be integrated into reinforcement learning frameworks to optimize model outputs according to human feedback.",
-          "summary": null,
+          "summary": "Generative reward models that incorporate chain-of-thought reasoning processes enhance the alignment of large language models with human preferences. These models leverage extended reasoning at test time to improve reward accuracy and robustness compared to conventional approaches. By enabling deliberate reasoning before generating final reward signals, such models demonstrate superior performance on complex reasoning tasks and can be integrated into reinforcement learning frameworks to optimize model outputs according to human feedback.",
           "match": 21,
           "children": [
             45,
@@ -3248,12 +3248,21 @@
             "108"
           ],
           "third": 20,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 65,
           "prompt": "Reinforcement learning enhances language model reasoning capabilities beyond what base models can achieve through sampling alone. Both studies demonstrate that RL training enables models to develop improved reasoning strategies across complex tasks, with gains that extend beyond simply amplifying existing high-reward outputs. The improvements manifest across multiple dimensions of reasoning performance, including better handling of challenging problems and more robust generalization. These enhancements depend on training methodology and duration, with careful design of RL pipelines—such as appropriate reward structures and training configurations—being critical for achieving reliable performance gains on reasoning benchmarks. The findings suggest that RL fundamentally shapes how models approach reasoning problems rather than merely optimizing surface-level accuracy metrics.",
-          "summary": null,
+          "summary": "Reinforcement learning enhances language model reasoning capabilities beyond what base models can achieve through sampling alone. Both studies demonstrate that RL training enables models to develop improved reasoning strategies across complex tasks, with gains that extend beyond simply amplifying existing high-reward outputs. The improvements manifest across multiple dimensions of reasoning performance, including better handling of challenging problems and more robust generalization. These enhancements depend on training methodology and duration, with careful design of RL pipelines—such as appropriate reward structures and training configurations—being critical for achieving reliable performance gains on reasoning benchmarks. The findings suggest that RL fundamentally shapes how models approach reasoning problems rather than merely optimizing surface-level accuracy metrics.",
           "match": 17,
           "children": [
             33,
@@ -3266,12 +3275,21 @@
             "104"
           ],
           "third": 25,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 66,
           "prompt": "Both abstracts address post-training improvement of language models through unsupervised or self-supervised mechanisms that enable continual self-improvement without requiring expensive external annotations. Abstract A proposes MM-UPT, an unsupervised post-training framework for multi-modal large language models that uses self-rewarding mechanisms based on majority voting to improve reasoning abilities. Abstract B introduces AdaSTaR, an adaptive sampling algorithm for self-improving language models that optimizes training efficiency by balancing training data across observations and adjusting difficulty dynamically. Both approaches represent paradigms for autonomous model enhancement that operate as post-training stages beyond initial supervised fine-tuning, demonstrating improvements across reasoning benchmarks while reducing reliance on labeled data or computational resources compared to traditional supervised approaches.",
-          "summary": null,
+          "summary": "Both abstracts address post-training improvement of language models through unsupervised or self-supervised mechanisms that enable continual self-improvement without requiring expensive external annotations. Abstract A proposes MM-UPT, an unsupervised post-training framework for multi-modal large language models that uses self-rewarding mechanisms based on majority voting to improve reasoning abilities. Abstract B introduces AdaSTaR, an adaptive sampling algorithm for self-improving language models that optimizes training efficiency by balancing training data across observations and adjusting difficulty dynamically. Both approaches represent paradigms for autonomous model enhancement that operate as post-training stages beyond initial supervised fine-tuning, demonstrating improvements across reasoning benchmarks while reducing reliance on labeled data or computational resources compared to traditional supervised approaches.",
           "match": 31,
           "children": [
             55,
@@ -3284,12 +3302,21 @@
             "110"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 67,
           "prompt": "Large Language Models can be enhanced for complex reasoning tasks through reinforcement learning frameworks that integrate answer generation and self-verification within a unified training process. Both approaches address limitations of external reward models by training models to verify their own outputs, leveraging verifiable rewards to provide feedback for both solution generation and self-verification trajectories simultaneously. Experiments on mathematical reasoning benchmarks demonstrate that jointly optimizing problem-solving and self-verification abilities improves model accuracy while enabling effective performance scaling, with trained models capable of assessing solution correctness without reliance on external verifiers.",
-          "summary": null,
+          "summary": "Large Language Models can be enhanced for complex reasoning tasks through reinforcement learning frameworks that integrate answer generation and self-verification within a unified training process. Both approaches address limitations of external reward models by training models to verify their own outputs, leveraging verifiable rewards to provide feedback for both solution generation and self-verification trajectories simultaneously. Experiments on mathematical reasoning benchmarks demonstrate that jointly optimizing problem-solving and self-verification abilities improves model accuracy while enabling effective performance scaling, with trained models capable of assessing solution correctness without reliance on external verifiers.",
           "match": 20,
           "children": [
             56,
@@ -3303,12 +3330,21 @@
             "100"
           ],
           "third": 10,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 68,
           "prompt": "Recent advances in reinforcement learning for large language models have demonstrated that integrating difficulty-aware or fine-grained advantage estimation mechanisms can enhance reasoning performance while reducing response length. Both token-level optimization approaches and difficulty-aware training frameworks address limitations in coarse-grained reward assignment across sequences, enabling models to achieve improved reasoning capabilities with greater efficiency. These methods work by moving beyond uniform token treatment to provide more nuanced training signals, resulting in better performance-efficiency trade-offs on mathematical reasoning and complex problem-solving tasks.",
-          "summary": null,
+          "summary": "Recent advances in reinforcement learning for large language models have demonstrated that integrating difficulty-aware or fine-grained advantage estimation mechanisms can enhance reasoning performance while reducing response length. Both token-level optimization approaches and difficulty-aware training frameworks address limitations in coarse-grained reward assignment across sequences, enabling models to achieve improved reasoning capabilities with greater efficiency. These methods work by moving beyond uniform token treatment to provide more nuanced training signals, resulting in better performance-efficiency trade-offs on mathematical reasoning and complex problem-solving tasks.",
           "match": 26,
           "children": [
             0,
@@ -3321,12 +3357,21 @@
             "96"
           ],
           "third": 30,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 69,
           "prompt": "Both studies address improving reasoning capabilities of large language models through post-training methods that optimize which questions to train on. Abstract A proposes an unsupervised approach that minimizes semantic entropy on unlabeled questions to enhance reasoning performance without external supervision, achieving significant accuracy improvements on math and general knowledge benchmarks. Abstract B introduces a method that identifies and prioritizes questions with high variance in model success (learnability) for efficient reinforcement learning, demonstrating substantial improvements in both final accuracy and training efficiency. Both works demonstrate that strategic selection and optimization of training signals—whether through entropy minimization or learnability-based prioritization—can substantially enhance LLM reasoning without relying on traditional supervised fine-tuning with labeled reasoning traces or pre-trained reward models.",
-          "summary": null,
+          "summary": "Both studies address improving reasoning capabilities of large language models through post-training methods that optimize which questions to train on. Abstract A proposes an unsupervised approach that minimizes semantic entropy on unlabeled questions to enhance reasoning performance without external supervision, achieving significant accuracy improvements on math and general knowledge benchmarks. Abstract B introduces a method that identifies and prioritizes questions with high variance in model success (learnability) for efficient reinforcement learning, demonstrating substantial improvements in both final accuracy and training efficiency. Both works demonstrate that strategic selection and optimization of training signals—whether through entropy minimization or learnability-based prioritization—can substantially enhance LLM reasoning without relying on traditional supervised fine-tuning with labeled reasoning traces or pre-trained reward models.",
           "match": 19,
           "children": [
             21,
@@ -3339,12 +3384,21 @@
             "98"
           ],
           "third": 24,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 70,
           "prompt": "Both abstracts address limitations in reinforcement learning approaches for training reasoning models. Existing on-policy RL methods for reasoning (such as GRPO-style post-training) are constrained by models' initial capabilities, as they can only learn from the model's own outputs and fail to acquire reasoning abilities beyond what the model can already generate. To overcome this fundamental limitation, both propose frameworks that augment standard on-policy RL with additional guidance sources during training. These approaches dynamically incorporate samples beyond the model's initial distribution—whether through off-policy demonstrations or self-explanation conditioning on ground-truth answers—to enable exploration of new reasoning trajectories and guide the model toward improved performance. Both frameworks demonstrate substantial empirical improvements on mathematical reasoning benchmarks, with particular gains in challenging out-of-distribution or difficult settings where on-policy methods alone fail completely.",
-          "summary": null,
+          "summary": "Both abstracts address limitations in reinforcement learning approaches for training reasoning models. Existing on-policy RL methods for reasoning (such as GRPO-style post-training) are constrained by models' initial capabilities, as they can only learn from the model's own outputs and fail to acquire reasoning abilities beyond what the model can already generate. To overcome this fundamental limitation, both propose frameworks that augment standard on-policy RL with additional guidance sources during training. These approaches dynamically incorporate samples beyond the model's initial distribution—whether through off-policy demonstrations or self-explanation conditioning on ground-truth answers—to enable exploration of new reasoning trajectories and guide the model toward improved performance. Both frameworks demonstrate substantial empirical improvements on mathematical reasoning benchmarks, with particular gains in challenging out-of-distribution or difficult settings where on-policy methods alone fail completely.",
           "match": 30,
           "children": [
             17,
@@ -3357,12 +3411,21 @@
             "103"
           ],
           "third": 30,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 71,
           "prompt": "Both studies address the challenge of improving reinforcement learning fine-tuning for large language models, which has emerged as an effective post-training technique for enhancing reasoning capabilities but faces practical limitations. Abstract A identifies conditions for effective RL post-training and proposes data augmentation applied before RL to better prepare models for the RL objective. Abstract B focuses on improving data efficiency during RL fine-tuning through selective data sampling and computational reuse strategies. Together, these works demonstrate that the effectiveness and efficiency of RL fine-tuning for LLMs can be substantially improved through careful preparation and selection of training data and rollouts, reducing both the inconsistency of performance gains and the computational resources required for the process.",
-          "summary": null,
+          "summary": "Both studies address the challenge of improving reinforcement learning fine-tuning for large language models, which has emerged as an effective post-training technique for enhancing reasoning capabilities but faces practical limitations. Abstract A identifies conditions for effective RL post-training and proposes data augmentation applied before RL to better prepare models for the RL objective. Abstract B focuses on improving data efficiency during RL fine-tuning through selective data sampling and computational reuse strategies. Together, these works demonstrate that the effectiveness and efficiency of RL fine-tuning for LLMs can be substantially improved through careful preparation and selection of training data and rollouts, reducing both the inconsistency of performance gains and the computational resources required for the process.",
           "match": 11,
           "children": [
             29,
@@ -3375,12 +3438,21 @@
             "111"
           ],
           "third": 15,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 72,
           "prompt": "Both abstracts address scaling challenges in Reinforcement Learning from Human Feedback (RLHF) for large language models, with particular focus on improving performance beyond limitations of standard reward models. Both recognize that verifiable ground-truth solutions—especially in mathematical and coding tasks—provide advantages for training, yet both propose methods to handle scenarios where complete verification is difficult or impossible. The core challenge both tackle is enabling RLHF systems to learn effectively from diverse data while maintaining robustness against reward hacking and response quality issues. Both demonstrate that careful treatment of training data and reward mechanisms can substantially improve RLHF performance scaling across different task types.",
-          "summary": null,
+          "summary": "Both abstracts address scaling challenges in Reinforcement Learning from Human Feedback (RLHF) for large language models, with particular focus on improving performance beyond limitations of standard reward models. Both recognize that verifiable ground-truth solutions—especially in mathematical and coding tasks—provide advantages for training, yet both propose methods to handle scenarios where complete verification is difficult or impossible. The core challenge both tackle is enabling RLHF systems to learn effectively from diverse data while maintaining robustness against reward hacking and response quality issues. Both demonstrate that careful treatment of training data and reward mechanisms can substantially improve RLHF performance scaling across different task types.",
           "match": 13,
           "children": [
             5,
@@ -3393,12 +3465,21 @@
             "105"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 73,
           "prompt": "Reinforcement learning methods have emerged as powerful approaches for improving large language model performance on reasoning tasks. Both selective rollout optimization and value-based distributional methods represent recent advances in making RL post-training more efficient and effective for LLMs. These approaches address key challenges in RL-based LLM training, including computational efficiency and policy optimization quality, while demonstrating improvements on mathematical reasoning benchmarks across various model scales. Both methods contribute to the broader goal of enhancing LLM reasoning capabilities through principled RL techniques that can be practically deployed.",
-          "summary": null,
+          "summary": "Reinforcement learning methods have emerged as powerful approaches for improving large language model performance on reasoning tasks. Both selective rollout optimization and value-based distributional methods represent recent advances in making RL post-training more efficient and effective for LLMs. These approaches address key challenges in RL-based LLM training, including computational efficiency and policy optimization quality, while demonstrating improvements on mathematical reasoning benchmarks across various model scales. Both methods contribute to the broader goal of enhancing LLM reasoning capabilities through principled RL techniques that can be practically deployed.",
           "match": 15,
           "children": [
             2,
@@ -3411,12 +3492,21 @@
             "109"
           ],
           "third": 12,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 74,
           "prompt": "Both studies present frameworks that use reinforcement learning to jointly train language model components for improving reasoning tasks, specifically mathematical reasoning. Rather than relying on fixed or supervised fine-tuned verifiers/critics, both approaches train a second model component concurrently with a generator through RL-based mechanisms that eliminate the need for explicit process-level annotations. Both frameworks demonstrate that their evolved verifier/critic components achieve superior generalization and robustness compared to deterministic or SFT-trained alternatives, and both report state-of-the-art performance on mathematical reasoning benchmarks including process-level evaluation datasets. The key innovation in both cases is the co-evolution of a generator and an evaluator model through adversarial or interleaved training dynamics, where the evaluator learns to assess reasoning correctness without direct supervision of intermediate steps.",
-          "summary": null,
+          "summary": "Both studies present frameworks that use reinforcement learning to jointly train language model components for improving reasoning tasks, specifically mathematical reasoning. Rather than relying on fixed or supervised fine-tuned verifiers/critics, both approaches train a second model component concurrently with a generator through RL-based mechanisms that eliminate the need for explicit process-level annotations. Both frameworks demonstrate that their evolved verifier/critic components achieve superior generalization and robustness compared to deterministic or SFT-trained alternatives, and both report state-of-the-art performance on mathematical reasoning benchmarks including process-level evaluation datasets. The key innovation in both cases is the co-evolution of a generator and an evaluator model through adversarial or interleaved training dynamics, where the evaluator learns to assess reasoning correctness without direct supervision of intermediate steps.",
           "match": 23,
           "children": [
             44,
@@ -3429,12 +3519,21 @@
             "101"
           ],
           "third": 22,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 75,
           "prompt": "Training language models to perform complex reasoning in specialized domains requires combining supervised fine-tuning with expert knowledge and reinforcement learning. Both approaches address the challenge that models struggle to learn reasoning behaviors when high-quality training data is limited or when tasks are sufficiently complex. By integrating expert guidance—either through partial hints that scaffold model-generated solutions or through structured domain expertise mixed with general reasoning data—followed by reinforcement learning optimization, models can achieve improved performance on difficult reasoning tasks that would otherwise remain unsolvable through standard supervised fine-tuning and reinforcement learning alone. This hybrid methodology both improves the efficiency of training and enables smaller or general-purpose models to reach performance levels comparable to domain specialists.",
-          "summary": null,
+          "summary": "Training language models to perform complex reasoning in specialized domains requires combining supervised fine-tuning with expert knowledge and reinforcement learning. Both approaches address the challenge that models struggle to learn reasoning behaviors when high-quality training data is limited or when tasks are sufficiently complex. By integrating expert guidance—either through partial hints that scaffold model-generated solutions or through structured domain expertise mixed with general reasoning data—followed by reinforcement learning optimization, models can achieve improved performance on difficult reasoning tasks that would otherwise remain unsolvable through standard supervised fine-tuning and reinforcement learning alone. This hybrid methodology both improves the efficiency of training and enables smaller or general-purpose models to reach performance levels comparable to domain specialists.",
           "match": 7,
           "children": [
             22,
@@ -3447,12 +3546,21 @@
             "111"
           ],
           "third": 7,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 76,
           "prompt": "Reinforcement learning applied to large language models for reasoning tasks demonstrates improvements in sampling efficiency and problem-solving performance compared to base models. However, systematic investigation across multiple dimensions reveals important limitations in current RL approaches. The reasoning capabilities acquired through RL training are constrained by and originate from the base model's existing capacity rather than generating fundamentally novel reasoning patterns. While RL training can enhance certain aspects of reasoning performance, including process-level understanding, current methods remain suboptimal in fully leveraging the base model's potential reasoning abilities. Addressing these limitations requires improved RL paradigms and training approaches to more effectively unlock latent reasoning capabilities in LLMs.",
-          "summary": null,
+          "summary": "Reinforcement learning applied to large language models for reasoning tasks demonstrates improvements in sampling efficiency and problem-solving performance compared to base models. However, systematic investigation across multiple dimensions reveals important limitations in current RL approaches. The reasoning capabilities acquired through RL training are constrained by and originate from the base model's existing capacity rather than generating fundamentally novel reasoning patterns. While RL training can enhance certain aspects of reasoning performance, including process-level understanding, current methods remain suboptimal in fully leveraging the base model's potential reasoning abilities. Addressing these limitations requires improved RL paradigms and training approaches to more effectively unlock latent reasoning capabilities in LLMs.",
           "match": 28,
           "children": [
             14,
@@ -3466,12 +3574,21 @@
             "106"
           ],
           "third": 7,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 77,
           "prompt": "Large language models can be enhanced through reinforcement learning frameworks that use verifiable rewards derived from executable outputs to improve their ability to generate correct code-like artifacts. Both approaches leverage automatic verification mechanisms—unit tests in one case and optimization solvers in the other—to provide precise feedback signals that guide the learning process without requiring ground-truth solutions as direct supervision. These verification-based reward systems enable models of varying sizes to achieve significant performance improvements on their respective downstream tasks while also serving broader applications such as self-correction and model-based guidance for further training.",
-          "summary": null,
+          "summary": "Large language models can be enhanced through reinforcement learning frameworks that use verifiable rewards derived from executable outputs to improve their ability to generate correct code-like artifacts. Both approaches leverage automatic verification mechanisms—unit tests in one case and optimization solvers in the other—to provide precise feedback signals that guide the learning process without requiring ground-truth solutions as direct supervision. These verification-based reward systems enable models of varying sizes to achieve significant performance improvements on their respective downstream tasks while also serving broader applications such as self-correction and model-based guidance for further training.",
           "match": 8,
           "children": [
             7,
@@ -3484,12 +3601,21 @@
             "105"
           ],
           "third": 20,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 78,
           "prompt": "Reinforcement learning approaches for training language models on mathematical reasoning tasks can effectively leverage both positive and negative examples. When applied to benchmarks such as MATH, these methods demonstrate that penalizing incorrect responses contributes meaningfully to performance improvements across various inference-scaling conditions. Off-policy reinforcement learning algorithms can process positive and negative samples within a unified framework, achieving performance gains on reasoning tasks while maintaining training stability. The proper handling of negative examples during training increases test-time accuracy and training data efficiency compared to approaches that discard such examples. These findings indicate that negative feedback plays a previously underappreciated role in refining language model reasoning capabilities.",
-          "summary": null,
+          "summary": "Reinforcement learning approaches for training language models on mathematical reasoning tasks can effectively leverage both positive and negative examples. When applied to benchmarks such as MATH, these methods demonstrate that penalizing incorrect responses contributes meaningfully to performance improvements across various inference-scaling conditions. Off-policy reinforcement learning algorithms can process positive and negative samples within a unified framework, achieving performance gains on reasoning tasks while maintaining training stability. The proper handling of negative examples during training increases test-time accuracy and training data efficiency compared to approaches that discard such examples. These findings indicate that negative feedback plays a previously underappreciated role in refining language model reasoning capabilities.",
           "match": 22,
           "children": [
             39,
@@ -3502,12 +3628,21 @@
             "99"
           ],
           "third": 8,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 79,
           "prompt": "Large language models can be enhanced through reinforcement learning techniques that optimize policy learning for complex reasoning tasks. Both discrete reward systems and algorithmic improvements to RL training are critical for achieving effective policy optimization at scale. Key challenges in LLM reinforcement learning include gradient stability, convergence efficiency, and reproducibility of training procedures. Recent advances demonstrate that careful attention to reward signal design and algorithmic modifications—such as handling discrete rewards and implementing sophisticated sampling strategies—can significantly improve both the speed and quality of LLM policy optimization, enabling models to achieve strong performance on challenging reasoning benchmarks.",
-          "summary": null,
+          "summary": "Large language models can be enhanced through reinforcement learning techniques that optimize policy learning for complex reasoning tasks. Both discrete reward systems and algorithmic improvements to RL training are critical for achieving effective policy optimization at scale. Key challenges in LLM reinforcement learning include gradient stability, convergence efficiency, and reproducibility of training procedures. Recent advances demonstrate that careful attention to reward signal design and algorithmic modifications—such as handling discrete rewards and implementing sophisticated sampling strategies—can significantly improve both the speed and quality of LLM policy optimization, enabling models to achieve strong performance on challenging reasoning benchmarks.",
           "match": 9,
           "children": [
             43,
@@ -3520,12 +3655,21 @@
             "109"
           ],
           "third": 7,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 80,
           "prompt": "Recent research demonstrates that diffusion-based language models can leverage reinforcement learning to improve their reasoning capabilities on mathematical and planning tasks. Both approaches adapt pre-trained diffusion language models through a combination of supervised finetuning and reinforcement learning techniques that optimize reasoning performance. These methods treat the diffusion generation process—whether through masked token prediction or continuous reverse diffusion steps—as a sequence of actions that can be optimized to maximize correctness on reasoning benchmarks. Empirical results show that RL-enhanced diffusion language models achieve significant performance improvements over baseline diffusion models on tasks including mathematics and code generation.",
-          "summary": null,
+          "summary": "Recent research demonstrates that diffusion-based language models can leverage reinforcement learning to improve their reasoning capabilities on mathematical and planning tasks. Both approaches adapt pre-trained diffusion language models through a combination of supervised finetuning and reinforcement learning techniques that optimize reasoning performance. These methods treat the diffusion generation process—whether through masked token prediction or continuous reverse diffusion steps—as a sequence of actions that can be optimized to maximize correctness on reasoning benchmarks. Empirical results show that RL-enhanced diffusion language models achieve significant performance improvements over baseline diffusion models on tasks including mathematics and code generation.",
           "match": 18,
           "children": [
             57,
@@ -3538,12 +3682,21 @@
             "102"
           ],
           "third": 15,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.65,
+          "entail_2": 0.3,
+          "informativeness1": 0.625,
+          "informativeness2": 0.25,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 81,
           "prompt": "Both abstracts address the challenge of optimizing language model performance on reasoning tasks through reinforcement learning-based approaches that improve upon fixed, general-purpose configurations. Abstract A presents Reinforcement-Learned Teachers (RLTs) that use RL with dense rewards to generate effective explanations for student model distillation, while Abstract B introduces AdaReasoner, an RL-based system that optimizes task-specific reasoning configurations. Both methods employ reinforcement learning frameworks to move beyond one-size-fits-all approaches, demonstrate effectiveness across multiple model sizes and out-of-distribution scenarios, and achieve competitive performance on complex reasoning tasks without requiring orders of magnitude larger models than baseline approaches.",
-          "summary": null,
+          "summary": "Both abstracts address the challenge of optimizing language model performance on reasoning tasks through reinforcement learning-based approaches that improve upon fixed, general-purpose configurations. Abstract A presents Reinforcement-Learned Teachers (RLTs) that use RL with dense rewards to generate effective explanations for student model distillation, while Abstract B introduces AdaReasoner, an RL-based system that optimizes task-specific reasoning configurations. Both methods employ reinforcement learning frameworks to move beyond one-size-fits-all approaches, demonstrate effectiveness across multiple model sizes and out-of-distribution scenarios, and achieve competitive performance on complex reasoning tasks without requiring orders of magnitude larger models than baseline approaches.",
           "match": 1,
           "children": [
             58,
@@ -3556,12 +3709,21 @@
             "104"
           ],
           "third": 25,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 82,
           "prompt": "Reinforcement learning has emerged as an effective approach for enhancing the reasoning capabilities of large language models. However, scaling RL training presents significant computational challenges due to resource-intensive requirements. Both RAST and AReaL address this challenge through different strategies: RAST reduces computational overhead by training smaller models and transferring learned probability adjustments to larger models, while AReaL improves system efficiency through asynchronous decoupling of generation and training processes. Both methods demonstrate substantial improvements in reasoning performance on mathematical benchmarks while achieving meaningful reductions in computational cost compared to standard RL training approaches.",
-          "summary": null,
+          "summary": "Reinforcement learning has emerged as an effective approach for enhancing the reasoning capabilities of large language models. However, scaling RL training presents significant computational challenges due to resource-intensive requirements. Both RAST and AReaL address this challenge through different strategies: RAST reduces computational overhead by training smaller models and transferring learned probability adjustments to larger models, while AReaL improves system efficiency through asynchronous decoupling of generation and training processes. Both methods demonstrate substantial improvements in reasoning performance on mathematical benchmarks while achieving meaningful reductions in computational cost compared to standard RL training approaches.",
           "match": 16,
           "children": [
             49,
@@ -3574,12 +3736,21 @@
             "102"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 83,
           "prompt": "Entropy patterns in Large Language Models play a critical role in reasoning performance. Both token-level entropy analysis and entropy minimization approaches demonstrate that manipulating model confidence and probability distributions can substantially improve LLM reasoning on challenging mathematical and technical tasks. Specifically, focusing optimization efforts on high-entropy tokens or minimizing entropy across outputs—rather than treating all tokens or outputs equally—yields significant performance improvements on reasoning benchmarks. These findings suggest that LLMs possess latent reasoning capabilities that can be effectively enhanced by strategically leveraging entropy dynamics, either through selective reinforcement learning updates or confidence concentration, without requiring extensive labeled training data.",
-          "summary": null,
+          "summary": "Entropy patterns in Large Language Models play a critical role in reasoning performance. Both token-level entropy analysis and entropy minimization approaches demonstrate that manipulating model confidence and probability distributions can substantially improve LLM reasoning on challenging mathematical and technical tasks. Specifically, focusing optimization efforts on high-entropy tokens or minimizing entropy across outputs—rather than treating all tokens or outputs equally—yields significant performance improvements on reasoning benchmarks. These findings suggest that LLMs possess latent reasoning capabilities that can be effectively enhanced by strategically leveraging entropy dynamics, either through selective reinforcement learning updates or confidence concentration, without requiring extensive labeled training data.",
           "match": 5,
           "children": [
             28,
@@ -3592,12 +3763,21 @@
             "98"
           ],
           "third": 21,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 84,
           "prompt": "Both abstracts present self-supervised reinforcement learning frameworks designed to enhance large language model reasoning capabilities without relying on external human supervision. Abstract A introduces CoVo, which leverages consistency patterns in intermediate reasoning states across different trajectories to generate intrinsic rewards, enabling models to perform self-rewarding reinforcement learning on reasoning tasks. Abstract B proposes Absolute Zero, which eliminates dependence on human-curated datasets entirely by having models generate their own training tasks and learn from verifiable feedback mechanisms. Both approaches demonstrate that large language models can improve their reasoning performance through reinforcement learning mechanisms that operate independently of external supervision, achieving competitive or superior results compared to supervised baselines on reasoning benchmarks including mathematical and coding tasks. The key shared insight is that models can learn to reason effectively by leveraging internal consistency signals or self-generated training data combined with rule-based verification, offering scalable pathways toward reasoning improvement without human-labeled examples.",
-          "summary": null,
+          "summary": "Both abstracts present self-supervised reinforcement learning frameworks designed to enhance large language model reasoning capabilities without relying on external human supervision. Abstract A introduces CoVo, which leverages consistency patterns in intermediate reasoning states across different trajectories to generate intrinsic rewards, enabling models to perform self-rewarding reinforcement learning on reasoning tasks. Abstract B proposes Absolute Zero, which eliminates dependence on human-curated datasets entirely by having models generate their own training tasks and learn from verifiable feedback mechanisms. Both approaches demonstrate that large language models can improve their reasoning performance through reinforcement learning mechanisms that operate independently of external supervision, achieving competitive or superior results compared to supervised baselines on reasoning benchmarks including mathematical and coding tasks. The key shared insight is that models can learn to reason effectively by leveraging internal consistency signals or self-generated training data combined with rule-based verification, offering scalable pathways toward reasoning improvement without human-labeled examples.",
           "match": 3,
           "children": [
             37,
@@ -3611,12 +3791,21 @@
             "100"
           ],
           "third": 10,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 85,
           "prompt": "Recent advances in large language models have explored reasoning approaches that move beyond discrete chain-of-thought generation by leveraging reinforcement learning to optimize reasoning processes. Both latent and chain-of-thought reasoning can be formulated as problems involving internal computation and intermediate reasoning steps, where models generate or compute representations that inform final outputs. Training these reasoning approaches presents challenges related to efficient optimization: methods must account for the stochastic nature of sampling and generation while maintaining compatibility with LLM architectures. Reinforcement learning-based training strategies that incorporate dynamic allocation of computational resources and leverage hidden representations or intermediate steps can improve both convergence efficiency and task performance across reasoning-intensive benchmarks, while preserving model interpretability and generative capabilities.",
-          "summary": null,
+          "summary": "Recent advances in large language models have explored reasoning approaches that move beyond discrete chain-of-thought generation by leveraging reinforcement learning to optimize reasoning processes. Both latent and chain-of-thought reasoning can be formulated as problems involving internal computation and intermediate reasoning steps, where models generate or compute representations that inform final outputs. Training these reasoning approaches presents challenges related to efficient optimization: methods must account for the stochastic nature of sampling and generation while maintaining compatibility with LLM architectures. Reinforcement learning-based training strategies that incorporate dynamic allocation of computational resources and leverage hidden representations or intermediate steps can improve both convergence efficiency and task performance across reasoning-intensive benchmarks, while preserving model interpretability and generative capabilities.",
           "match": 0,
           "children": [
             32,
@@ -3629,12 +3818,21 @@
             "108"
           ],
           "third": 9,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "specificity_faithfulness": 0.8,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6
         },
         {
           "id": 86,
           "prompt": "Reinforcement learning can effectively enhance the mathematical reasoning capabilities of language models through outcome-based reward signals. Both studies demonstrate that RL training enables models to improve performance on challenging mathematical benchmarks, with systematic investigation revealing that increased training leads to longer response generation and improved task accuracy. The training process benefits from structured approaches involving code execution and verification mechanisms, with findings indicating that RL elicits and extends the reasoning capabilities of base models beyond what is achievable through distillation alone. Both works provide empirical evidence and reproducible frameworks supporting the scalability of RL-based reasoning approaches across mathematical problem-solving domains.",
-          "summary": null,
+          "summary": "Reinforcement learning can effectively enhance the mathematical reasoning capabilities of language models through outcome-based reward signals. Both studies demonstrate that RL training enables models to improve performance on challenging mathematical benchmarks, with systematic investigation revealing that increased training leads to longer response generation and improved task accuracy. The training process benefits from structured approaches involving code execution and verification mechanisms, with findings indicating that RL elicits and extends the reasoning capabilities of base models beyond what is achievable through distillation alone. Both works provide empirical evidence and reproducible frameworks supporting the scalability of RL-based reasoning approaches across mathematical problem-solving domains.",
           "match": 14,
           "children": [
             27,
@@ -3648,12 +3846,21 @@
             "99"
           ],
           "third": 17,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 87,
           "prompt": "Process Reward Models (PRMs) have emerged as a framework for evaluating intermediate reasoning steps in large language models, particularly for complex tasks like mathematical reasoning. However, PRMs face significant challenges in training due to data quality and scalability constraints. Both trajectory-aware approaches and self-denoising methods represent advances in addressing these limitations by improving how PRMs supervise and evaluate intermediate reasoning steps. These approaches enable PRMs to achieve competitive performance on challenging benchmarks while reducing reliance on expensive human-annotated data, supporting applications across supervised fine-tuning, reinforcement learning, and test-time scaling of LLMs.",
-          "summary": null,
+          "summary": "Process Reward Models (PRMs) have emerged as a framework for evaluating intermediate reasoning steps in large language models, particularly for complex tasks like mathematical reasoning. However, PRMs face significant challenges in training due to data quality and scalability constraints. Both trajectory-aware approaches and self-denoising methods represent advances in addressing these limitations by improving how PRMs supervise and evaluate intermediate reasoning steps. These approaches enable PRMs to achieve competitive performance on challenging benchmarks while reducing reliance on expensive human-annotated data, supporting applications across supervised fine-tuning, reinforcement learning, and test-time scaling of LLMs.",
           "match": 10,
           "children": [
             10,
@@ -3666,12 +3873,21 @@
             "101"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 88,
           "prompt": "Both studies address the challenge of training large language models on complex reasoning tasks through reinforcement learning by improving the design and construction of training problems. Abstract A introduces a self-aware weakness-driven synthesis framework that identifies model deficiencies during RL training and generates targeted problems to address these weaknesses, achieving 10% and 7.7% performance gains on reasoning benchmarks. Abstract B proposes a SAT-based RL framework that enables scalable task construction with automatic verification and controllable difficulty progression through curriculum learning, yielding improvements of +14.0 to +28.1 on SAT problems and +1.8 to +4.9 on downstream reasoning benchmarks. Both approaches recognize that indiscriminate problem expansion is inefficient and instead employ structured strategies—whether weakness-identification or difficulty-control—to generate training problems that more effectively improve LLM reasoning capabilities across multiple benchmarks without relying solely on human annotation.",
-          "summary": null,
+          "summary": "Both studies address the challenge of training large language models on complex reasoning tasks through reinforcement learning by improving the design and construction of training problems. Abstract A introduces a self-aware weakness-driven synthesis framework that identifies model deficiencies during RL training and generates targeted problems to address these weaknesses, achieving 10% and 7.7% performance gains on reasoning benchmarks. Abstract B proposes a SAT-based RL framework that enables scalable task construction with automatic verification and controllable difficulty progression through curriculum learning, yielding improvements of +14.0 to +28.1 on SAT problems and +1.8 to +4.9 on downstream reasoning benchmarks. Both approaches recognize that indiscriminate problem expansion is inefficient and instead employ structured strategies—whether weakness-identification or difficulty-control—to generate training problems that more effectively improve LLM reasoning capabilities across multiple benchmarks without relying solely on human annotation.",
           "match": 25,
           "children": [
             34,
@@ -3684,12 +3900,21 @@
             "107"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.75,
+          "informativeness2": 0.5,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.65
         },
         {
           "id": 89,
           "prompt": "Reinforcement learning-based training methods for large language models can enhance reasoning capabilities, but the quality of the training process significantly impacts model behavior. Both diversity promotion and factuality verification represent important considerations during RL optimization of LLM reasoning. Token-level objectives that selectively guide the training process—whether by encouraging solution diversity or enforcing factual correctness—can improve reasoning performance across mathematical benchmarks while addressing distinct failure modes that emerge from standard RL fine-tuning. These approaches demonstrate that explicit control mechanisms integrated into RL training frameworks yield measurable improvements in both reasoning accuracy and solution quality.",
-          "summary": null,
+          "summary": "Reinforcement learning-based training methods for large language models can enhance reasoning capabilities, but the quality of the training process significantly impacts model behavior. Both diversity promotion and factuality verification represent important considerations during RL optimization of LLM reasoning. Token-level objectives that selectively guide the training process—whether by encouraging solution diversity or enforcing factual correctness—can improve reasoning performance across mathematical benchmarks while addressing distinct failure modes that emerge from standard RL fine-tuning. These approaches demonstrate that explicit control mechanisms integrated into RL training frameworks yield measurable improvements in both reasoning accuracy and solution quality.",
           "match": 24,
           "children": [
             6,
@@ -3702,12 +3927,21 @@
             "107"
           ],
           "third": 22,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 90,
           "prompt": "Both abstracts address the optimization of reinforcement learning-based reasoning in large language models by improving training and computational efficiency. Abstract A presents AnytimeReasoner, which optimizes reasoning performance across varying token budget constraints by introducing dense rewards through truncated thinking processes and proposes Budget Relative Policy Optimization (BRPO) as a variance reduction technique. Abstract B introduces Completion Pruning Policy Optimization (CPPO), which accelerates training of Group Relative Policy Optimization (GRPO)-based reasoning models by pruning low-advantage completions and implementing dynamic completion allocation. Both works demonstrate that selective processing of reasoning trajectories—whether through budget-aware truncation or advantage-based pruning—enhances training efficiency while maintaining or improving performance on mathematical reasoning benchmarks, suggesting that not all reasoning steps or completions contribute equally to effective policy optimization.",
-          "summary": null,
+          "summary": "Both abstracts address the optimization of reinforcement learning-based reasoning in large language models by improving training and computational efficiency. Abstract A presents AnytimeReasoner, which optimizes reasoning performance across varying token budget constraints by introducing dense rewards through truncated thinking processes and proposes Budget Relative Policy Optimization (BRPO) as a variance reduction technique. Abstract B introduces Completion Pruning Policy Optimization (CPPO), which accelerates training of Group Relative Policy Optimization (GRPO)-based reasoning models by pruning low-advantage completions and implementing dynamic completion allocation. Both works demonstrate that selective processing of reasoning trajectories—whether through budget-aware truncation or advantage-based pruning—enhances training efficiency while maintaining or improving performance on mathematical reasoning benchmarks, suggesting that not all reasoning steps or completions contribute equally to effective policy optimization.",
           "match": 4,
           "children": [
             63,
@@ -3720,12 +3954,21 @@
             "96"
           ],
           "third": 15,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 91,
           "prompt": "Both studies address limitations in Group Relative Policy Optimization (GRPO), a reinforcement learning algorithm used to enhance reasoning capabilities in large language models. Abstract A identifies Lazy Likelihood Displacement (LLD)—a phenomenon where the likelihood of correct responses fails to improve or even decreases during training—and attributes this to problematic negative gradients penalizing all tokens in incorrect responses equally. Abstract B reveals that GRPO's group relative advantage function introduces question-level difficulty bias and entropy instability during training. Both works propose algorithmic modifications to address these identified issues: Abstract A introduces NTHR, which selectively downweights penalties on tokens that contribute to LLD using correct responses as reference points, while Abstract B proposes DisCO, which replaces GRPO's group relative objective with a discriminative objective and employs constrained optimization. Both approaches demonstrate empirical improvements on mathematical reasoning benchmarks across models of varying sizes.",
-          "summary": null,
+          "summary": "Both studies address limitations in Group Relative Policy Optimization (GRPO), a reinforcement learning algorithm used to enhance reasoning capabilities in large language models. Abstract A identifies Lazy Likelihood Displacement (LLD)—a phenomenon where the likelihood of correct responses fails to improve or even decreases during training—and attributes this to problematic negative gradients penalizing all tokens in incorrect responses equally. Abstract B reveals that GRPO's group relative advantage function introduces question-level difficulty bias and entropy instability during training. Both works propose algorithmic modifications to address these identified issues: Abstract A introduces NTHR, which selectively downweights penalties on tokens that contribute to LLD using correct responses as reference points, while Abstract B proposes DisCO, which replaces GRPO's group relative objective with a discriminative objective and employs constrained optimization. Both approaches demonstrate empirical improvements on mathematical reasoning benchmarks across models of varying sizes.",
           "match": 29,
           "children": [
             8,
@@ -3738,12 +3981,21 @@
             "97"
           ],
           "third": 26,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.65
         },
         {
           "id": 92,
           "prompt": "Recent research has demonstrated that reinforcement learning approaches can enhance large language models' reasoning and problem-solving capabilities by enabling them to develop thinking-like behaviors. Both model-free reinforcement learning and multi-agent reinforcement learning frameworks have been shown to elicit meta-cognitive processes where models monitor and reflect on their reasoning strategies. These approaches leverage the insight that thinking actions—which do not directly produce immediate rewards—can emerge as effective strategies for improving overall task performance. Empirical evidence supports that such thinking-enhanced reasoning leads to improved performance on complex reasoning tasks compared to baseline approaches without explicit thinking mechanisms.",
-          "summary": null,
+          "summary": "Recent research has demonstrated that reinforcement learning approaches can enhance large language models' reasoning and problem-solving capabilities by enabling them to develop thinking-like behaviors. Both model-free reinforcement learning and multi-agent reinforcement learning frameworks have been shown to elicit meta-cognitive processes where models monitor and reflect on their reasoning strategies. These approaches leverage the insight that thinking actions—which do not directly produce immediate rewards—can emerge as effective strategies for improving overall task performance. Empirical evidence supports that such thinking-enhanced reasoning leads to improved performance on complex reasoning tasks compared to baseline approaches without explicit thinking mechanisms.",
           "match": 12,
           "children": [
             3,
@@ -3756,12 +4008,21 @@
             "106"
           ],
           "third": 20,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 93,
           "prompt": "Both abstracts address the challenge of improving large language model reasoning capabilities through fine-tuning approaches that optimize the reasoning process itself rather than treating it as a monolithic output. Abstract A proposes Learning to Think (L2T), which uses information-theoretic reinforcement learning to maximize reasoning effectiveness while minimizing token usage by rewarding information gain at each episode within a reasoning chain. Abstract B introduces Guided Pivotal Optimization (GPO), which enhances reasoning by identifying and focusing learning on critical steps within reasoning trajectories using advantage function estimation. Despite their different technical approaches—one emphasizing efficiency through dense episode-level rewards and the other emphasizing effectiveness through critical step identification—both methods share the core insight that decomposing and selectively optimizing components of the reasoning process (whether episodes or critical steps) improves LLM performance on complex reasoning tasks compared to methods that treat reasoning trajectories as undifferentiated wholes.",
-          "summary": null,
+          "summary": "Both abstracts address the challenge of improving large language model reasoning capabilities through fine-tuning approaches that optimize the reasoning process itself rather than treating it as a monolithic output. Abstract A proposes Learning to Think (L2T), which uses information-theoretic reinforcement learning to maximize reasoning effectiveness while minimizing token usage by rewarding information gain at each episode within a reasoning chain. Abstract B introduces Guided Pivotal Optimization (GPO), which enhances reasoning by identifying and focusing learning on critical steps within reasoning trajectories using advantage function estimation. Despite their different technical approaches—one emphasizing efficiency through dense episode-level rewards and the other emphasizing effectiveness through critical step identification—both methods share the core insight that decomposing and selectively optimizing components of the reasoning process (whether episodes or critical steps) improves LLM performance on complex reasoning tasks compared to methods that treat reasoning trajectories as undifferentiated wholes.",
           "match": 27,
           "children": [
             35,
@@ -3774,12 +4035,21 @@
             "97"
           ],
           "third": 9,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "informativeness1": 0.75,
+          "informativeness2": 0.5,
+          "specificity_faithfulness": 0.65
         },
         {
           "id": 94,
           "prompt": "Value-based and advantage-based reinforcement learning methods have been proposed as efficient alternatives to policy-based approaches for enhancing reasoning capabilities in large language models. Both approaches address computational and memory overhead limitations of existing methods by eliminating the need for critic networks and reducing the number of generations required per prompt. These methods leverage trajectory-level or optimal advantage function approximations to enable off-policy or single-generation training while maintaining theoretical convergence guarantees to near-optimal KL-regularized policies. Empirical evaluation on mathematical reasoning benchmarks demonstrates that these approaches match or surpass standard policy optimization baselines like PPO and GRPO with comparable or reduced computational and memory costs.",
-          "summary": null,
+          "summary": "Value-based and advantage-based reinforcement learning methods have been proposed as efficient alternatives to policy-based approaches for enhancing reasoning capabilities in large language models. Both approaches address computational and memory overhead limitations of existing methods by eliminating the need for critic networks and reducing the number of generations required per prompt. These methods leverage trajectory-level or optimal advantage function approximations to enable off-policy or single-generation training while maintaining theoretical convergence guarantees to near-optimal KL-regularized policies. Empirical evaluation on mathematical reasoning benchmarks demonstrates that these approaches match or surpass standard policy optimization baselines like PPO and GRPO with comparable or reduced computational and memory costs.",
           "match": 6,
           "children": [
             11,
@@ -3792,12 +4062,21 @@
             "103"
           ],
           "third": 4,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.7,
+          "faithfulness2": 0.4,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 95,
           "prompt": "Reinforcement Learning can effectively improve Large Language Models' reasoning capabilities using limited or unlabeled data by employing majority voting as a reward signal. Both approaches demonstrate that this self-bootstrapping mechanism eliminates the need for high-quality external annotations or ground-truth labels while maintaining performance comparable to supervised training with explicit labels. The methods enable iterative self-improvement of LLMs across various reasoning benchmarks and model architectures, showing that pre-trained model priors can be leveraged to generate and evaluate training signals without access to specialized domain annotations.",
-          "summary": null,
+          "summary": "Reinforcement Learning can effectively improve Large Language Models' reasoning capabilities using limited or unlabeled data by employing majority voting as a reward signal. Both approaches demonstrate that this self-bootstrapping mechanism eliminates the need for high-quality external annotations or ground-truth labels while maintaining performance comparable to supervised training with explicit labels. The methods enable iterative self-improvement of LLMs across various reasoning benchmarks and model architectures, showing that pre-trained model priors can be leveraged to generate and evaluate training signals without access to specialized domain annotations.",
           "match": 2,
           "children": [
             24,
@@ -3810,7 +4089,16 @@
             "110"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "specificity_faithfulness": 0.925
         }
       ]
     },
@@ -3820,7 +4108,7 @@
         {
           "id": 96,
           "prompt": "Recent advances in reinforcement learning for large language models have demonstrated that selective processing of reasoning trajectories through fine-grained advantage estimation mechanisms can enhance reasoning performance while improving training and computational efficiency. Both token-level and completion-level optimization approaches address limitations in uniform treatment of reasoning steps across sequences by providing more nuanced training signals. These methods enable models to achieve better performance-efficiency trade-offs on mathematical reasoning tasks by recognizing that not all reasoning steps contribute equally to effective policy optimization.",
-          "summary": null,
+          "summary": "Recent advances in reinforcement learning for large language models have demonstrated that selective processing of reasoning trajectories through fine-grained advantage estimation mechanisms can enhance reasoning performance while improving training and computational efficiency. Both token-level and completion-level optimization approaches address limitations in uniform treatment of reasoning steps across sequences by providing more nuanced training signals. These methods enable models to achieve better performance-efficiency trade-offs on mathematical reasoning tasks by recognizing that not all reasoning steps contribute equally to effective policy optimization.",
           "match": 1,
           "children": [
             68,
@@ -3833,12 +4121,21 @@
             "112"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 97,
           "prompt": "Both studies address limitations in reinforcement learning approaches for enhancing reasoning capabilities in large language models. They identify specific training pathologies—one focusing on problematic gradient dynamics affecting token-level likelihood and the other on difficulty bias and entropy instability—that arise from existing algorithms' handling of reasoning trajectories. Both propose algorithmic modifications that selectively optimize components of the reasoning process rather than treating all tokens or responses uniformly, and both demonstrate empirical improvements on mathematical reasoning benchmarks across models of varying sizes.",
-          "summary": null,
+          "summary": "Both studies address limitations in reinforcement learning approaches for enhancing reasoning capabilities in large language models. They identify specific training pathologies—one focusing on problematic gradient dynamics affecting token-level likelihood and the other on difficulty bias and entropy instability—that arise from existing algorithms' handling of reasoning trajectories. Both propose algorithmic modifications that selectively optimize components of the reasoning process rather than treating all tokens or responses uniformly, and both demonstrate empirical improvements on mathematical reasoning benchmarks across models of varying sizes.",
           "match": 0,
           "children": [
             93,
@@ -3851,12 +4148,21 @@
             "112"
           ],
           "third": 11,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 98,
           "prompt": "Large language models can substantially improve their reasoning capabilities through post-training methods that strategically optimize training signals based on entropy dynamics. Both approaches demonstrate that selectively focusing optimization efforts—whether by minimizing semantic entropy on unlabeled questions or by identifying high-variance instances—yields significant performance improvements on reasoning benchmarks without requiring extensive labeled data or pre-trained reward models. These findings indicate that LLMs possess latent reasoning capabilities that can be enhanced by leveraging entropy patterns to guide which training instances receive optimization attention.",
-          "summary": null,
+          "summary": "Large language models can substantially improve their reasoning capabilities through post-training methods that strategically optimize training signals based on entropy dynamics. Both approaches demonstrate that selectively focusing optimization efforts—whether by minimizing semantic entropy on unlabeled questions or by identifying high-variance instances—yields significant performance improvements on reasoning benchmarks without requiring extensive labeled data or pre-trained reward models. These findings indicate that LLMs possess latent reasoning capabilities that can be enhanced by leveraging entropy patterns to guide which training instances receive optimization attention.",
           "match": 14,
           "children": [
             69,
@@ -3869,12 +4175,21 @@
             "113"
           ],
           "third": 13,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 99,
           "prompt": "Reinforcement learning effectively improves the mathematical reasoning capabilities of language models through structured training approaches. Both studies demonstrate that RL training enables performance improvements on mathematical benchmarks, with the training process leveraging feedback mechanisms to refine model reasoning. The systematic application of RL, including the handling of different types of training signals, contributes to enhanced task accuracy and extends the reasoning capabilities of language models beyond baseline performance.",
-          "summary": null,
+          "summary": "Reinforcement learning effectively improves the mathematical reasoning capabilities of language models through structured training approaches. Both studies demonstrate that RL training enables performance improvements on mathematical benchmarks, with the training process leveraging feedback mechanisms to refine model reasoning. The systematic application of RL, including the handling of different types of training signals, contributes to enhanced task accuracy and extends the reasoning capabilities of language models beyond baseline performance.",
           "match": 5,
           "children": [
             86,
@@ -3887,12 +4202,21 @@
             "119"
           ],
           "third": 8,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 100,
           "prompt": "Large language models can enhance their reasoning capabilities through self-supervised reinforcement learning frameworks that eliminate dependence on external reward models or human supervision. These approaches leverage internal mechanisms—such as consistency patterns in reasoning states or self-generated training data—combined with verifiable, rule-based feedback to enable models to train themselves on complex reasoning tasks. By integrating solution generation with self-verification within unified training processes, models develop the ability to assess their own outputs and improve reasoning performance. Experiments on mathematical and coding reasoning benchmarks demonstrate that such self-directed reinforcement learning approaches achieve competitive performance improvements while enabling effective scaling without reliance on external verifiers or human-labeled training data.",
-          "summary": null,
+          "summary": "Large language models can enhance their reasoning capabilities through self-supervised reinforcement learning frameworks that eliminate dependence on external reward models or human supervision. These approaches leverage internal mechanisms—such as consistency patterns in reasoning states or self-generated training data—combined with verifiable, rule-based feedback to enable models to train themselves on complex reasoning tasks. By integrating solution generation with self-verification within unified training processes, models develop the ability to assess their own outputs and improve reasoning performance. Experiments on mathematical and coding reasoning benchmarks demonstrate that such self-directed reinforcement learning approaches achieve competitive performance improvements while enabling effective scaling without reliance on external verifiers or human-labeled training data.",
           "match": 9,
           "children": [
             67,
@@ -3905,12 +4229,21 @@
             "114"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.725,
+          "entail_2": 0.45,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 101,
           "prompt": "Reinforcement learning-based frameworks improve the evaluation of intermediate reasoning steps in language models for mathematical reasoning tasks by training evaluator components jointly with generators, reducing dependence on explicit human annotations of reasoning processes. These approaches enable evaluators to learn to assess reasoning correctness through training dynamics rather than direct supervision, achieving competitive performance on mathematical reasoning benchmarks while addressing scalability constraints in traditional supervised training methods.",
-          "summary": null,
+          "summary": "Reinforcement learning-based frameworks improve the evaluation of intermediate reasoning steps in language models for mathematical reasoning tasks by training evaluator components jointly with generators, reducing dependence on explicit human annotations of reasoning processes. These approaches enable evaluators to learn to assess reasoning correctness through training dynamics rather than direct supervision, achieving competitive performance on mathematical reasoning benchmarks while addressing scalability constraints in traditional supervised training methods.",
           "match": 3,
           "children": [
             74,
@@ -3923,12 +4256,21 @@
             "119"
           ],
           "third": 7,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 102,
           "prompt": "Reinforcement learning can be applied to language models to enhance their reasoning capabilities on mathematical and planning tasks. Both approaches demonstrate that RL training, when properly optimized, yields substantial performance improvements on reasoning benchmarks compared to baseline models. However, the computational demands of RL training necessitate efficiency improvements, which can be achieved through various optimization strategies that reduce resource requirements while maintaining or improving reasoning performance.",
-          "summary": null,
+          "summary": "Reinforcement learning can be applied to language models to enhance their reasoning capabilities on mathematical and planning tasks. Both approaches demonstrate that RL training, when properly optimized, yields substantial performance improvements on reasoning benchmarks compared to baseline models. However, the computational demands of RL training necessitate efficiency improvements, which can be achieved through various optimization strategies that reduce resource requirements while maintaining or improving reasoning performance.",
           "match": 8,
           "children": [
             82,
@@ -3941,12 +4283,21 @@
             "115"
           ],
           "third": 11,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 103,
           "prompt": "Reinforcement learning methods for enhancing reasoning capabilities in large language models address limitations of standard on-policy approaches by incorporating mechanisms to expand beyond the model's initial generation distribution. These approaches leverage additional guidance sources during training—such as off-policy data or alternative trajectory information—to enable learning of reasoning abilities that exceed what the model can initially generate on its own. By reducing computational overhead compared to existing methods while providing access to a broader range of learning signals, these frameworks demonstrate improved performance on mathematical reasoning benchmarks, particularly in challenging or out-of-distribution settings where standard policy optimization alone proves insufficient.",
-          "summary": null,
+          "summary": "Reinforcement learning methods for enhancing reasoning capabilities in large language models address limitations of standard on-policy approaches by incorporating mechanisms to expand beyond the model's initial generation distribution. These approaches leverage additional guidance sources during training—such as off-policy data or alternative trajectory information—to enable learning of reasoning abilities that exceed what the model can initially generate on its own. By reducing computational overhead compared to existing methods while providing access to a broader range of learning signals, these frameworks demonstrate improved performance on mathematical reasoning benchmarks, particularly in challenging or out-of-distribution settings where standard policy optimization alone proves insufficient.",
           "match": 12,
           "children": [
             94,
@@ -3959,12 +4310,21 @@
             "118"
           ],
           "third": 13,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.7,
+          "faithfulness2": 0.4,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 104,
           "prompt": "Reinforcement learning enables language models to achieve improved performance on complex reasoning tasks by moving beyond fixed, general-purpose configurations. Both approaches employ RL frameworks to optimize reasoning capabilities, demonstrating that careful design of RL training—including reward structures and task-specific configurations—produces reliable performance gains across multiple model sizes and scenarios. These improvements extend beyond simply amplifying existing outputs, enabling models to develop more effective reasoning strategies that generalize robustly to challenging and out-of-distribution problems without requiring substantially larger models than baseline approaches.",
-          "summary": null,
+          "summary": "Reinforcement learning enables language models to achieve improved performance on complex reasoning tasks by moving beyond fixed, general-purpose configurations. Both approaches employ RL frameworks to optimize reasoning capabilities, demonstrating that careful design of RL training—including reward structures and task-specific configurations—produces reliable performance gains across multiple model sizes and scenarios. These improvements extend beyond simply amplifying existing outputs, enabling models to develop more effective reasoning strategies that generalize robustly to challenging and out-of-distribution problems without requiring substantially larger models than baseline approaches.",
           "match": 6,
           "children": [
             65,
@@ -3977,12 +4337,21 @@
             "115"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 105,
           "prompt": "Reinforcement learning approaches for large language models can be enhanced through verification-based reward mechanisms that provide precise feedback signals for training. These methods leverage automatic verification systems—such as executable tests or optimization solvers—to derive rewards from model outputs, enabling effective learning without requiring complete ground-truth solutions. Such verification-based reward systems improve model performance across different task types and scales while supporting broader applications including self-correction and downstream task performance.",
-          "summary": null,
+          "summary": "Reinforcement learning approaches for large language models can be enhanced through verification-based reward mechanisms that provide precise feedback signals for training. These methods leverage automatic verification systems—such as executable tests or optimization solvers—to derive rewards from model outputs, enabling effective learning without requiring complete ground-truth solutions. Such verification-based reward systems improve model performance across different task types and scales while supporting broader applications including self-correction and downstream task performance.",
           "match": 4,
           "children": [
             72,
@@ -3995,12 +4364,21 @@
             "114"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 106,
           "prompt": "Reinforcement learning applied to large language models enhances their reasoning and problem-solving capabilities compared to baseline models. RL training enables LLMs to develop improved reasoning strategies and meta-cognitive processes that monitor their thinking approaches. These improvements in reasoning performance are achieved by leveraging the base model's existing capabilities rather than creating entirely novel reasoning patterns. While RL-based enhancements demonstrate measurable performance gains on complex reasoning tasks, current methods remain limited in fully optimizing the reasoning potential inherent in the underlying language models.",
-          "summary": null,
+          "summary": "Reinforcement learning applied to large language models enhances their reasoning and problem-solving capabilities compared to baseline models. RL training enables LLMs to develop improved reasoning strategies and meta-cognitive processes that monitor their thinking approaches. These improvements in reasoning performance are achieved by leveraging the base model's existing capabilities rather than creating entirely novel reasoning patterns. While RL-based enhancements demonstrate measurable performance gains on complex reasoning tasks, current methods remain limited in fully optimizing the reasoning potential inherent in the underlying language models.",
           "match": 13,
           "children": [
             76,
@@ -4013,12 +4391,21 @@
             "116"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 107,
           "prompt": "Reinforcement learning-based training methods for large language models can enhance reasoning capabilities on complex tasks, with the quality and design of the training process significantly impacting model behavior. Both explicit control mechanisms integrated into RL training frameworks and structured strategies for generating training problems—whether through selective guidance of token-level objectives, identification of model deficiencies, or controllable difficulty progression—yield measurable improvements in reasoning performance across mathematical and logical reasoning benchmarks. These approaches demonstrate that targeted, structured approaches to RL optimization are more effective than indiscriminate problem expansion for improving LLM reasoning accuracy and solution quality.",
-          "summary": null,
+          "summary": "Reinforcement learning-based training methods for large language models can enhance reasoning capabilities on complex tasks, with the quality and design of the training process significantly impacting model behavior. Both explicit control mechanisms integrated into RL training frameworks and structured strategies for generating training problems—whether through selective guidance of token-level objectives, identification of model deficiencies, or controllable difficulty progression—yield measurable improvements in reasoning performance across mathematical and logical reasoning benchmarks. These approaches demonstrate that targeted, structured approaches to RL optimization are more effective than indiscriminate problem expansion for improving LLM reasoning accuracy and solution quality.",
           "match": 15,
           "children": [
             89,
@@ -4031,12 +4418,21 @@
             "117"
           ],
           "third": 8,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 108,
           "prompt": "Large language models can be enhanced through reasoning approaches that incorporate intermediate steps—whether explicit chain-of-thought generation or latent internal computation—to improve task performance. These reasoning-enhanced models can be trained using reinforcement learning frameworks that optimize the reasoning process itself, leveraging intermediate representations or steps to inform final outputs. Such approaches improve performance on complex reasoning tasks while maintaining compatibility with LLM architectures and generative capabilities.",
-          "summary": null,
+          "summary": "Large language models can be enhanced through reasoning approaches that incorporate intermediate steps—whether explicit chain-of-thought generation or latent internal computation—to improve task performance. These reasoning-enhanced models can be trained using reinforcement learning frameworks that optimize the reasoning process itself, leveraging intermediate representations or steps to inform final outputs. Such approaches improve performance on complex reasoning tasks while maintaining compatibility with LLM architectures and generative capabilities.",
           "match": 7,
           "children": [
             64,
@@ -4049,12 +4445,21 @@
             "118"
           ],
           "third": 13,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 109,
           "prompt": "Reinforcement learning techniques can enhance large language models' performance on reasoning tasks by optimizing policy learning through algorithmic innovations. Both abstracts identify computational efficiency and policy optimization quality as critical challenges in RL-based LLM training. Recent advances in RL methods—including modifications to training procedures and reward signal design—demonstrate improvements on reasoning benchmarks, enabling more effective scaling of LLM reasoning capabilities through principled reinforcement learning approaches.",
-          "summary": null,
+          "summary": "Reinforcement learning techniques can enhance large language models' performance on reasoning tasks by optimizing policy learning through algorithmic innovations. Both abstracts identify computational efficiency and policy optimization quality as critical challenges in RL-based LLM training. Recent advances in RL methods—including modifications to training procedures and reward signal design—demonstrate improvements on reasoning benchmarks, enabling more effective scaling of LLM reasoning capabilities through principled reinforcement learning approaches.",
           "match": 10,
           "children": [
             79,
@@ -4067,12 +4472,21 @@
             "116"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 110,
           "prompt": "Both approaches enable post-training improvement of language models through self-supervised mechanisms that leverage majority voting as reward signals to enhance reasoning capabilities without requiring expensive external annotations. These methods operate as autonomous post-training stages that iteratively improve model performance across reasoning benchmarks by using the pre-trained model's own outputs to generate and evaluate training signals, demonstrating that effective model enhancement is achievable without access to labeled data or specialized domain annotations while maintaining performance comparable to supervised training approaches.",
-          "summary": null,
+          "summary": "Both approaches enable post-training improvement of language models through self-supervised mechanisms that leverage majority voting as reward signals to enhance reasoning capabilities without requiring expensive external annotations. These methods operate as autonomous post-training stages that iteratively improve model performance across reasoning benchmarks by using the pre-trained model's own outputs to generate and evaluate training signals, demonstrating that effective model enhancement is achievable without access to labeled data or specialized domain annotations while maintaining performance comparable to supervised training approaches.",
           "match": 2,
           "children": [
             66,
@@ -4085,12 +4499,21 @@
             "113"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 111,
           "prompt": "Reinforcement learning fine-tuning of language models for complex reasoning tasks faces challenges related to data quality, availability, and computational efficiency. Both improving the preparation and selection of training data before and during reinforcement learning, as well as incorporating domain expertise and structured guidance, can enhance the effectiveness and efficiency of this approach. Through careful curation of training signals and strategic use of available knowledge, reinforcement learning fine-tuning can achieve better reasoning performance while reducing computational requirements.",
-          "summary": null,
+          "summary": "Reinforcement learning fine-tuning of language models for complex reasoning tasks faces challenges related to data quality, availability, and computational efficiency. Both improving the preparation and selection of training data before and during reinforcement learning, as well as incorporating domain expertise and structured guidance, can enhance the effectiveness and efficiency of this approach. Through careful curation of training signals and strategic use of available knowledge, reinforcement learning fine-tuning can achieve better reasoning performance while reducing computational requirements.",
           "match": 11,
           "children": [
             71,
@@ -4103,7 +4526,16 @@
             "117"
           ],
           "third": 8,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.875
         }
       ]
     },
@@ -4113,7 +4545,7 @@
         {
           "id": 112,
           "prompt": "Recent advances in reinforcement learning for large language models have addressed limitations in how existing algorithms handle reasoning trajectories by employing selective optimization mechanisms rather than uniform treatment of all reasoning components. These approaches, which operate at different granularities of the reasoning process, provide more nuanced training signals that improve both reasoning performance and training efficiency on mathematical reasoning tasks. By identifying and mitigating specific training pathologies that arise from standard algorithms, these methods enable models to achieve better performance-efficiency trade-offs across models of varying sizes.",
-          "summary": null,
+          "summary": "Recent advances in reinforcement learning for large language models have addressed limitations in how existing algorithms handle reasoning trajectories by employing selective optimization mechanisms rather than uniform treatment of all reasoning components. These approaches, which operate at different granularities of the reasoning process, provide more nuanced training signals that improve both reasoning performance and training efficiency on mathematical reasoning tasks. By identifying and mitigating specific training pathologies that arise from standard algorithms, these methods enable models to achieve better performance-efficiency trade-offs across models of varying sizes.",
           "match": 7,
           "children": [
             96,
@@ -4126,12 +4558,21 @@
             "120"
           ],
           "third": 4,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.725,
+          "entail_2": 0.45,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 113,
           "prompt": "Large language models can improve their reasoning capabilities through post-training methods that leverage self-supervised mechanisms to guide optimization without requiring labeled data or external annotations. These approaches strategically select training instances based on model-generated signals—whether through entropy patterns or voting-based mechanisms—to enhance performance on reasoning benchmarks. The methods demonstrate that latent reasoning capabilities can be unlocked by using the model's own outputs to identify and optimize high-value training instances, achieving substantial improvements comparable to supervised approaches while remaining autonomous and annotation-free.",
-          "summary": null,
+          "summary": "Large language models can improve their reasoning capabilities through post-training methods that leverage self-supervised mechanisms to guide optimization without requiring labeled data or external annotations. These approaches strategically select training instances based on model-generated signals—whether through entropy patterns or voting-based mechanisms—to enhance performance on reasoning benchmarks. The methods demonstrate that latent reasoning capabilities can be unlocked by using the model's own outputs to identify and optimize high-value training instances, achieving substantial improvements comparable to supervised approaches while remaining autonomous and annotation-free.",
           "match": 2,
           "children": [
             98,
@@ -4144,12 +4585,21 @@
             "121"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 114,
           "prompt": "Large language models can improve their reasoning and task performance through reinforcement learning approaches that utilize verification-based feedback mechanisms. These methods leverage automatic verification systems to generate reward signals from model outputs, enabling effective training without dependence on external reward models or human supervision. By integrating output generation with verification-based feedback within training processes, models can assess their own performance and improve across reasoning tasks and different scales.",
-          "summary": null,
+          "summary": "Large language models can improve their reasoning and task performance through reinforcement learning approaches that utilize verification-based feedback mechanisms. These methods leverage automatic verification systems to generate reward signals from model outputs, enabling effective training without dependence on external reward models or human supervision. By integrating output generation with verification-based feedback within training processes, models can assess their own performance and improve across reasoning tasks and different scales.",
           "match": 1,
           "children": [
             100,
@@ -4162,12 +4612,21 @@
             "121"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 115,
           "prompt": "Reinforcement learning can be applied to language models to enhance their reasoning capabilities on complex tasks. Both approaches demonstrate that RL training, when properly designed and optimized, yields substantial performance improvements on reasoning benchmarks compared to baseline models. These improvements are achieved through careful configuration of RL training strategies and can generalize robustly across multiple scenarios without requiring substantially larger models than baseline approaches.",
-          "summary": null,
+          "summary": "Reinforcement learning can be applied to language models to enhance their reasoning capabilities on complex tasks. Both approaches demonstrate that RL training, when properly designed and optimized, yields substantial performance improvements on reasoning benchmarks compared to baseline models. These improvements are achieved through careful configuration of RL training strategies and can generalize robustly across multiple scenarios without requiring substantially larger models than baseline approaches.",
           "match": 5,
           "children": [
             102,
@@ -4180,12 +4639,21 @@
             "123"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 116,
           "prompt": "Reinforcement learning can enhance large language models' reasoning and problem-solving capabilities through policy optimization. RL-based training approaches leverage the existing capabilities of base language models to improve performance on reasoning tasks. However, both computational efficiency and the quality of policy optimization remain critical challenges in achieving full optimization of LLMs' reasoning potential through reinforcement learning methods.",
-          "summary": null,
+          "summary": "Reinforcement learning can enhance large language models' reasoning and problem-solving capabilities through policy optimization. RL-based training approaches leverage the existing capabilities of base language models to improve performance on reasoning tasks. However, both computational efficiency and the quality of policy optimization remain critical challenges in achieving full optimization of LLMs' reasoning potential through reinforcement learning methods.",
           "match": 6,
           "children": [
             109,
@@ -4198,12 +4666,21 @@
             "122"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 117,
           "prompt": "Reinforcement learning fine-tuning of language models improves reasoning performance on complex tasks through structured approaches that emphasize training data quality and strategic guidance. Both explicit control mechanisms and careful curation of training signals—including selective problem generation, domain expertise integration, and targeted optimization strategies—enhance model reasoning capabilities more effectively than unstructured expansion of training data. These structured approaches to reinforcement learning optimization yield measurable improvements in reasoning performance while addressing practical constraints in the training process.",
-          "summary": null,
+          "summary": "Reinforcement learning fine-tuning of language models improves reasoning performance on complex tasks through structured approaches that emphasize training data quality and strategic guidance. Both explicit control mechanisms and careful curation of training signals—including selective problem generation, domain expertise integration, and targeted optimization strategies—enhance model reasoning capabilities more effectively than unstructured expansion of training data. These structured approaches to reinforcement learning optimization yield measurable improvements in reasoning performance while addressing practical constraints in the training process.",
           "match": 3,
           "children": [
             107,
@@ -4216,12 +4693,21 @@
             "123"
           ],
           "third": 4,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 118,
           "prompt": "Reinforcement learning approaches can enhance large language models' reasoning capabilities by leveraging intermediate steps or alternative learning signals during training. These methods improve performance on complex reasoning tasks by enabling the model to learn reasoning processes that go beyond its initial capabilities, while remaining compatible with standard LLM architectures and generative training paradigms.",
-          "summary": null,
+          "summary": "Reinforcement learning approaches can enhance large language models' reasoning capabilities by leveraging intermediate steps or alternative learning signals during training. These methods improve performance on complex reasoning tasks by enabling the model to learn reasoning processes that go beyond its initial capabilities, while remaining compatible with standard LLM architectures and generative training paradigms.",
           "match": 4,
           "children": [
             103,
@@ -4234,12 +4720,21 @@
             "122"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 119,
           "prompt": "Reinforcement learning improves language models' mathematical reasoning capabilities by training on feedback mechanisms that assess reasoning quality, enabling performance improvements on mathematical benchmarks while reducing reliance on explicit human supervision during the training process.",
-          "summary": null,
+          "summary": "Reinforcement learning improves language models' mathematical reasoning capabilities by training on feedback mechanisms that assess reasoning quality, enabling performance improvements on mathematical benchmarks while reducing reliance on explicit human supervision during the training process.",
           "match": 0,
           "children": [
             99,
@@ -4252,7 +4747,16 @@
             "120"
           ],
           "third": 2,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         }
       ]
     },
@@ -4262,7 +4766,7 @@
         {
           "id": 120,
           "prompt": "Reinforcement learning enhances language models' mathematical reasoning abilities through selective training mechanisms that provide targeted feedback on reasoning quality, enabling improved performance on mathematical tasks while improving training efficiency.",
-          "summary": null,
+          "summary": "Reinforcement learning enhances language models' mathematical reasoning abilities through selective training mechanisms that provide targeted feedback on reasoning quality, enabling improved performance on mathematical tasks while improving training efficiency.",
           "match": 1,
           "children": [
             112,
@@ -4275,12 +4779,21 @@
             "124"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 121,
           "prompt": "Large language models can improve their reasoning capabilities through post-training methods that leverage self-generated feedback mechanisms to guide optimization without requiring external supervision or labeled data. These approaches utilize the model's own outputs—whether through verification-based signals or other autonomous selection mechanisms—to identify valuable training instances and generate reward signals for improvement. By integrating self-assessment into training processes, models can enhance performance on reasoning tasks while remaining independent of external annotations or human oversight.",
-          "summary": null,
+          "summary": "Large language models can improve their reasoning capabilities through post-training methods that leverage self-generated feedback mechanisms to guide optimization without requiring external supervision or labeled data. These approaches utilize the model's own outputs—whether through verification-based signals or other autonomous selection mechanisms—to identify valuable training instances and generate reward signals for improvement. By integrating self-assessment into training processes, models can enhance performance on reasoning tasks while remaining independent of external annotations or human oversight.",
           "match": 0,
           "children": [
             114,
@@ -4293,12 +4806,21 @@
             "124"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 122,
           "prompt": "Reinforcement learning approaches can enhance large language models' reasoning and problem-solving capabilities by leveraging policy optimization during training. These methods improve performance on complex reasoning tasks by building upon the existing capabilities of base language models, though significant challenges remain in implementing these approaches effectively.",
-          "summary": null,
+          "summary": "Reinforcement learning approaches can enhance large language models' reasoning and problem-solving capabilities by leveraging policy optimization during training. These methods improve performance on complex reasoning tasks by building upon the existing capabilities of base language models, though significant challenges remain in implementing these approaches effectively.",
           "match": 3,
           "children": [
             118,
@@ -4311,12 +4833,21 @@
             "125"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 123,
           "prompt": "Reinforcement learning applied to language models enhances reasoning performance on complex tasks through carefully designed training strategies. Both structured optimization approaches and proper configuration of RL training yield measurable performance improvements on reasoning benchmarks compared to baseline models, with these gains achievable without requiring substantially larger models.",
-          "summary": null,
+          "summary": "Reinforcement learning applied to language models enhances reasoning performance on complex tasks through carefully designed training strategies. Both structured optimization approaches and proper configuration of RL training yield measurable performance improvements on reasoning benchmarks compared to baseline models, with these gains achievable without requiring substantially larger models.",
           "match": 2,
           "children": [
             115,
@@ -4329,7 +4860,16 @@
             "125"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         }
       ]
     },
@@ -4339,7 +4879,7 @@
         {
           "id": 124,
           "prompt": "Language models can enhance their reasoning capabilities through post-training methods that utilize feedback mechanisms to guide optimization. These approaches leverage selective training on reasoning tasks, where feedback signals—whether generated internally or through targeted assessment—identify valuable training instances to improve performance on reasoning-based tasks while reducing reliance on external supervision.",
-          "summary": null,
+          "summary": "Language models can enhance their reasoning capabilities through post-training methods that utilize feedback mechanisms to guide optimization. These approaches leverage selective training on reasoning tasks, where feedback signals—whether generated internally or through targeted assessment—identify valuable training instances to improve performance on reasoning-based tasks while reducing reliance on external supervision.",
           "match": 1,
           "children": [
             120,
@@ -4351,12 +4891,21 @@
           "parentIds": [
             "126"
           ],
-          "third": null
+          "third": null,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 125,
           "prompt": "Reinforcement learning can enhance language models' reasoning capabilities on complex tasks through policy optimization training strategies, with measurable performance improvements achievable relative to baseline models.",
-          "summary": null,
+          "summary": "Reinforcement learning can enhance language models' reasoning capabilities on complex tasks through policy optimization training strategies, with measurable performance improvements achievable relative to baseline models.",
           "match": 0,
           "children": [
             123,
@@ -4368,7 +4917,16 @@
           "parentIds": [
             "126"
           ],
-          "third": null
+          "third": null,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         }
       ]
     },
@@ -4378,7 +4936,7 @@
         {
           "id": 126,
           "prompt": "Language models can improve their reasoning capabilities through post-training optimization approaches that utilize feedback mechanisms to guide learning on reasoning tasks, resulting in measurable performance improvements compared to baseline models.",
-          "summary": null,
+          "summary": "Language models can improve their reasoning capabilities through post-training optimization approaches that utilize feedback mechanisms to guide learning on reasoning tasks, resulting in measurable performance improvements compared to baseline models.",
           "match": null,
           "children": [
             125,
@@ -4387,7 +4945,16 @@
           "alive": true,
           "text_similarity": null,
           "score": null,
-          "parentIds": []
+          "parentIds": [],
+          "entail_1": 1.0,
+          "entail_2": 1.0,
+          "informativeness1": 1.0,
+          "informativeness2": 1.0,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 1.0,
+          "faithfulness2": 1.0,
+          "specificity_faithfulness": 1.0
         }
       ]
     }

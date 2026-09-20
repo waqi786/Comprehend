@@ -3211,7 +3211,7 @@
         {
           "id": 64,
           "prompt": "This work presents near-optimal algorithms with provable performance guarantees in online decision-making settings. The proposed algorithms achieve favorable tradeoffs between competing objectives, with performance bounds that are shown to be optimal or near-optimal up to logarithmic factors. The optimality claims are supported by establishing matching or nearly-matching lower bounds that confirm the algorithms achieve the best possible scaling in key problem parameters.",
-          "summary": null,
+          "summary": "This work presents near-optimal algorithms with provable performance guarantees in online decision-making settings. The proposed algorithms achieve favorable tradeoffs between competing objectives, with performance bounds that are shown to be optimal or near-optimal up to logarithmic factors. The optimality claims are supported by establishing matching or nearly-matching lower bounds that confirm the algorithms achieve the best possible scaling in key problem parameters.",
           "match": 17,
           "children": [
             2,
@@ -3224,12 +3224,21 @@
             "111"
           ],
           "third": 19,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 65,
           "prompt": "Both abstracts present deep learning frameworks that address generalization challenges in their respective domains by leveraging contrastive or comparative mechanisms to distinguish task-relevant features from irrelevant information. Each method incorporates specialized modules to extract discriminative representations while handling challenging real-world conditions, and both demonstrate state-of-the-art performance improvements over existing approaches through experimental validation.",
-          "summary": null,
+          "summary": "Both abstracts present deep learning frameworks that address generalization challenges in their respective domains by leveraging contrastive or comparative mechanisms to distinguish task-relevant features from irrelevant information. Each method incorporates specialized modules to extract discriminative representations while handling challenging real-world conditions, and both demonstrate state-of-the-art performance improvements over existing approaches through experimental validation.",
           "match": 14,
           "children": [
             25,
@@ -3242,12 +3251,21 @@
             "98"
           ],
           "third": 23,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 66,
           "prompt": "Both abstracts present frameworks that employ large language models in a generate-then-refine paradigm for content creation tasks. Each system addresses limitations in existing approaches by proposing novel methods that combine generation with selection or revision mechanisms. The frameworks utilize specialized evaluation components to guide the selection or improvement of outputs, aiming to produce higher quality results compared to baseline methods. Both works validate their approaches through experimental evaluations demonstrating superior performance over existing techniques in their respective domains.",
-          "summary": null,
+          "summary": "Both abstracts present frameworks that employ large language models in a generate-then-refine paradigm for content creation tasks. Each system addresses limitations in existing approaches by proposing novel methods that combine generation with selection or revision mechanisms. The frameworks utilize specialized evaluation components to guide the selection or improvement of outputs, aiming to produce higher quality results compared to baseline methods. Both works validate their approaches through experimental evaluations demonstrating superior performance over existing techniques in their respective domains.",
           "match": 4,
           "children": [
             6,
@@ -3260,12 +3278,21 @@
             "96"
           ],
           "third": 14,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.8,
+          "entail_2": 0.6,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 67,
           "prompt": "Both abstracts present novel computational frameworks for video understanding tasks that address limitations in existing approaches through innovative matching or association strategies. Each method introduces a paradigm that processes video content by identifying and connecting relevant elements across temporal sequences while handling challenging conditions such as occlusions, viewpoint variations, or subtle target patterns. The proposed approaches construct graph-based or structured representations that encode both appearance features and relationships between elements in the video. Both methods demonstrate model-agnostic or generalizable properties and validate their effectiveness through extensive experiments on multiple benchmark datasets, showing improved performance under challenging conditions compared to existing methods.",
-          "summary": null,
+          "summary": "Both abstracts present novel computational frameworks for video understanding tasks that address limitations in existing approaches through innovative matching or association strategies. Each method introduces a paradigm that processes video content by identifying and connecting relevant elements across temporal sequences while handling challenging conditions such as occlusions, viewpoint variations, or subtle target patterns. The proposed approaches construct graph-based or structured representations that encode both appearance features and relationships between elements in the video. Both methods demonstrate model-agnostic or generalizable properties and validate their effectiveness through extensive experiments on multiple benchmark datasets, showing improved performance under challenging conditions compared to existing methods.",
           "match": 8,
           "children": [
             63,
@@ -3278,12 +3305,21 @@
             "105"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "specificity_faithfulness": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3
         },
         {
           "id": 68,
           "prompt": "Both abstracts present specialized frameworks that enhance large language model capabilities through multi-stage reasoning architectures. Each framework decomposes a complex cognitive task into collaborative components that recursively inform subsequent processing stages. The approaches address challenges where standard language models struggle with contextual nuance and structured reasoning—specifically in domains requiring inference beyond surface-level semantic understanding. Both methodologies demonstrate significant performance improvements over baseline approaches, including gains over GPT-4o, and validate their designs through empirical evaluation showing that integrated reasoning components are essential for achieving superior accuracy. The frameworks represent advances in enabling AI systems to perform sophisticated reasoning tasks by incorporating domain-specific knowledge and structured inference processes into the generation pipeline.",
-          "summary": null,
+          "summary": "Both abstracts present specialized frameworks that enhance large language model capabilities through multi-stage reasoning architectures. Each framework decomposes a complex cognitive task into collaborative components that recursively inform subsequent processing stages. The approaches address challenges where standard language models struggle with contextual nuance and structured reasoning—specifically in domains requiring inference beyond surface-level semantic understanding. Both methodologies demonstrate significant performance improvements over baseline approaches, including gains over GPT-4o, and validate their designs through empirical evaluation showing that integrated reasoning components are essential for achieving superior accuracy. The frameworks represent advances in enabling AI systems to perform sophisticated reasoning tasks by incorporating domain-specific knowledge and structured inference processes into the generation pipeline.",
           "match": 2,
           "children": [
             46,
@@ -3296,12 +3332,21 @@
             "96"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 69,
           "prompt": "Both abstracts present theoretical frameworks for analyzing stochastic processes that are commonly simulated using computationally intensive methods. Each work develops mathematical analysis to provide deeper understanding of complex generative or dynamic systems, moving beyond purely empirical or heuristic approaches. The studies derive theoretical foundations that explain system behavior and dynamics, offering insights that can improve practical implementation decisions. In both cases, the theoretical analysis is validated through experimental evaluation, demonstrating that the proposed frameworks can effectively characterize the underlying processes and lead to improved computational or design strategies compared to existing heuristic-based approaches.",
-          "summary": null,
+          "summary": "Both abstracts present theoretical frameworks for analyzing stochastic processes that are commonly simulated using computationally intensive methods. Each work develops mathematical analysis to provide deeper understanding of complex generative or dynamic systems, moving beyond purely empirical or heuristic approaches. The studies derive theoretical foundations that explain system behavior and dynamics, offering insights that can improve practical implementation decisions. In both cases, the theoretical analysis is validated through experimental evaluation, demonstrating that the proposed frameworks can effectively characterize the underlying processes and lead to improved computational or design strategies compared to existing heuristic-based approaches.",
           "match": 18,
           "children": [
             47,
@@ -3314,12 +3359,21 @@
             "110"
           ],
           "third": 28,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 70,
           "prompt": "This work presents formal theoretical analysis of mechanisms that enhance neural network capabilities beyond their baseline configurations. The research provides rigorous mathematical characterizations explaining empirically observed performance improvements in neural architectures, demonstrating that specific modifications to standard models—whether through architectural augmentation or training procedure variations—can fundamentally alter their computational or generalization properties. The theoretical results are supported by experimental validation, bridging the gap between practical observations and formal understanding of why certain techniques improve performance in deep learning systems.",
-          "summary": null,
+          "summary": "This work presents formal theoretical analysis of mechanisms that enhance neural network capabilities beyond their baseline configurations. The research provides rigorous mathematical characterizations explaining empirically observed performance improvements in neural architectures, demonstrating that specific modifications to standard models—whether through architectural augmentation or training procedure variations—can fundamentally alter their computational or generalization properties. The theoretical results are supported by experimental validation, bridging the gap between practical observations and formal understanding of why certain techniques improve performance in deep learning systems.",
           "match": 24,
           "children": [
             31,
@@ -3332,12 +3386,21 @@
             "100"
           ],
           "third": 23,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "specificity_faithfulness": 0.8,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55
         },
         {
           "id": 71,
           "prompt": "Both abstracts present novel imaging reconstruction approaches that employ advanced computational methods to generate high-quality images from compressed or limited input data. Each work addresses the challenge of reconstructing complete imaging information from reduced measurements by proposing specialized network architectures tailored to their respective domains. The methods leverage progressive or structured reconstruction strategies rather than attempting direct one-shot reconstruction, utilizing domain-specific properties of the data to guide the reconstruction process. Both approaches demonstrate superior performance compared to existing state-of-the-art techniques through extensive experimental validation, and both aim to reduce system complexity or cost while maintaining or improving image quality in their respective applications.",
-          "summary": null,
+          "summary": "Both abstracts present novel imaging reconstruction approaches that employ advanced computational methods to generate high-quality images from compressed or limited input data. Each work addresses the challenge of reconstructing complete imaging information from reduced measurements by proposing specialized network architectures tailored to their respective domains. The methods leverage progressive or structured reconstruction strategies rather than attempting direct one-shot reconstruction, utilizing domain-specific properties of the data to guide the reconstruction process. Both approaches demonstrate superior performance compared to existing state-of-the-art techniques through extensive experimental validation, and both aim to reduce system complexity or cost while maintaining or improving image quality in their respective applications.",
           "match": 23,
           "children": [
             43,
@@ -3350,12 +3413,21 @@
             "97"
           ],
           "third": 20,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.725,
+          "entail_2": 0.45,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.7,
+          "faithfulness2": 0.4,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 72,
           "prompt": "Both abstracts present recognition and retrieval systems that address challenges in matching visual data across different modalities or large-scale datasets. Each work tackles the problem of learning robust feature representations in domains where direct matching is difficult due to domain gaps, data sparsity, or scale limitations. The approaches leverage complementary information sources during training—one utilizing proxy tasks and multi-modal imagery, the other incorporating external knowledge from pre-trained models—to enhance the discriminative power of learned embeddings. Both methods aim to bridge heterogeneous feature spaces to improve recognition or retrieval performance, and demonstrate their effectiveness through extensive experimental evaluation on multiple datasets. The works contribute novel paradigms that combine different types of visual or semantic information to overcome fundamental limitations in their respective recognition tasks.",
-          "summary": null,
+          "summary": "Both abstracts present recognition and retrieval systems that address challenges in matching visual data across different modalities or large-scale datasets. Each work tackles the problem of learning robust feature representations in domains where direct matching is difficult due to domain gaps, data sparsity, or scale limitations. The approaches leverage complementary information sources during training—one utilizing proxy tasks and multi-modal imagery, the other incorporating external knowledge from pre-trained models—to enhance the discriminative power of learned embeddings. Both methods aim to bridge heterogeneous feature spaces to improve recognition or retrieval performance, and demonstrate their effectiveness through extensive experimental evaluation on multiple datasets. The works contribute novel paradigms that combine different types of visual or semantic information to overcome fundamental limitations in their respective recognition tasks.",
           "match": 3,
           "children": [
             21,
@@ -3368,12 +3440,21 @@
             "105"
           ],
           "third": 14,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 73,
           "prompt": "Both abstracts address the challenge of balancing heterogeneous preferences or characteristics across distributed entities to achieve collectively beneficial outcomes. Abstract A examines how compositional diversity in decision-making panels affects social welfare optimization, while Abstract B tackles how data distribution diversity across federated learning nodes affects model performance. Each work identifies limitations in existing approaches that focus on single dimensions or hard constraints, and proposes methods that account for multiple features or pathways to achieve better balance. Abstract A demonstrates that considering intersections of multiple features yields superior welfare compared to single-feature representation, while Abstract B shows that combining multiple solution paths leads to better consensus than relying solely on global information. Both studies employ optimization frameworks to address heterogeneity problems where diverse characteristics must be reconciled to improve aggregate outcomes, and both provide empirical evidence supporting their proposed approaches over existing methods.",
-          "summary": null,
+          "summary": "Both abstracts address the challenge of balancing heterogeneous preferences or characteristics across distributed entities to achieve collectively beneficial outcomes. Abstract A examines how compositional diversity in decision-making panels affects social welfare optimization, while Abstract B tackles how data distribution diversity across federated learning nodes affects model performance. Each work identifies limitations in existing approaches that focus on single dimensions or hard constraints, and proposes methods that account for multiple features or pathways to achieve better balance. Abstract A demonstrates that considering intersections of multiple features yields superior welfare compared to single-feature representation, while Abstract B shows that combining multiple solution paths leads to better consensus than relying solely on global information. Both studies employ optimization frameworks to address heterogeneity problems where diverse characteristics must be reconciled to improve aggregate outcomes, and both provide empirical evidence supporting their proposed approaches over existing methods.",
           "match": 15,
           "children": [
             16,
@@ -3386,12 +3467,21 @@
             "109"
           ],
           "third": 11,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 74,
           "prompt": "Two distinct computational methods are presented, each addressing challenges in high-dimensional data analysis within their respective domains. Both approaches tackle problems where traditional methods face fundamental limitations due to dimensionality and data complexity. Each method proposes novel architectural or algorithmic solutions that demonstrate improved performance and broad applicability across multiple tasks or conditions. The proposed frameworks are validated through their ability to handle complex data structures and achieve state-of-the-art results, with implementations made available for further research.",
-          "summary": null,
+          "summary": "Two distinct computational methods are presented, each addressing challenges in high-dimensional data analysis within their respective domains. Both approaches tackle problems where traditional methods face fundamental limitations due to dimensionality and data complexity. Each method proposes novel architectural or algorithmic solutions that demonstrate improved performance and broad applicability across multiple tasks or conditions. The proposed frameworks are validated through their ability to handle complex data structures and achieve state-of-the-art results, with implementations made available for further research.",
           "match": 31,
           "children": [
             18,
@@ -3404,12 +3494,21 @@
             "102"
           ],
           "third": 28,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 75,
           "prompt": "This work presents algorithmic approaches for optimization problems that balance solution quality with computational efficiency. The research addresses NP-complete computational problems by developing algorithms that combine theoretical analysis with practical implementation. The study provides both complexity-theoretic hardness results demonstrating fundamental limitations and algorithmic contributions that achieve tractability under certain conditions. The theoretical findings are complemented by empirical evaluation through experimental implementation and analysis of the proposed algorithms' performance.",
-          "summary": null,
+          "summary": "This work presents algorithmic approaches for optimization problems that balance solution quality with computational efficiency. The research addresses NP-complete computational problems by developing algorithms that combine theoretical analysis with practical implementation. The study provides both complexity-theoretic hardness results demonstrating fundamental limitations and algorithmic contributions that achieve tractability under certain conditions. The theoretical findings are complemented by empirical evaluation through experimental implementation and analysis of the proposed algorithms' performance.",
           "match": 12,
           "children": [
             8,
@@ -3422,12 +3521,21 @@
             "103"
           ],
           "third": 28,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 76,
           "prompt": "Both abstracts present theoretical advances in convex optimization algorithms. Each work develops improved algorithms or analysis for fundamental problems in the convex optimization domain, providing non-trivial computational guarantees. The papers focus on different aspects of convex optimization: one addresses the computation of geometric objects (ellipsoids) associated with convex bodies defined by polytopes, while the other analyzes convergence properties of optimization methods for convex objective functions. Both works establish rigorous theoretical results with explicit performance bounds and represent improvements over existing state-of-the-art methods in their respective problem domains.",
-          "summary": null,
+          "summary": "Both abstracts present theoretical advances in convex optimization algorithms. Each work develops improved algorithms or analysis for fundamental problems in the convex optimization domain, providing non-trivial computational guarantees. The papers focus on different aspects of convex optimization: one addresses the computation of geometric objects (ellipsoids) associated with convex bodies defined by polytopes, while the other analyzes convergence properties of optimization methods for convex objective functions. Both works establish rigorous theoretical results with explicit performance bounds and represent improvements over existing state-of-the-art methods in their respective problem domains.",
           "match": 11,
           "children": [
             42,
@@ -3440,12 +3548,21 @@
             "103"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.65,
+          "entail_2": 0.3,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 77,
           "prompt": "Both abstracts present novel optimization frameworks for addressing spatial allocation and routing problems. Each work develops a theoretical and computational approach to improve solution quality in problems involving the efficient distribution or assignment of resources across spatial domains. The methods incorporate flexible decision-making mechanisms that go beyond traditional rigid sequential approaches, with Abstract A focusing on constructive solution building through strategic insertion and Abstract B addressing resource allocation through unbalanced transport formulations. Both frameworks are motivated by practical applications and provide computational implementations, with theoretical foundations supporting their respective optimization strategies. Each approach demonstrates advancement over classical methods in their respective problem domains through enhanced flexibility in solution construction or formulation.",
-          "summary": null,
+          "summary": "Both abstracts present novel optimization frameworks for addressing spatial allocation and routing problems. Each work develops a theoretical and computational approach to improve solution quality in problems involving the efficient distribution or assignment of resources across spatial domains. The methods incorporate flexible decision-making mechanisms that go beyond traditional rigid sequential approaches, with Abstract A focusing on constructive solution building through strategic insertion and Abstract B addressing resource allocation through unbalanced transport formulations. Both frameworks are motivated by practical applications and provide computational implementations, with theoretical foundations supporting their respective optimization strategies. Each approach demonstrates advancement over classical methods in their respective problem domains through enhanced flexibility in solution construction or formulation.",
           "match": 19,
           "children": [
             24,
@@ -3458,12 +3575,21 @@
             "104"
           ],
           "third": 28,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 78,
           "prompt": "Both abstracts present frameworks designed to handle distribution shifts and adapt to previously unseen domains during test time. Each method addresses the challenge of processing data from new, unanticipated distributions without prior training on those specific domains. The approaches leverage learned representations to perform their respective tasks on out-of-distribution samples, demonstrating superior performance compared to existing baseline methods through extensive experimental validation across multiple benchmark datasets.",
-          "summary": null,
+          "summary": "Both abstracts present frameworks designed to handle distribution shifts and adapt to previously unseen domains during test time. Each method addresses the challenge of processing data from new, unanticipated distributions without prior training on those specific domains. The approaches leverage learned representations to perform their respective tasks on out-of-distribution samples, demonstrating superior performance compared to existing baseline methods through extensive experimental validation across multiple benchmark datasets.",
           "match": 1,
           "children": [
             54,
@@ -3476,12 +3602,21 @@
             "98"
           ],
           "third": 8,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 79,
           "prompt": "A study examines a methodological approach that, while offering potential efficiency or performance gains under certain conditions, reveals critical limitations and biases that emerge in practice. The work compares different operational frameworks and demonstrates through both theoretical analysis and empirical evaluation that improved outcomes are possible but depend heavily on underlying assumptions or mechanisms. The research highlights a cautionary finding: while the proposed approach can outperform traditional methods under specific conditions, it introduces systematic biases or risks that may undermine its benefits. The authors emphasize the importance of carefully understanding trade-offs and potential unintended consequences when adopting methodological innovations, providing guidance for practitioners who must navigate these challenges in applied settings.",
-          "summary": null,
+          "summary": "A study examines a methodological approach that, while offering potential efficiency or performance gains under certain conditions, reveals critical limitations and biases that emerge in practice. The work compares different operational frameworks and demonstrates through both theoretical analysis and empirical evaluation that improved outcomes are possible but depend heavily on underlying assumptions or mechanisms. The research highlights a cautionary finding: while the proposed approach can outperform traditional methods under specific conditions, it introduces systematic biases or risks that may undermine its benefits. The authors emphasize the importance of carefully understanding trade-offs and potential unintended consequences when adopting methodological innovations, providing guidance for practitioners who must navigate these challenges in applied settings.",
           "match": 9,
           "children": [
             4,
@@ -3494,12 +3629,21 @@
             "109"
           ],
           "third": 9,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 80,
           "prompt": "Both abstracts present computational approaches that improve prediction accuracy in their respective biological domains by reformulating traditional methods and moving beyond conventional heuristic-based practices. Each work addresses efficiency challenges in screening or prediction tasks relevant to biomolecular applications, where existing methods suffer from limitations in either adaptability or theoretical grounding. The proposed frameworks in both studies demonstrate substantial quantitative improvements over baseline approaches through more principled reformulations of the underlying problems. Both works emphasize the practical value of their methods for accelerating discovery or prediction in biological contexts while highlighting the importance of better theoretical foundations for computational tools in structural biology and drug discovery applications.",
-          "summary": null,
+          "summary": "Both abstracts present computational approaches that improve prediction accuracy in their respective biological domains by reformulating traditional methods and moving beyond conventional heuristic-based practices. Each work addresses efficiency challenges in screening or prediction tasks relevant to biomolecular applications, where existing methods suffer from limitations in either adaptability or theoretical grounding. The proposed frameworks in both studies demonstrate substantial quantitative improvements over baseline approaches through more principled reformulations of the underlying problems. Both works emphasize the practical value of their methods for accelerating discovery or prediction in biological contexts while highlighting the importance of better theoretical foundations for computational tools in structural biology and drug discovery applications.",
           "match": 28,
           "children": [
             33,
@@ -3512,12 +3656,21 @@
             "99"
           ],
           "third": 10,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.75,
+          "informativeness2": 0.5,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 81,
           "prompt": "This work addresses theoretical and practical challenges in machine learning and statistical estimation by developing provable methods with rigorous analysis. The research establishes minimax optimal rates or provable guarantees for specific parameter regimes, demonstrating theoretical bounds that characterize the fundamental limits and achievable performance of the proposed approaches. The methods are validated through formal analysis that connects theoretical findings with practical implementation considerations.",
-          "summary": null,
+          "summary": "This work addresses theoretical and practical challenges in machine learning and statistical estimation by developing provable methods with rigorous analysis. The research establishes minimax optimal rates or provable guarantees for specific parameter regimes, demonstrating theoretical bounds that characterize the fundamental limits and achievable performance of the proposed approaches. The methods are validated through formal analysis that connects theoretical findings with practical implementation considerations.",
           "match": 0,
           "children": [
             17,
@@ -3530,12 +3683,21 @@
             "111"
           ],
           "third": 24,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 82,
           "prompt": "Both abstracts present computational models addressing continuous dynamics in their respective domains. Abstract A develops a temporal difference method for continuous-time systems governed by stochastic differential equations in reinforcement learning, while Abstract B constructs a continuous attractor neural network model incorporating temporal dynamics through synaptic short-term plasticity. Each work proposes a model-based approach to explain observed phenomena—Abstract A targeting optimal control via the Hamilton-Jacobi-Bellman equation and Abstract B explaining serial dependence effects in perception. Both studies involve mathematical formulations of continuous dynamical systems and demonstrate theoretical analysis of their proposed methods, with Abstract A proving exponential stability of continuous-time dynamics and Abstract B showing how temporal constants define behavioral windows. Each work bridges theoretical frameworks with empirical validation in their domains.",
-          "summary": null,
+          "summary": "Both abstracts present computational models addressing continuous dynamics in their respective domains. Abstract A develops a temporal difference method for continuous-time systems governed by stochastic differential equations in reinforcement learning, while Abstract B constructs a continuous attractor neural network model incorporating temporal dynamics through synaptic short-term plasticity. Each work proposes a model-based approach to explain observed phenomena—Abstract A targeting optimal control via the Hamilton-Jacobi-Bellman equation and Abstract B explaining serial dependence effects in perception. Both studies involve mathematical formulations of continuous dynamical systems and demonstrate theoretical analysis of their proposed methods, with Abstract A proving exponential stability of continuous-time dynamics and Abstract B showing how temporal constants define behavioral windows. Each work bridges theoretical frameworks with empirical validation in their domains.",
           "match": 5,
           "children": [
             40,
@@ -3548,12 +3710,21 @@
             "110"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 83,
           "prompt": "Both abstracts present optimization methods for complex multi-objective problems with constraints. Each work proposes a novel algorithmic approach designed to handle multiple competing objectives while satisfying various constraints, and demonstrates superior performance compared to existing baseline methods through extensive experimental evaluation. The methods address scenarios where solutions must balance trade-offs between different objectives, and both works validate their approaches on benchmark problems ranging from smaller to larger scale instances. Each contribution includes handling multiple objectives simultaneously and provides empirical evidence of outperforming state-of-the-art or baseline algorithms across diverse test scenarios.",
-          "summary": null,
+          "summary": "Both abstracts present optimization methods for complex multi-objective problems with constraints. Each work proposes a novel algorithmic approach designed to handle multiple competing objectives while satisfying various constraints, and demonstrates superior performance compared to existing baseline methods through extensive experimental evaluation. The methods address scenarios where solutions must balance trade-offs between different objectives, and both works validate their approaches on benchmark problems ranging from smaller to larger scale instances. Each contribution includes handling multiple objectives simultaneously and provides empirical evidence of outperforming state-of-the-art or baseline algorithms across diverse test scenarios.",
           "match": 13,
           "children": [
             55,
@@ -3566,12 +3737,21 @@
             "104"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.725,
+          "entail_2": 0.45,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 84,
           "prompt": "Both abstracts present specialized computational methods that leverage mathematical structure to achieve state-of-the-art performance improvements in their respective domains. Each work introduces a novel approach that exploits inherent symmetries or structural properties of the problem space to enhance efficiency: one utilizing group-theoretic constraints and equivariance properties for generative modeling, the other employing precomputed representations to optimize computational kernels. Both methods demonstrate significant performance gains over existing approaches on standard benchmarks while maintaining quality metrics comparable to or better than prior state-of-the-art techniques.",
-          "summary": null,
+          "summary": "Both abstracts present specialized computational methods that leverage mathematical structure to achieve state-of-the-art performance improvements in their respective domains. Each work introduces a novel approach that exploits inherent symmetries or structural properties of the problem space to enhance efficiency: one utilizing group-theoretic constraints and equivariance properties for generative modeling, the other employing precomputed representations to optimize computational kernels. Both methods demonstrate significant performance gains over existing approaches on standard benchmarks while maintaining quality metrics comparable to or better than prior state-of-the-art techniques.",
           "match": 21,
           "children": [
             53,
@@ -3584,12 +3764,21 @@
             "107"
           ],
           "third": 21,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 85,
           "prompt": "Both abstracts present methods for modeling complex physical distribution functions using machine learning approaches that provide computational efficiency and theoretical or physical interpretability. Abstract A develops a theoretical framework for autoencoders that can learn data distributions with exact guarantees, while Abstract B develops a neural surrogate model for high-dimensional distribution functions in plasma physics. Both works address the challenge of representing and learning from high-dimensional distributions, with Abstract A focusing on general distributional reconstruction with score-based connections and intrinsic dimension discovery, and Abstract B focusing on modeling a specific 5D distribution function that evolves according to physical equations. Each approach demonstrates that neural network-based models can capture complex distributional dynamics while maintaining either theoretical guarantees or physical verifiability, offering computationally efficient alternatives to more expensive baseline methods for understanding the underlying structure of high-dimensional data distributions.",
-          "summary": null,
+          "summary": "Both abstracts present methods for modeling complex physical distribution functions using machine learning approaches that provide computational efficiency and theoretical or physical interpretability. Abstract A develops a theoretical framework for autoencoders that can learn data distributions with exact guarantees, while Abstract B develops a neural surrogate model for high-dimensional distribution functions in plasma physics. Both works address the challenge of representing and learning from high-dimensional distributions, with Abstract A focusing on general distributional reconstruction with score-based connections and intrinsic dimension discovery, and Abstract B focusing on modeling a specific 5D distribution function that evolves according to physical equations. Each approach demonstrates that neural network-based models can capture complex distributional dynamics while maintaining either theoretical guarantees or physical verifiability, offering computationally efficient alternatives to more expensive baseline methods for understanding the underlying structure of high-dimensional data distributions.",
           "match": 20,
           "children": [
             0,
@@ -3602,12 +3791,21 @@
             "107"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 86,
           "prompt": "Both abstracts address statistical methodologies for educational assessment and testing contexts. Each work develops methods that improve efficiency in their respective domains while maintaining statistical validity comparable to more resource-intensive approaches. The proposed solutions involve theoretical analysis supported by empirical validation on educational datasets. Both methodologies demonstrate practical applicability through real-world educational applications and show that their approaches achieve performance nearly equivalent to baseline methods while offering computational or practical advantages. The work involves optimization or testing procedures with theoretical guarantees and experimental validation demonstrating effectiveness in educational measurement scenarios.",
-          "summary": null,
+          "summary": "Both abstracts address statistical methodologies for educational assessment and testing contexts. Each work develops methods that improve efficiency in their respective domains while maintaining statistical validity comparable to more resource-intensive approaches. The proposed solutions involve theoretical analysis supported by empirical validation on educational datasets. Both methodologies demonstrate practical applicability through real-world educational applications and show that their approaches achieve performance nearly equivalent to baseline methods while offering computational or practical advantages. The work involves optimization or testing procedures with theoretical guarantees and experimental validation demonstrating effectiveness in educational measurement scenarios.",
           "match": 29,
           "children": [
             14,
@@ -3620,12 +3818,21 @@
             "106"
           ],
           "third": 20,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.7,
+          "faithfulness2": 0.4,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 87,
           "prompt": "Both abstracts present novel neural architectures that address challenges in processing complex, temporally-evolving signals by employing hybrid or multi-component design strategies. Each work tackles domain-specific challenges related to signal quality and variability through specialized architectural innovations. The proposed methods demonstrate state-of-the-art performance on their respective tasks through extensive experimental validation on established datasets. Both approaches utilize modern deep learning techniques to capture multi-scale or multi-faceted features from their input signals, with architectures designed to handle specific characteristics of their target domains. The works make their implementations publicly available through code repositories and establish new baselines for their respective application areas.",
-          "summary": null,
+          "summary": "Both abstracts present novel neural architectures that address challenges in processing complex, temporally-evolving signals by employing hybrid or multi-component design strategies. Each work tackles domain-specific challenges related to signal quality and variability through specialized architectural innovations. The proposed methods demonstrate state-of-the-art performance on their respective tasks through extensive experimental validation on established datasets. Both approaches utilize modern deep learning techniques to capture multi-scale or multi-faceted features from their input signals, with architectures designed to handle specific characteristics of their target domains. The works make their implementations publicly available through code repositories and establish new baselines for their respective application areas.",
           "match": 7,
           "children": [
             45,
@@ -3638,12 +3845,21 @@
             "97"
           ],
           "third": 14,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 88,
           "prompt": "These two abstracts address different domains but share a common theme of improving the reliability and effectiveness of machine learning systems through targeted interventions. Both works identify fundamental limitations in existing approaches—one in model explanation methods and one in robot learning—and propose novel solutions that enhance performance while preserving desirable properties of the original systems. Each contribution demonstrates through empirical evaluation that their respective methods outperform existing baseline approaches across multiple tasks or datasets in their domain.",
-          "summary": null,
+          "summary": "These two abstracts address different domains but share a common theme of improving the reliability and effectiveness of machine learning systems through targeted interventions. Both works identify fundamental limitations in existing approaches—one in model explanation methods and one in robot learning—and propose novel solutions that enhance performance while preserving desirable properties of the original systems. Each contribution demonstrates through empirical evaluation that their respective methods outperform existing baseline approaches across multiple tasks or datasets in their domain.",
           "match": 6,
           "children": [
             58,
@@ -3656,12 +3872,21 @@
             "100"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.65,
+          "entail_2": 0.3,
+          "informativeness1": 0.625,
+          "informativeness2": 0.25,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 89,
           "prompt": "A multi-agent system and a probabilistic accounting model are presented as distinct computational approaches to address challenges in their respective domains—formal verification of system models and carbon footprint estimation of AI models—where each method aims to improve upon existing state-of-the-art techniques through systematic analysis and validation mechanisms.",
-          "summary": null,
+          "summary": "A multi-agent system and a probabilistic accounting model are presented as distinct computational approaches to address challenges in their respective domains—formal verification of system models and carbon footprint estimation of AI models—where each method aims to improve upon existing state-of-the-art techniques through systematic analysis and validation mechanisms.",
           "match": 26,
           "children": [
             1,
@@ -3674,12 +3899,21 @@
             "108"
           ],
           "third": 28,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.55,
+          "entail_2": 0.1,
+          "informativeness1": 0.55,
+          "informativeness2": 0.1,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.5,
+          "faithfulness2": 0.0,
+          "specificity_faithfulness": 0.65
         },
         {
           "id": 90,
           "prompt": "This work examines fundamental mathematical structures and their universal properties in modeling relationships between abstract objects. The research establishes theoretical characterizations involving order-preserving mappings and demonstrates universal approximation or representation results. The work proves bounds or properties concerning the dimensionality or structure required for certain classes of functions to satisfy desired constraints. The investigation involves both the development of rigorous mathematical frameworks with provable properties and consideration of how these theoretical constructs relate to practical modeling problems. The approach combines category-theoretic or algebraic foundations with constructive models that satisfy specific structural requirements by design.",
-          "summary": null,
+          "summary": "This work examines fundamental mathematical structures and their universal properties in modeling relationships between abstract objects. The research establishes theoretical characterizations involving order-preserving mappings and demonstrates universal approximation or representation results. The work proves bounds or properties concerning the dimensionality or structure required for certain classes of functions to satisfy desired constraints. The investigation involves both the development of rigorous mathematical frameworks with provable properties and consideration of how these theoretical constructs relate to practical modeling problems. The approach combines category-theoretic or algebraic foundations with constructive models that satisfy specific structural requirements by design.",
           "match": 25,
           "children": [
             26,
@@ -3692,12 +3926,21 @@
             "108"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.55,
+          "entail_2": 0.1,
+          "informativeness1": 0.55,
+          "informativeness2": 0.1,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.65
         },
         {
           "id": 91,
           "prompt": "A differentiable rendering or simulation system is developed that enables efficient optimization of visual representations while satisfying specific constraints. The approach leverages differentiable operations to compute gradients during both forward and backward passes, allowing for iterative refinement of the representation. The method demonstrates significant improvements in optimization speed compared to existing approaches and produces high-quality results that meet specified objectives. Experimental validation shows that the technique successfully balances multiple objectives during optimization and outperforms prior methods in terms of both computational efficiency and output quality.",
-          "summary": null,
+          "summary": "A differentiable rendering or simulation system is developed that enables efficient optimization of visual representations while satisfying specific constraints. The approach leverages differentiable operations to compute gradients during both forward and backward passes, allowing for iterative refinement of the representation. The method demonstrates significant improvements in optimization speed compared to existing approaches and produces high-quality results that meet specified objectives. Experimental validation shows that the technique successfully balances multiple objectives during optimization and outperforms prior methods in terms of both computational efficiency and output quality.",
           "match": 30,
           "children": [
             12,
@@ -3710,12 +3953,21 @@
             "101"
           ],
           "third": 28,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.65,
+          "entail_2": 0.3,
+          "informativeness1": 0.7,
+          "informativeness2": 0.4,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.7,
+          "faithfulness2": 0.4,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 92,
           "prompt": "A framework is proposed that addresses a fundamental trade-off between computational efficiency and performance effectiveness through a two-stage approach. The first stage involves pretraining or initialization that establishes consistency properties to enable efficient operation, while the second stage incorporates adaptive mechanisms to enhance effectiveness. The method achieves improved performance with theoretical or empirical guarantees, demonstrating that the two-stage design successfully mitigates inherent challenges in the problem setting.",
-          "summary": null,
+          "summary": "A framework is proposed that addresses a fundamental trade-off between computational efficiency and performance effectiveness through a two-stage approach. The first stage involves pretraining or initialization that establishes consistency properties to enable efficient operation, while the second stage incorporates adaptive mechanisms to enhance effectiveness. The method achieves improved performance with theoretical or empirical guarantees, demonstrating that the two-stage design successfully mitigates inherent challenges in the problem setting.",
           "match": 16,
           "children": [
             30,
@@ -3728,12 +3980,21 @@
             "99"
           ],
           "third": 31,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 93,
           "prompt": "Both abstracts address statistical learning problems where the data distribution changes or differs from standard assumptions, requiring methods that maintain theoretical guarantees while adapting to non-stationary conditions. Each work develops techniques to handle distributional shifts—one focusing on differences between training and test input distributions, the other on temporal shifts in the data-generating process—and provides theoretical analysis demonstrating that their proposed approaches preserve desired statistical properties despite these challenges. The papers share a common concern with balancing computational or methodological efficiency against statistical performance in settings where standard stationarity or identical distribution assumptions are violated.",
-          "summary": null,
+          "summary": "Both abstracts address statistical learning problems where the data distribution changes or differs from standard assumptions, requiring methods that maintain theoretical guarantees while adapting to non-stationary conditions. Each work develops techniques to handle distributional shifts—one focusing on differences between training and test input distributions, the other on temporal shifts in the data-generating process—and provides theoretical analysis demonstrating that their proposed approaches preserve desired statistical properties despite these challenges. The papers share a common concern with balancing computational or methodological efficiency against statistical performance in settings where standard stationarity or identical distribution assumptions are violated.",
           "match": 22,
           "children": [
             41,
@@ -3746,12 +4007,21 @@
             "106"
           ],
           "third": 22,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 94,
           "prompt": "Both abstracts present methods for image analysis tasks that move beyond traditional binary or uniform assumptions by explicitly modeling spatial variation and heterogeneity in image characteristics. Each work recognizes that oversimplified representations—whether treating shadows as uniform binary masks or weather degradation as homogeneous—lead to suboptimal performance. To address this, both methods introduce mechanisms to estimate and model fine-grained, spatially-varying properties within images. The proposed approaches incorporate specialized modules that separate, estimate, or learn different aspects of the target phenomenon (position, opacity, or degradation characteristics) and leverage these representations to guide adaptive processing. Experimental validation demonstrates that explicitly accounting for spatial variation and heterogeneity in image characteristics improves performance over baseline methods across multiple applications and benchmarks.",
-          "summary": null,
+          "summary": "Both abstracts present methods for image analysis tasks that move beyond traditional binary or uniform assumptions by explicitly modeling spatial variation and heterogeneity in image characteristics. Each work recognizes that oversimplified representations—whether treating shadows as uniform binary masks or weather degradation as homogeneous—lead to suboptimal performance. To address this, both methods introduce mechanisms to estimate and model fine-grained, spatially-varying properties within images. The proposed approaches incorporate specialized modules that separate, estimate, or learn different aspects of the target phenomenon (position, opacity, or degradation characteristics) and leverage these representations to guide adaptive processing. Experimental validation demonstrates that explicitly accounting for spatial variation and heterogeneity in image characteristics improves performance over baseline methods across multiple applications and benchmarks.",
           "match": 27,
           "children": [
             57,
@@ -3764,12 +4034,21 @@
             "101"
           ],
           "third": 23,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.625,
+          "informativeness2": 0.25,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 95,
           "prompt": "A computational method is proposed to address scalability and performance challenges in a specific domain by introducing a novel approach that leverages geometric information and collaborative principles. The method is designed to handle large-scale data more efficiently than existing alternatives while maintaining or improving task performance. Experimental evaluation demonstrates that the proposed approach outperforms existing state-of-the-art methods on real-world datasets, and source code is made publicly available.",
-          "summary": null,
+          "summary": "A computational method is proposed to address scalability and performance challenges in a specific domain by introducing a novel approach that leverages geometric information and collaborative principles. The method is designed to handle large-scale data more efficiently than existing alternatives while maintaining or improving task performance. Experimental evaluation demonstrates that the proposed approach outperforms existing state-of-the-art methods on real-world datasets, and source code is made publicly available.",
           "match": 10,
           "children": [
             62,
@@ -3782,7 +4061,16 @@
             "102"
           ],
           "third": 20,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         }
       ]
     },
@@ -3792,7 +4080,7 @@
         {
           "id": 96,
           "prompt": "Both abstracts describe frameworks that enhance large language model capabilities through multi-stage architectures that go beyond single-pass generation. Each framework decomposes complex tasks into multiple collaborative components or stages, where specialized evaluation or reasoning mechanisms guide the processing to address limitations in standard language model approaches. The systems incorporate structured inference processes that enable more sophisticated handling of tasks requiring deeper understanding beyond baseline generation. Both works demonstrate their effectiveness through empirical evaluations showing significant performance improvements over existing baseline methods, validating that their multi-component architectures are essential for achieving superior results compared to standard approaches.",
-          "summary": null,
+          "summary": "Both abstracts describe frameworks that enhance large language model capabilities through multi-stage architectures that go beyond single-pass generation. Each framework decomposes complex tasks into multiple collaborative components or stages, where specialized evaluation or reasoning mechanisms guide the processing to address limitations in standard language model approaches. The systems incorporate structured inference processes that enable more sophisticated handling of tasks requiring deeper understanding beyond baseline generation. Both works demonstrate their effectiveness through empirical evaluations showing significant performance improvements over existing baseline methods, validating that their multi-component architectures are essential for achieving superior results compared to standard approaches.",
           "match": 4,
           "children": [
             66,
@@ -3805,12 +4093,21 @@
             "113"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6
         },
         {
           "id": 97,
           "prompt": "Both abstracts present novel computational approaches that employ specialized neural network architectures to address domain-specific signal or data processing challenges. Each work proposes methods designed to handle complex input data characteristics through structured architectural strategies tailored to their respective application domains. The approaches demonstrate superior performance compared to existing state-of-the-art techniques through extensive experimental validation on established benchmarks. Both works aim to advance their respective fields by introducing innovative computational solutions that effectively process their target data modalities.",
-          "summary": null,
+          "summary": "Both abstracts present novel computational approaches that employ specialized neural network architectures to address domain-specific signal or data processing challenges. Each work proposes methods designed to handle complex input data characteristics through structured architectural strategies tailored to their respective application domains. The approaches demonstrate superior performance compared to existing state-of-the-art techniques through extensive experimental validation on established benchmarks. Both works aim to advance their respective fields by introducing innovative computational solutions that effectively process their target data modalities.",
           "match": 5,
           "children": [
             87,
@@ -3823,12 +4120,21 @@
             "114"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "specificity_faithfulness": 0.925,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85
         },
         {
           "id": 98,
           "prompt": "Both abstracts describe deep learning frameworks that address generalization and robustness challenges by learning discriminative representations to handle difficult real-world conditions and distribution variations. Each framework demonstrates superior performance compared to existing baseline methods through experimental validation on benchmark datasets.",
-          "summary": null,
+          "summary": "Both abstracts describe deep learning frameworks that address generalization and robustness challenges by learning discriminative representations to handle difficult real-world conditions and distribution variations. Each framework demonstrates superior performance compared to existing baseline methods through experimental validation on benchmark datasets.",
           "match": 9,
           "children": [
             78,
@@ -3841,12 +4147,21 @@
             "118"
           ],
           "third": 4,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 99,
           "prompt": "A computational framework is proposed that addresses fundamental challenges in efficiency and performance through a principled reformulation of existing methods. The approach moves beyond conventional heuristic-based practices by incorporating a structured design that balances computational efficiency with improved effectiveness. The method demonstrates substantial quantitative improvements over baseline approaches, supported by theoretical or empirical guarantees. The framework emphasizes practical value through its ability to enhance prediction or discovery tasks while establishing better theoretical foundations for the underlying computational problem.",
-          "summary": null,
+          "summary": "A computational framework is proposed that addresses fundamental challenges in efficiency and performance through a principled reformulation of existing methods. The approach moves beyond conventional heuristic-based practices by incorporating a structured design that balances computational efficiency with improved effectiveness. The method demonstrates substantial quantitative improvements over baseline approaches, supported by theoretical or empirical guarantees. The framework emphasizes practical value through its ability to enhance prediction or discovery tasks while establishing better theoretical foundations for the underlying computational problem.",
           "match": 10,
           "children": [
             92,
@@ -3859,12 +4174,21 @@
             "116"
           ],
           "third": 11,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 100,
           "prompt": "This work addresses fundamental limitations in machine learning systems and proposes targeted modifications that enhance performance beyond baseline approaches. The research provides both theoretical or analytical justification and empirical validation demonstrating that specific interventions can improve system capabilities. The contribution bridges understanding of why certain techniques work through formal analysis while confirming performance improvements across experimental evaluations.",
-          "summary": null,
+          "summary": "This work addresses fundamental limitations in machine learning systems and proposes targeted modifications that enhance performance beyond baseline approaches. The research provides both theoretical or analytical justification and empirical validation demonstrating that specific interventions can improve system capabilities. The contribution bridges understanding of why certain techniques work through formal analysis while confirming performance improvements across experimental evaluations.",
           "match": 0,
           "children": [
             70,
@@ -3877,12 +4201,21 @@
             "113"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 101,
           "prompt": "Methods are developed that incorporate specialized computational mechanisms to estimate and model spatially-varying properties or characteristics within visual data. The approaches introduce techniques that separate, estimate, or learn different aspects of target phenomena through dedicated processing modules. These methods enable adaptive processing that accounts for variation and heterogeneity in visual representations. Experimental validation demonstrates that the proposed techniques achieve improved performance compared to baseline or prior methods across evaluation benchmarks.",
-          "summary": null,
+          "summary": "Methods are developed that incorporate specialized computational mechanisms to estimate and model spatially-varying properties or characteristics within visual data. The approaches introduce techniques that separate, estimate, or learn different aspects of target phenomena through dedicated processing modules. These methods enable adaptive processing that accounts for variation and heterogeneity in visual representations. Experimental validation demonstrates that the proposed techniques achieve improved performance compared to baseline or prior methods across evaluation benchmarks.",
           "match": 1,
           "children": [
             91,
@@ -3895,12 +4228,21 @@
             "114"
           ],
           "third": 9,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 102,
           "prompt": "Computational methods are proposed to address challenges in handling complex, large-scale data where traditional approaches face limitations. The methods introduce novel solutions designed to improve performance and efficiency. Experimental validation demonstrates that the proposed approaches achieve state-of-the-art results, and implementations are made publicly available.",
-          "summary": null,
+          "summary": "Computational methods are proposed to address challenges in handling complex, large-scale data where traditional approaches face limitations. The methods introduce novel solutions designed to improve performance and efficiency. Experimental validation demonstrates that the proposed approaches achieve state-of-the-art results, and implementations are made publicly available.",
           "match": 11,
           "children": [
             95,
@@ -3913,12 +4255,21 @@
             "117"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 103,
           "prompt": "This work presents theoretical advances in optimization algorithms with rigorous analysis of computational performance. The research develops algorithmic contributions for optimization problems, providing explicit performance bounds and complexity-theoretic results. The study combines theoretical analysis with consideration of computational tractability, establishing results that represent advances in algorithmic approaches to optimization. Both theoretical findings and performance guarantees are central to the contributions.",
-          "summary": null,
+          "summary": "This work presents theoretical advances in optimization algorithms with rigorous analysis of computational performance. The research develops algorithmic contributions for optimization problems, providing explicit performance bounds and complexity-theoretic results. The study combines theoretical analysis with consideration of computational tractability, establishing results that represent advances in algorithmic approaches to optimization. Both theoretical findings and performance guarantees are central to the contributions.",
           "match": 15,
           "children": [
             75,
@@ -3931,12 +4282,21 @@
             "115"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 1.0,
+          "faithfulness2": 1.0,
+          "specificity_faithfulness": 1.0
         },
         {
           "id": 104,
           "prompt": "Both abstracts present novel optimization methodologies that address complex problems requiring strategic decision-making and resource management. Each work develops a computational framework with theoretical foundations to improve solution quality beyond traditional or classical approaches. The methods incorporate flexible mechanisms that enhance the optimization process, moving away from rigid conventional strategies. Both contributions provide algorithmic implementations and demonstrate their effectiveness through computational evaluation, showing advancement over existing baseline or classical methods in their respective problem domains. Each work is motivated by addressing challenging optimization scenarios and validates the proposed approach through empirical assessment.",
-          "summary": null,
+          "summary": "Both abstracts present novel optimization methodologies that address complex problems requiring strategic decision-making and resource management. Each work develops a computational framework with theoretical foundations to improve solution quality beyond traditional or classical approaches. The methods incorporate flexible mechanisms that enhance the optimization process, moving away from rigid conventional strategies. Both contributions provide algorithmic implementations and demonstrate their effectiveness through computational evaluation, showing advancement over existing baseline or classical methods in their respective problem domains. Each work is motivated by addressing challenging optimization scenarios and validates the proposed approach through empirical assessment.",
           "match": 13,
           "children": [
             83,
@@ -3949,12 +4309,21 @@
             "112"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6
         },
         {
           "id": 105,
           "prompt": "Both abstracts present computational frameworks that address challenging matching and recognition problems in visual data through learning robust feature representations and establishing correspondences across heterogeneous or complex scenarios. Each work tackles fundamental limitations in their respective domains—whether dealing with domain gaps, scale issues, temporal sequences, or difficult viewing conditions such as occlusions and viewpoint variations. The proposed approaches construct structured representations that encode discriminative features and relationships, leveraging complementary information sources or novel association strategies to enhance performance. Both methods demonstrate their effectiveness and generalizability through extensive experimental validation on multiple benchmark datasets, showing improved performance compared to existing approaches in their challenging problem settings.",
-          "summary": null,
+          "summary": "Both abstracts present computational frameworks that address challenging matching and recognition problems in visual data through learning robust feature representations and establishing correspondences across heterogeneous or complex scenarios. Each work tackles fundamental limitations in their respective domains—whether dealing with domain gaps, scale issues, temporal sequences, or difficult viewing conditions such as occlusions and viewpoint variations. The proposed approaches construct structured representations that encode discriminative features and relationships, leveraging complementary information sources or novel association strategies to enhance performance. Both methods demonstrate their effectiveness and generalizability through extensive experimental validation on multiple benchmark datasets, showing improved performance compared to existing approaches in their challenging problem settings.",
           "match": 2,
           "children": [
             72,
@@ -3967,12 +4336,21 @@
             "118"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 106,
           "prompt": "Both abstracts address statistical methodologies that aim to improve efficiency while maintaining theoretical guarantees and statistical validity. Each work develops techniques supported by theoretical analysis and demonstrates that their proposed approaches preserve desired statistical properties. The papers share a common concern with balancing efficiency against statistical performance, and both provide validation demonstrating that their methods achieve performance comparable to baseline approaches while offering practical advantages.",
-          "summary": null,
+          "summary": "Both abstracts address statistical methodologies that aim to improve efficiency while maintaining theoretical guarantees and statistical validity. Each work develops techniques supported by theoretical analysis and demonstrates that their proposed approaches preserve desired statistical properties. The papers share a common concern with balancing efficiency against statistical performance, and both provide validation demonstrating that their methods achieve performance comparable to baseline approaches while offering practical advantages.",
           "match": 3,
           "children": [
             93,
@@ -3985,12 +4363,21 @@
             "116"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 107,
           "prompt": "Both abstracts present computational methods that leverage mathematical or physical structure to achieve efficient modeling of complex systems. Each work demonstrates that exploiting inherent properties—whether structural symmetries, theoretical constraints, or physical principles—enables improved performance in representing and learning from high-dimensional data or distribution functions. Both approaches utilize specialized frameworks that maintain quality metrics or theoretical guarantees while providing computational advantages over baseline methods, addressing fundamental challenges in efficiently capturing the underlying structure of their respective problem domains.",
-          "summary": null,
+          "summary": "Both abstracts present computational methods that leverage mathematical or physical structure to achieve efficient modeling of complex systems. Each work demonstrates that exploiting inherent properties—whether structural symmetries, theoretical constraints, or physical principles—enables improved performance in representing and learning from high-dimensional data or distribution functions. Both approaches utilize specialized frameworks that maintain quality metrics or theoretical guarantees while providing computational advantages over baseline methods, addressing fundamental challenges in efficiently capturing the underlying structure of their respective problem domains.",
           "match": 6,
           "children": [
             84,
@@ -4003,12 +4390,21 @@
             "117"
           ],
           "third": 14,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "specificity_faithfulness": 0.8,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6
         },
         {
           "id": 108,
           "prompt": "This work presents theoretical and computational approaches that establish formal frameworks with specific structural properties, demonstrating how systematic analysis can address modeling challenges through the development of methods that satisfy desired constraints and aim to improve upon existing techniques through rigorous characterization and validation mechanisms.",
-          "summary": null,
+          "summary": "This work presents theoretical and computational approaches that establish formal frameworks with specific structural properties, demonstrating how systematic analysis can address modeling challenges through the development of methods that satisfy desired constraints and aim to improve upon existing techniques through rigorous characterization and validation mechanisms.",
           "match": 14,
           "children": [
             90,
@@ -4021,12 +4417,21 @@
             "119"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 109,
           "prompt": "A study examines methodological approaches for addressing heterogeneity and achieving improved aggregate outcomes across diverse entities or characteristics. The work demonstrates through both theoretical analysis and empirical evaluation that considering multiple dimensions or pathways can yield better performance compared to traditional methods that focus on single aspects or simpler frameworks. However, the research reveals that while the proposed approach offers potential gains under certain conditions, success depends heavily on underlying assumptions and specific operational contexts. The authors emphasize the importance of understanding trade-offs when adopting methodological innovations, providing guidance for practitioners navigating these challenges in applied settings where diverse characteristics must be reconciled to optimize collective outcomes.",
-          "summary": null,
+          "summary": "A study examines methodological approaches for addressing heterogeneity and achieving improved aggregate outcomes across diverse entities or characteristics. The work demonstrates through both theoretical analysis and empirical evaluation that considering multiple dimensions or pathways can yield better performance compared to traditional methods that focus on single aspects or simpler frameworks. However, the research reveals that while the proposed approach offers potential gains under certain conditions, success depends heavily on underlying assumptions and specific operational contexts. The authors emphasize the importance of understanding trade-offs when adopting methodological innovations, providing guidance for practitioners navigating these challenges in applied settings where diverse characteristics must be reconciled to optimize collective outcomes.",
           "match": 8,
           "children": [
             79,
@@ -4039,12 +4444,21 @@
             "112"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 110,
           "prompt": "Both abstracts present theoretical frameworks for analyzing continuous dynamical systems through mathematical formulations. Each work develops model-based approaches that provide theoretical foundations for understanding complex dynamics, moving beyond purely empirical methods. The studies involve mathematical analysis of their proposed systems, with theoretical results that characterize system behavior and dynamics. Both works validate their theoretical frameworks through empirical evaluation, demonstrating that their analyses effectively explain the underlying processes in their respective domains.",
-          "summary": null,
+          "summary": "Both abstracts present theoretical frameworks for analyzing continuous dynamical systems through mathematical formulations. Each work develops model-based approaches that provide theoretical foundations for understanding complex dynamics, moving beyond purely empirical methods. The studies involve mathematical analysis of their proposed systems, with theoretical results that characterize system behavior and dynamics. Both works validate their theoretical frameworks through empirical evaluation, demonstrating that their analyses effectively explain the underlying processes in their respective domains.",
           "match": 12,
           "children": [
             69,
@@ -4057,12 +4471,21 @@
             "119"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 111,
           "prompt": "This work develops algorithms with provable performance guarantees supported by rigorous theoretical analysis. The research establishes optimal or near-optimal bounds that characterize the fundamental limits and achievable performance of the proposed methods in terms of key problem parameters. The optimality of the approaches is validated through formal analysis that demonstrates the algorithms achieve the best possible or near-best possible scaling.",
-          "summary": null,
+          "summary": "This work develops algorithms with provable performance guarantees supported by rigorous theoretical analysis. The research establishes optimal or near-optimal bounds that characterize the fundamental limits and achievable performance of the proposed methods in terms of key problem parameters. The optimality of the approaches is validated through formal analysis that demonstrates the algorithms achieve the best possible or near-best possible scaling.",
           "match": 7,
           "children": [
             64,
@@ -4075,7 +4498,16 @@
             "115"
           ],
           "third": 12,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         }
       ]
     },
@@ -4085,7 +4517,7 @@
         {
           "id": 112,
           "prompt": "This work presents a methodological contribution that develops a computational framework with theoretical foundations to address complex optimization problems involving heterogeneity and strategic decision-making. The research moves beyond traditional or classical approaches by incorporating flexible mechanisms that consider multiple dimensions or pathways, rather than relying on rigid conventional strategies focused on single aspects or simpler frameworks. The proposed approach is designed to improve solution quality and achieve better aggregate outcomes compared to existing baseline methods. Both theoretical analysis and computational evaluation are employed to demonstrate the effectiveness of the methodology in their problem domain. The work acknowledges that while the approach shows advancement over classical methods through empirical assessment, its success depends on underlying assumptions and specific operational contexts. The contribution provides guidance for practitioners working with challenging optimization scenarios where diverse characteristics or strategic considerations must be addressed to optimize collective outcomes.",
-          "summary": null,
+          "summary": "This work presents a methodological contribution that develops a computational framework with theoretical foundations to address complex optimization problems involving heterogeneity and strategic decision-making. The research moves beyond traditional or classical approaches by incorporating flexible mechanisms that consider multiple dimensions or pathways, rather than relying on rigid conventional strategies focused on single aspects or simpler frameworks. The proposed approach is designed to improve solution quality and achieve better aggregate outcomes compared to existing baseline methods. Both theoretical analysis and computational evaluation are employed to demonstrate the effectiveness of the methodology in their problem domain. The work acknowledges that while the approach shows advancement over classical methods through empirical assessment, its success depends on underlying assumptions and specific operational contexts. The contribution provides guidance for practitioners working with challenging optimization scenarios where diverse characteristics or strategic considerations must be addressed to optimize collective outcomes.",
           "match": 4,
           "children": [
             109,
@@ -4098,12 +4530,21 @@
             "122"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.875,
+          "entail_2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 113,
           "prompt": "This work addresses fundamental limitations in language model systems by proposing multi-stage architectures that decompose complex tasks into multiple collaborative components, going beyond single-pass baseline generation approaches. The framework incorporates specialized mechanisms that guide processing through structured inference processes, enabling more sophisticated handling of tasks that require capabilities beyond standard approaches. The research provides analytical justification for why these multi-component interventions enhance system performance, demonstrating through empirical evaluations that the proposed architecture achieves significant improvements over existing baseline methods and validating that these targeted modifications are essential for superior results.",
-          "summary": null,
+          "summary": "This work addresses fundamental limitations in language model systems by proposing multi-stage architectures that decompose complex tasks into multiple collaborative components, going beyond single-pass baseline generation approaches. The framework incorporates specialized mechanisms that guide processing through structured inference processes, enabling more sophisticated handling of tasks that require capabilities beyond standard approaches. The research provides analytical justification for why these multi-component interventions enhance system performance, demonstrating through empirical evaluations that the proposed architecture achieves significant improvements over existing baseline methods and validating that these targeted modifications are essential for superior results.",
           "match": 6,
           "children": [
             100,
@@ -4116,12 +4557,21 @@
             "121"
           ],
           "third": 6,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.575,
+          "entail_2": 0.15,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "informativeness1": 0.6,
+          "informativeness2": 0.2,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 114,
           "prompt": "Both abstracts describe computational methods that utilize specialized processing mechanisms or modules to handle complex characteristics within their target data domains. The proposed approaches incorporate dedicated architectural components designed to address specific aspects or properties of the input data. Through experimental validation on established benchmarks, both works demonstrate improved performance compared to existing baseline or prior methods. Each contribution aims to advance computational processing capabilities by introducing techniques that effectively account for complexity and variation in their respective data modalities.",
-          "summary": null,
+          "summary": "Both abstracts describe computational methods that utilize specialized processing mechanisms or modules to handle complex characteristics within their target data domains. The proposed approaches incorporate dedicated architectural components designed to address specific aspects or properties of the input data. Through experimental validation on established benchmarks, both works demonstrate improved performance compared to existing baseline or prior methods. Each contribution aims to advance computational processing capabilities by introducing techniques that effectively account for complexity and variation in their respective data modalities.",
           "match": 5,
           "children": [
             97,
@@ -4134,12 +4584,21 @@
             "123"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "specificity_faithfulness": 0.925,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85
         },
         {
           "id": 115,
           "prompt": "This work develops optimization algorithms with rigorous theoretical analysis and provable performance guarantees. The research establishes formal bounds that characterize the performance of the proposed algorithmic methods. The contributions are validated through theoretical analysis that demonstrates the achievable performance of the approaches.",
-          "summary": null,
+          "summary": "This work develops optimization algorithms with rigorous theoretical analysis and provable performance guarantees. The research establishes formal bounds that characterize the performance of the proposed algorithmic methods. The contributions are validated through theoretical analysis that demonstrates the achievable performance of the approaches.",
           "match": 7,
           "children": [
             111,
@@ -4152,12 +4611,21 @@
             "120"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 116,
           "prompt": "A computational or statistical framework is proposed that addresses efficiency challenges through principled methodological development. The approach moves beyond conventional practices by incorporating structured design principles supported by theoretical analysis. The method demonstrates that improved efficiency can be achieved while maintaining performance guarantees, with validation showing results comparable to or better than baseline approaches. The work emphasizes both practical value and theoretical foundations for the underlying problem.",
-          "summary": null,
+          "summary": "A computational or statistical framework is proposed that addresses efficiency challenges through principled methodological development. The approach moves beyond conventional practices by incorporating structured design principles supported by theoretical analysis. The method demonstrates that improved efficiency can be achieved while maintaining performance guarantees, with validation showing results comparable to or better than baseline approaches. The work emphasizes both practical value and theoretical foundations for the underlying problem.",
           "match": 0,
           "children": [
             99,
@@ -4170,12 +4638,21 @@
             "122"
           ],
           "third": 5,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.85,
+          "entail_2": 0.7,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 117,
           "prompt": "Both abstracts describe computational methods designed to address challenges in complex systems or large-scale data where conventional approaches have limitations. Each work proposes novel solutions that demonstrate improved performance and efficiency compared to existing baseline or traditional methods. The approaches are validated through experimental evaluation showing their effectiveness in their respective problem domains.",
-          "summary": null,
+          "summary": "Both abstracts describe computational methods designed to address challenges in complex systems or large-scale data where conventional approaches have limitations. Each work proposes novel solutions that demonstrate improved performance and efficiency compared to existing baseline or traditional methods. The approaches are validated through experimental evaluation showing their effectiveness in their respective problem domains.",
           "match": 2,
           "children": [
             107,
@@ -4188,12 +4665,21 @@
             "123"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.875,
+          "informativeness2": 0.75,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 1.0
         },
         {
           "id": 118,
           "prompt": "Both abstracts describe computational frameworks that address fundamental challenges in visual recognition and matching problems by learning robust and discriminative feature representations. Each work tackles difficult real-world conditions including distribution variations, domain gaps, occlusions, viewpoint variations, and other challenging scenarios. The proposed approaches demonstrate superior performance and generalizability through extensive experimental validation on benchmark datasets, showing improvements compared to existing baseline methods.",
-          "summary": null,
+          "summary": "Both abstracts describe computational frameworks that address fundamental challenges in visual recognition and matching problems by learning robust and discriminative feature representations. Each work tackles difficult real-world conditions including distribution variations, domain gaps, occlusions, viewpoint variations, and other challenging scenarios. The proposed approaches demonstrate superior performance and generalizability through extensive experimental validation on benchmark datasets, showing improvements compared to existing baseline methods.",
           "match": 1,
           "children": [
             98,
@@ -4206,12 +4692,21 @@
             "121"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.65,
+          "entail_2": 0.3,
+          "informativeness1": 0.625,
+          "informativeness2": 0.25,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.65,
+          "faithfulness2": 0.3,
+          "specificity_faithfulness": 0.7
         },
         {
           "id": 119,
           "prompt": "This work presents theoretical frameworks that establish formal mathematical approaches for analyzing systems through model-based methods. The research develops systematic analytical techniques with rigorous theoretical foundations that characterize system properties and behavior. The proposed frameworks satisfy desired structural constraints through formal analysis and validation. Both theoretical results and empirical evaluation are employed to demonstrate that the developed approaches effectively address modeling challenges and provide systematic understanding of the underlying processes in their respective domains.",
-          "summary": null,
+          "summary": "This work presents theoretical frameworks that establish formal mathematical approaches for analyzing systems through model-based methods. The research develops systematic analytical techniques with rigorous theoretical foundations that characterize system properties and behavior. The proposed frameworks satisfy desired structural constraints through formal analysis and validation. Both theoretical results and empirical evaluation are employed to demonstrate that the developed approaches effectively address modeling challenges and provide systematic understanding of the underlying processes in their respective domains.",
           "match": 3,
           "children": [
             108,
@@ -4224,7 +4719,16 @@
             "120"
           ],
           "third": 4,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         }
       ]
     },
@@ -4234,7 +4738,7 @@
         {
           "id": 120,
           "prompt": "This work develops theoretical frameworks with rigorous mathematical analysis and formal foundations. The research establishes systematic analytical approaches that characterize properties and performance of the proposed methods. The contributions provide theoretical results with formal guarantees that demonstrate the effectiveness of the developed approaches.",
-          "summary": null,
+          "summary": "This work develops theoretical frameworks with rigorous mathematical analysis and formal foundations. The research establishes systematic analytical approaches that characterize properties and performance of the proposed methods. The contributions provide theoretical results with formal guarantees that demonstrate the effectiveness of the developed approaches.",
           "match": 2,
           "children": [
             115,
@@ -4247,12 +4751,21 @@
             "125"
           ],
           "third": 1,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "informativeness1": 0.85,
+          "informativeness2": 0.7,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 121,
           "prompt": "This research addresses fundamental limitations in computational systems by proposing architectures that enhance performance on complex tasks beyond standard baseline approaches. The work demonstrates that targeted modifications to system design enable more sophisticated handling of challenging problems. Through extensive empirical evaluations, the proposed framework achieves significant improvements over existing baseline methods, with experimental validation confirming the superiority of the approach compared to prior techniques.",
-          "summary": null,
+          "summary": "This research addresses fundamental limitations in computational systems by proposing architectures that enhance performance on complex tasks beyond standard baseline approaches. The work demonstrates that targeted modifications to system design enable more sophisticated handling of challenging problems. Through extensive empirical evaluations, the proposed framework achieves significant improvements over existing baseline methods, with experimental validation confirming the superiority of the approach compared to prior techniques.",
           "match": 3,
           "children": [
             113,
@@ -4265,12 +4778,21 @@
             "124"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 1.0,
+          "faithfulness2": 1.0,
+          "specificity_faithfulness": 1.0
         },
         {
           "id": 122,
           "prompt": "This work presents a computational and methodological framework that addresses challenging problems through principled development grounded in theoretical foundations. The approach moves beyond conventional or classical methods by incorporating structured design principles that enable more sophisticated problem-solving capabilities. The proposed methodology demonstrates improved performance and efficiency compared to existing baseline approaches, with effectiveness validated through both theoretical analysis and empirical evaluation. The contribution emphasizes the integration of rigorous theoretical guarantees with practical applicability, providing value for practitioners working in the relevant problem domain while acknowledging that performance depends on underlying assumptions and specific operational contexts.",
-          "summary": null,
+          "summary": "This work presents a computational and methodological framework that addresses challenging problems through principled development grounded in theoretical foundations. The approach moves beyond conventional or classical methods by incorporating structured design principles that enable more sophisticated problem-solving capabilities. The proposed methodology demonstrates improved performance and efficiency compared to existing baseline approaches, with effectiveness validated through both theoretical analysis and empirical evaluation. The contribution emphasizes the integration of rigorous theoretical guarantees with practical applicability, providing value for practitioners working in the relevant problem domain while acknowledging that performance depends on underlying assumptions and specific operational contexts.",
           "match": 0,
           "children": [
             116,
@@ -4283,12 +4805,21 @@
             "125"
           ],
           "third": 3,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.775,
+          "entail_2": 0.55,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.925
         },
         {
           "id": 123,
           "prompt": "Both abstracts describe computational methods designed to address challenges in complex systems or large-scale data domains where conventional approaches have limitations. Each work proposes novel solutions that incorporate specialized techniques or components to handle specific characteristics of their target problem domains. The approaches are validated through experimental evaluation on established benchmarks or datasets, demonstrating improved performance and effectiveness compared to existing baseline or prior methods.",
-          "summary": null,
+          "summary": "Both abstracts describe computational methods designed to address challenges in complex systems or large-scale data domains where conventional approaches have limitations. Each work proposes novel solutions that incorporate specialized techniques or components to handle specific characteristics of their target problem domains. The approaches are validated through experimental evaluation on established benchmarks or datasets, demonstrating improved performance and effectiveness compared to existing baseline or prior methods.",
           "match": 1,
           "children": [
             117,
@@ -4301,7 +4832,16 @@
             "124"
           ],
           "third": 0,
-          "specificity": 0.0
+          "specificity": 0.0,
+          "entail_1": 0.925,
+          "entail_2": 0.85,
+          "informativeness1": 0.925,
+          "informativeness2": 0.85,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 1.0
         }
       ]
     },
@@ -4311,7 +4851,7 @@
         {
           "id": 124,
           "prompt": "Both abstracts describe computational research that addresses limitations in existing approaches by proposing novel architectures or methods with specialized modifications to handle complex problems. Each work validates its proposed framework through empirical evaluation on benchmarks or datasets, demonstrating performance improvements and superiority over baseline and prior methods.",
-          "summary": null,
+          "summary": "Both abstracts describe computational research that addresses limitations in existing approaches by proposing novel architectures or methods with specialized modifications to handle complex problems. Each work validates its proposed framework through empirical evaluation on benchmarks or datasets, demonstrating performance improvements and superiority over baseline and prior methods.",
           "match": 1,
           "children": [
             123,
@@ -4323,12 +4863,21 @@
           "parentIds": [
             "126"
           ],
-          "third": null
+          "third": null,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.825,
+          "informativeness2": 0.65,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.8,
+          "faithfulness2": 0.6,
+          "specificity_faithfulness": 0.8
         },
         {
           "id": 125,
           "prompt": "This work develops a methodological framework grounded in theoretical foundations with rigorous mathematical analysis. The research establishes systematic approaches supported by formal guarantees that characterize properties and demonstrate effectiveness of the proposed methods. The contributions provide theoretical results with formal analysis that validate the performance of the developed approaches.",
-          "summary": null,
+          "summary": "This work develops a methodological framework grounded in theoretical foundations with rigorous mathematical analysis. The research establishes systematic approaches supported by formal guarantees that characterize properties and demonstrate effectiveness of the proposed methods. The contributions provide theoretical results with formal analysis that validate the performance of the developed approaches.",
           "match": 0,
           "children": [
             120,
@@ -4340,7 +4889,16 @@
           "parentIds": [
             "126"
           ],
-          "third": null
+          "third": null,
+          "entail_1": 0.7,
+          "entail_2": 0.4,
+          "informativeness1": 0.775,
+          "informativeness2": 0.55,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 0.925,
+          "faithfulness2": 0.85,
+          "specificity_faithfulness": 0.8
         }
       ]
     },
@@ -4350,7 +4908,7 @@
         {
           "id": 126,
           "prompt": "This research develops novel methodological frameworks that address limitations in existing approaches through proposed methods with specialized characteristics. The work validates the effectiveness and demonstrates the performance of the developed approaches through systematic analysis that establishes the superiority of the proposed methods.",
-          "summary": null,
+          "summary": "This research develops novel methodological frameworks that address limitations in existing approaches through proposed methods with specialized characteristics. The work validates the effectiveness and demonstrates the performance of the developed approaches through systematic analysis that establishes the superiority of the proposed methods.",
           "match": null,
           "children": [
             125,
@@ -4359,7 +4917,16 @@
           "alive": true,
           "text_similarity": null,
           "score": null,
-          "parentIds": []
+          "parentIds": [],
+          "entail_1": 1.0,
+          "entail_2": 1.0,
+          "informativeness1": 1.0,
+          "informativeness2": 1.0,
+          "evalScore": 1.0,
+          "summary_blocked": false,
+          "faithfulness1": 1.0,
+          "faithfulness2": 1.0,
+          "specificity_faithfulness": 1.0
         }
       ]
     }
