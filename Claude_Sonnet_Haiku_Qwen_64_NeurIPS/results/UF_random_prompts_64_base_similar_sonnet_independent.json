@@ -3245,7 +3245,7 @@
             62
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8096597790718079,
           "score": null,
           "parentIds": [
             "104"
@@ -3254,13 +3254,14 @@
           "specificity": 0.0,
           "entail_1": 0.775,
           "entail_2": 0.55,
-          "evalScore": 1.0,
+          "evalScore": 0.775,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.825,
           "informativeness2": 0.65,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.825
         },
         {
           "id": 65,
@@ -3273,7 +3274,7 @@
             14
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8752980828285217,
           "score": null,
           "parentIds": [
             "111"
@@ -3284,11 +3285,12 @@
           "entail_2": 0.75,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 66,
@@ -3300,7 +3302,7 @@
             20
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7039281129837036,
           "score": null,
           "parentIds": [
             "102"
@@ -3311,11 +3313,12 @@
           "entail_2": 0.7,
           "informativeness1": 0.825,
           "informativeness2": 0.65,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.85
         },
         {
           "id": 67,
@@ -3328,7 +3331,7 @@
             37
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7726239562034607,
           "score": null,
           "parentIds": [
             "109"
@@ -3339,11 +3342,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 68,
@@ -3355,7 +3359,7 @@
             51
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.861235499382019,
           "score": null,
           "parentIds": [
             "96"
@@ -3364,13 +3368,14 @@
           "specificity": 0.0,
           "entail_1": 0.875,
           "entail_2": 0.75,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 69,
@@ -3382,7 +3387,7 @@
             52
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8328408002853394,
           "score": null,
           "parentIds": [
             "108"
@@ -3391,13 +3396,14 @@
           "specificity": 0.0,
           "entail_1": 0.775,
           "entail_2": 0.55,
-          "evalScore": 1.0,
+          "evalScore": 0.775,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 70,
@@ -3409,7 +3415,7 @@
             48
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7232064008712769,
           "score": null,
           "parentIds": [
             "99"
@@ -3418,13 +3424,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 71,
@@ -3436,7 +3443,7 @@
             31
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.9060145020484924,
           "score": null,
           "parentIds": [
             "107"
@@ -3445,13 +3452,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 72,
@@ -3463,7 +3471,7 @@
             9
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8004313111305237,
           "score": null,
           "parentIds": [
             "97"
@@ -3474,11 +3482,12 @@
           "entail_2": 0.7,
           "informativeness1": 0.825,
           "informativeness2": 0.65,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.875
         },
         {
           "id": 73,
@@ -3490,7 +3499,7 @@
             4
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8899754285812378,
           "score": null,
           "parentIds": [
             "106"
@@ -3499,13 +3508,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 74,
@@ -3517,7 +3527,7 @@
             16
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7921627759933472,
           "score": null,
           "parentIds": [
             "101"
@@ -3526,13 +3536,14 @@
           "specificity": 0.0,
           "entail_1": 0.65,
           "entail_2": 0.3,
-          "evalScore": 1.0,
+          "evalScore": 0.65,
           "summary_blocked": false,
           "faithfulness1": 0.7,
           "faithfulness2": 0.4,
           "informativeness1": 0.7,
           "informativeness2": 0.4,
-          "specificity_faithfulness": 0.7
+          "specificity_faithfulness": 0.7,
+          "specificity_informativeness": 0.7
         },
         {
           "id": 75,
@@ -3544,7 +3555,7 @@
             46
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7232064008712769,
           "score": null,
           "parentIds": [
             "99"
@@ -3553,13 +3564,14 @@
           "specificity": 0.0,
           "entail_1": 0.85,
           "entail_2": 0.7,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.825,
           "informativeness2": 0.65,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 76,
@@ -3571,7 +3583,7 @@
             36
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8969540596008301,
           "score": null,
           "parentIds": [
             "105"
@@ -3580,13 +3592,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 77,
@@ -3598,7 +3611,7 @@
             61
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7726239562034607,
           "score": null,
           "parentIds": [
             "109"
@@ -3607,13 +3620,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 78,
@@ -3625,7 +3639,7 @@
             59
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8004313111305237,
           "score": null,
           "parentIds": [
             "97"
@@ -3634,13 +3648,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 79,
@@ -3652,7 +3667,7 @@
             26
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8607356548309326,
           "score": null,
           "parentIds": [
             "98"
@@ -3663,11 +3678,12 @@
           "entail_2": 0.75,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 80,
@@ -3679,7 +3695,7 @@
             19
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7656663656234741,
           "score": null,
           "parentIds": [
             "103"
@@ -3690,11 +3706,12 @@
           "entail_2": 0.4,
           "informativeness1": 0.775,
           "informativeness2": 0.55,
-          "evalScore": 1.0,
+          "evalScore": 0.7,
           "summary_blocked": false,
           "faithfulness1": 0.65,
           "faithfulness2": 0.3,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.775
         },
         {
           "id": 81,
@@ -3706,7 +3723,7 @@
             54
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.861235499382019,
           "score": null,
           "parentIds": [
             "96"
@@ -3718,10 +3735,11 @@
           "informativeness1": 0.85,
           "informativeness2": 0.7,
           "specificity_faithfulness": 0.925,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
-          "faithfulness2": 0.6
+          "faithfulness2": 0.6,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 82,
@@ -3733,7 +3751,7 @@
             30
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8899754285812378,
           "score": null,
           "parentIds": [
             "106"
@@ -3744,11 +3762,12 @@
           "entail_2": 0.75,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 83,
@@ -3760,7 +3779,7 @@
             53
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7039281129837036,
           "score": null,
           "parentIds": [
             "102"
@@ -3771,11 +3790,12 @@
           "entail_2": 0.4,
           "informativeness1": 0.75,
           "informativeness2": 0.5,
-          "evalScore": 1.0,
+          "evalScore": 0.7,
           "summary_blocked": false,
           "faithfulness1": 0.7,
           "faithfulness2": 0.4,
-          "specificity_faithfulness": 0.7
+          "specificity_faithfulness": 0.7,
+          "specificity_informativeness": 0.7
         },
         {
           "id": 84,
@@ -3788,7 +3808,7 @@
             24
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7656663656234741,
           "score": null,
           "parentIds": [
             "103"
@@ -3797,13 +3817,14 @@
           "specificity": 0.0,
           "entail_1": 0.85,
           "entail_2": 0.7,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.85,
           "informativeness2": 0.7,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 85,
@@ -3816,7 +3837,7 @@
             37
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.9091712832450867,
           "score": null,
           "parentIds": [
             "110"
@@ -3827,11 +3848,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 86,
@@ -3843,7 +3865,7 @@
             60
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8752980828285217,
           "score": null,
           "parentIds": [
             "111"
@@ -3852,13 +3874,14 @@
           "specificity": 0.0,
           "entail_1": 0.875,
           "entail_2": 0.75,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 87,
@@ -3870,7 +3893,7 @@
             50
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7921627759933472,
           "score": null,
           "parentIds": [
             "101"
@@ -3881,11 +3904,12 @@
           "entail_2": 0.4,
           "informativeness1": 0.775,
           "informativeness2": 0.55,
-          "evalScore": 1.0,
+          "evalScore": 0.7,
           "summary_blocked": false,
           "faithfulness1": 0.7,
           "faithfulness2": 0.4,
-          "specificity_faithfulness": 0.7
+          "specificity_faithfulness": 0.7,
+          "specificity_informativeness": 0.825
         },
         {
           "id": 88,
@@ -3899,7 +3923,7 @@
             52
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.9091712832450867,
           "score": null,
           "parentIds": [
             "110"
@@ -3910,11 +3934,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 89,
@@ -3927,7 +3952,7 @@
             18
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.9060145020484924,
           "score": null,
           "parentIds": [
             "107"
@@ -3938,11 +3963,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 90,
@@ -3954,7 +3980,7 @@
             47
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.9129136204719543,
           "score": null,
           "parentIds": [
             "100"
@@ -3966,10 +3992,11 @@
           "informativeness1": 0.925,
           "informativeness2": 0.85,
           "specificity_faithfulness": 0.925,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
-          "faithfulness2": 0.85
+          "faithfulness2": 0.85,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 91,
@@ -3981,7 +4008,7 @@
             13
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.9129136204719543,
           "score": null,
           "parentIds": [
             "100"
@@ -3990,13 +4017,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 92,
@@ -4008,7 +4036,7 @@
             38
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8969540596008301,
           "score": null,
           "parentIds": [
             "105"
@@ -4017,13 +4045,14 @@
           "specificity": 0.0,
           "entail_1": 0.85,
           "entail_2": 0.7,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.875,
           "informativeness2": 0.75,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.875
         },
         {
           "id": 93,
@@ -4035,7 +4064,7 @@
             12
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8328408002853394,
           "score": null,
           "parentIds": [
             "108"
@@ -4044,13 +4073,14 @@
           "specificity": 0.0,
           "entail_1": 0.875,
           "entail_2": 0.75,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 94,
@@ -4062,7 +4092,7 @@
             18
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8607356548309326,
           "score": null,
           "parentIds": [
             "98"
@@ -4071,13 +4101,14 @@
           "specificity": 0.0,
           "entail_1": 0.875,
           "entail_2": 0.75,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 95,
@@ -4089,7 +4120,7 @@
             15
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8096597790718079,
           "score": null,
           "parentIds": [
             "104"
@@ -4101,10 +4132,11 @@
           "informativeness1": 0.825,
           "informativeness2": 0.65,
           "specificity_faithfulness": 0.8,
-          "evalScore": 1.0,
+          "evalScore": 0.775,
           "summary_blocked": false,
           "faithfulness1": 0.8,
-          "faithfulness2": 0.6
+          "faithfulness2": 0.6,
+          "specificity_informativeness": 0.875
         }
       ]
     },
@@ -4121,7 +4153,7 @@
             81
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.9573657512664795,
           "score": null,
           "parentIds": [
             "115"
@@ -4130,13 +4162,14 @@
           "specificity": 0.0,
           "entail_1": 0.975,
           "entail_2": 0.95,
-          "evalScore": 1.0,
+          "evalScore": 0.975,
           "summary_blocked": false,
           "faithfulness1": 1.0,
           "faithfulness2": 1.0,
           "informativeness1": 0.975,
           "informativeness2": 0.95,
-          "specificity_faithfulness": 1.0
+          "specificity_faithfulness": 1.0,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 97,
@@ -4148,7 +4181,7 @@
             78
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8829517960548401,
           "score": null,
           "parentIds": [
             "116"
@@ -4159,11 +4192,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.975,
           "informativeness2": 0.95,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 98,
@@ -4175,7 +4209,7 @@
             94
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.9050148725509644,
           "score": null,
           "parentIds": [
             "119"
@@ -4186,11 +4220,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 99,
@@ -4202,7 +4237,7 @@
             75
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.6833916902542114,
           "score": null,
           "parentIds": [
             "118"
@@ -4214,10 +4249,11 @@
           "informativeness1": 0.825,
           "informativeness2": 0.65,
           "specificity_faithfulness": 0.925,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
-          "faithfulness2": 0.6
+          "faithfulness2": 0.6,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 100,
@@ -4229,7 +4265,7 @@
             91
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7844970226287842,
           "score": null,
           "parentIds": [
             "114"
@@ -4238,13 +4274,14 @@
           "specificity": 0.0,
           "entail_1": 0.775,
           "entail_2": 0.55,
-          "evalScore": 1.0,
+          "evalScore": 0.775,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 101,
@@ -4256,7 +4293,7 @@
             87
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.6833916902542114,
           "score": null,
           "parentIds": [
             "118"
@@ -4267,11 +4304,12 @@
           "entail_2": 0.7,
           "informativeness1": 0.85,
           "informativeness2": 0.7,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.825
         },
         {
           "id": 102,
@@ -4283,7 +4321,7 @@
             83
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.826419472694397,
           "score": null,
           "parentIds": [
             "112"
@@ -4294,11 +4332,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 103,
@@ -4310,7 +4349,7 @@
             80
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7844970226287842,
           "score": null,
           "parentIds": [
             "114"
@@ -4319,13 +4358,14 @@
           "specificity": 0.0,
           "entail_1": 0.85,
           "entail_2": 0.7,
-          "evalScore": 1.0,
+          "evalScore": 0.85,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 104,
@@ -4337,7 +4377,7 @@
             64
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7583100199699402,
           "score": null,
           "parentIds": [
             "113"
@@ -4346,13 +4386,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.875,
           "informativeness2": 0.75,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 105,
@@ -4364,7 +4405,7 @@
             92
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8645155429840088,
           "score": null,
           "parentIds": [
             "117"
@@ -4375,11 +4416,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 1.0,
           "faithfulness2": 1.0,
-          "specificity_faithfulness": 1.0
+          "specificity_faithfulness": 1.0,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 106,
@@ -4391,7 +4433,7 @@
             82
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8829517960548401,
           "score": null,
           "parentIds": [
             "116"
@@ -4400,13 +4442,14 @@
           "specificity": 0.0,
           "entail_1": 0.875,
           "entail_2": 0.75,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 107,
@@ -4418,7 +4461,7 @@
             71
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.9050148725509644,
           "score": null,
           "parentIds": [
             "119"
@@ -4429,11 +4472,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 108,
@@ -4445,7 +4489,7 @@
             93
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.826419472694397,
           "score": null,
           "parentIds": [
             "112"
@@ -4456,11 +4500,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 109,
@@ -4472,7 +4517,7 @@
             77
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7583100199699402,
           "score": null,
           "parentIds": [
             "113"
@@ -4481,13 +4526,14 @@
           "specificity": 0.0,
           "entail_1": 0.875,
           "entail_2": 0.75,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 110,
@@ -4499,7 +4545,7 @@
             85
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.9573657512664795,
           "score": null,
           "parentIds": [
             "115"
@@ -4510,11 +4556,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.975,
           "informativeness2": 0.95,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 111,
@@ -4526,7 +4573,7 @@
             86
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8645155429840088,
           "score": null,
           "parentIds": [
             "117"
@@ -4537,11 +4584,12 @@
           "entail_2": 0.75,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.875,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.975
         }
       ]
     },
@@ -4558,7 +4606,7 @@
             108
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7806227207183838,
           "score": null,
           "parentIds": [
             "122"
@@ -4569,11 +4617,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 113,
@@ -4585,7 +4634,7 @@
             104
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7602119445800781,
           "score": null,
           "parentIds": [
             "121"
@@ -4596,11 +4645,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 1.0
+          "specificity_faithfulness": 1.0,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 114,
@@ -4612,7 +4662,7 @@
             100
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.8817856907844543,
           "score": null,
           "parentIds": [
             "120"
@@ -4621,13 +4671,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 115,
@@ -4639,7 +4690,7 @@
             96
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.9183305501937866,
           "score": null,
           "parentIds": [
             "123"
@@ -4648,13 +4699,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 116,
@@ -4666,7 +4718,7 @@
             106
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.9183305501937866,
           "score": null,
           "parentIds": [
             "123"
@@ -4677,11 +4729,12 @@
           "entail_2": 0.9,
           "informativeness1": 0.975,
           "informativeness2": 0.95,
-          "evalScore": 1.0,
+          "evalScore": 0.95,
           "summary_blocked": false,
           "faithfulness1": 1.0,
           "faithfulness2": 1.0,
-          "specificity_faithfulness": 1.0
+          "specificity_faithfulness": 1.0,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 117,
@@ -4693,7 +4746,7 @@
             105
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.8817856907844543,
           "score": null,
           "parentIds": [
             "120"
@@ -4702,13 +4755,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 1.0,
           "faithfulness2": 1.0,
           "informativeness1": 0.975,
           "informativeness2": 0.95,
-          "specificity_faithfulness": 1.0
+          "specificity_faithfulness": 1.0,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 118,
@@ -4720,7 +4774,7 @@
             99
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.7806227207183838,
           "score": null,
           "parentIds": [
             "122"
@@ -4731,11 +4785,12 @@
           "entail_2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         },
         {
           "id": 119,
@@ -4747,7 +4802,7 @@
             107
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.7602119445800781,
           "score": null,
           "parentIds": [
             "121"
@@ -4756,13 +4811,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.925,
           "faithfulness2": 0.85,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         }
       ]
     },
@@ -4779,7 +4835,7 @@
             114
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.841532289981842,
           "score": null,
           "parentIds": [
             "125"
@@ -4790,11 +4846,12 @@
           "entail_2": 0.9,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.95,
           "summary_blocked": false,
           "faithfulness1": 1.0,
           "faithfulness2": 1.0,
-          "specificity_faithfulness": 1.0
+          "specificity_faithfulness": 1.0,
+          "specificity_informativeness": 0.975
         },
         {
           "id": 121,
@@ -4806,7 +4863,7 @@
             113
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.6457387208938599,
           "score": null,
           "parentIds": [
             "124"
@@ -4815,13 +4872,14 @@
           "specificity": 0.0,
           "entail_1": 0.775,
           "entail_2": 0.55,
-          "evalScore": 1.0,
+          "evalScore": 0.775,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.75,
           "informativeness2": 0.5,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.75
         },
         {
           "id": 122,
@@ -4833,7 +4891,7 @@
             118
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.6457387208938599,
           "score": null,
           "parentIds": [
             "124"
@@ -4842,13 +4900,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.875
         },
         {
           "id": 123,
@@ -4860,7 +4919,7 @@
             115
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.841532289981842,
           "score": null,
           "parentIds": [
             "125"
@@ -4869,13 +4928,14 @@
           "specificity": 0.0,
           "entail_1": 0.925,
           "entail_2": 0.85,
-          "evalScore": 1.0,
+          "evalScore": 0.925,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
           "informativeness1": 0.925,
           "informativeness2": 0.85,
-          "specificity_faithfulness": 0.925
+          "specificity_faithfulness": 0.925,
+          "specificity_informativeness": 0.925
         }
       ]
     },
@@ -4892,7 +4952,7 @@
             122
           ],
           "alive": false,
-          "text_similarity": null,
+          "text_similarity": 0.6325889229774475,
           "score": null,
           "parentIds": [
             "126"
@@ -4902,11 +4962,12 @@
           "entail_2": 0.55,
           "informativeness1": 0.825,
           "informativeness2": 0.65,
-          "evalScore": 1.0,
+          "evalScore": 0.775,
           "summary_blocked": false,
           "faithfulness1": 0.8,
           "faithfulness2": 0.6,
-          "specificity_faithfulness": 0.8
+          "specificity_faithfulness": 0.8,
+          "specificity_informativeness": 0.825
         },
         {
           "id": 125,
@@ -4918,7 +4979,7 @@
             120
           ],
           "alive": true,
-          "text_similarity": null,
+          "text_similarity": 0.6325889229774475,
           "score": null,
           "parentIds": [
             "126"
@@ -4926,13 +4987,14 @@
           "third": null,
           "entail_1": 0.7,
           "entail_2": 0.4,
-          "evalScore": 1.0,
+          "evalScore": 0.7,
           "summary_blocked": false,
           "faithfulness1": 0.7,
           "faithfulness2": 0.4,
           "informativeness1": 0.7,
           "informativeness2": 0.4,
-          "specificity_faithfulness": 0.7
+          "specificity_faithfulness": 0.7,
+          "specificity_informativeness": 0.7
         }
       ]
     },
