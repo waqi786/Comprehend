@@ -1,42 +1,55 @@
-# credentials
-.env
+# Environments
+vllm_env/
+comprehen_env/
+env/
+venv/
+*.env
 
-# internal docs — only README.md ships
-*.md
-!README.md
-docs/
-
-# Claude Code files
-CLAUDE.md
-.claude/
-.claude*
-
-# python
+# Cache
+.cache_hf/
 __pycache__/
 *.pyc
-myvenv/
-myenv/
+*.pyo
 
-# OS noise
+# Logs
+*.log
+*.err
+slurm_*.log
+slurm_*.err
+slurm_*.out
+vllm_*.log
+
+# Large checkpoints
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
 .DS_Store
+Thumbs.db
 
-# large caches / logs
-outputs/
-slurm-*.out
-slurm-*-error.out
-slurm_output_j/
+# Temp
+tmp/
+temp/
+*.tmp
 
-# large regenerable data + built trees (referenced from README, not shipped)
-Results/
-wb_nearest_neighbors_64.csv
-uf_nearest_neighbors.csv
-dataset_WB_with_scores.csv
-dataset_UF_with_scores.csv
+# Other researchers' dirs
+Claude_Sonnet_Haiku_Qwen_64_NeurIPS/
+archive*/
+sir_files/
+dataset_prep/
 
-# LaTeX build artifacts
-paper.aux
-paper.log
-paper.out
+# Log files in root
+run_*.log
+sample_neurips.log
 
-# derived dataset export (contains key-like strings inside user chat text)
-dataset_prep/dataset.csv
+# Batch files
+Batch_*_batch_results.csv
+faith_info_mturk_data*.csv
