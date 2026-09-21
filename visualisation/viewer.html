@@ -370,8 +370,8 @@
           tooltip.style('opacity', 1)
             .html(`<strong>Similarity:</strong> ${d.data.similarity ?? '-'}<br>
                     <strong>Eval:</strong> ${d.data.evalScore ?? '-'}<br>
-                    <strong>Entail-1:</strong> ${d.data.entail1}<br>
-                    <strong>Entail-2:</strong> ${d.data.entail2}<br>
+                    <strong>Entail-1:</strong> ${d.data.entail1 ?? "-"}<br>
+                    <strong>Entail-2:</strong> ${d.data.entail2 ?? "-"}<br>
                     <strong>Faithfulness-1:</strong> ${d.data.faithfulness1 ?? '-'}<br>
                     <strong>Faithfulness-2:</strong> ${d.data.faithfulness2 ?? '-'}<br>
                     <strong>Informativeness-1:</strong> ${d.data.informativeness1 ?? '-'}<br>
