@@ -91,9 +91,9 @@ function init() {
   d3.json(resolveViewerDataFile()).then(data => {
     const stratify = d3.dagStratify().id(d => d.id).parentIds(d => d.parentIds || []);
     root = stratify(data);
-    root.each(n => {
-      if (n.data.x !== undefined) n.x = n.data.x;
-      if (n.data.y !== undefined) n.y = n.data.y;
+    root.descendants().forEach(n => {
+      n.x = (n.data && n.data.x !== undefined) ? n.data.x : 0;
+      n.y = (n.data && n.data.y !== undefined) ? n.data.y : 0;
     });
     update();
   });
@@ -109,7 +109,7 @@ function update() {
   if (!root) return;
   const W = container.clientWidth, H = container.clientHeight;
   const w = W - margin.left - margin.right, h = H - margin.top - margin.bottom;
-  // Using precomputed x, y from Python
+  // Precomputed positions — no sugiyama layout here
   zoomBehaviour = d3.zoom().extent([[0,0],[W,H]]).scaleExtent([0.1,4]).filter(e => !(e.type === 'wheel' && !e.ctrlKey))
     .on('zoom', e => { currentZoom = e.transform.k; g.attr('transform', e.transform); g.selectAll('.node foreignObject > div').style('font-size', Math.max(5, 5 / currentZoom) + 'px'); });
   svg.call(zoomBehaviour);
