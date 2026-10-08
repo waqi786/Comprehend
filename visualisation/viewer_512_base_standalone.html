@@ -210,5 +210,24 @@ document.getElementById('resetBtn').addEventListener('click', () => {
   try { fitToScreen(container.clientWidth, container.clientHeight); } catch(e) {}
 });
 </script>
+
+<script>
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    if (window.root) {
+      var data = window.root.descendants().map(function(n){return {id: n.data.id, x: n.x, y: n.y};});
+      var blob = new Blob([JSON.stringify(data)], {type: 'application/json'});
+      var url = URL.createObjectURL(blob);
+      var a = document.createElement('a');
+      a.href = url;
+      a.download = 'positions.json';
+      a.style.cssText = 'position:fixed;bottom:20px;right:20px;padding:10px 20px;background:#28a745;color:white;font-size:14px;font-weight:bold;z-index:99999;cursor:pointer;border-radius:5px;text-decoration:none;';
+      a.textContent = 'Download Positions (' + data.length + ' nodes)';
+      document.body.appendChild(a);
+      console.log('Ready to download ' + data.length + ' positions');
+    }
+  }, 60000);  // Wait 60s after load for tree to finish
+});
+</script>
 </body>
 </html>
